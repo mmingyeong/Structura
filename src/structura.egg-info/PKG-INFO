@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: structura
+Version: 0.1.0
+Summary: A Python library for analyzing and visualizing large-scale cosmic structures.
+Author-email: Mingyeong Yang <mmingyeong@kasi.re.kr>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 
 # Structura  
 **Structura** is a Python library for **analyzing and visualizing the large-scale structure (LSS) of the universe**.  
@@ -9,15 +18,8 @@ It is designed to efficiently **load, process, and visualize** cosmological simu
 ✔ **Supports Multiple Data Formats** – Load `.npz`, `.hdf5`, `.csv` simulation data  
 ✔ **Flexible Data Loading** – Filter data by X-axis range and other parameters  
 ✔ **Density Calculation** – Compute density fields using **SPH (Smoothed Particle Hydrodynamics) and grid-based methods**  
-✔ **2D Visualization** – Generate histograms, scatter plots, and density maps  
+✔ **2D & 3D Visualization** – Generate histograms, scatter plots, and density maps  
 ✔ **Optimized for Large Datasets** – Utilizes `CuPy` for GPU acceleration and parallel processing  
-✔ **Execution Logging** – Tracks execution time and filtering ranges  
-
----
-
-## 📂 Project Structure
-
-Structura/ │── src/ # Structura source code │ ├── structura/ # Core library modules │ │ ├── init.py # Package initialization │ │ ├── config.py # Configuration settings │ │ ├── data_loader.py # Data loading and filtering │ │ ├── density.py # Density calculation algorithms │ │ ├── visualization.py # 2D/3D visualization tools │ │ ├── utils.py # Helper functions │ ├── example_load_and_plot.py # Example usage script │── examples/ # Example outputs │ ├── results/ # 2D histogram results │── README.md # Documentation │── CHANGELOG.md # Version history │── LICENSE # License information
 
 ---
 
@@ -30,8 +32,37 @@ pip install -r requirements.txt
 
 ---
 
+## 📖 Usage Example  
+### **1️⃣ Load Simulation Data**  
+```python
+from structura.data_loader import DataLoader
+
+loader = DataLoader(folder_path="data/", file_type="npz")
+positions = loader.load_all()  # Load (X, Y, Z) coordinates
+```
+
+### **2️⃣ Compute Density Field**  
+```python
+from structura.density import DensityCalculator
+
+density_calc = DensityCalculator(method="grid", grid_size=128)
+density_map = density_calc.compute_density(positions)
+```
+
+### **3️⃣ Visualize the Data**  
+```python
+from structura.visualization import Visualizer
+
+viz = Visualizer(bins=200)
+viz.plot_2d_histogram(positions)  # 2D histogram
+viz.plot_3d_scatter(positions, sample_size=50000)  # 3D scatter plot
+```
+
+---
+
 ## 🔮 Future Plans  
 ✔ Implement SPH-based density estimation  
+✔ Develop 3D volume rendering for density visualization  
 ✔ Support additional simulation formats (Gadget, Arepo output files)  
 ✔ Optimize GPU acceleration for large-scale datasets  
 
