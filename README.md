@@ -33,8 +33,7 @@ Structura/
 │── README.md                      # Documentation
 │── CHANGELOG.md                   # Version history
 │── LICENSE                        # License information
-
----
+```
 
 ## 🚀 Installation  
 ```bash
