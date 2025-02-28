@@ -15,9 +15,24 @@ It is designed to efficiently **load, process, and visualize** cosmological simu
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure  
 
-Structura/ │── src/ # Structura source code │ ├── structura/ # Core library modules │ │ ├── init.py # Package initialization │ │ ├── config.py # Configuration settings │ │ ├── data_loader.py # Data loading and filtering │ │ ├── density.py # Density calculation algorithms │ │ ├── visualization.py # 2D/3D visualization tools │ │ ├── utils.py # Helper functions │ ├── example_load_and_plot.py # Example usage script │── examples/ # Example outputs │ ├── results/ # 2D histogram results │── README.md # Documentation │── CHANGELOG.md # Version history │── LICENSE # License information
+```plaintext
+Structura/
+│── src/                          # Structura source code
+│   ├── structura/                 # Core library modules
+│   │   ├── __init__.py             # Package initialization
+│   │   ├── config.py               # Configuration settings
+│   │   ├── data_loader.py          # Data loading and filtering
+│   │   ├── density.py              # Density calculation algorithms
+│   │   ├── visualization.py        # 2D/3D visualization tools
+│   │   ├── utils.py                # Helper functions
+│   ├── example_load_and_plot.py   # Example usage script
+│── examples/                      # Example outputs
+│   ├── results/                    # 2D histogram results
+│── README.md                      # Documentation
+│── CHANGELOG.md                   # Version history
+│── LICENSE                        # License information
 
 ---
 
