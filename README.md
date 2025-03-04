@@ -54,15 +54,16 @@ python src/example/visualization_ex.py
 Structura follows a structured data processing pipeline:  
 
 ```mermaid
-graph TD
+graph LR
     A[check_system_ex.py: System Compatibility Check] --> B[Convert.py: HDF5 → NPY/NPZ Conversion]
     B --> C[visualization_ex.py: Generate 2D Histogram Images]
     C --> D[density_ex.py: Generate Density Map]
     D --> E[analysis_ex.py: Generate Data Analysis Report]
     
-    %% Adjust the diagram size
-    classDef default fill:#f9f,stroke:#333,stroke-width:2px,font-family:Arial;
+    %% Adjust the diagram appearance with more neutral colors
+    classDef default fill:#f0f0f0,stroke:#333,stroke-width:2px,font-family:Arial;
     class A,B,C,D,E default;
+
 ```
 ---
 
