@@ -53,30 +53,31 @@ python src/example/visualization_ex.py
 
 Structura follows a structured data processing pipeline:  
 
-```plaintext
-1️⃣ Check System Compatibility
-   ├── 🔹 System diagnostics (check_system_ex.py)
-   └── ✅ Ensures proper environment (GPU, RAM, dependencies)
-
-2️⃣ Convert Input Data
-   ├── 🔹 Convert HDF5 → NPY/NPZ (convert_ex.py)
-   ├── 🔹 Skips redundant conversion if already processed
-   └── ✅ Outputs structured NumPy arrays for analysis
-
-3️⃣ Visualization
-   ├── 🔹 Load NPY → Generate 2D histograms, scatter plots (visualization_ex.py)
-   ├── 🔹 Save images in PNG, FITS, or other formats
-   └── ✅ Optimized for large datasets
-
-4️⃣ Density Estimation
-   ├── 🔹 Compute density maps from NPY data (density_ex.py)
-   ├── 🔹 Generate FITS/PNG outputs for cosmology analysis
-   └── ✅ Supports SPH-based and grid-based methods
-
-5️⃣ Data Analysis & Reporting
-   ├── 🔹 Perform detailed data analysis (analysis_ex.py)
-   ├── 🔹 Generate reports (e.g., PDF, summary tables)
-   └── ✅ Provides insights into cosmic structure formation
+```mermaid
+graph TD
+    A[1️⃣ Check System Compatibility] --> B[🔹 System diagnostics (check_system_ex.py)]
+    A --> C[✅ Ensures proper environment (GPU, RAM, dependencies)]
+    
+    D[2️⃣ Convert Input Data] --> E[🔹 Convert HDF5 → NPY/NPZ (convert_ex.py)]
+    D --> F[🔹 Skips redundant conversion if already processed]
+    D --> G[✅ Outputs structured NumPy arrays for analysis]
+    
+    H[3️⃣ Visualization] --> I[🔹 Load NPY → Generate 2D histograms, scatter plots (visualization_ex.py)]
+    H --> J[🔹 Save images in PNG, FITS, or other formats]
+    H --> K[✅ Optimized for large datasets]
+    
+    L[4️⃣ Density Estimation] --> M[🔹 Compute density maps from NPY data (density_ex.py)]
+    L --> N[🔹 Generate FITS/PNG outputs for cosmology analysis]
+    L --> O[✅ Supports SPH-based and grid-based methods]
+    
+    P[5️⃣ Data Analysis & Reporting] --> Q[🔹 Perform detailed data analysis (analysis_ex.py)]
+    P --> R[🔹 Generate reports (e.g., PDF, summary tables)]
+    P --> S[✅ Provides insights into cosmic structure formation]
+    
+    A --> D
+    D --> H
+    H --> L
+    L --> P
 ```
 ---
 
