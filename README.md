@@ -58,11 +58,11 @@ graph TD
     A[1️⃣ Check System Compatibility] --> B[🔹 System diagnostics (check_system_ex.py)]
     A --> C[✅ Ensures proper environment (GPU, RAM, dependencies)]
     
-    D[2️⃣ Convert Input Data] --> E[🔹 Convert HDF5 → NPY/NPZ (convert_ex.py)]
+    D[2️⃣ Convert Input Data] --> E[🔹 Convert HDF5 to NPY/NPZ (convert_ex.py)]
     D --> F[🔹 Skips redundant conversion if already processed]
     D --> G[✅ Outputs structured NumPy arrays for analysis]
     
-    H[3️⃣ Visualization] --> I[🔹 Load NPY → Generate 2D histograms, scatter plots (visualization_ex.py)]
+    H[3️⃣ Visualization] --> I[🔹 Load NPY and generate 2D histograms, scatter plots (visualization_ex.py)]
     H --> J[🔹 Save images in PNG, FITS, or other formats]
     H --> K[✅ Optimized for large datasets]
     
