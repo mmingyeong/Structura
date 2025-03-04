@@ -4,49 +4,6 @@ It is designed to efficiently **load, process, and visualize** cosmological simu
 
 ---
 
-## 📌 Features  
-✔ **Supports Multiple Data Formats** – Load `.npz`, `.hdf5`, `.csv` simulation data  
-✔ **Flexible Data Loading** – Filter data by X-axis range and other parameters  
-✔ **Density Calculation** – Compute density fields using **SPH (Smoothed Particle Hydrodynamics) and grid-based methods**  
-✔ **2D Visualization** – Generate histograms, scatter plots, and density maps  
-✔ **Optimized for Large Datasets** – Utilizes `CuPy` for GPU acceleration and parallel processing  
-✔ **Execution Logging** – Tracks execution time and filtering ranges  
-✔ **Automated Data Conversion** – Convert HDF5 simulation snapshots to NPY/NPZ  
-✔ **System Diagnostics** – Check **GPU, CPU, RAM**, and software dependencies before running computations  
-
----
-
-## 📂 Project Structure  
-
-```plaintext
-Structura/
-│── src/                          # Structura source code
-│   ├── etc/                       # Configuration files
-│   │   ├── config.yml              # User-editable configurations
-│   ├── example/                   # Example scripts
-│   │   ├── check_system_ex.py      # Example: Run system diagnostics
-│   │   ├── converter_ex.py         # Example: Convert HDF5 to NPY
-│   │   ├── visualization_ex.py     # Example: Generate visualizations
-│   ├── results/                   # Processed data storage
-│   ├── structura/                 # Core library modules
-│   │   ├── __init__.py             # Package initialization
-│   │   ├── config.py               # Configuration settings
-│   │   ├── data_loader.py          # Data loading and filtering
-│   │   ├── density.py              # Density calculation algorithms
-│   │   ├── visualization.py        # 2D/3D visualization tools
-│   │   ├── convert.py              # HDF5 to NPY/NPZ conversion
-│   │   ├── system_checker.py       # System diagnostics
-│   │   ├── utils.py                # Helper functions
-│── log/                           # Runtime logs (auto-generated)
-│── README.md                      # Documentation
-│── CHANGELOG.md                   # Version history
-│── LICENSE                        # License information
-│── pyproject.toml                 # Project dependencies & setup
-│── CONTRIBUTING.md                 # Contribution guidelines
-```
-
----
-
 ## 🚀 Installation  
 ```bash
 git clone https://github.com/mmingyeong/Structura.git
@@ -92,6 +49,80 @@ python src/example/visualization_ex.py
 
 ---
 
+## 📊 Data Processing Workflow  
+
+Structura follows a structured data processing pipeline:  
+
+```plaintext
+1️⃣ Check System Compatibility
+   ├── 🔹 System diagnostics (check_system_ex.py)
+   └── ✅ Ensures proper environment (GPU, RAM, dependencies)
+
+2️⃣ Convert Input Data
+   ├── 🔹 Convert HDF5 → NPY/NPZ (convert_ex.py)
+   ├── 🔹 Skips redundant conversion if already processed
+   └── ✅ Outputs structured NumPy arrays for analysis
+
+3️⃣ Visualization
+   ├── 🔹 Load NPY → Generate 2D histograms, scatter plots (visualization_ex.py)
+   ├── 🔹 Save images in PNG, FITS, or other formats
+   └── ✅ Optimized for large datasets
+
+4️⃣ Density Estimation
+   ├── 🔹 Compute density maps from NPY data (density_ex.py)
+   ├── 🔹 Generate FITS/PNG outputs for cosmology analysis
+   └── ✅ Supports SPH-based and grid-based methods
+
+5️⃣ Data Analysis & Reporting
+   ├── 🔹 Perform detailed data analysis (analysis_ex.py)
+   ├── 🔹 Generate reports (e.g., PDF, summary tables)
+   └── ✅ Provides insights into cosmic structure formation
+```
+---
+
+## 📂 Project Structure  
+
+```plaintext
+Structura/
+│── src/                          # Structura source code
+│   ├── etc/                       # Configuration files
+│   │   ├── config.yml              # User-editable configurations
+│   ├── example/                   # Example scripts
+│   │   ├── check_system_ex.py      # Example: Run system diagnostics
+│   │   ├── converter_ex.py         # Example: Convert HDF5 to NPY
+│   │   ├── visualization_ex.py     # Example: Generate visualizations
+│   ├── results/                   # Processed data storage
+│   ├── structura/                 # Core library modules
+│   │   ├── __init__.py             # Package initialization
+│   │   ├── config.py               # Configuration settings
+│   │   ├── data_loader.py          # Data loading and filtering
+│   │   ├── density.py              # Density calculation algorithms
+│   │   ├── visualization.py        # 2D/3D visualization tools
+│   │   ├── convert.py              # HDF5 to NPY/NPZ conversion
+│   │   ├── system_checker.py       # System diagnostics
+│   │   ├── utils.py                # Helper functions
+│── log/                           # Runtime logs (auto-generated)
+│── README.md                      # Documentation
+│── CHANGELOG.md                   # Version history
+│── LICENSE                        # License information
+│── pyproject.toml                 # Project dependencies & setup
+│── CONTRIBUTING.md                 # Contribution guidelines
+```
+
+---
+
+## 📌 Features  
+✔ **Supports Multiple Data Formats** – Load `.npz`, `.hdf5`, `.csv` simulation data  
+✔ **Flexible Data Loading** – Filter data by X-axis range and other parameters  
+✔ **Density Calculation** – Compute density fields using **SPH (Smoothed Particle Hydrodynamics) and grid-based methods**  
+✔ **2D Visualization** – Generate histograms, scatter plots, and density maps  
+✔ **Optimized for Large Datasets** – Utilizes `CuPy` for GPU acceleration and parallel processing  
+✔ **Execution Logging** – Tracks execution time and filtering ranges  
+✔ **Automated Data Conversion** – Convert HDF5 simulation snapshots to NPY/NPZ  
+✔ **System Diagnostics** – Check **GPU, CPU, RAM**, and software dependencies before running computations  
+
+---
+
 ## ⚖ License  
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
 
@@ -108,12 +139,3 @@ For questions or collaboration inquiries, contact **Mingyeong Yang** at [mmingye
 ```
 
 ---
-
-### **🔹 Key Fixes & Enhancements**
-✅ **Updated project structure based on the latest folder structure in the image**  
-✅ **Added `visualization_ex.py` to the `Usage` section**  
-✅ **Clarified what each example script does**  
-✅ **Improved directory structure formatting for better readability**  
-
-💡 **Now, the README is 100% aligned with the latest Structura setup!** 🚀🔥  
-💡 **You're ready to push this to GitHub!** 🎯
