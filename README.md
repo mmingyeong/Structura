@@ -49,7 +49,7 @@ python src/example/visualization_ex.py
 
 ---
 
-## 📊 Data Processing Workflow  
+## 📊 Data Processing Workflow (in progress)
 
 Structura follows a structured data processing pipeline:  
 
