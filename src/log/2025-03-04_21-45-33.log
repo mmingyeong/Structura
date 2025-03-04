@@ -1,9 +1,0 @@
-2025-03-04 21:45:33,771 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "converter_ex.py", line 16, in <module>
-    from structura.logger import logger
-  File "/caefs/user/mmingyeong/structura/Structura/src/structura/__init__.py", line 14, in <module>
-    from .config import LBOX_CMPCH, LBOX_CKPCH, DEFAULT_GRID_SIZE, USE_GPU
-  File "/caefs/user/mmingyeong/structura/Structura/src/structura/config.py", line 28, in <module>
-    with open(CONFIG_PATH, "r") as file:
-FileNotFoundError: [Errno 2] No such file or directory: '/caefs/user/mmingyeong/structura/Structura/src/structura/config.yml'

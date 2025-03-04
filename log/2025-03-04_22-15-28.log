@@ -1,9 +1,0 @@
-2025-03-04 22:15:29,491 - INFO - ✅ Using GPU device 1.
-2025-03-04 22:15:29,493 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
-2025-03-04 22:15:29,494 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
-2025-03-04 22:15:29,494 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
-2025-03-04 22:15:29,494 - INFO - 📂 Input HDF5 file: /caefs/data/IllustrisTNG/snapshot-99-dm
-2025-03-04 22:15:29,494 - INFO - 📁 Output folder: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
-2025-03-04 22:15:29,918 - INFO - ⚠️ Output folder '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache' contains 598 files (e.g., 'snapshot-99.370.npy').
-2025-03-04 22:15:29,918 - INFO - 📊 Total size: 356442.96 MB, Average file size: 596.06 MB
-2025-03-04 22:15:29,918 - INFO - ⏩ Skipping conversion process.

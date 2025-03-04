@@ -1,0 +1,10 @@
+2025-03-05 00:39:54,084 - INFO - ✅ Using GPU device 1.
+2025-03-05 00:39:54,085 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-05 00:39:54,085 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 00:39:54,085 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-05 00:39:54,086 - INFO - 🚀 Using GPU: True
+2025-03-05 00:39:54,086 - INFO - 📂 Input HDF5 file: /home/users/mmingyeong/tng_init/ics.hdf5
+2025-03-05 00:39:54,086 - INFO - 📁 Output folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 00:39:54,090 - INFO - ⚠️ Output folder '/caefs/data/IllustrisTNG/300/ICS' already contains 313 files.
+2025-03-05 00:39:54,090 - INFO - 📊 Total size: 178813.97 MB, Average file size: 571.29 MB
+2025-03-05 00:39:54,090 - INFO - ⏩ Skipping conversion process.

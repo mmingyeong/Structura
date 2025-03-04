@@ -1,7 +1,0 @@
-2025-03-04 22:44:46,162 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "check_system_ex.py", line 15, in <module>
-    from system_checker import SystemChecker
-  File "/caefs/user/mmingyeong/structura/Structura/src/system_checker.py", line 13, in <module>
-    import torch  # PyTorch 사용 가능 여부 확인
-ModuleNotFoundError: No module named 'torch'

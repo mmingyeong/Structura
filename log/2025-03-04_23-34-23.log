@@ -1,8 +1,0 @@
-2025-03-04 23:34:24,365 - INFO - 🔍 Starting system check...
-2025-03-04 23:34:24,426 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "check_system_ex.py", line 25, in <module>
-    checker.run_all_checks()
-  File "/caefs/user/mmingyeong/structura/Structura/src/system_checker.py", line 126, in run_all_checks
-    self.check_cpu()
-AttributeError: 'SystemChecker' object has no attribute 'check_cpu'
