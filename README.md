@@ -55,29 +55,30 @@ Structura follows a structured data processing pipeline:
 
 ```mermaid
 graph TD
-    A[1️⃣ Check System Compatibility] --> B[🔹 System diagnostics (check_system_ex.py)]
-    A --> C[✅ Ensures proper environment (GPU, RAM, dependencies)]
+    A["1️⃣ Check System Compatibility"] --> B["🔹 System diagnostics (check_system_ex.py)"]
+    A --> C["✅ Ensures proper environment (GPU, RAM, dependencies)"]
     
-    D[2️⃣ Convert Input Data] --> E[🔹 Convert HDF5 to NPY/NPZ (convert_ex.py)]
-    D --> F[🔹 Skips redundant conversion if already processed]
-    D --> G[✅ Outputs structured NumPy arrays for analysis]
+    D["2️⃣ Convert Input Data"] --> E["🔹 Convert HDF5 → NPY/NPZ (convert_ex.py)"]
+    D --> F["🔹 Skips redundant conversion if already processed"]
+    D --> G["✅ Outputs structured NumPy arrays for analysis"]
     
-    H[3️⃣ Visualization] --> I[🔹 Load NPY and generate 2D histograms, scatter plots (visualization_ex.py)]
-    H --> J[🔹 Save images in PNG, FITS, or other formats]
-    H --> K[✅ Optimized for large datasets]
+    H["3️⃣ Visualization"] --> I["🔹 Load NPY → Generate 2D histograms, scatter plots (visualization_ex.py)"]
+    H --> J["🔹 Save images in PNG, FITS, or other formats"]
+    H --> K["✅ Optimized for large datasets"]
     
-    L[4️⃣ Density Estimation] --> M[🔹 Compute density maps from NPY data (density_ex.py)]
-    L --> N[🔹 Generate FITS/PNG outputs for cosmology analysis]
-    L --> O[✅ Supports SPH-based and grid-based methods]
+    L["4️⃣ Density Estimation"] --> M["🔹 Compute density maps from NPY data (density_ex.py)"]
+    L --> N["🔹 Generate FITS/PNG outputs for cosmology analysis"]
+    L --> O["✅ Supports SPH-based and grid-based methods"]
     
-    P[5️⃣ Data Analysis & Reporting] --> Q[🔹 Perform detailed data analysis (analysis_ex.py)]
-    P --> R[🔹 Generate reports (e.g., PDF, summary tables)]
-    P --> S[✅ Provides insights into cosmic structure formation]
+    P["5️⃣ Data Analysis & Reporting"] --> Q["🔹 Perform detailed data analysis (analysis_ex.py)"]
+    P --> R["🔹 Generate reports (e.g., PDF, summary tables)"]
+    P --> S["✅ Provides insights into cosmic structure formation"]
     
     A --> D
     D --> H
     H --> L
     L --> P
+
 ```
 ---
 
