@@ -55,30 +55,10 @@ Structura follows a structured data processing pipeline:
 
 ```mermaid
 graph TD
-    A["1️⃣ Check System Compatibility"] --> B["🔹 System diagnostics (check_system_ex.py)"]
-    A --> C["✅ Ensures proper environment (GPU, RAM, dependencies)"]
-    
-    D["2️⃣ Convert Input Data"] --> E["🔹 Convert HDF5 → NPY/NPZ (convert_ex.py)"]
-    D --> F["🔹 Skips redundant conversion if already processed"]
-    D --> G["✅ Outputs structured NumPy arrays for analysis"]
-    
-    H["3️⃣ Visualization"] --> I["🔹 Load NPY → Generate 2D histograms, scatter plots (visualization_ex.py)"]
-    H --> J["🔹 Save images in PNG, FITS, or other formats"]
-    H --> K["✅ Optimized for large datasets"]
-    
-    L["4️⃣ Density Estimation"] --> M["🔹 Compute density maps from NPY data (density_ex.py)"]
-    L --> N["🔹 Generate FITS/PNG outputs for cosmology analysis"]
-    L --> O["✅ Supports SPH-based and grid-based methods"]
-    
-    P["5️⃣ Data Analysis & Reporting"] --> Q["🔹 Perform detailed data analysis (analysis_ex.py)"]
-    P --> R["🔹 Generate reports (e.g., PDF, summary tables)"]
-    P --> S["✅ Provides insights into cosmic structure formation"]
-    
-    A --> D
-    D --> H
-    H --> L
-    L --> P
-
+    A[시스템 환경 체크] --> B[Convert.py: HDF5 → NPY/NPZ 변환]
+    B --> C[visualization_ex.py: 2D 히스토그램 이미지 생성]
+    C --> D[density_ex.py: 밀도 맵 생성]
+    D --> E[analysis_ex.py: 데이터 분석 리포트 생성]
 ```
 ---
 
