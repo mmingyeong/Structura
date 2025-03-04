@@ -55,10 +55,14 @@ Structura follows a structured data processing pipeline:
 
 ```mermaid
 graph TD
-    A[<font color="blue">check_system_ex.py: 시스템 환경 체크</font>] --> B[<font color="green">Convert.py: HDF5 → NPY/NPZ 변환</font>]
-    B --> C[<font color="orange">visualization_ex.py: 2D 히스토그램 이미지 생성</font>]
-    C --> D[<font color="red">density_ex.py: 밀도 맵 생성</font>]
-    D --> E[<font color="purple">analysis_ex.py: 데이터 분석 리포트 생성</font>]
+    A[check_system_ex.py: System Compatibility Check] --> B[Convert.py: HDF5 → NPY/NPZ Conversion]
+    B --> C[visualization_ex.py: Generate 2D Histogram Images]
+    C --> D[density_ex.py: Generate Density Map]
+    D --> E[analysis_ex.py: Generate Data Analysis Report]
+    
+    %% Adjust the diagram size
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px,font-family:Arial;
+    class A,B,C,D,E default;
 ```
 ---
 
