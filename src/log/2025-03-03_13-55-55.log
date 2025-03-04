@@ -1,0 +1,44 @@
+2025-03-03 13:55:55,742 - INFO - ✅ Using GPU device 1.
+2025-03-03 13:55:55,744 - INFO - 📁 Results will be saved in: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-03 13:55:56,829 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-03 13:55:56,829 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-03 13:55:56,829 - INFO - 🔹 Loading data...
+2025-03-03 13:56:26,138 - INFO - ✅ GPU memory cleared.
+2025-03-03 13:56:59,642 - INFO - ✅ GPU memory cleared.
+2025-03-03 13:57:39,071 - INFO - ✅ GPU memory cleared.
+2025-03-03 13:58:19,220 - INFO - ✅ GPU memory cleared.
+2025-03-03 13:58:59,328 - INFO - ✅ GPU memory cleared.
+2025-03-03 13:59:43,785 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:00:23,017 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:01:02,103 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:01:41,646 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:02:22,189 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:03:14,962 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:03:54,139 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:04:33,970 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:05:13,747 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:05:54,019 - INFO - ✅ GPU memory cleared.
+2025-03-03 14:06:18,948 - INFO - ✅ Time taken to load all chunks: 622.10s
+2025-03-03 14:06:20,624 - INFO - ✅ Data loaded successfully. Shape: (5161308, 3)
+2025-03-03 14:06:20,624 - INFO - 🔹 Generating 2D histogram, saving to ../examples/results/...
+2025-03-03 14:06:20,627 - INFO - 📁 Created directory: ../examples/results
+2025-03-03 14:06:24,443 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "example_load_and_plot.py", line 43, in <module>
+    save_pdf=True
+  File "/caefs/user/mmingyeong/structura/Structura/src/structura/visualization.py", line 67, in plot_2d_histogram
+    im = ax.imshow(hist.T, origin='lower', extent=[yedges[0], yedges[-1], zedges[0], zedges[-1]], cmap=self.cmap, aspect='auto')
+  File "/home/users/mmingyeong/.conda/envs/mingyeong/lib/python3.7/site-packages/matplotlib/_api/deprecation.py", line 459, in wrapper
+    return func(*args, **kwargs)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong/lib/python3.7/site-packages/matplotlib/__init__.py", line 1414, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong/lib/python3.7/site-packages/matplotlib/axes/_axes.py", line 5497, in imshow
+    im.set_extent(im.get_extent())
+  File "/home/users/mmingyeong/.conda/envs/mingyeong/lib/python3.7/site-packages/matplotlib/image.py", line 982, in set_extent
+    self.axes.update_datalim(corners)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 2480, in update_datalim
+    xys = np.asarray(xys)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong/lib/python3.7/site-packages/numpy/core/_asarray.py", line 102, in asarray
+    return array(a, dtype, copy=False, order=order)
+  File "cupy/_core/core.pyx", line 1397, in cupy._core.core.ndarray.__array__
+TypeError: Implicit conversion to a NumPy array is not allowed. Please use `.get()` to construct a NumPy array explicitly.

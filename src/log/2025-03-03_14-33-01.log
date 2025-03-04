@@ -1,0 +1,7 @@
+2025-03-03 14:33:01,265 - INFO - ✅ Using GPU device 1.
+2025-03-03 14:33:01,266 - INFO - 📁 Results will be saved in: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-03 14:33:01,807 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "converter_ex.py", line 2, in <module>
+    from structura.SimulationDataConverter import SimulationDataConverter
+ModuleNotFoundError: No module named 'structura.SimulationDataConverter'

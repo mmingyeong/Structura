@@ -1,0 +1,8 @@
+2025-03-04 22:10:35,072 - INFO - ✅ Using GPU device 1.
+2025-03-04 22:10:35,073 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-04 22:10:35,073 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-04 22:10:35,073 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-04 22:10:35,073 - INFO - 📂 Input HDF5 file: /home/users/mmingyeong/tng_init/ics.hdf5
+2025-03-04 22:10:35,073 - INFO - 📁 Output folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-04 22:10:35,074 - INFO - ⚠️ Output folder '/caefs/data/IllustrisTNG/300/ICS' contains 313 files (e.g., 'chunk_89.npy').
+2025-03-04 22:10:35,074 - INFO - ⏩ Skipping conversion process.

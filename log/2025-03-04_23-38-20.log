@@ -1,0 +1,22 @@
+2025-03-04 23:38:21,253 - INFO - 🔍 Starting system check (SystemChecker last updated: 2025-03-04)
+2025-03-04 23:38:21,320 - INFO - 📅 Environment analysis based on SystemChecker update: 2025-03-04
+2025-03-04 23:38:21,321 - WARNING - ⚠️ Python 3.7.12 is outdated. Upgrade to Python 3.9+ recommended.
+2025-03-04 23:38:21,321 - WARNING - ⚠️ PyTorch is not installed. Consider installing it for deep learning.
+2025-03-04 23:38:21,321 - INFO - 🐍 Python Version: 3.7.12
+2025-03-04 23:38:21,321 - INFO - 📦 NumPy Version: 1.20.3
+2025-03-04 23:38:21,321 - INFO - 📦 CuPy Version: 10.6.0
+2025-03-04 23:38:21,321 - INFO - 📦 PyTorch Version: Not Installed
+2025-03-04 23:38:21,321 - INFO - 🔍 Running System Check...
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 0: A100-PCIE-40GB (39.59 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 1: A100-PCIE-40GB (39.59 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 2: A100-PCIE-40GB (39.59 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 3: A100-PCIE-40GB (39.59 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 4: A100 80GB PCIe (79.35 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 5: A100-PCIE-40GB (39.59 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 GPU 6: A100-PCIE-40GB (39.59 GB, 108 CUDA cores, 1.41 GHz)
+2025-03-04 23:38:21,321 - INFO - 🖥 CPU Cores: 96
+2025-03-04 23:38:21,321 - INFO - 💾 Total RAM: 376.56 GB
+2025-03-04 23:38:21,321 - INFO - 🚀 Using GPU: True
+2025-03-04 23:38:21,321 - INFO - ✅ System check complete.
+2025-03-04 23:38:21,322 - INFO - ✅ GPU is available. Computation will be accelerated.
+2025-03-04 23:38:21,322 - INFO - ⏳ System check completed in 00:00:00 (0.07 seconds).
