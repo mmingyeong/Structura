@@ -1,0 +1,32 @@
+2025-03-05 20:31:24,675 - INFO - ✅ Using GPU device 1.
+2025-03-05 20:31:24,677 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-05 20:31:24,677 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 20:31:24,678 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-05 20:31:24,680 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 20:31:24,680 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-05 20:31:24,681 - INFO - 📂 Detected 313 .npy files in the input folder.
+2025-03-05 20:31:24,681 - INFO - 📄 Example file: chunk_89.npy
+2025-03-05 20:31:24,681 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-05 20:31:24,681 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-05 20:31:24,682 - INFO - 🔹 Loading data...
+2025-03-05 20:32:16,250 - INFO - ✅ Time taken to load all chunks: 51.57s
+2025-03-05 20:32:16,367 - INFO - ✅ Data loaded successfully. Shape: (516132, 3)
+2025-03-05 20:32:16,367 - INFO - 🔹 Computing 2D histogram and generating image plot...
+2025-03-05 20:32:16,773 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex.py", line 86, in <module>
+    saved_files = viz.create_image_plot(
+  File "/caefs/user/mmingyeong/structura/Structura/src/visualization.py", line 130, in create_image_plot
+    im = ax.imshow(hist.T, origin='lower', extent=[edges1[0], edges1[-1], edges2[0], edges2[-1]], cmap=cmap, aspect='auto')
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/matplotlib/__init__.py", line 1465, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/matplotlib/axes/_axes.py", line 5759, in imshow
+    im.set_data(X)
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/matplotlib/image.py", line 723, in set_data
+    self._A = self._normalize_image_array(A)
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/matplotlib/image.py", line 686, in _normalize_image_array
+    A = cbook.safe_masked_invalid(A, copy=True)
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/matplotlib/cbook.py", line 733, in safe_masked_invalid
+    x = np.array(x, subok=True, copy=copy)
+  File "cupy/_core/core.pyx", line 1528, in cupy._core.core._ndarray_base.__array__
+TypeError: Implicit conversion to a NumPy array is not allowed. Please use `.get()` to construct a NumPy array explicitly.

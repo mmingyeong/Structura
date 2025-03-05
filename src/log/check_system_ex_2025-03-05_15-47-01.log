@@ -1,0 +1,7 @@
+2025-03-05 15:47:01,453 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/check_system_ex.py", line 16, in <module>
+    from system_checker import SystemChecker, LAST_UPDATE_DATE  # ✅ 최신 업데이트 날짜 추가
+  File "/caefs/user/mmingyeong/structura/Structura/src/system_checker.py", line 10, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'

@@ -1,0 +1,22 @@
+{
+    "title": "2D Density Histogram (Y-Z Plane)",
+    "xlabel": "Y (ckpc/h)",
+    "ylabel": "Z (ckpc/h)",
+    "annotation": "Sampling: full, Filter Range: 64358.89-71133.51 ckpc/h, Scale: log10",
+    "colorbar_label": "Log10(Density)",
+    "output_formats": [
+        "PNG",
+        "PDF"
+    ],
+    "file_name_prefix": "ICS_20250305_193206_xRange10cMpc_projAxis0_scalelog10",
+    "additional_info": {
+        "xRange": "10cMpc",
+        "projAxis": "0",
+        "scale": "log10"
+    },
+    "dpi": 200,
+    "cmap": "cividis",
+    "bins": 500,
+    "projection_axis": 0,
+    "use_gpu": false
+}

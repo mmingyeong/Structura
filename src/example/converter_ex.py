@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from logger import logger
 from convert import SimulationDataConverter
-from config import INPUT_DATA_PATHS, OUTPUT_DIRECTORIES
+from config import INPUT_DATA_PATHS, OUTPUT_DATA_PATHS
 from system_checker import SystemChecker  # ✅ 시스템 체크 (선택사항)
 
 # ✅ 시스템 체크 실행 (원한다면 활성화)
@@ -29,7 +29,7 @@ start_time = time.time()  # 시작 시간 저장
 
 # 🔹 HDF5 파일 경로 및 변환된 파일 저장 경로
 hdf5_file_path = INPUT_DATA_PATHS["HDF5"]
-output_folder = OUTPUT_DIRECTORIES["NPY"]
+output_folder = OUTPUT_DATA_PATHS["NPY"]
 
 logger.info(f"📂 Input HDF5 file: {hdf5_file_path}")
 logger.info(f"📁 Output folder: {output_folder}")

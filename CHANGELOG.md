@@ -42,3 +42,33 @@
 - **Execution Summary**:
   - Displays **last update date** of `SystemChecker` for reference.
   - Uses `verbose=True` option for **extended system diagnostics**.
+
+# 📝 Changelog
+
+## **[2025-03-04] - 🚀 Feature Update: DataLoader & Visualizer Enhancements (Structura 0.2.0)**
+### 🎯 Key Features
+
+#### **🔹 DataLoader**
+- **Enhanced Image Saving & Format Options**:
+  - Improved storage path management and image format selection.
+  - Added new function arguments: `projection_axis`, `filtering_range`, `sampling_rate`, `histogram_bin`, and `log_scale`.
+- **Conditional GPU Acceleration**:
+  - Utilizes `CuPy` when GPU is enabled; defaults to `NumPy` otherwise.
+- **Performance Optimization**:
+  - Optimized data processing routines to reduce memory usage and execution time.
+
+#### **🔹 Visualizer**
+- **Flexible Projection & Log Scale Options**:
+  - Now allows the selection of a custom projection axis (instead of fixed 0th axis).
+  - Offers multiple log scale transformations: `log10`, `log2`, `ln`, `sqrt`, and `linear`.
+- **Robust Image Plot Customization**:
+  - Comprehensive argument handling: separates required inputs, defaulted options, and auto-generated parameters (e.g., auto-generated title).
+  - Enhanced image plot functionality with configurable title, axis labels, colormap, and metadata overlay.
+- **Diverse Image Format Support**:
+  - Supports saving images in various formats:
+    - **PNG & PDF:** For publication and presentation.
+    - **FITS & TIFF:** For astronomical research and data preservation.
+    - **SVG:** Ideal for web and LaTeX applications.
+- **Performance & Data Processing Enhancements**:
+  - Improved HDF5 processing speed via multiprocessing and Dask for parallel data loading.
+  - Integrated GPU acceleration using `CuPy` alongside Numba JIT compilation to accelerate custom histogram computations.

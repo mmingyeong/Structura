@@ -26,7 +26,7 @@ INPUT_DATA_PATHS:
   ASCII: "/path/to/your/ascii/files"   # CSV, TXT 등 ASCII 파일이 저장된 폴더
   NUMPY: "/path/to/your/numpy/files"   # 이미 변환된 .npy 또는 .npz 파일 위치
 
-OUTPUT_DIRECTORIES:
+OUTPUT_DATA_PATHS:
   NPZ: "/path/to/your/output/npz"   # 변환된 .npz 파일 저장 경로
   #NPY: "/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache" # z=0
   NPY: "/caefs/data/IllustrisTNG/300/ICS"   # ICS

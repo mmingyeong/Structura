@@ -1,0 +1,21 @@
+2025-03-05 16:37:40,371 - INFO - ✅ Using GPU device 1.
+2025-03-05 16:37:40,373 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-05 16:37:40,373 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 16:37:40,373 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-05 16:37:40,374 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 16:37:40,374 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-05 16:37:40,375 - INFO - 📂 Detected 313 .npy files in the input folder.
+2025-03-05 16:37:40,375 - INFO - 📄 Example file: chunk_89.npy
+2025-03-05 16:37:40,375 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-05 16:37:40,375 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-05 16:37:40,375 - INFO - 🔹 Loading data...
+2025-03-05 16:39:25,022 - INFO - ✅ Time taken to load all chunks: 104.65s
+2025-03-05 16:39:25,196 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex.py", line 52, in <module>
+    positions = loader.load_all_chunks(x_min=x_min, x_max=x_max, sampling_rate=1)
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 175, in load_all_chunks
+    return numpy_to_cupy_pinned(combined_np)
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 74, in numpy_to_cupy_pinned
+    pinned_np = np.frombuffer(pinned_mem, dtype=np_array.dtype).reshape(np_array.shape)
+ValueError: cannot reshape array of size 16777216 into shape (5161333,3)

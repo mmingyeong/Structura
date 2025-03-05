@@ -1,0 +1,24 @@
+2025-03-05 16:59:28,023 - INFO - ✅ Using GPU device 1.
+2025-03-05 16:59:28,025 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-05 16:59:28,025 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 16:59:28,025 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-05 16:59:28,026 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 16:59:28,026 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-05 16:59:28,026 - INFO - 📂 Detected 313 .npy files in the input folder.
+2025-03-05 16:59:28,027 - INFO - 📄 Example file: chunk_89.npy
+2025-03-05 16:59:28,027 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-05 16:59:28,027 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-05 16:59:28,027 - INFO - 🔹 Loading data...
+2025-03-05 17:01:35,819 - INFO - ✅ Time taken to load all chunks: 127.79s
+2025-03-05 17:01:35,990 - INFO - ✅ Data loaded successfully. Shape: (5161333, 3)
+2025-03-05 17:01:35,990 - INFO - 🔹 Generating 2D histogram, saving to ../results/...
+2025-03-05 17:01:35,990 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex.py", line 61, in <module>
+    viz.plot_2d_histogram(
+  File "/caefs/user/mmingyeong/structura/Structura/src/visualization.py", line 110, in plot_2d_histogram
+    hist, edges1, edges2 = self._generate_histogram(positions, projection_axis)
+  File "/caefs/user/mmingyeong/structura/Structura/src/visualization.py", line 66, in _generate_histogram
+    data = np.asarray(data)
+  File "cupy/_core/core.pyx", line 1528, in cupy._core.core._ndarray_base.__array__
+TypeError: Implicit conversion to a NumPy array is not allowed. Please use `.get()` to construct a NumPy array explicitly.

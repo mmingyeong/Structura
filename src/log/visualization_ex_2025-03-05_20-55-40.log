@@ -1,0 +1,19 @@
+2025-03-05 20:55:40,689 - INFO - ✅ Using GPU device 1.
+2025-03-05 20:55:40,691 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-05 20:55:40,692 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 20:55:40,692 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-05 20:55:40,694 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 20:55:40,694 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-05 20:55:40,695 - INFO - 📂 Detected 313 .npy files in the input folder.
+2025-03-05 20:55:40,695 - INFO - 📄 Example file: chunk_89.npy
+2025-03-05 20:55:40,695 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-05 20:55:40,696 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-05 20:55:40,696 - INFO - 🔹 Loading data...
+2025-03-05 20:58:05,020 - INFO - ✅ Time taken to load all chunks: 144.32s
+2025-03-05 20:58:05,155 - INFO - ✅ Data loaded successfully. Shape: (516132, 3)
+2025-03-05 20:58:05,156 - INFO - 🔹 Computing 2D histogram and generating image plot...
+2025-03-05 20:58:07,892 - INFO - ✅ PNG file saved: /caefs/user/mmingyeong/structura/Structura/src/results/ICS_20250305_205805_xRange10cMpc_projAxis0_scalelog10.png
+2025-03-05 20:58:07,892 - INFO - ✅ PDF file saved: /caefs/user/mmingyeong/structura/Structura/src/results/ICS_20250305_205805_xRange10cMpc_projAxis0_scalelog10.pdf
+2025-03-05 20:58:07,892 - INFO - ✅ JSON file saved: /caefs/user/mmingyeong/structura/Structura/src/results/ICS_20250305_205805_xRange10cMpc_projAxis0_scalelog10_metadata.json
+2025-03-05 20:58:07,892 - INFO - ⏳ Total execution time: 00:02:27 (147.20 seconds)
+2025-03-05 20:58:07,892 - INFO - ✅ Plot generated successfully!

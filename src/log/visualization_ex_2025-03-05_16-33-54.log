@@ -1,0 +1,14 @@
+2025-03-05 16:33:54,407 - INFO - ✅ Using GPU device 1.
+2025-03-05 16:33:54,409 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-05 16:33:54,410 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 16:33:54,410 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-05 16:33:54,413 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-05 16:33:54,413 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-05 16:33:54,414 - INFO - 📂 Detected 313 .npy files in the input folder.
+2025-03-05 16:33:54,414 - INFO - 📄 Example file: chunk_89.npy
+2025-03-05 16:33:54,414 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-05 16:33:54,414 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-05 16:33:54,414 - INFO - 🔹 Loading data...
+2025-03-05 16:35:23,539 - INFO - ✅ Time taken to load all chunks: 89.12s
+2025-03-05 16:35:23,734 - INFO - ✅ Data loaded successfully. Shape: (5161333, 3)
+2025-03-05 16:35:23,734 - INFO - ⏳ Total execution time: 00:01:29 (89.32 seconds)

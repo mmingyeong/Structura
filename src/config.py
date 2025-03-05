@@ -9,6 +9,7 @@ import os
 import yaml
 import cupy as cp
 from logger import logger
+from pathlib import Path
 
 # -------------------------------
 # 🔹 Simulation Constants (Fixed)
@@ -62,10 +63,10 @@ if USE_GPU:
 # -------------------------------
 # 🔹 File Paths
 INPUT_DATA_PATHS = user_config["INPUT_DATA_PATHS"]
-OUTPUT_DIRECTORIES = user_config["OUTPUT_DIRECTORIES"]
+OUTPUT_DATA_PATHS = user_config["OUTPUT_DATA_PATHS"]
 
 # ✅ 출력 디렉터리 존재 여부 및 접근 권한 확인
-for key, path in OUTPUT_DIRECTORIES.items():
+for key, path in OUTPUT_DATA_PATHS.items():
     if not os.path.exists(path):
         logger.warning(f"⚠️ Output directory '{key}' does not exist: {path}")
     else:
@@ -75,6 +76,12 @@ for key, path in OUTPUT_DIRECTORIES.items():
         else:
             logger.error(f"❌ Permission denied: Cannot write to output directory '{key}'")
 
+
+# 현재 파일(모듈)의 위치를 기준으로 Structura 내부 results 폴더 경로 지정
+RESULTS_DIR = Path(__file__).resolve().parent.parent / "src/results"
+
+# 경로가 없으면 생성
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # -------------------------------
 # 🔹 GPU memory management

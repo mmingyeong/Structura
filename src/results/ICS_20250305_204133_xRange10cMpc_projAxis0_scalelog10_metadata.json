@@ -1,0 +1,26 @@
+{
+    "title": "2D Density Histogram (Y-Z Plane)",
+    "xlabel": "Y (ckpc/h)",
+    "ylabel": "Z (ckpc/h)",
+    "annotation": "Sampling: 0.100% | Projection Axis: 0 | Filter Range: 64358.89-71133.51 ckpc/h | Scale: log10",
+    "footer": "X Center: 100.00 cMpc/h | Thickness: 10.00 cMpc/h\nLbox: 302.6 cMpc / 205000 ckpc/h\nInput Folder: /caefs/data/IllustrisTNG/300/ICS | Results Folder: /caefs/user/mmingyeong/structura/Structura/src/results",
+    "projection_axis": 0,
+    "x_range": 10,
+    "x_center": 100,
+    "sampling_rate": 0.001,
+    "lbox_cMpc": 302.6,
+    "lbox_ckpch": 205000,
+    "x_min": 64358.88962326504,
+    "x_max": 71133.50958360873,
+    "input_folder": "/caefs/data/IllustrisTNG/300/ICS",
+    "results_dir": "/caefs/user/mmingyeong/structura/Structura/src/results",
+    "bins": 500,
+    "scale": "log10",
+    "cmap": "cividis",
+    "dpi": 200,
+    "output_formats": [
+        "PNG",
+        "PDF"
+    ],
+    "show_grid": false
+}

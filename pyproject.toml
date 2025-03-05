@@ -20,3 +20,13 @@ dependencies = [
 [tool.setuptools]
 packages = ["structura"]
 package-dir = { "" = "src" }
+
+dependencies = [
+    "cupy",
+    "numpy",
+    "h5py",
+    "tqdm",
+    "psutil",
+    "pyyaml",
+    "matplotlib"
+]

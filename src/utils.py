@@ -8,7 +8,7 @@
 
 from logger import logger  
 
-def set_x_range(center_cMpc, thickness_cMpc, lbox_cMpc, lbox_ckpch):
+def set_x_range(center_cMpc, thickness_cMpc, lbox_cMpch, lbox_ckpch):
     """
     Converts cMpc/h range to ckpc/h for filtering.
 
@@ -21,7 +21,7 @@ def set_x_range(center_cMpc, thickness_cMpc, lbox_cMpc, lbox_ckpch):
     Returns:
         tuple: (x_min, x_max) in ckpc/h
     """
-    conversion_factor = lbox_ckpch / lbox_cMpc
+    conversion_factor = lbox_ckpch / lbox_cMpch
     center_ckpch = center_cMpc * conversion_factor
     thickness_ckpch = thickness_cMpc * conversion_factor
     x_min = center_ckpch - thickness_ckpch / 2
