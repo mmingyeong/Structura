@@ -1,9 +1,0 @@
-2025-03-05 16:09:10,792 - INFO - ✅ Using GPU device 1.
-2025-03-05 16:09:10,794 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
-2025-03-05 16:09:10,795 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
-2025-03-05 16:09:10,795 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
-2025-03-05 16:09:10,817 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
-2025-03-05 16:09:10,817 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
-2025-03-05 16:09:10,817 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
-2025-03-05 16:09:10,817 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
-2025-03-05 16:09:10,817 - INFO - 🔹 Loading data...

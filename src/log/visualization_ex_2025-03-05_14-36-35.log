@@ -1,6 +1,0 @@
-2025-03-05 14:36:36,039 - INFO - ✅ Using GPU device 1.
-2025-03-05 14:36:36,041 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
-2025-03-05 14:36:36,041 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
-2025-03-05 14:36:36,041 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
-2025-03-05 14:36:36,117 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
-2025-03-05 14:36:36,117 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/results

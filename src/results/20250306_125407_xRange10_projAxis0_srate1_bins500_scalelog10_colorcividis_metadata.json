@@ -1,0 +1,35 @@
+{
+    "Plot Info": {
+        "title": "20250306_125407_xRange10_projAxis0_srate1_bins500_scalelog10_colorcividis",
+        "xlabel": "Y (ckpc/h)",
+        "ylabel": "Z (ckpc/h)",
+        "annotation": "Sampling: 100.000%\nProjection Axis: 0\nFilter Range: 64.36-71.13 ckpc/h\nScale: log10\n\nX Center: 100.00 cMpc/h | Thickness: 10.00 cMpc/h\nLbox: 302.6 cMpc / 205000 ckpc/h\nInput Folder: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache\nResults Folder: /caefs/user/mmingyeong/structura/Structura/src/results"
+    },
+    "Filtering Info": {
+        "projection_axis": 0,
+        "x_range": 10,
+        "x_center": 100,
+        "sampling_rate": 1,
+        "x_min": 64.35888962326504,
+        "x_max": 71.13350958360873
+    },
+    "Simulation Info": {
+        "lbox_cMpc": 302.6,
+        "lbox_ckpch": 205000
+    },
+    "Paths": {
+        "input_folder": "/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache",
+        "results_dir": "/caefs/user/mmingyeong/structura/Structura/src/results"
+    },
+    "Rendering Info": {
+        "bins": 500,
+        "scale": "log10",
+        "cmap": "cividis",
+        "dpi": 200,
+        "output_formats": [
+            "PNG",
+            "PDF"
+        ],
+        "show_grid": false
+    }
+}

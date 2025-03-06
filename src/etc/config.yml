@@ -20,6 +20,8 @@ GPU_DEVICE: 1  # 0 or 1 (GPU 선택)
 # 🔹 File Paths (User Configurable)
 # -------------------------------
 INPUT_DATA_PATHS:
+  TNG300_ICS: "/home/users/mmingyeong/tng_init/ics.hdf5"
+  TNG300_snapshot99: "/caefs/data/IllustrisTNG/snapshot-99-dm"
   HDF5: "/home/users/mmingyeong/tng_init/ics.hdf5"   # ICS
   #HDF5: "/caefs/data/IllustrisTNG/snapshot-99-dm"   # z=0
   GADGET: "/path/to/your/gadget/files"   # GADGET binary 파일 경로
@@ -27,6 +29,8 @@ INPUT_DATA_PATHS:
   NUMPY: "/path/to/your/numpy/files"   # 이미 변환된 .npy 또는 .npz 파일 위치
 
 OUTPUT_DATA_PATHS:
+  TNG300_ICS: "/caefs/data/IllustrisTNG/300/ICS"
+  TNG300_snapshot99: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
   NPZ: "/path/to/your/output/npz"   # 변환된 .npz 파일 저장 경로
   #NPY: "/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache" # z=0
   NPY: "/caefs/data/IllustrisTNG/300/ICS"   # ICS

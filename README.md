@@ -1,4 +1,10 @@
 # Structura  
+
+[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
+[![Code Style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://beta.ruff.rs/docs/)
+[![Docs](https://img.shields.io/badge/docs-readthedocs-blue)](https://your-docs-link.com)
+
+
 **Structura** is a Python library for **analyzing and visualizing the large-scale structure (LSS) of the universe**.  
 It is designed to efficiently **load, process, and visualize** cosmological simulation data from **TNG300, TNG100, Illustris**, and more.  
 

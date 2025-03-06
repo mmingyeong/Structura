@@ -1,0 +1,106 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# @Author: Mingyeong Yang (mmingyeong@kasi.re.kr)
+# @Date: 2025-03-06
+# @Filename: IllustrisTNG_config.yml
+
+# -------------------------------
+# 🔹 Simulation Info (from attached table)
+# -------------------------------
+SIMULATION_INFO:
+  TNG-Cluster:
+    Lbox_Mpc: 1003.8
+    NDM: "8192^3"
+    mDM_Msun: 6.1e6
+    mgas_Msun: 1.1e7
+    Nsnap: 100
+    Nsubfind_z0: 10378451
+
+  TNG100-1:
+    Lbox_Mpc: 110.7
+    NDM: "1820^3"
+    mDM_Msun: 7.5e6
+    mgas_Msun: 1.4e6
+    Nsnap: 100
+    Nsubfind_z0: 501215
+
+  TNG100-1-Dark:
+    Lbox_Mpc: 110.7
+    NDM: "1820^3"
+    mDM_Msun: 9.5e6
+    mgas_Msun: null
+    Nsnap: 100
+    Nsubfind_z0: 501215
+
+  TNG300-1:
+    Lbox_Mpc: 302.6
+    NDM: "2500^3"
+    mDM_Msun: 5.9e7
+    mgas_Msun: 1.1e7
+    Nsnap: 100
+    Nsubfind_z0: 15724587
+
+    # 아래는 새로 첨부해주신 이미지(“Simulation Details”)에서 발췌한 상세 정보 예시
+    RUN_DETAILS:
+      alternative_simulation_name: "L25n2560TNG"
+      short_description: "Main high-resolution IllustrisTNG run including the full TNG physics model"
+      # 주의: 205,000 ckpc/h = 205 Mpc/h (코빙 길이)이며, z=0에서 물리적 길이는 ~302.6 Mpc (h~0.6774 가정).
+      box_length_ckpc_h: 205000.0
+      average_gas_cell_mass_1e10Msun_h: 0.000034748376   # (10^10 Msun/h)
+      dark_matter_particle_mass_1e10Msun_h: 0.00998774352 # (10^10 Msun/h)
+      number_of_dark_matter_particles: 15625000000       # DM 입자 수
+      number_of_gas_tracer_particles: 15625000000        # Gas tracer 입자 수
+      starting_redshift: 127.0                           # 초기 redshift
+      ending_redshift: 0.0                               # 최종 redshift (z=0)
+      cosmology_name: "Planck2015"
+      cosmological_parameters:
+        Omega_m: 0.3089
+        Omega_lambda: 0.6911
+        Omega_b: 0.0486
+        h: 0.6774
+        n_s: 0.9667
+        sigma_8: 0.8159
+      model_description: "Fiducial TNG Model"
+      is_uniform_mass: true
+      is_periodic: true
+
+  TNG300-1-Dark:
+    Lbox_Mpc: 302.6
+    NDM: "2500^3"
+    mDM_Msun: 7.4e7
+    mgas_Msun: null
+    Nsnap: 100
+    Nsubfind_z0: 15724587
+
+  TNG50-1:
+    Lbox_Mpc: 51.7
+    NDM: "2160^3"
+    mDM_Msun: 4.5e5
+    mgas_Msun: 8.5e4
+    Nsnap: 100
+    Nsubfind_z0: 5688113
+
+  TNG50-1-Dark:
+    Lbox_Mpc: 51.7
+    NDM: "2160^3"
+    mDM_Msun: 5.3e5
+    mgas_Msun: null
+    Nsnap: 100
+    Nsubfind_z0: 5688113
+
+  Illustris-1:
+    Lbox_Mpc: 106.5
+    NDM: "1820^3"
+    mDM_Msun: 7.5e6
+    mgas_Msun: 1.6e6
+    Nsnap: 135
+    Nsubfind_z0: null
+
+  Illustris-1-Dark:
+    Lbox_Mpc: 106.5
+    NDM: "1820^3"
+    mDM_Msun: 7.5e6
+    mgas_Msun: null
+    Nsnap: 135
+    Nsubfind_z0: null

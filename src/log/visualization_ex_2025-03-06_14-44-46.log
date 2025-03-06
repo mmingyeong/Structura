@@ -1,0 +1,20 @@
+2025-03-06 14:44:46,774 - WARNING - Numba is not installed. JIT acceleration will not be available.
+2025-03-06 14:44:46,899 - INFO - ✅ Using GPU device 1.
+2025-03-06 14:44:46,900 - INFO - 📁 Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 14:44:46,900 - INFO - 📁 Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-06 14:44:46,900 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-06 14:44:46,900 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 14:44:46,900 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-06 14:44:47,019 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex.py", line 19, in <module>
+    from utils import set_x_range  # (필요한 경우 사용)
+  File "/caefs/user/mmingyeong/structura/Structura/src/utils.py", line 9, in <module>
+    from astropy.cosmology import Planck15
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/astropy/cosmology/__init__.py", line 11, in <module>
+    from . import core, flrw, funcs, parameter, units, utils
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/astropy/cosmology/flrw/__init__.py", line 4, in <module>
+    from . import base, lambdacdm, w0cdm, w0wacdm, w0wzcdm, wpwazpcdm
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/astropy/cosmology/flrw/base.py", line 17, in <module>
+    from astropy.cosmology.parameter import (
+ImportError: cannot import name '_validate_non_negative' from 'astropy.cosmology.parameter' (/home/users/mmingyeong/.local/lib/python3.10/site-packages/astropy/cosmology/parameter/__init__.py)

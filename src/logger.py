@@ -5,65 +5,90 @@
 # @Date: 2025-02-28
 # @Filename: logger.py
 
+"""
+Logger configuration for Structura.
+
+This module establishes a logger that directs log messages to both the console and a file.
+The log file is created in a dedicated 'log' directory relative to the module location,
+and its filename is based on the executing script's name and the current timestamp.
+Unhandled exceptions are automatically captured and logged.
+"""
+
 import logging
 import os
 import sys
-import time
 from datetime import datetime
 
-# 현재 logger.py가 위치한 디렉토리(src/)를 BASE_DIR로 설정
-BASE_DIR = os.path.dirname(__file__)  # 예: Structura/src
-LOG_DIR = os.path.join(BASE_DIR, "log")  # => Structura/src/log
+# Set the base directory to the directory containing this module (e.g., Structura/src)
+BASE_DIR = os.path.dirname(__file__)
+# Define the directory for log files (e.g., Structura/src/log)
+LOG_DIR = os.path.join(BASE_DIR, "log")
 
-# log 폴더가 없으면 생성
+# Create the log directory if it does not already exist
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# 실행 중인 스크립트 이름 추출
-# 예: python converter_ex.py -> script_name = "converter_ex"
+# Determine the name of the executing script; default to 'main' if unavailable.
 if len(sys.argv) > 0:
     script_name = os.path.splitext(os.path.basename(sys.argv[0]))[0]
 else:
     script_name = "main"
 
-# 실행 날짜와 시간 기반의 로그 파일 이름 설정
-# 예: converter_ex_2025-03-05_00-39-53.log
+# Generate a log filename based on the current date and time (e.g., converter_ex_2025-03-05_00-39-53.log)
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 log_filename = f"{script_name}_{timestamp}.log"
 LOG_FILE = os.path.join(LOG_DIR, log_filename)
 
-# Logger 설정
+# Configure the logger with the name 'Structura' and a global log level of DEBUG.
 logger = logging.getLogger("Structura")
-logger.setLevel(logging.INFO)
+logger.setLevel(
+    logging.INFO
+)  # Collect all log messages; filtering is applied in individual handlers.
 
-# 로그 포맷 정의
+# Define the log message format.
 formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
 
-# 콘솔 핸들러
+# Console handler: display messages with level INFO and above.
 console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
 console_handler.setFormatter(formatter)
 
-# 파일 핸들러 (로그를 실행 시간별 파일에 저장)
+# File handler: write messages with level DEBUG and above to the log file.
 file_handler = logging.FileHandler(LOG_FILE, encoding="utf-8")
+file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
 
-# 핸들러 중복 추가 방지
+# Prevent duplicate handlers from being added.
 if not logger.hasHandlers():
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
 
-# stderr도 stdout으로 리디렉션
+# Redirect standard error output to standard output.
 sys.stderr = sys.stdout
 
-# 예외 발생 시 로그 파일에도 기록되도록 설정
+
 def log_exception(exc_type, exc_value, exc_traceback):
-    """예외 발생 시 로그 파일에 기록"""
+    """
+    Logs unhandled exceptions to the log file.
+
+    Parameters
+    ----------
+    exc_type : type
+        The type of the exception.
+    exc_value : Exception
+        The exception instance.
+    exc_traceback : traceback
+        The traceback object.
+    """
     if issubclass(exc_type, KeyboardInterrupt):
         sys.__excepthook__(exc_type, exc_value, exc_traceback)
         return
-    logger.error("Unhandled exception occurred:", exc_info=(exc_type, exc_value, exc_traceback))
+    logger.error(
+        "Unhandled exception occurred:", exc_info=(exc_type, exc_value, exc_traceback)
+    )
 
+
+# Set the global exception hook to ensure that unhandled exceptions are logged.
 sys.excepthook = log_exception
 
-# 로거 테스트
 if __name__ == "__main__":
     logger.info("Logger is successfully set up!")

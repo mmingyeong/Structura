@@ -1,0 +1,49 @@
+2025-03-06 12:05:05,434 - WARNING - Numba is not installed. JIT acceleration will not be available.
+2025-03-06 12:05:05,645 - INFO - ✅ Using GPU device 1.
+2025-03-06 12:05:05,646 - INFO - 📁 Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 12:05:05,647 - INFO - 📁 Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-06 12:05:05,647 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-06 12:05:05,648 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 12:05:05,648 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-06 12:05:05,655 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-06 12:05:05,655 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-06 12:05:05,659 - INFO - 📂 Detected 598 .npy files in the input folder.
+2025-03-06 12:05:05,659 - INFO - 📄 Example file: snapshot-99.370.npy
+2025-03-06 12:05:05,659 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-06 12:05:05,659 - INFO - 🔹 Filtering X range: 64.36 - 71.13 cMpc/h (64358.890 - 71133.510 ckpc/h)
+2025-03-06 12:05:05,659 - INFO - 🔹 Loading data...
+2025-03-06 12:17:32,377 - INFO - ✅ Time taken to load all chunks: 746.71s
+2025-03-06 12:17:37,898 - INFO - Combined data shape: (510701970, 3)
+2025-03-06 12:18:35,211 - INFO - Data statistics per column:
+ Mean: [ 67.78411591 101.13053859 100.78248621]
+ Median: [ 67.81876551 105.06542606  99.27272938]
+ Min: [6.43588897e+01 5.54981975e-08 5.32776413e-07]
+ Max: [ 71.13350958 204.99999971 204.99999957]
+2025-03-06 12:18:35,213 - INFO - Projection axis 0 data range: min: 64.3588896749212, max: 71.13350957900965
+2025-03-06 12:18:43,745 - INFO - ✅ Data loaded successfully. Shape: (510701970, 3)
+2025-03-06 12:18:43,745 - INFO - 🔹 Computing 2D histogram and generating image plot...
+2025-03-06 12:18:47,937 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex_snapshot99.py", line 69, in <module>
+    hist, edges1, edges2 = viz.compute_2d_histogram(positions)
+  File "/caefs/user/mmingyeong/structura/Structura/src/visualization.py", line 169, in compute_2d_histogram
+    hist, edges1, edges2 = xp.histogram2d(data[:, axis1], data[:, axis2], bins=bins)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong310/lib/python3.10/site-packages/cupy/_statistics/histogram.py", line 465, in histogram2d
+    hist, edges = histogramdd([x, y], bins, range, weights, density)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong310/lib/python3.10/site-packages/cupy/_statistics/histogram.py", line 380, in histogramdd
+    xy = cupy.ravel_multi_index(ncount, nbin)
+  File "/home/users/mmingyeong/.conda/envs/mingyeong310/lib/python3.10/site-packages/cupy/_indexing/generate.py", line 358, in ravel_multi_index
+    raveled_indices += stride * idx
+  File "cupy/_core/core.pyx", line 1746, in cupy._core.core._ndarray_base.__array_ufunc__
+  File "cupy/_core/_kernel.pyx", line 1349, in cupy._core._kernel.ufunc.__call__
+  File "cupy/_core/_kernel.pyx", line 645, in cupy._core._kernel._get_out_args_from_optionals
+  File "cupy/_core/core.pyx", line 2884, in cupy._core.core._ndarray_init
+  File "cupy/_core/core.pyx", line 257, in cupy._core.core._ndarray_base._init_fast
+  File "cupy/cuda/memory.pyx", line 738, in cupy.cuda.memory.alloc
+  File "cupy/cuda/memory.pyx", line 1424, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1445, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1116, in cupy.cuda.memory.SingleDeviceMemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1137, in cupy.cuda.memory.SingleDeviceMemoryPool._malloc
+  File "cupy/cuda/memory.pyx", line 1382, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+  File "cupy/cuda/memory.pyx", line 1385, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+cupy.cuda.memory.OutOfMemoryError: Out of memory allocating 4,085,616,128 bytes (allocated so far: 38,813,368,320 bytes).

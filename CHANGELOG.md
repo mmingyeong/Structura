@@ -43,7 +43,6 @@
   - Displays **last update date** of `SystemChecker` for reference.
   - Uses `verbose=True` option for **extended system diagnostics**.
 
-# 📝 Changelog
 
 ## **[2025-03-04] - 🚀 Feature Update: DataLoader & Visualizer Enhancements (Structura 0.2.0)**
 ### 🎯 Key Features
@@ -72,3 +71,27 @@
 - **Performance & Data Processing Enhancements**:
   - Improved HDF5 processing speed via multiprocessing and Dask for parallel data loading.
   - Integrated GPU acceleration using `CuPy` alongside Numba JIT compilation to accelerate custom histogram computations.
+
+
+## **[2025-03-06] - 🚀 Feature Update: Unit Conversions & Visualizer Enhancements (Structura 0.2.1)**
+### 🎯 Key Features
+
+#### **🔹 utils.py**
+- **New Unit Conversion Functions**:
+  - Added `cMpc_to_cMpc_h()` to convert distances from cMpc to cMpc/h.
+  - Added `cMpc_h_to_cMpc()` to convert distances from cMpc/h to cMpc.
+
+#### **🔹 Visualizer**
+- **Enhanced Logging and Output Details**:
+  - Modified to output bins count, resolution, and data unit in generated plots.
+- **Automatic Optimal Bins Calculation**:
+  - Integrated an algorithm to automatically compute optimal bins based on data count.
+- **Recommended Bins for 2D Histograms**:
+  - Introduced a function that suggests appropriate bin counts for generating 2D histograms at various resolutions.
+
+#### **🔹 General**
+- **Comprehensive Code Improvements**:
+  - Enhanced logging, updated docstrings, and refined overall code documentation.
+  - Reviewed and updated code to comply with `ruff` linter standards.
+  - Upgraded project compatibility to Python 3.10.
+  - Added documentation badges to the project README for improved visibility.

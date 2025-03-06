@@ -1,0 +1,39 @@
+{
+    "Plot Info": {
+        "title": "20250306_154643_xRange10000_projAxis0_srate1_bins205_scalelog10_res1000.0",
+        "xlabel": "Y (ckpc/h)",
+        "ylabel": "Z (ckpc/h)",
+        "annotation": "Sampling: 100.000%\nProjection Axis: 0\nFilter Range: 100000.00-110000.00 ckpc/h\nScale: log10\n\nX Center: 105000.00 cMpc/h | Thickness: 10000.00 cMpc/h\nInput Folder: /caefs/data/IllustrisTNG/300/ICS\nResults Folder: /caefs/user/mmingyeong/structura/Structura/src/results\n\nBin Resolution: 1000.00 (x-axis) x 1000.00 (y-axis) ckpc/h"
+    },
+    "Filtering Info": {
+        "projection_axis": 0,
+        "x_range": 10000,
+        "x_center": 105000.0,
+        "sampling_rate": 1,
+        "x_min": 100000,
+        "x_max": 110000,
+        "data_unit": "ckpc/h"
+    },
+    "Simulation Info": {
+        "box_size": 205,
+        "data_unit": "ckpc/h"
+    },
+    "Paths": {
+        "input_folder": "/caefs/data/IllustrisTNG/300/ICS",
+        "results_dir": "/caefs/user/mmingyeong/structura/Structura/src/results"
+    },
+    "Rendering Info": {
+        "bins": 205,
+        "scale": "log10",
+        "cmap": "cividis",
+        "dpi": 200,
+        "output_formats": [
+            "PNG",
+            "PDF"
+        ],
+        "show_grid": false,
+        "bin_resolution_x": 1000.0,
+        "bin_resolution_y": 1000.0,
+        "data_unit": "ckpc/h"
+    }
+}

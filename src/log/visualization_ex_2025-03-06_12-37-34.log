@@ -1,0 +1,29 @@
+2025-03-06 12:37:34,977 - WARNING - Numba is not installed. JIT acceleration will not be available.
+2025-03-06 12:37:35,130 - INFO - ✅ Using GPU device 1.
+2025-03-06 12:37:35,131 - INFO - 📁 Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 12:37:35,131 - INFO - 📁 Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-06 12:37:35,131 - WARNING - ⚠️ Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-06 12:37:35,131 - INFO - 📁 Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 12:37:35,131 - WARNING - ⚠️ Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-06 12:37:35,134 - INFO - 📁 Input (npy) folder: /caefs/data/IllustrisTNG/300/ICS
+2025-03-06 12:37:35,134 - INFO - 📁 Output folder: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-06 12:37:35,136 - INFO - 📂 Detected 313 .npy files in the input folder.
+2025-03-06 12:37:35,136 - INFO - 📄 Example file: chunk_89.npy
+2025-03-06 12:37:35,136 - INFO - ✅ X range set: 64358.89 - 71133.51 ckpc/h (Center: 100 cMpc/h, Thickness: 10 cMpc/h)
+2025-03-06 12:37:35,136 - INFO - 🔹 Filtering X range: 64358.89 - 71133.51 ckpc/h (64.359 - 71.134 cMpc/h)
+2025-03-06 12:37:35,136 - INFO - 🔹 Loading data...
+2025-03-06 12:42:43,173 - INFO - ✅ Time taken to load all chunks: 308.04s
+2025-03-06 12:42:45,608 - INFO - Combined data shape: (516133431, 3)
+2025-03-06 12:43:32,718 - INFO - Data statistics per column:
+ Mean: [4260.5713 8521.143  8521.143 ]
+ Median: [ 67745.58  102553.38  102436.664]
+ Min: [64358.89     0.       0.  ]
+ Max: [ 71133.51 205000.   205000.  ]
+2025-03-06 12:43:32,718 - INFO - Projection axis 0 data range: min: 64358.890625, max: 71133.5078125
+2025-03-06 12:43:37,241 - INFO - ✅ Data loaded successfully. Shape: (516133431, 3)
+2025-03-06 12:43:37,241 - INFO - 🔹 Computing 2D histogram and generating image plot...
+2025-03-06 12:43:43,256 - INFO - ✅ PNG file saved: /caefs/user/mmingyeong/structura/Structura/src/results/20250306_124341_xRange10_projAxis0_srate1_bins500_scalelog10_colorcividis.png
+2025-03-06 12:43:43,257 - INFO - ✅ PDF file saved: /caefs/user/mmingyeong/structura/Structura/src/results/20250306_124341_xRange10_projAxis0_srate1_bins500_scalelog10_colorcividis.pdf
+2025-03-06 12:43:43,257 - INFO - ✅ JSON file saved: /caefs/user/mmingyeong/structura/Structura/src/results/20250306_124341_xRange10_projAxis0_srate1_bins500_scalelog10_colorcividis_metadata.json
+2025-03-06 12:43:43,257 - INFO - ⏳ Total execution time: 00:06:08 (368.12 seconds)
+2025-03-06 12:43:43,257 - INFO - ✅ Plot generated successfully!

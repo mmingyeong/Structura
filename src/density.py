@@ -7,8 +7,8 @@
 # structura/density.py
 
 import cupy as cp
-import numpy as np
 from config import DEFAULT_GRID_SIZE
+
 
 class DensityCalculator:
     """Computes density fields from 3D particle distributions."""
@@ -26,11 +26,13 @@ class DensityCalculator:
 
     def grid_density(self, positions):
         """Computes a grid-based density field using CuPy for acceleration."""
-        grid = cp.zeros((self.grid_size, self.grid_size, self.grid_size), dtype=cp.float32)
+        grid = cp.zeros(
+            (self.grid_size, self.grid_size, self.grid_size), dtype=cp.float32
+        )
         norm_positions = (positions / positions.max()) * (self.grid_size - 1)
         indices = norm_positions.astype(cp.int32)
 
         for x, y, z in indices:
             grid[x, y, z] += 1
-        
+
         return grid

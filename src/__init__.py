@@ -6,7 +6,9 @@
 # @Filename: __init__.py
 
 """
-Structura: A Python library for analyzing and visualizing the large-scale structure of the universe.
+Structura: A Python Library for Analyzing and Visualizing the Large-Scale Structure of the Universe.
+
+This package comprises a suite of modules designed for cosmological research, including configuration settings, data loading, density calculation, visualization, and simulation data conversion. It provides robust tools for the quantitative analysis and graphical representation of cosmic structures.
 """
 
 __version__ = "0.1.0"
@@ -16,7 +18,7 @@ from .data_loader import DataLoader
 from .density import DensityCalculator
 from .visualization import Visualizer
 from .utils import set_x_range
-from .convert import SimulationDataConverter  # ✅ 추가
+from .convert import SimulationDataConverter
 
 __all__ = [
     "LBOX_CMPCH",
@@ -27,5 +29,5 @@ __all__ = [
     "DensityCalculator",
     "Visualizer",
     "set_x_range",
-    "SimulationDataConverter",  # ✅ 여기도 추가
+    "SimulationDataConverter",  # Included in the public API.
 ]
