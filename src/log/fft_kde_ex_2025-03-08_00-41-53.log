@@ -1,0 +1,3 @@
+2025-03-08 00:41:53,751 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-08 00:41:54,155 - INFO - FFTKDE 객체 생성: grid_bounds={'x': (0, 100), 'y': (0, 100), 'z': (0, 100)}, grid_spacing=(1, 1, 1), h=1.000
+2025-03-08 00:41:54,312 - INFO - FFT 기반 커널 밀도 추정 완료. (히스토그램 shape: (100, 100, 100))

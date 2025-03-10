@@ -1,0 +1,13 @@
+2025-03-10 14:56:14,478 - DEBUG - Using GPU device 1.
+2025-03-10 14:56:14,480 - DEBUG - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-10 14:56:14,480 - DEBUG - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 14:56:14,481 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-10 14:56:14,481 - DEBUG - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-10 14:56:14,481 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-10 14:56:14,981 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 14:56:14,981 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-10 14:56:14,982 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-10 14:56:14,982 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-10 14:56:14,983 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-10 14:56:14,983 - INFO - Loading data...
+2025-03-10 14:56:26,202 - INFO - Using Dask distributed client with 60 workers.

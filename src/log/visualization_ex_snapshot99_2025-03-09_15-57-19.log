@@ -1,0 +1,96 @@
+2025-03-09 15:57:23,323 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,324 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,325 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,325 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,325 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,326 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,371 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,372 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,373 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,373 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,373 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,373 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,448 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,449 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,449 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,449 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,450 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,450 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,460 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,461 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,462 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,462 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,462 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,463 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,510 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,511 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,512 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,512 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,512 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,512 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,590 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,590 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,591 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,591 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,592 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,592 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,602 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,604 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,604 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,604 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,605 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,605 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,675 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,676 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,676 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,677 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,677 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,677 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,690 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,691 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,692 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,692 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,692 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,693 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,807 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,808 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,809 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,809 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,810 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,810 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,852 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,853 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,853 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,853 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,854 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,854 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:23,967 - INFO - Using GPU device 1.
+2025-03-09 15:57:23,968 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,968 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:23,968 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:23,969 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:23,969 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:24,006 - INFO - Using GPU device 1.
+2025-03-09 15:57:24,007 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,007 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:24,007 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:24,007 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,007 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:24,017 - INFO - Using GPU device 1.
+2025-03-09 15:57:24,018 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,018 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:24,018 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:24,018 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,018 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:24,041 - INFO - Using GPU device 1.
+2025-03-09 15:57:24,041 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,041 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:24,041 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:24,042 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,042 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:57:24,047 - INFO - Using GPU device 1.
+2025-03-09 15:57:24,047 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,047 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:57:24,047 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:57:24,047 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:57:24,047 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs

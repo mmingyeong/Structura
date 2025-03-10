@@ -1,0 +1,21 @@
+2025-03-10 14:46:23,112 - INFO - Using GPU device 1.
+2025-03-10 14:46:23,115 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-10 14:46:23,116 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 14:46:23,116 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-10 14:46:23,116 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-10 14:46:23,116 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-10 14:46:24,475 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 14:46:24,475 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-10 14:46:24,478 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-10 14:46:24,478 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-10 14:46:24,479 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-10 14:46:24,479 - INFO - Loading data...
+2025-03-10 14:46:38,049 - INFO - Using Dask distributed client with 60 workers.
+2025-03-10 14:52:50,433 - ERROR - Error in a Dask task: Attempted to run task 'lambda-8fe4c240-8ab0-4e4a-afcf-cd0c663f28d4' on 4 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://127.0.0.1:31134. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.
+2025-03-10 14:52:54,013 - INFO - Time elapsed for loading all data chunks: 389.53 seconds
+2025-03-10 14:53:00,232 - INFO - Combined data shape: (590050998, 3)
+2025-03-10 14:53:02,147 - INFO - Selected GPU 4 with free memory 84732674048 bytes.
+2025-03-10 14:53:12,481 - DEBUG - Loaded data shape: (590050998, 3)
+2025-03-10 14:53:12,482 - INFO - Data loaded successfully.
+2025-03-10 14:53:12,482 - INFO - Total execution time: 00:06:48 (408.01 seconds)
+2025-03-10 14:53:12,482 - INFO - Plot generation (if enabled) completed successfully.

@@ -1,0 +1,36 @@
+2025-03-09 15:06:38,223 - INFO - Using GPU device 1.
+2025-03-09 15:06:38,225 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:06:38,225 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:06:38,225 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:06:38,225 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:06:38,225 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:06:38,226 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:06:38,226 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:06:38,227 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:06:38,227 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:06:38,227 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:06:38,227 - INFO - Loading data...
+2025-03-09 15:06:57,141 - INFO - Batch 1/6: CPU usage = 0.0%, memory usage = 88.1%, throughput = 0.28 tasks/sec, current workers = 48
+2025-03-09 15:06:57,141 - WARNING - Unable to monitor GPU memory usage: module 'cupy.cuda.memory' has no attribute 'get_info'
+2025-03-09 15:07:03,427 - INFO - Batch 2/6: CPU usage = 0.3%, memory usage = 88.1%, throughput = 0.95 tasks/sec, current workers = 48
+2025-03-09 15:07:03,428 - WARNING - Unable to monitor GPU memory usage: module 'cupy.cuda.memory' has no attribute 'get_info'
+2025-03-09 15:07:21,768 - INFO - Batch 3/6: CPU usage = 0.0%, memory usage = 88.1%, throughput = 0.29 tasks/sec, current workers = 48
+2025-03-09 15:07:21,768 - WARNING - Unable to monitor GPU memory usage: module 'cupy.cuda.memory' has no attribute 'get_info'
+2025-03-09 15:07:33,455 - INFO - Batch 4/6: CPU usage = 0.0%, memory usage = 88.2%, throughput = 0.47 tasks/sec, current workers = 48
+2025-03-09 15:07:33,456 - WARNING - Unable to monitor GPU memory usage: module 'cupy.cuda.memory' has no attribute 'get_info'
+2025-03-09 15:07:41,762 - INFO - Batch 5/6: CPU usage = 0.0%, memory usage = 88.2%, throughput = 0.68 tasks/sec, current workers = 48
+2025-03-09 15:07:41,763 - WARNING - Unable to monitor GPU memory usage: module 'cupy.cuda.memory' has no attribute 'get_info'
+2025-03-09 15:07:48,820 - INFO - Batch 6/6: CPU usage = 0.1%, memory usage = 88.2%, throughput = 0.83 tasks/sec, current workers = 48
+2025-03-09 15:07:48,820 - WARNING - Unable to monitor GPU memory usage: module 'cupy.cuda.memory' has no attribute 'get_info'
+2025-03-09 15:07:48,820 - INFO - Time elapsed for loading all data chunks: 70.59 seconds
+2025-03-09 15:07:57,378 - INFO - Combined data shape: (33178048, 3)
+2025-03-09 15:08:11,349 - INFO - Data statistics per column:
+  Mean: [105.22121415  88.30739951  98.74438458]
+  Median: [105.59593033  76.75813341 105.4041747 ]
+  Minimum: [1.00000001e+02 6.95434415e-01 1.46158535e-03]
+  Maximum: [109.99999955 203.20403474 198.54628412]
+2025-03-09 15:08:11,349 - INFO - Projection axis 0 range: min = 100.00000099213804, max = 109.99999954707825
+2025-03-09 15:08:12,128 - DEBUG - Loaded data shape: (33178048, 3)
+2025-03-09 15:08:12,129 - INFO - Data loaded successfully.
+2025-03-09 15:08:12,129 - INFO - Total execution time: 00:01:33 (93.90 seconds)
+2025-03-09 15:08:12,129 - INFO - Plot generated successfully.

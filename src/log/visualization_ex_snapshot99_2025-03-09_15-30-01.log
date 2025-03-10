@@ -1,0 +1,348 @@
+2025-03-09 15:30:01,746 - INFO - Using GPU device 1.
+2025-03-09 15:30:01,748 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:01,748 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:01,748 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:01,748 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:01,748 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:02,355 - INFO - Using GPU device 1.
+2025-03-09 15:30:02,356 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:02,357 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:02,357 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:02,357 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:02,357 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:02,508 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:02,508 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:02,509 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:02,509 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:02,509 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:02,509 - INFO - Loading data...
+2025-03-09 15:30:03,298 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:03,298 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:03,299 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:03,299 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:03,300 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:03,300 - INFO - Loading data...
+2025-03-09 15:30:03,951 - INFO - Using GPU device 1.
+2025-03-09 15:30:03,952 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:03,952 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:03,952 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:03,952 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:03,952 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:04,219 - INFO - Using GPU device 1.
+2025-03-09 15:30:04,223 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,223 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,223 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:04,224 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,224 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:04,359 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,359 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:04,360 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:04,360 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:04,360 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:04,360 - INFO - Loading data...
+2025-03-09 15:30:04,482 - INFO - Using GPU device 1.
+2025-03-09 15:30:04,483 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,483 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,483 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:04,483 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,483 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:04,523 - INFO - Using GPU device 1.
+2025-03-09 15:30:04,524 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,524 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,524 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:04,524 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,524 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:04,671 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,672 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:04,672 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:04,672 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:04,673 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:04,673 - INFO - Loading data...
+2025-03-09 15:30:04,884 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,884 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:04,885 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:04,885 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:04,885 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:04,885 - INFO - Loading data...
+2025-03-09 15:30:04,903 - INFO - Using GPU device 1.
+2025-03-09 15:30:04,903 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,904 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,904 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:04,904 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:04,904 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:04,930 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:04,930 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:04,930 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:04,931 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:04,931 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:04,931 - INFO - Loading data...
+2025-03-09 15:30:05,129 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,130 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,130 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,130 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,130 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,130 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,277 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,278 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,278 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,278 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,279 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,279 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,329 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,330 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,330 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,330 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,330 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,330 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,342 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,342 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,343 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,343 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,343 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,343 - INFO - Loading data...
+2025-03-09 15:30:05,426 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,427 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,427 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,427 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,427 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,427 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,480 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,480 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,480 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,480 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,480 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,481 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,487 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,487 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,487 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,488 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,488 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,488 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,498 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,498 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,498 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,498 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,498 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,499 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,548 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,549 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,549 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,549 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,550 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,550 - INFO - Loading data...
+2025-03-09 15:30:05,578 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,579 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,579 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,579 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,579 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,579 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,602 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,603 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,603 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,603 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,603 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,603 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,623 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,624 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,624 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,624 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,624 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,624 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,697 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,698 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,698 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,698 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,698 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,698 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,708 - INFO - Using GPU device 1.
+2025-03-09 15:30:05,709 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,709 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,709 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:05,709 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:05,709 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:05,723 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,724 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,724 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,724 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,724 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,724 - INFO - Loading data...
+2025-03-09 15:30:05,752 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,752 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,753 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,753 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,753 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,753 - INFO - Loading data...
+2025-03-09 15:30:05,877 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,878 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,878 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,878 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,878 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,878 - INFO - Loading data...
+2025-03-09 15:30:05,907 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,907 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,908 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,908 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,908 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,908 - INFO - Loading data...
+2025-03-09 15:30:05,942 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:05,942 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:05,943 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:05,943 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:05,943 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:05,943 - INFO - Loading data...
+2025-03-09 15:30:06,008 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,008 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,009 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,009 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,009 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,009 - INFO - Loading data...
+2025-03-09 15:30:06,010 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,010 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,011 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,011 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,011 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,012 - INFO - Loading data...
+2025-03-09 15:30:06,065 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,066 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,066 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,066 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,066 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,066 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,076 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,076 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,079 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,079 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,079 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,079 - INFO - Loading data...
+2025-03-09 15:30:06,117 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,118 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,118 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,118 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,118 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,118 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,158 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,159 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,159 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,159 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,159 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,159 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,162 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,163 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,163 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,163 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,164 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,164 - INFO - Loading data...
+2025-03-09 15:30:06,169 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,169 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,170 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,170 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,170 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,170 - INFO - Loading data...
+2025-03-09 15:30:06,194 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,194 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,195 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,195 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,195 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,195 - INFO - Loading data...
+2025-03-09 15:30:06,309 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,309 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,310 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,310 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,310 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,310 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,326 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,326 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,326 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,326 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,327 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,327 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,378 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,378 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,378 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,378 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,379 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,379 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,386 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,386 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,386 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,387 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,387 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,387 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,389 - INFO - Using GPU device 1.
+2025-03-09 15:30:06,389 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,389 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,389 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:06,390 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:06,390 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:06,548 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,548 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,549 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,549 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,549 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,549 - INFO - Loading data...
+2025-03-09 15:30:06,674 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,674 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,675 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,675 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,675 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,676 - INFO - Loading data...
+2025-03-09 15:30:06,678 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,678 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,679 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,679 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,679 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,679 - INFO - Loading data...
+2025-03-09 15:30:06,744 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,744 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,745 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,745 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,745 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,745 - INFO - Loading data...
+2025-03-09 15:30:06,854 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,854 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,855 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,855 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,855 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,855 - INFO - Loading data...
+2025-03-09 15:30:06,862 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,863 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,863 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,863 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,863 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,863 - INFO - Loading data...
+2025-03-09 15:30:06,867 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,867 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,867 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,868 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,868 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,868 - INFO - Loading data...
+2025-03-09 15:30:06,884 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:06,884 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:06,885 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:06,885 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:06,886 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:06,886 - INFO - Loading data...
+2025-03-09 15:30:09,344 - INFO - Using GPU device 1.
+2025-03-09 15:30:09,345 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:09,345 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:09,345 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:09,345 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:09,345 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:09,764 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:09,764 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:09,765 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:09,765 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:09,765 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:09,765 - INFO - Loading data...
+2025-03-09 15:30:11,198 - INFO - Using GPU device 1.
+2025-03-09 15:30:11,198 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:11,198 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:11,198 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:30:11,198 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:30:11,198 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:30:11,623 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:30:11,623 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:30:11,624 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:30:11,624 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:30:11,624 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:30:11,624 - INFO - Loading data...

@@ -1,0 +1,17 @@
+2025-03-09 12:04:49,970 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-09 12:04:54,701 - INFO - Using GPU device 1.
+2025-03-09 12:04:54,702 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 12:04:54,702 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 12:04:54,702 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 12:04:54,702 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 12:04:54,702 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 12:04:54,703 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 12:04:54,703 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 12:04:54,703 - INFO - 전체 Snapshot99 데이터를 로드합니다...
+2025-03-09 12:04:54,704 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 96, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 35, in main
+    positions = loader.load_all_chunks(sampling_rate=1)
+TypeError: DataLoader.load_all_chunks() got an unexpected keyword argument 'sampling_rate'

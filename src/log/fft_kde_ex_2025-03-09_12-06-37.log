@@ -1,0 +1,23 @@
+2025-03-09 12:06:38,305 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-09 12:06:39,051 - INFO - Using GPU device 1.
+2025-03-09 12:06:39,052 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 12:06:39,052 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 12:06:39,052 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 12:06:39,052 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 12:06:39,052 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 12:06:39,052 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 12:06:39,053 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 12:06:39,053 - INFO - 전체 Snapshot99 데이터를 로드합니다...
+2025-03-09 12:06:39,855 - INFO - 🚀 Using GPU 4 for processing.
+2025-03-09 12:37:16,750 - INFO - ✅ Time taken to load all chunks: 1837.69s
+2025-03-09 12:37:16,759 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 96, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 35, in main
+    positions = loader.load_all_chunks()
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 156, in load_all_chunks
+    combined_np = np.vstack(filtered_chunks)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/shape_base.py", line 289, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 348. GiB for an array with shape (15573227461, 3) and data type float64

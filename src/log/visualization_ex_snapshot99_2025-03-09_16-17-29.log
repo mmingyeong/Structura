@@ -1,0 +1,60 @@
+2025-03-09 16:17:30,759 - INFO - Using GPU device 1.
+2025-03-09 16:17:30,760 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 16:17:30,760 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 16:17:30,761 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 16:17:30,761 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 16:17:30,761 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 16:17:31,645 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 16:17:31,645 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 16:17:31,647 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 16:17:31,647 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 16:17:31,647 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 16:17:31,648 - INFO - Loading data...
+2025-03-09 16:17:45,100 - INFO - Using Dask distributed client with 60 workers.
+2025-03-09 16:35:44,492 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/serialize.py", line 519, in merge_and_deserialize
+    merged = merge_memoryviews(subframes)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/utils.py", line 202, in merge_memoryviews
+    raise ValueError(
+ValueError: 1: memoryview has different buffer: array([167, 113, 228, ..., 155,  89,  64], dtype=uint8) vs array([ 24, 254, 240, ..., 175,  70,  64], dtype=uint8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex_snapshot99.py", line 134, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex_snapshot99.py", line 64, in main
+    positions = loader.load_all_chunks(x_min=x_min, x_max=x_max, sampling_rate=sampling_rate, workers=60)
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 230, in load_all_chunks
+    batch_results.append(future.result())
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py", line 401, in result
+    return self.client.sync(self._result, callback_timeout=timeout)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils_comm.py", line 416, in retry_operation
+    return await retry(
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils_comm.py", line 395, in retry
+    return await coro()
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/core.py", line 1259, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in read
+    msg = await from_frames(
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/comm/utils.py", line 76, in from_frames
+    res = await offload(_from_frames)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/comm/utils.py", line 61, in _from_frames
+    return protocol.loads(
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/core.py", line 175, in loads
+    return msgpack.loads(
+  File "msgpack/_unpacker.pyx", line 194, in msgpack._cmsgpack.unpackb
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/core.py", line 159, in _decode_default
+    return merge_and_deserialize(
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/serialize.py", line 521, in merge_and_deserialize
+    merged = host_array_from_buffers(subframes)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/utils.py", line 41, in host_array_from_buffers
+    out = host_array(sum(mv.nbytes for mv in mvs))
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/utils.py", line 29, in host_array
+    return numpy.empty((n,), dtype="u1").data
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 219. MiB for an array with shape (230002536,) and data type uint8

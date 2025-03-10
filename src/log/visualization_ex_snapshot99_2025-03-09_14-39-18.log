@@ -1,0 +1,66 @@
+2025-03-09 14:39:22,744 - INFO - Using GPU device 1.
+2025-03-09 14:39:22,746 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 14:39:22,746 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 14:39:22,747 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 14:39:22,747 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 14:39:22,747 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 14:39:22,747 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 14:39:22,748 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 14:39:22,750 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 14:39:22,750 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 14:39:22,751 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 14:39:22,751 - INFO - Loading data...
+2025-03-09 14:39:52,134 - INFO - Time elapsed for loading all data chunks: 29.38 seconds
+2025-03-09 14:40:06,096 - INFO - Combined data shape: (9103045, 3)
+2025-03-09 14:40:15,637 - INFO - Data statistics per column:
+  Mean: [104.8921152   89.59273655 126.95262893]
+  Median: [105.69232887  73.53681775 130.93317457]
+  Minimum: [100.00000131   1.23222299  11.10595842]
+  Maximum: [109.91155572 198.17876894 197.63858762]
+2025-03-09 14:40:15,638 - INFO - Projection axis 0 range: min = 100.00000131474339, max = 109.91155572315279
+2025-03-09 14:40:17,651 - DEBUG - Loaded data shape: (9103045, 3)
+2025-03-09 14:40:17,651 - INFO - Data loaded successfully.
+2025-03-09 14:40:17,651 - INFO - Computing 2D histogram and generating image plot...
+2025-03-09 14:40:17,651 - DEBUG - Initializing Visualizer. GPU usage: True
+2025-03-09 14:40:17,652 - DEBUG - Visualizer initialization complete.
+2025-03-09 14:40:17,652 - DEBUG - Starting compute_2d_histogram: data shape=(9103045, 3), projection axis=0, scale=log10
+2025-03-09 14:40:17,652 - DEBUG - Selected axes: axis1=1, axis2=2
+2025-03-09 14:40:18,392 - DEBUG - Converting arrays based on GPU usage: use_gpu=True
+2025-03-09 14:40:19,602 - DEBUG - Computed data min/max values: x_min=1.232223, x_max=198.178769, y_min=11.105958, y_max=197.638588
+2025-03-09 14:40:19,603 - DEBUG - Histogram bin counts: bins_x=410, bins_y=410
+2025-03-09 14:40:19,604 - DEBUG - Bin edges successfully generated.
+2025-03-09 14:40:19,604 - DEBUG - Total number of data points: 9103045
+2025-03-09 14:40:19,604 - DEBUG - Processing data chunk: start=0, end=1000000
+2025-03-09 14:40:29,611 - DEBUG - Processing data chunk: start=1000000, end=2000000
+2025-03-09 14:40:29,616 - DEBUG - Processing data chunk: start=2000000, end=3000000
+2025-03-09 14:40:29,619 - DEBUG - Processing data chunk: start=3000000, end=4000000
+2025-03-09 14:40:29,622 - DEBUG - Processing data chunk: start=4000000, end=5000000
+2025-03-09 14:40:29,625 - DEBUG - Processing data chunk: start=5000000, end=6000000
+2025-03-09 14:40:29,628 - DEBUG - Processing data chunk: start=6000000, end=7000000
+2025-03-09 14:40:30,387 - DEBUG - Processing data chunk: start=7000000, end=8000000
+2025-03-09 14:40:30,391 - DEBUG - Processing data chunk: start=8000000, end=9000000
+2025-03-09 14:40:30,394 - DEBUG - Processing data chunk: start=9000000, end=9103045
+2025-03-09 14:40:30,397 - DEBUG - Accumulated histogram over all chunks complete.
+2025-03-09 14:40:30,930 - DEBUG - Scale transformation (log10) applied successfully.
+2025-03-09 14:40:30,931 - DEBUG - Starting create_image_plot: title=2D_Histogram_log10_0.5cMpc_h_bin, results folder=/caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 14:40:30,934 - DEBUG - Bin resolution: x=0.480357, y=0.454958
+2025-03-09 14:40:30,934 - DEBUG - File name prefix: 2D_Histogram_log10_0.5cMpc_h_bin
+2025-03-09 14:40:30,934 - DEBUG - Annotation text created successfully.
+2025-03-09 14:40:31,011 - DEBUG - Plot created successfully.
+2025-03-09 14:40:31,043 - DEBUG - Attempting to save file: format=PNG, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:40:31,043 - DEBUG - Initiating file save: format=PNG, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:40:31,665 - DEBUG - File saved in PNG format successfully.
+2025-03-09 14:40:31,665 - DEBUG - File saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:40:31,665 - DEBUG - Attempting to save file: format=PDF, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:40:31,665 - DEBUG - Initiating file save: format=PDF, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:40:32,706 - DEBUG - File saved in PDF format successfully.
+2025-03-09 14:40:32,706 - DEBUG - File saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:40:32,706 - DEBUG - Plot closed successfully.
+2025-03-09 14:40:32,711 - DEBUG - Metadata JSON file saved successfully: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin_metadata.json
+2025-03-09 14:40:32,711 - DEBUG - create_image_plot completed. Saved files: {'PNG': '/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png', 'PDF': '/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf', 'JSON': '/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin_metadata.json'}
+2025-03-09 14:40:32,711 - INFO - PNG file saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:40:32,711 - INFO - PDF file saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:40:32,711 - INFO - JSON file saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin_metadata.json
+2025-03-09 14:40:32,711 - INFO - Processing for scale 'log10' completed successfully.
+2025-03-09 14:40:32,711 - INFO - Total execution time: 00:01:09 (69.96 seconds)
+2025-03-09 14:40:32,711 - INFO - Plot generated successfully.

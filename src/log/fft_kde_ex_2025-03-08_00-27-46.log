@@ -1,0 +1,28 @@
+2025-03-08 00:27:47,331 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 18, in <module>
+    from fft_kde import FFTKDE
+  File "/caefs/user/mmingyeong/structura/Structura/src/fft_kde.py", line 23, in <module>
+    import cupy as cp
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupy/__init__.py", line 30, in <module>
+    import cupyx as _cupyx  # NOQA
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/__init__.py", line 8, in <module>
+    from cupyx import linalg  # NOQA
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/linalg/__init__.py", line 2, in <module>
+    from cupyx.linalg import sparse  # NOQA
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/linalg/sparse/__init__.py", line 3, in <module>
+    from cupyx.linalg.sparse._solve import lschol  # NOQA
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/linalg/sparse/_solve.py", line 6, in <module>
+    from cupyx.scipy import sparse
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/scipy/__init__.py", line 4, in <module>
+    from cupyx.scipy.sparse._base import spmatrix as _spmatrix
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/scipy/sparse/__init__.py", line 1, in <module>
+    from cupyx.scipy.sparse._base import issparse  # NOQA
+  File "/home/users/mmingyeong/.conda/envs/new310/lib/python3.10/site-packages/cupyx/scipy/sparse/_base.py", line 10, in <module>
+    import scipy.sparse as _sparse
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/scipy/sparse/__init__.py", line 276, in <module>
+    from ._lil import *
+  File "/home/users/mmingyeong/.local/lib/python3.10/site-packages/scipy/sparse/_lil.py", line 17, in <module>
+    from . import _csparsetools
+  File "scipy/sparse/_csparsetools.pyx", line 1, in init _csparsetools
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject

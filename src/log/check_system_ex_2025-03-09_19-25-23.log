@@ -1,0 +1,17 @@
+2025-03-09 19:25:26,582 - INFO - Starting system check (SystemChecker last updated: 2025-03-09)
+2025-03-09 19:25:26,603 - INFO - Environment analysis based on SystemChecker update: 2025-03-09
+2025-03-09 19:25:26,603 - WARNING - Python 3.10.16 is outdated. Upgrade to Python 3.9+ is recommended.
+2025-03-09 19:25:26,603 - WARNING - PyTorch is not installed. Consider installing it for deep learning applications.
+2025-03-09 19:25:26,603 - INFO - Python Version: 3.10.16
+2025-03-09 19:25:26,603 - INFO - NumPy Version: 1.26.4
+2025-03-09 19:25:26,603 - INFO - CuPy Version: 13.4.0
+2025-03-09 19:25:26,603 - INFO - PyTorch Version: Not Installed
+2025-03-09 19:25:26,604 - INFO - Running system check...
+2025-03-09 19:25:26,604 - INFO - GPU 0: Quadro RTX 5000 (15.75 GB, 48 CUDA cores, 1.81 GHz)
+2025-03-09 19:25:26,604 - WARNING - Recommended GPU upgrade: NVIDIA H100
+2025-03-09 19:25:26,604 - INFO - CPU Cores: 96
+2025-03-09 19:25:26,604 - INFO - Total RAM: 376.58 GB
+2025-03-09 19:25:26,604 - INFO - GPU Usage Enabled: True
+2025-03-09 19:25:26,604 - INFO - System check complete.
+2025-03-09 19:25:26,604 - INFO - GPU is available. Computation will be accelerated.
+2025-03-09 19:25:26,604 - INFO - System check completed in 00:00:00 (0.02 seconds).

@@ -95,3 +95,56 @@
   - Reviewed and updated code to comply with `ruff` linter standards.
   - Upgraded project compatibility to Python 3.10.
   - Added documentation badges to the project README for improved visibility.
+
+
+## **[2025-03-10] - 🚀 Major Update: Optimized Data Loading with Dask (Structura 0.3.0)**
+### 🎯 Key Features
+
+#### **🔹 DataLoader**
+- **🚀 Transition to Dask for Parallel Processing**:
+  - Replaced `ProcessPoolExecutor` with **Dask** for distributed and efficient parallel processing.
+  - Implemented `dask.delayed`, `dask.compute`, and `dask.distributed.Client` to enhance scalability.
+  - Added **real-time task monitoring** using `as_completed` and `tqdm` for tracking execution progress.
+  - Optimized Dask worker configuration (`heartbeat_interval`, `timeout`) for stability.
+
+- **⚡ Optimized Batch & Task Grouping**:
+  - Introduced `BATCH_SIZE = 5` (previously unbatched individual file processing).
+  - Implemented `GROUP_SIZE = 2` to **reduce scheduling overhead** and minimize input dependency size.
+  - Developed `group_tasks()` function to efficiently merge Dask tasks and optimize execution.
+
+- **🎯 Intelligent GPU Selection**:
+  - Introduced `get_least_used_gpu()` function to **automatically select the GPU with the most available memory**.
+  - Cached GPU memory status (`_gpu_memory_cache`) with a **5-second refresh interval** to reduce unnecessary queries.
+  - Implemented `cupy.cuda.runtime.memGetInfo()` for **real-time GPU memory tracking**.
+
+- **🛠️ Improved Memory Management**:
+  - Adopted `np.load(..., mmap_mode="r")` to **minimize memory overhead** and avoid unnecessary copies.
+  - Enhanced garbage collection (`gc.collect()`) throughout the pipeline for efficient resource cleanup.
+
+- **📊 Statistical Insights (Optional)**:
+  - Introduced `statistics=True` flag to conditionally compute **mean, median, min, and max** across dataset columns.
+  - Added **projection axis range logging** for better debugging of filtered datasets.
+
+#### **🔹 Enhanced Error Handling & Logging**
+- **🔎 Robust File Type Validation**:
+  - Removed `.npz` support to enforce `.npy` usage (prevent unexpected data structure issues).
+  - Early validation to prevent processing of unsupported file formats.
+  
+- **⚠️ Detailed Exception Handling**:
+  - Added `MemoryError` handling during `np.concatenate()` to avoid crashes on large datasets.
+  - Implemented more descriptive `logger.error()` messages for file loading failures and Dask task errors.
+
+- **🖥️ Improved Execution Logging**:
+  - Added **total execution time tracking** for dataset processing.
+  - Displayed **real-time batch loading progress** using `tqdm` and `ProgressBar`.
+
+#### **🔹 Optimized Data Concatenation & GPU Processing**
+- **🔄 Efficient Data Merging**:
+  - Switched from `np.vstack()` to `np.concatenate()` for **better memory efficiency**.
+  - Implemented memory-efficient chunk processing to prevent crashes on large datasets.
+
+- **🔥 GPU Acceleration Improvements**:
+  - Implemented `cp.cuda.Device(gpu_id).use()` to **explicitly allocate selected GPU** before processing.
+  - Ensured seamless transition between **NumPy (CPU) and CuPy (GPU) processing** based on `use_gpu` flag.
+
+---

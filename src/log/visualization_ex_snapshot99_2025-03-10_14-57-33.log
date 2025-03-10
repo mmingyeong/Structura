@@ -1,0 +1,5 @@
+2025-03-10 14:57:34,156 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-10 14:57:34,158 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-10 14:57:34,626 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 14:57:34,626 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-10 14:57:34,627 - INFO - Loading data...

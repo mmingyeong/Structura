@@ -19,6 +19,8 @@ from .density import DensityCalculator
 from .visualization import Visualizer
 from .utils import set_x_range
 from .convert import SimulationDataConverter
+from .kernel import KernelFunctions
+from .save_density_map import save_density_map, save_parameters_info
 
 __all__ = [
     "LBOX_CMPCH",
@@ -30,4 +32,7 @@ __all__ = [
     "Visualizer",
     "set_x_range",
     "SimulationDataConverter",  # Included in the public API.
+    "KernelFunctions",
+    "save_density_map",
+    "save_parameters_info"
 ]

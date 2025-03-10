@@ -1,0 +1,12 @@
+2025-03-08 13:51:31,572 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-08 13:51:32,309 - INFO - Using GPU device 1.
+2025-03-08 13:51:32,310 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-08 13:51:32,310 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-08 13:51:32,310 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-08 13:51:32,310 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-08 13:51:32,310 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-08 13:51:32,572 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-08 13:51:32,572 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-08 13:51:32,572 - INFO - 전체 Snapshot99 데이터를 로드합니다...
+2025-03-08 13:51:33,133 - INFO - Time elapsed for initiating data loading (lazy): 0.56 seconds
+2025-03-08 13:51:33,133 - INFO - Combined Dask array shape (lazy): (nan, 3)

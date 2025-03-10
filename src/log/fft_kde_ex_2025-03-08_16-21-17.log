@@ -1,0 +1,47 @@
+2025-03-08 16:21:20,497 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-08 16:21:22,501 - INFO - Using GPU device 1.
+2025-03-08 16:21:22,502 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-08 16:21:22,503 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-08 16:21:22,504 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-08 16:21:22,504 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-08 16:21:22,504 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-08 16:21:22,506 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-08 16:21:22,506 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-08 16:21:22,506 - INFO - 전체 Snapshot99 데이터를 로드합니다...
+2025-03-08 17:02:11,650 - ERROR - Unhandled exception occurred:
+concurrent.futures.process._RemoteTraceback: 
+'''
+Traceback (most recent call last):
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/process.py", line 392, in wait_result_broken_or_wakeup
+    result_item = result_reader.recv()
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/connection.py", line 421, in _recv_bytes
+    return self._recv(size)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/connection.py", line 386, in _recv
+    buf.write(chunk)
+MemoryError
+'''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 96, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 35, in main
+    positions = loader.load_all_chunks(sampling_rate=1)
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 139, in load_all_chunks
+    for chunk in tqdm(
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/process.py", line 575, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+concurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.

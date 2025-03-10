@@ -1,0 +1,14 @@
+2025-03-09 13:39:23,754 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-09 13:39:25,561 - INFO - Using GPU device 1.
+2025-03-09 13:39:25,561 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 13:39:25,561 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 13:39:25,561 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 13:39:25,561 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 13:39:25,562 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 13:39:25,562 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 19, in <module>
+    from data_loader import DataLoader
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 16, in <module>
+    from config import clear_gpu_memory, get_least_used_gpu
+ImportError: cannot import name 'get_least_used_gpu' from 'config' (/caefs/user/mmingyeong/structura/Structura/src/config.py)

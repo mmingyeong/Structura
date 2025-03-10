@@ -2,95 +2,198 @@
 # -*- coding: utf-8 -*-
 #
 # @Author: Mingyeong Yang (mmingyeong@kasi.re.kr)
-# @Date: 2025-02-28
+# @Date: 2025-03-28
 # @Filename: data_loader.py
 # structura/data_loader.py
 
 import os
+import time
+import gc
 import numpy as np
 import cupy as cp
-import time
-from tqdm import tqdm
-from concurrent.futures import ProcessPoolExecutor
 from logger import logger
-from config import clear_gpu_memory
+
+# Dask 관련 모듈 import
+from dask import delayed, compute
+try:
+    from dask.distributed import Client, as_completed
+except ImportError:
+    Client = None
+from dask.diagnostics import ProgressBar  # 진행 상황 표시
+from tqdm import tqdm
+import dask.config  # Dask 설정 조정을 위해 임포트
+
+# GPU 캐시 유효 기간 (초)
+GPU_CACHE_VALID_PERIOD = 5
+_gpu_memory_cache = {}
+
+# 배치 처리에 사용할 batch size (예: 5로 축소)
+BATCH_SIZE = 5
+# 그룹화 크기를 줄여서 한 태스크당 input dependency 크기를 낮춥니다 (예: 2)
+GROUP_SIZE = 2
 
 
-def load_chunk_worker(args):
+def get_least_used_gpu() -> int:
     """
-    Load a single data chunk using memory mapping, with optional filtering along a specified projection axis and sampling.
+    현재 가장 여유 메모리가 많은 GPU를 선택합니다.
+    
+    Returns
+    -------
+    int
+        가장 free memory가 큰 GPU device ID.
+    """
+    global _gpu_memory_cache
+    try:
+        current_time = time.time()
+        if _gpu_memory_cache.get("timestamp", 0) + GPU_CACHE_VALID_PERIOD > current_time:
+            return _gpu_memory_cache.get("best_device", 0)
 
+        num_devices = cp.cuda.runtime.getDeviceCount()
+        best_device = 0
+        best_free = 0
+        for i in range(num_devices):
+            with cp.cuda.Device(i):
+                free, total = cp.cuda.runtime.memGetInfo()
+                if free > best_free:
+                    best_free = free
+                    best_device = i
+        logger.info(f"Selected GPU {best_device} with free memory {best_free} bytes.")
+        _gpu_memory_cache = {"best_device": best_device, "timestamp": current_time}
+        return best_device
+    except Exception as e:
+        logger.warning(f"Failed to get least used GPU: {e}. Defaulting to GPU 0.")
+        return 0
+
+
+def load_chunk_worker(file_path, x_min, x_max, sampling_rate, projection_axis):
+    """
+    단일 파일에 대해 데이터를 로딩, 필터링, 샘플링하고 메모리 복사를 수행합니다.
+    
     Parameters
     ----------
-    args : tuple
-        A tuple containing:
-            file_path (str): Path to the .npy or .npz file.
-            x_min (float or None): Minimum value for filtering.
-            x_max (float or None): Maximum value for filtering.
-            sampling_rate (float): Fraction of data to sample (0.0 < sampling_rate <= 1.0). A value of 1.0 indicates no sampling.
-            projection_axis (int): Column index used for filtering.
-
+    file_path : str
+        .npy 파일 경로.
+    x_min : float or None
+        필터링용 최소값.
+    x_max : float or None
+        필터링용 최대값.
+    sampling_rate : float
+        샘플링 비율 (0.0 < sampling_rate <= 1.0).
+    projection_axis : int
+        필터링에 사용될 열 인덱스.
+    
     Returns
     -------
     np.ndarray or None
-        The filtered and sampled data as a NumPy array, or None if the file could not be loaded.
+        처리된 NumPy 배열, 또는 오류 발생 시 None.
     """
-    file_path, x_min, x_max, sampling_rate, projection_axis = args
     try:
-        # Load the file using memory mapping (for .npy) or full loading (for .npz).
-        if file_path.endswith(".npz"):
-            data_cpu = np.load(file_path)["data"]
-        elif file_path.endswith(".npy"):
-            data_cpu = np.load(file_path, mmap_mode="r")
-        else:
+        if not file_path.endswith(".npy"):
             logger.warning(f"Skipping unsupported file format: {file_path}")
             return None
 
-        # Apply filtering based on the specified projection axis.
+        # 메모리 맵 모드를 사용하여 불필요한 메모리 복사를 줄임
+        data_cpu = np.load(file_path, mmap_mode="r")
         if x_min is not None and x_max is not None:
             data_cpu = data_cpu[
-                (data_cpu[:, projection_axis] >= x_min)
-                & (data_cpu[:, projection_axis] <= x_max)
+                (data_cpu[:, projection_axis] >= x_min) &
+                (data_cpu[:, projection_axis] <= x_max)
             ]
-
-        # Apply sampling if a sampling rate less than 1.0 is specified.
         if 0.0 < sampling_rate < 1.0:
             num_samples = int(len(data_cpu) * sampling_rate)
             if num_samples < len(data_cpu):
-                data_cpu = data_cpu[
-                    np.random.choice(len(data_cpu), num_samples, replace=False)
-                ]
-
-        # Convert memory-mapped array to a standard NumPy array.
-        data_cpu = np.copy(data_cpu)
-        return data_cpu
-
-    except KeyError:
-        logger.error(
-            f"Key 'data' not found in {file_path}. This may occur with .npz files using a different key. Skipping file."
-        )
-        return None
+                indices = np.random.choice(len(data_cpu), num_samples, replace=False)
+                data_cpu = data_cpu[indices]
+        result = np.copy(data_cpu)
+        del data_cpu
+        gc.collect()
+        return result
     except Exception as e:
         logger.error(f"Unexpected error while loading {file_path}: {e}")
         return None
 
 
+def load_batch_worker(file_paths, x_min, x_max, sampling_rate, projection_axis):
+    """
+    여러 파일을 한 번에 로딩하는 배치 작업 함수.
+    
+    Parameters
+    ----------
+    file_paths : list of str
+        로딩할 .npy 파일 경로 리스트.
+    x_min : float or None
+        필터링용 최소값.
+    x_max : float or None
+        필터링용 최대값.
+    sampling_rate : float
+        샘플링 비율.
+    projection_axis : int
+        필터링에 사용될 열 인덱스.
+    
+    Returns
+    -------
+    list of np.ndarray
+        각 파일에서 로딩된 데이터 배열의 리스트 (오류 발생한 파일은 제외).
+    """
+    batch_results = []
+    for file_path in file_paths:
+        result = load_chunk_worker(file_path, x_min, x_max, sampling_rate, projection_axis)
+        if result is not None:
+            batch_results.append(result)
+    gc.collect()
+    return batch_results
+
+
+def get_initial_workers() -> int:
+    """
+    사용 가능한 CPU 코어 수의 절반을 사용하여 초기 worker 수를 결정합니다.
+    
+    Returns
+    -------
+    int
+        초기 worker 수.
+    """
+    cpu_count = os.cpu_count() or 1
+    return max(1, cpu_count // 2)
+
+
+def group_tasks(tasks, group_size):
+    """
+    여러 delayed 태스크를 지정한 크기로 그룹화하여 하나의 태스크로 합칩니다.
+    
+    Parameters
+    ----------
+    tasks : list
+        delayed 태스크 리스트.
+    group_size : int
+        그룹 당 태스크 개수.
+        
+    Returns
+    -------
+    list
+        그룹화된 delayed 태스크 리스트.
+    """
+    grouped = []
+    for i in range(0, len(tasks), group_size):
+        group = tasks[i:i+group_size]
+        # 각 그룹 내 결과들을 flatten하는 람다 함수를 사용합니다.
+        grouped_task = delayed(lambda results: [item for sublist in results for item in sublist])(group)
+        grouped.append(grouped_task)
+    return grouped
+
+
 class DataLoader:
     """
-    Class for loading and processing TNG300-1 dark matter simulation data from .npz or .npy files.
-
-    The class supports filtering data along a specified projection axis and optional random sampling,
-    with support for GPU-accelerated processing using CuPy.
-
+    .npy 파일로부터 TNG300-1 dark matter simulation 데이터를 로딩 및 처리합니다.
+    필터링 및 샘플링 옵션을 제공하며, 최종 결합 결과는 CuPy 또는 NumPy 배열로 반환됩니다.
+    
     Parameters
     ----------
     folder_path : str
-        Path to the directory containing .npz or .npy files.
+        .npy 파일들이 있는 디렉토리 경로.
     use_gpu : bool, optional
-        If True, the final combined array is converted to a CuPy array for GPU processing;
-        otherwise, a NumPy array is returned. Default is True.
+        True이면 최종 배열을 CuPy 배열로 변환하여 GPU 처리. Default는 True.
     """
-
     def __init__(self, folder_path: str, use_gpu: bool = True) -> None:
         self.folder_path = folder_path
         self.use_gpu = use_gpu
@@ -101,84 +204,99 @@ class DataLoader:
         x_max: float = None,
         sampling_rate: float = 1.0,
         projection_axis: int = 0,
+        workers: int = None,  # 명시적 worker 수, None이면 기본값 사용
+        statistics: bool = False,
     ):
         """
-        Load and combine all data chunks (.npz or .npy files) in the specified folder using process-based parallel processing.
-
-        Optional filtering along a specified projection axis and random sampling can be applied.
-
+        폴더 내의 모든 .npy 파일을 로딩하고 필터링/샘플링 후 하나의 배열로 결합합니다.
+        
         Parameters
         ----------
         x_min : float, optional
-            Minimum value for filtering data along the projection axis.
+            필터링용 최소 값.
         x_max : float, optional
-            Maximum value for filtering data along the projection axis.
+            필터링용 최대 값.
         sampling_rate : float, optional
-            Fraction of data to sample (0.0 < sampling_rate <= 1.0). A value of 1.0 indicates no sampling.
+            샘플링 비율 (0.0 < sampling_rate <= 1.0).
         projection_axis : int, optional
-            Column index used for filtering the data. Default is 0.
-
+            필터링에 사용될 열 인덱스.
+        workers : int, optional
+            사용될 worker 수.
+        statistics : bool, optional
+            True이면 로딩된 데이터 통계 정보를 출력.
+        
         Returns
         -------
         cupy.ndarray or numpy.ndarray
-            A combined array containing all the filtered and sampled data chunks.
-            If 'use_gpu' is True, the data is returned as a CuPy array; otherwise, as a NumPy array.
+            결합된 데이터 배열 (use_gpu가 True이면 CuPy 배열).
         """
-        # Identify all .npz or .npy files in the specified folder.
-        file_list = sorted(
-            [
-                os.path.join(self.folder_path, f)
-                for f in os.listdir(self.folder_path)
-                if f.endswith(".npz") or f.endswith(".npy")
-            ]
-        )
-
+        file_list = sorted([
+            os.path.join(self.folder_path, f)
+            for f in os.listdir(self.folder_path)
+            if f.endswith(".npy")
+        ])
+        print(f"Total number of files: {len(file_list)}")
         if not file_list:
-            logger.error(
-                f"No .npz or .npy files found in {self.folder_path}. Terminating data loading process."
-            )
-            exit(1)
+            logger.error(f"No .npy files found in {self.folder_path}. Terminating data loading process.")
+            raise RuntimeError("No .npy files found in the specified folder.")
 
         start_time = time.time()
-        filtered_chunks = []
 
-        # Prepare the list of arguments for parallel processing.
-        args_list = [
-            (f, x_min, x_max, sampling_rate, projection_axis) for f in file_list
+        # 파일들을 BATCH_SIZE 크기로 배치 생성
+        batches = [file_list[i:i+BATCH_SIZE] for i in range(0, len(file_list), BATCH_SIZE)]
+        # 각 배치에 대해 delayed 태스크 생성
+        delayed_tasks = [
+            delayed(load_batch_worker)(batch, x_min, x_max, sampling_rate, projection_axis)
+            for batch in batches
         ]
+        # GROUP_SIZE 만큼 태스크를 병합하여 스케줄러 오버헤드 완화
+        grouped_tasks = group_tasks(delayed_tasks, GROUP_SIZE)
 
-        # Use process-based parallelism to bypass the Global Interpreter Lock (GIL).
-        with ProcessPoolExecutor(max_workers=4) as executor:
-            for chunk in tqdm(
-                executor.map(load_chunk_worker, args_list),
-                desc="Loading data chunks",
-                total=len(args_list),
-            ):
-                if chunk is not None:
-                    filtered_chunks.append(chunk)
-                    # Periodically clear GPU memory if necessary.
-                    if len(filtered_chunks) % 1000 == 0:
-                        clear_gpu_memory()
+        # Dask Client를 활용한 병렬 처리 및 progress bar 표시
+        filtered_chunks = []
+        if Client is not None:
+            if workers is None:
+                workers = get_initial_workers()
+            with Client(n_workers=workers, threads_per_worker=1, memory_limit="4GB", dashboard_address=":8788") as client:
+                dask.config.set({
+                    "distributed.worker.heartbeat_interval": "1s",
+                    "distributed.worker.timeout": "60s"
+                })
+                logger.info(f"Using Dask distributed client with {workers} workers.")
+                futures = client.compute(grouped_tasks)
+                # as_completed와 tqdm으로 진행 상황 출력
+                with tqdm(total=len(futures), desc="Loading batches") as pbar:
+                    for future in as_completed(futures):
+                        try:
+                            result = future.result()
+                            filtered_chunks.extend(result)
+                        except Exception as e:
+                            logger.error(f"Error in a Dask task: {e}")
+                        pbar.update(1)
+                client.cancel(futures)
+        else:
+            logger.info("Dask distributed client not available. Using default scheduler.")
+            with ProgressBar():
+                batch_results_grouped = compute(*grouped_tasks)
+            for group in batch_results_grouped:
+                filtered_chunks.extend(group)
 
         if not filtered_chunks:
-            logger.error(
-                "No valid data chunks were loaded. Terminating data loading process."
-            )
-            exit(1)
+            logger.error("No valid data chunks were loaded. Terminating data loading process.")
+            raise RuntimeError("No valid data chunks were loaded.")
 
         total_time = time.time() - start_time
-        logger.info(
-            f"Time elapsed for loading all data chunks: {total_time:.2f} seconds"
-        )
+        logger.info(f"Time elapsed for loading all data chunks: {total_time:.2f} seconds")
 
-        # Combine all chunks into a single contiguous array.
-        combined_np = np.vstack(
-            [np.ascontiguousarray(chunk) for chunk in filtered_chunks]
-        )
+        try:
+            combined_np = np.concatenate(filtered_chunks, axis=0)
+        except MemoryError as me:
+            logger.error(f"MemoryError during data concatenation: {me}")
+            raise
 
-        # Log combined data information and statistics.
         logger.info(f"Combined data shape: {combined_np.shape}")
-        if combined_np.shape[0] > 0:
+
+        if statistics:
             try:
                 data_mean = np.mean(combined_np, axis=0)
                 data_median = np.median(combined_np, axis=0)
@@ -192,16 +310,21 @@ class DataLoader:
                     f"  Maximum: {data_max}"
                 )
                 logger.info(
-                    f"Projection axis {projection_axis} range: min = {data_min[projection_axis]}, max = {data_max[projection_axis]}"
+                    f"Projection axis {projection_axis} range: min = {data_min[projection_axis]}, "
+                    f"max = {data_max[projection_axis]}"
                 )
             except Exception as e:
                 logger.warning(f"Unable to compute detailed data statistics: {e}")
-        else:
-            logger.error(
-                "No data available after filtering. Please verify the filtering parameters or input files."
-            )
+
+        del filtered_chunks
+        gc.collect()
 
         if self.use_gpu:
-            return cp.asarray(combined_np)
+            gpu_id = get_least_used_gpu()
+            cp.cuda.Device(gpu_id).use()
+            gpu_data = cp.asarray(combined_np)
+            del combined_np
+            gc.collect()
+            return gpu_data
         else:
             return combined_np

@@ -1,0 +1,175 @@
+2025-03-09 14:41:13,196 - INFO - Using GPU device 1.
+2025-03-09 14:41:13,198 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 14:41:13,199 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 14:41:13,199 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 14:41:13,199 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 14:41:13,199 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 14:41:13,200 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 14:41:13,201 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 14:41:13,203 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 14:41:13,203 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 14:41:13,203 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 14:41:13,203 - INFO - Loading data...
+2025-03-09 14:44:33,333 - INFO - Time elapsed for loading all data chunks: 200.12 seconds
+2025-03-09 14:44:56,623 - INFO - Combined data shape: (118168098, 3)
+2025-03-09 14:45:36,515 - INFO - Data statistics per column:
+  Mean: [105.15504515  95.4583636  102.99899623]
+  Median: [105.36837633  87.7586374  107.8847058 ]
+  Minimum: [1.00000000e+02 3.46211999e-06 4.16655210e-06]
+  Maximum: [109.99999998 204.99999361 204.99999689]
+2025-03-09 14:45:36,515 - INFO - Projection axis 0 range: min = 100.00000007959888, max = 109.99999997542723
+2025-03-09 14:46:13,906 - DEBUG - Loaded data shape: (118168098, 3)
+2025-03-09 14:46:13,906 - INFO - Data loaded successfully.
+2025-03-09 14:46:13,906 - INFO - Computing 2D histogram and generating image plot...
+2025-03-09 14:46:13,906 - DEBUG - Initializing Visualizer. GPU usage: True
+2025-03-09 14:46:13,906 - DEBUG - Visualizer initialization complete.
+2025-03-09 14:46:13,907 - DEBUG - Starting compute_2d_histogram: data shape=(118168098, 3), projection axis=0, scale=log10
+2025-03-09 14:46:13,907 - DEBUG - Selected axes: axis1=1, axis2=2
+2025-03-09 14:46:14,509 - DEBUG - Converting arrays based on GPU usage: use_gpu=True
+2025-03-09 14:46:15,800 - DEBUG - Computed data min/max values: x_min=0.000003, x_max=204.999994, y_min=0.000004, y_max=204.999997
+2025-03-09 14:46:15,800 - DEBUG - Histogram bin counts: bins_x=410, bins_y=410
+2025-03-09 14:46:15,801 - DEBUG - Bin edges successfully generated.
+2025-03-09 14:46:15,805 - DEBUG - Total number of data points: 118168098
+2025-03-09 14:46:15,805 - DEBUG - Processing data chunk: start=0, end=1000000
+2025-03-09 14:46:16,466 - DEBUG - Processing data chunk: start=1000000, end=2000000
+2025-03-09 14:46:16,468 - DEBUG - Processing data chunk: start=2000000, end=3000000
+2025-03-09 14:46:16,469 - DEBUG - Processing data chunk: start=3000000, end=4000000
+2025-03-09 14:46:16,471 - DEBUG - Processing data chunk: start=4000000, end=5000000
+2025-03-09 14:46:16,472 - DEBUG - Processing data chunk: start=5000000, end=6000000
+2025-03-09 14:46:16,474 - DEBUG - Processing data chunk: start=6000000, end=7000000
+2025-03-09 14:46:16,475 - DEBUG - Processing data chunk: start=7000000, end=8000000
+2025-03-09 14:46:16,477 - DEBUG - Processing data chunk: start=8000000, end=9000000
+2025-03-09 14:46:16,479 - DEBUG - Processing data chunk: start=9000000, end=10000000
+2025-03-09 14:46:16,480 - DEBUG - Processing data chunk: start=10000000, end=11000000
+2025-03-09 14:46:16,482 - DEBUG - Processing data chunk: start=11000000, end=12000000
+2025-03-09 14:46:16,483 - DEBUG - Processing data chunk: start=12000000, end=13000000
+2025-03-09 14:46:16,485 - DEBUG - Processing data chunk: start=13000000, end=14000000
+2025-03-09 14:46:16,486 - DEBUG - Processing data chunk: start=14000000, end=15000000
+2025-03-09 14:46:16,487 - DEBUG - Processing data chunk: start=15000000, end=16000000
+2025-03-09 14:46:16,489 - DEBUG - Processing data chunk: start=16000000, end=17000000
+2025-03-09 14:46:16,490 - DEBUG - Processing data chunk: start=17000000, end=18000000
+2025-03-09 14:46:16,492 - DEBUG - Processing data chunk: start=18000000, end=19000000
+2025-03-09 14:46:16,493 - DEBUG - Processing data chunk: start=19000000, end=20000000
+2025-03-09 14:46:16,495 - DEBUG - Processing data chunk: start=20000000, end=21000000
+2025-03-09 14:46:16,496 - DEBUG - Processing data chunk: start=21000000, end=22000000
+2025-03-09 14:46:16,498 - DEBUG - Processing data chunk: start=22000000, end=23000000
+2025-03-09 14:46:16,499 - DEBUG - Processing data chunk: start=23000000, end=24000000
+2025-03-09 14:46:16,501 - DEBUG - Processing data chunk: start=24000000, end=25000000
+2025-03-09 14:46:16,502 - DEBUG - Processing data chunk: start=25000000, end=26000000
+2025-03-09 14:46:16,504 - DEBUG - Processing data chunk: start=26000000, end=27000000
+2025-03-09 14:46:16,505 - DEBUG - Processing data chunk: start=27000000, end=28000000
+2025-03-09 14:46:16,507 - DEBUG - Processing data chunk: start=28000000, end=29000000
+2025-03-09 14:46:16,508 - DEBUG - Processing data chunk: start=29000000, end=30000000
+2025-03-09 14:46:16,510 - DEBUG - Processing data chunk: start=30000000, end=31000000
+2025-03-09 14:46:16,511 - DEBUG - Processing data chunk: start=31000000, end=32000000
+2025-03-09 14:46:16,513 - DEBUG - Processing data chunk: start=32000000, end=33000000
+2025-03-09 14:46:16,514 - DEBUG - Processing data chunk: start=33000000, end=34000000
+2025-03-09 14:46:16,516 - DEBUG - Processing data chunk: start=34000000, end=35000000
+2025-03-09 14:46:16,517 - DEBUG - Processing data chunk: start=35000000, end=36000000
+2025-03-09 14:46:16,518 - DEBUG - Processing data chunk: start=36000000, end=37000000
+2025-03-09 14:46:16,520 - DEBUG - Processing data chunk: start=37000000, end=38000000
+2025-03-09 14:46:16,521 - DEBUG - Processing data chunk: start=38000000, end=39000000
+2025-03-09 14:46:16,523 - DEBUG - Processing data chunk: start=39000000, end=40000000
+2025-03-09 14:46:16,524 - DEBUG - Processing data chunk: start=40000000, end=41000000
+2025-03-09 14:46:16,526 - DEBUG - Processing data chunk: start=41000000, end=42000000
+2025-03-09 14:46:16,527 - DEBUG - Processing data chunk: start=42000000, end=43000000
+2025-03-09 14:46:16,529 - DEBUG - Processing data chunk: start=43000000, end=44000000
+2025-03-09 14:46:16,530 - DEBUG - Processing data chunk: start=44000000, end=45000000
+2025-03-09 14:46:16,531 - DEBUG - Processing data chunk: start=45000000, end=46000000
+2025-03-09 14:46:16,533 - DEBUG - Processing data chunk: start=46000000, end=47000000
+2025-03-09 14:46:16,534 - DEBUG - Processing data chunk: start=47000000, end=48000000
+2025-03-09 14:46:16,536 - DEBUG - Processing data chunk: start=48000000, end=49000000
+2025-03-09 14:46:16,537 - DEBUG - Processing data chunk: start=49000000, end=50000000
+2025-03-09 14:46:16,539 - DEBUG - Processing data chunk: start=50000000, end=51000000
+2025-03-09 14:46:16,540 - DEBUG - Processing data chunk: start=51000000, end=52000000
+2025-03-09 14:46:16,542 - DEBUG - Processing data chunk: start=52000000, end=53000000
+2025-03-09 14:46:16,543 - DEBUG - Processing data chunk: start=53000000, end=54000000
+2025-03-09 14:46:16,544 - DEBUG - Processing data chunk: start=54000000, end=55000000
+2025-03-09 14:46:16,546 - DEBUG - Processing data chunk: start=55000000, end=56000000
+2025-03-09 14:46:16,547 - DEBUG - Processing data chunk: start=56000000, end=57000000
+2025-03-09 14:46:16,549 - DEBUG - Processing data chunk: start=57000000, end=58000000
+2025-03-09 14:46:16,550 - DEBUG - Processing data chunk: start=58000000, end=59000000
+2025-03-09 14:46:16,552 - DEBUG - Processing data chunk: start=59000000, end=60000000
+2025-03-09 14:46:16,553 - DEBUG - Processing data chunk: start=60000000, end=61000000
+2025-03-09 14:46:16,555 - DEBUG - Processing data chunk: start=61000000, end=62000000
+2025-03-09 14:46:16,556 - DEBUG - Processing data chunk: start=62000000, end=63000000
+2025-03-09 14:46:16,558 - DEBUG - Processing data chunk: start=63000000, end=64000000
+2025-03-09 14:46:16,559 - DEBUG - Processing data chunk: start=64000000, end=65000000
+2025-03-09 14:46:16,561 - DEBUG - Processing data chunk: start=65000000, end=66000000
+2025-03-09 14:46:16,562 - DEBUG - Processing data chunk: start=66000000, end=67000000
+2025-03-09 14:46:16,563 - DEBUG - Processing data chunk: start=67000000, end=68000000
+2025-03-09 14:46:16,565 - DEBUG - Processing data chunk: start=68000000, end=69000000
+2025-03-09 14:46:16,566 - DEBUG - Processing data chunk: start=69000000, end=70000000
+2025-03-09 14:46:16,568 - DEBUG - Processing data chunk: start=70000000, end=71000000
+2025-03-09 14:46:16,569 - DEBUG - Processing data chunk: start=71000000, end=72000000
+2025-03-09 14:46:16,571 - DEBUG - Processing data chunk: start=72000000, end=73000000
+2025-03-09 14:46:16,572 - DEBUG - Processing data chunk: start=73000000, end=74000000
+2025-03-09 14:46:16,574 - DEBUG - Processing data chunk: start=74000000, end=75000000
+2025-03-09 14:46:16,575 - DEBUG - Processing data chunk: start=75000000, end=76000000
+2025-03-09 14:46:16,576 - DEBUG - Processing data chunk: start=76000000, end=77000000
+2025-03-09 14:46:16,578 - DEBUG - Processing data chunk: start=77000000, end=78000000
+2025-03-09 14:46:16,579 - DEBUG - Processing data chunk: start=78000000, end=79000000
+2025-03-09 14:46:16,581 - DEBUG - Processing data chunk: start=79000000, end=80000000
+2025-03-09 14:46:16,582 - DEBUG - Processing data chunk: start=80000000, end=81000000
+2025-03-09 14:46:16,584 - DEBUG - Processing data chunk: start=81000000, end=82000000
+2025-03-09 14:46:16,585 - DEBUG - Processing data chunk: start=82000000, end=83000000
+2025-03-09 14:46:16,587 - DEBUG - Processing data chunk: start=83000000, end=84000000
+2025-03-09 14:46:16,588 - DEBUG - Processing data chunk: start=84000000, end=85000000
+2025-03-09 14:46:16,590 - DEBUG - Processing data chunk: start=85000000, end=86000000
+2025-03-09 14:46:16,591 - DEBUG - Processing data chunk: start=86000000, end=87000000
+2025-03-09 14:46:16,593 - DEBUG - Processing data chunk: start=87000000, end=88000000
+2025-03-09 14:46:16,594 - DEBUG - Processing data chunk: start=88000000, end=89000000
+2025-03-09 14:46:16,595 - DEBUG - Processing data chunk: start=89000000, end=90000000
+2025-03-09 14:46:16,597 - DEBUG - Processing data chunk: start=90000000, end=91000000
+2025-03-09 14:46:16,598 - DEBUG - Processing data chunk: start=91000000, end=92000000
+2025-03-09 14:46:16,600 - DEBUG - Processing data chunk: start=92000000, end=93000000
+2025-03-09 14:46:16,601 - DEBUG - Processing data chunk: start=93000000, end=94000000
+2025-03-09 14:46:16,603 - DEBUG - Processing data chunk: start=94000000, end=95000000
+2025-03-09 14:46:16,611 - DEBUG - Processing data chunk: start=95000000, end=96000000
+2025-03-09 14:46:16,614 - DEBUG - Processing data chunk: start=96000000, end=97000000
+2025-03-09 14:46:16,618 - DEBUG - Processing data chunk: start=97000000, end=98000000
+2025-03-09 14:46:16,620 - DEBUG - Processing data chunk: start=98000000, end=99000000
+2025-03-09 14:46:16,623 - DEBUG - Processing data chunk: start=99000000, end=100000000
+2025-03-09 14:46:16,625 - DEBUG - Processing data chunk: start=100000000, end=101000000
+2025-03-09 14:46:16,627 - DEBUG - Processing data chunk: start=101000000, end=102000000
+2025-03-09 14:46:16,629 - DEBUG - Processing data chunk: start=102000000, end=103000000
+2025-03-09 14:46:16,631 - DEBUG - Processing data chunk: start=103000000, end=104000000
+2025-03-09 14:46:16,632 - DEBUG - Processing data chunk: start=104000000, end=105000000
+2025-03-09 14:46:16,634 - DEBUG - Processing data chunk: start=105000000, end=106000000
+2025-03-09 14:46:16,636 - DEBUG - Processing data chunk: start=106000000, end=107000000
+2025-03-09 14:46:16,637 - DEBUG - Processing data chunk: start=107000000, end=108000000
+2025-03-09 14:46:16,639 - DEBUG - Processing data chunk: start=108000000, end=109000000
+2025-03-09 14:46:16,640 - DEBUG - Processing data chunk: start=109000000, end=110000000
+2025-03-09 14:46:16,642 - DEBUG - Processing data chunk: start=110000000, end=111000000
+2025-03-09 14:46:16,643 - DEBUG - Processing data chunk: start=111000000, end=112000000
+2025-03-09 14:46:16,645 - DEBUG - Processing data chunk: start=112000000, end=113000000
+2025-03-09 14:46:16,646 - DEBUG - Processing data chunk: start=113000000, end=114000000
+2025-03-09 14:46:16,648 - DEBUG - Processing data chunk: start=114000000, end=115000000
+2025-03-09 14:46:16,649 - DEBUG - Processing data chunk: start=115000000, end=116000000
+2025-03-09 14:46:16,650 - DEBUG - Processing data chunk: start=116000000, end=117000000
+2025-03-09 14:46:16,652 - DEBUG - Processing data chunk: start=117000000, end=118000000
+2025-03-09 14:46:16,653 - DEBUG - Processing data chunk: start=118000000, end=118168098
+2025-03-09 14:46:16,655 - DEBUG - Accumulated histogram over all chunks complete.
+2025-03-09 14:46:16,661 - DEBUG - Scale transformation (log10) applied successfully.
+2025-03-09 14:46:16,662 - DEBUG - Starting create_image_plot: title=2D_Histogram_log10_0.5cMpc_h_bin, results folder=/caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 14:46:16,662 - DEBUG - Bin resolution: x=0.500000, y=0.500000
+2025-03-09 14:46:16,662 - DEBUG - File name prefix: 2D_Histogram_log10_0.5cMpc_h_bin
+2025-03-09 14:46:16,663 - DEBUG - Annotation text created successfully.
+2025-03-09 14:46:16,687 - DEBUG - Plot created successfully.
+2025-03-09 14:46:16,700 - DEBUG - Attempting to save file: format=PNG, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:46:16,700 - DEBUG - Initiating file save: format=PNG, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:46:17,241 - DEBUG - File saved in PNG format successfully.
+2025-03-09 14:46:17,241 - DEBUG - File saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:46:17,241 - DEBUG - Attempting to save file: format=PDF, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:46:17,241 - DEBUG - Initiating file save: format=PDF, path=/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:46:17,895 - DEBUG - File saved in PDF format successfully.
+2025-03-09 14:46:17,895 - DEBUG - File saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:46:17,895 - DEBUG - Plot closed successfully.
+2025-03-09 14:46:17,900 - DEBUG - Metadata JSON file saved successfully: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin_metadata.json
+2025-03-09 14:46:17,900 - DEBUG - create_image_plot completed. Saved files: {'PNG': '/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png', 'PDF': '/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf', 'JSON': '/caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin_metadata.json'}
+2025-03-09 14:46:17,900 - INFO - PNG file saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.png
+2025-03-09 14:46:17,900 - INFO - PDF file saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin.pdf
+2025-03-09 14:46:17,900 - INFO - JSON file saved: /caefs/user/mmingyeong/structura/Structura/src/results/2D_Histogram_log10_0.5cMpc_h_bin_metadata.json
+2025-03-09 14:46:17,900 - INFO - Processing for scale 'log10' completed successfully.
+2025-03-09 14:46:17,900 - INFO - Total execution time: 00:05:04 (304.70 seconds)
+2025-03-09 14:46:17,900 - INFO - Plot generated successfully.

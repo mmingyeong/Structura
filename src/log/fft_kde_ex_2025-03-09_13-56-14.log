@@ -1,0 +1,12 @@
+2025-03-09 13:56:16,338 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-09 13:56:18,219 - INFO - Using GPU device 1.
+2025-03-09 13:56:18,219 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 13:56:18,219 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 13:56:18,219 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 13:56:18,219 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 13:56:18,219 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 13:56:18,220 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 13:56:18,220 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 13:56:18,223 - INFO - 선택된 파일들: ['/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.0.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.1.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.10.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.100.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.101.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.102.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.103.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.105.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.106.npy', '/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache/snapshot-99.107.npy']
+2025-03-09 13:56:18,223 - INFO - 전체 Snapshot99 데이터를 로드합니다...
+2025-03-09 13:56:18,224 - INFO - 사용할 워커 수 (최대 16개): 16

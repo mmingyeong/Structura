@@ -1,8 +1,8 @@
 
-numpy
 h5py
 tqdm
 psutil
 pyyaml
 matplotlib
 ruff
+numba

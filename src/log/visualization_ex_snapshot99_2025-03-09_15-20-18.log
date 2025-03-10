@@ -1,0 +1,36 @@
+2025-03-09 15:20:19,515 - INFO - Using GPU device 1.
+2025-03-09 15:20:19,517 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:20:19,517 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:20:19,517 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:20:19,517 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:20:19,517 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:20:19,518 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:20:19,518 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:20:19,520 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:20:19,520 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:20:19,521 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:20:19,521 - INFO - Loading data...
+2025-03-09 15:20:19,524 - INFO - Using fixed worker count: 48
+2025-03-09 15:20:46,246 - INFO - Batch 1/6: CPU usage = 0.0%, memory usage = 88.1%, throughput = 0.19 tasks/sec, current workers = 48
+2025-03-09 15:21:00,749 - INFO - Batch 2/6: CPU usage = 0.1%, memory usage = 88.1%, throughput = 0.37 tasks/sec, current workers = 48
+2025-03-09 15:21:16,819 - INFO - Batch 3/6: CPU usage = 0.0%, memory usage = 88.1%, throughput = 0.33 tasks/sec, current workers = 48
+2025-03-09 15:21:33,458 - INFO - Batch 4/6: CPU usage = 0.0%, memory usage = 88.2%, throughput = 0.32 tasks/sec, current workers = 48
+2025-03-09 15:21:38,538 - INFO - Batch 5/6: CPU usage = 0.0%, memory usage = 88.2%, throughput = 1.23 tasks/sec, current workers = 48
+2025-03-09 15:21:55,164 - INFO - Batch 6/6: CPU usage = 0.0%, memory usage = 88.2%, throughput = 0.32 tasks/sec, current workers = 48
+2025-03-09 15:21:55,165 - INFO - Time elapsed for loading all data chunks: 95.64 seconds
+2025-03-09 15:22:40,394 - INFO - Combined data shape: (33178048, 3)
+2025-03-09 15:23:06,942 - INFO - Data statistics per column:
+  Mean: [105.22121415  88.30739951  98.74438458]
+  Median: [105.59593033  76.75813341 105.4041747 ]
+  Minimum: [1.00000001e+02 6.95434415e-01 1.46158535e-03]
+  Maximum: [109.99999955 203.20403474 198.54628412]
+2025-03-09 15:23:06,942 - INFO - Projection axis 0 range: min = 100.00000099213804, max = 109.99999954707825
+2025-03-09 15:23:06,943 - WARNING - Failed to get least used GPU: module 'cupy.cuda.memory' has no attribute 'get_info'. Defaulting to GPU 0.
+2025-03-09 15:23:06,944 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/visualization_ex_snapshot99.py", line 59, in <module>
+    positions = loader.load_all_chunks(x_min=x_min, x_max=x_max, sampling_rate=sampling_rate, workers=48)
+  File "/caefs/user/mmingyeong/structura/Structura/src/data_loader.py", line 291, in load_all_chunks
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cupy/cuda/__init__.py", line 84, in __getattr__
+    raise AttributeError(
+AttributeError: module 'cupy.cuda' has no attribute 'set_device'

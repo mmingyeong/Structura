@@ -1,0 +1,31 @@
+2025-03-09 15:13:39,053 - INFO - Using GPU device 1.
+2025-03-09 15:13:39,054 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:13:39,055 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:13:39,055 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 15:13:39,055 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 15:13:39,055 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 15:13:39,055 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 15:13:39,055 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 15:13:39,057 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 15:13:39,057 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 15:13:39,058 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 15:13:39,058 - INFO - Loading data...
+2025-03-09 15:13:39,059 - INFO - Using fixed worker count: 24
+2025-03-09 15:13:53,900 - INFO - Batch 1/6: CPU usage = 0.0%, memory usage = 88.0%, throughput = 0.36 tasks/sec, current workers = 24
+2025-03-09 15:14:17,828 - INFO - Batch 2/6: CPU usage = 0.6%, memory usage = 88.1%, throughput = 0.22 tasks/sec, current workers = 24
+2025-03-09 15:14:40,082 - INFO - Batch 3/6: CPU usage = 0.0%, memory usage = 88.1%, throughput = 0.24 tasks/sec, current workers = 24
+2025-03-09 15:14:48,169 - INFO - Batch 4/6: CPU usage = 0.0%, memory usage = 88.2%, throughput = 0.71 tasks/sec, current workers = 24
+2025-03-09 15:15:02,814 - INFO - Batch 5/6: CPU usage = 0.2%, memory usage = 88.2%, throughput = 0.37 tasks/sec, current workers = 24
+2025-03-09 15:15:09,998 - INFO - Batch 6/6: CPU usage = 0.6%, memory usage = 88.2%, throughput = 0.81 tasks/sec, current workers = 24
+2025-03-09 15:15:09,998 - INFO - Time elapsed for loading all data chunks: 90.94 seconds
+2025-03-09 15:15:17,396 - INFO - Combined data shape: (33178048, 3)
+2025-03-09 15:15:30,451 - INFO - Data statistics per column:
+  Mean: [105.22121415  88.30739951  98.74438458]
+  Median: [105.59593033  76.75813341 105.4041747 ]
+  Minimum: [1.00000001e+02 6.95434415e-01 1.46158535e-03]
+  Maximum: [109.99999955 203.20403474 198.54628412]
+2025-03-09 15:15:30,451 - INFO - Projection axis 0 range: min = 100.00000099213804, max = 109.99999954707825
+2025-03-09 15:15:31,174 - DEBUG - Loaded data shape: (33178048, 3)
+2025-03-09 15:15:31,175 - INFO - Data loaded successfully.
+2025-03-09 15:15:31,175 - INFO - Total execution time: 00:01:52 (112.12 seconds)
+2025-03-09 15:15:31,175 - INFO - Plot generated successfully.

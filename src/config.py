@@ -60,7 +60,7 @@ GPU_DEVICE = user_config["GPU_DEVICE"]
 if USE_GPU:
     try:
         cp.cuda.Device(GPU_DEVICE).use()
-        logger.info(f"Using GPU device {GPU_DEVICE}.")
+        logger.debug(f"Using GPU device {GPU_DEVICE}.")
     except cp.cuda.runtime.CUDARuntimeError:
         logger.warning(
             f"GPU device {GPU_DEVICE} not accessible. Falling back to default device."
@@ -78,7 +78,7 @@ for key, path in OUTPUT_DATA_PATHS.items():
         logger.warning(f"Output directory '{key}' does not exist: {path}")
     else:
         if os.access(path, os.W_OK):
-            logger.info(f"Output directory '{key}' is set to: {path}")
+            logger.debug(f"Output directory '{key}' is set to: {path}")
         else:
             logger.error(f"Permission denied: Cannot write to output directory '{key}'")
 

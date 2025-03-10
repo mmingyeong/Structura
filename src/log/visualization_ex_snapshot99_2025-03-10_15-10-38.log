@@ -1,0 +1,12 @@
+2025-03-10 15:10:40,046 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 15:10:40,048 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-10 15:10:40,050 - INFO - Loading data...
+2025-03-10 15:10:51,586 - INFO - Using Dask distributed client with 60 workers.
+2025-03-10 15:15:37,444 - ERROR - Error in a Dask task: Attempted to run task 'load_batch_worker-6e90554b-fa41-4e82-a47c-ad938d857f61' on 4 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://127.0.0.1:8322. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.
+2025-03-10 15:16:14,121 - ERROR - Error in a Dask task: Attempted to run task 'lambda-e62358b9-5bf3-4514-93d4-63962a594fc0' on 4 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://127.0.0.1:4572. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.
+2025-03-10 15:16:18,265 - INFO - Time elapsed for loading all data chunks: 338.21 seconds
+2025-03-10 15:16:33,201 - INFO - Combined data shape: (1059150842, 3)
+2025-03-10 15:16:34,287 - INFO - Selected GPU 4 with free memory 84732674048 bytes.
+2025-03-10 15:16:53,344 - INFO - Data loaded successfully.
+2025-03-10 15:16:53,345 - INFO - Total execution time: 00:06:13 (373.30 seconds)
+2025-03-10 15:16:53,345 - INFO - Plot generation (if enabled) completed successfully.

@@ -31,7 +31,7 @@ INPUT_DATA_PATHS:
 OUTPUT_DATA_PATHS:
   TNG300_ICS: "/caefs/data/IllustrisTNG/300/ICS"
   TNG300_snapshot99: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
-  NPZ: "/path/to/your/output/npz"   # 변환된 .npz 파일 저장 경로
+  #NPZ: "/path/to/your/output/npz"   # 변환된 .npz 파일 저장 경로
   #NPY: "/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache" # z=0
   NPY: "/caefs/data/IllustrisTNG/300/ICS"   # ICS
-  LOGS: "/path/to/your/logs"   # 변환 로그 저장 경로
+  #LOGS: "/path/to/your/logs"   # 변환 로그 저장 경로

@@ -1,0 +1,20 @@
+2025-03-09 16:12:56,859 - INFO - Using GPU device 1.
+2025-03-09 16:12:56,861 - INFO - Output directory 'TNG300_ICS' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 16:12:56,861 - INFO - Output directory 'TNG300_snapshot99' is set to: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 16:12:56,862 - WARNING - Output directory 'NPZ' does not exist: /path/to/your/output/npz
+2025-03-09 16:12:56,862 - INFO - Output directory 'NPY' is set to: /caefs/data/IllustrisTNG/300/ICS
+2025-03-09 16:12:56,862 - WARNING - Output directory 'LOGS' does not exist: /path/to/your/logs
+2025-03-09 16:12:57,357 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-09 16:12:57,357 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results
+2025-03-09 16:12:57,359 - DEBUG - Detected 598 .npy file(s) in the input directory.
+2025-03-09 16:12:57,359 - DEBUG - Example file: snapshot-99.370.npy
+2025-03-09 16:12:57,359 - DEBUG - Filtering range set to: 100.00 - 110.00 cMpc/h (Center: 105.00 cMpc/h, Thickness: 10.00 cMpc/h)
+2025-03-09 16:12:57,359 - INFO - Loading data...
+2025-03-09 16:13:10,824 - INFO - Using Dask distributed client with 60 workers.
+2025-03-09 16:13:26,306 - INFO - Time elapsed for loading all data chunks: 28.94 seconds
+2025-03-09 16:13:26,719 - INFO - Combined data shape: (33178048, 3)
+2025-03-09 16:13:28,182 - INFO - Selected GPU 4 with free memory 84732674048 bytes.
+2025-03-09 16:13:28,834 - DEBUG - Loaded data shape: (33178048, 3)
+2025-03-09 16:13:28,835 - INFO - Data loaded successfully.
+2025-03-09 16:13:28,835 - INFO - Total execution time: 00:00:31 (31.48 seconds)
+2025-03-09 16:13:28,835 - INFO - Plot generated successfully.
