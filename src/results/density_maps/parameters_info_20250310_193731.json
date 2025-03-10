@@ -1,0 +1,31 @@
+{
+    "Calculation Info": {
+        "grid_bounds": {
+            "x": [
+                100,
+                110.0
+            ],
+            "y": [
+                100,
+                110.0
+            ],
+            "z": [
+                100,
+                110.0
+            ]
+        },
+        "grid_spacing": [
+            1,
+            1,
+            1
+        ],
+        "kernel": "gaussian",
+        "used_h": 1.0
+    },
+    "Simulation Info": {
+        "box_size": 205.0,
+        "data_unit": "cMpc/h"
+    },
+    "Paths": {
+        "input_folder": "/caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache",
+        "results_dir": 

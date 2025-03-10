@@ -147,4 +147,32 @@
   - Implemented `cp.cuda.Device(gpu_id).use()` to **explicitly allocate selected GPU** before processing.
   - Ensured seamless transition between **NumPy (CPU) and CuPy (GPU) processing** based on `use_gpu` flag.
 
----
+
+## **[2025-03-10] - 🚀 Major Update: Optimized Density Map Comparison & 2D Testing (Structura 0.4.0)**
+### 🎯 Key Features
+
+#### **🔹 Density Map Comparison & Analysis**
+- **Direct vs. FFT-based Density Calculation Comparison**:
+  - Updated **Density_ex.py** to compute and save density maps using the basic (direct kernel) method.
+  - Updated **Fft_kde_ex.py** to compute and save density maps using the FFT-based approach.
+  - Modified **Plot_density_map.py** to generate figures that visually compare the density maps from both methods.
+  - Integrated numerical metrics such as **RMSE, MAE, and Pearson Correlation** to facilitate detailed quantitative analysis.
+
+#### **🔹 2D Testing Framework**
+- **2D Dataset Generation**:
+  - Developed a new 2D synthetic dataset generation function using inverse transform sampling based on a sine-modulated distribution.
+- **2D Density Map Calculation**:
+  - Created new classes **DensityCalculator2D** and **FFTKDE2D** to perform kernel density estimation in 2D.
+  - This 2D framework significantly reduces memory usage compared to 3D data, enabling faster testing and iterative development.
+- **Visualization Enhancements**:
+  - Added multiple visualization methods including:
+    - Standard imshow-based plots.
+    - pcolormesh-based plots with optional log scaling.
+    - Scatter plots for direct, cell-by-cell density value comparisons.
+  - All figures are saved as high-resolution PNG files to support detailed visual examination.
+
+#### **🔹 Data Loading Improvements**
+- **Cube/Subcube Data Loading**:
+  - Updated the data loading module in **data_load_ex.py** to load and concatenate data from all `.npy` files within a specified cube.
+  - Implemented periodic boundary conditions to seamlessly integrate subcube data for large-scale tests.
+

@@ -1,0 +1,9 @@
+2025-03-10 17:34:53,159 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 17:34:53,163 - INFO - Loading cube data (origin: (190, 190, 190), size: 50)...
+2025-03-10 17:34:53,163 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/data_load_ex.py", line 124, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/data_load_ex.py", line 107, in main
+    cube_positions = loader.load_cube_data(
+TypeError: DataLoader.load_cube_data() missing 1 required positional argument: 'full_length'

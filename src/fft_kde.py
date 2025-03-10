@@ -19,12 +19,12 @@ try:
     import cupy as cp
     GPU_AVAILABLE = True
     if not globals().get("_GPU_LOGGED", False):
-        logger.info("GPU is available. CuPy will be used for FFT.")
+        logger.debug("GPU is available. CuPy will be used for FFT.")
         globals()["_GPU_LOGGED"] = True
 except ImportError:
     GPU_AVAILABLE = False
     if not globals().get("_GPU_LOGGED", False):
-        logger.info("GPU is not available. Falling back to NumPy FFT.")
+        logger.debug("GPU is not available. Falling back to NumPy FFT.")
         globals()["_GPU_LOGGED"] = True
 
 # Dask 및 Numba 임포트 (대규모 데이터 처리를 위해)

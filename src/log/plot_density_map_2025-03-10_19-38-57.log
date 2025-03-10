@@ -1,0 +1,7 @@
+2025-03-10 19:38:57,736 - INFO - 밀도 맵 파일 로드 완료, shape: (10, 10, 10)
+2025-03-10 19:38:57,738 - ERROR - 파라미터 정보 JSON 파일이 존재하지 않습니다: /caefs/user/mmingyeong/structura/Structura/src/results/density_maps/parameters_info.json
+2025-03-10 19:38:57,739 - WARNING - 파라미터 정보 JSON 파일이 없으므로 기본 grid parameters를 사용합니다.
+2025-03-10 19:38:57,739 - INFO - 사용된 grid_bounds: {'x': (0, 205), 'y': (0, 205), 'z': (0, 205)}, grid_spacing: (1, 1, 1)
+2025-03-10 19:38:57,739 - INFO - 선택된 x축 셀 개수: 10
+2025-03-10 19:38:57,740 - ERROR - 오류 발생: boolean index did not match indexed array along dimension 0; dimension is 10 but corresponding boolean dimension is 205
+2025-03-10 19:38:57,740 - INFO - 전체 실행 시간: 0.01초

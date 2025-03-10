@@ -1,0 +1,22 @@
+2025-03-10 19:18:09,290 - INFO - GPU is available. CuPy will be used for FFT.
+2025-03-10 19:18:09,294 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 19:18:09,294 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results/density_maps
+2025-03-10 19:18:09,295 - INFO - Loading subcube data (origin: (100, 100, 100), size: 50, full_length: 205.0)...
+2025-03-10 19:18:17,789 - INFO - Using Dask distributed client with 48 workers.
+2025-03-10 19:23:25,306 - INFO - Time elapsed for loading cube data chunks: 316.01 seconds
+2025-03-10 19:23:26,870 - INFO - Combined cube data shape: (147169025, 3)
+2025-03-10 19:23:26,936 - INFO - Loaded subcube data shape: (147169025, 3)
+2025-03-10 19:23:26,936 - INFO - FFT 기반 밀도 계산을 위한 grid_bounds: {'x': (100, 150.0), 'y': (100, 150.0), 'z': (100, 150.0)}, grid_spacing: (1, 1, 1)
+2025-03-10 19:23:26,936 - INFO - FFTKDE 객체 생성: grid_bounds={'x': (100, 150.0), 'y': (100, 150.0), 'z': (100, 150.0)}, grid_spacing=(1, 1, 1), h=1.000
+2025-03-10 19:23:26,936 - INFO - FFT 기반 커널 밀도 추정 계산 시작...
+2025-03-10 19:23:37,693 - INFO - FFT 기반 커널 밀도 추정 완료. (히스토그램 shape: (50, 50, 50))
+2025-03-10 19:23:37,693 - INFO - FFT 기반 커널 밀도 추정 완료.
+2025-03-10 19:23:37,694 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 122, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py", line 84, in main
+    save_density_map(
+  File "/caefs/user/mmingyeong/structura/Structura/src/save_density_map.py", line 51, in save_density_map
+    base_path = folder.rstrip(os.sep) if folder else ""
+AttributeError: 'PosixPath' object has no attribute 'rstrip'

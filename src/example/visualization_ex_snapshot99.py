@@ -16,7 +16,7 @@ import io
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from data_loader import DataLoader
-from config import RESULTS_DIR, OUTPUT_DATA_PATHS
+from config import IMG_RESULTS_DIR, OUTPUT_DATA_PATHS
 from logger import logger
 
 
@@ -30,7 +30,7 @@ def main():
     # ------------------------------------------------------------------
     npy_folder = OUTPUT_DATA_PATHS["TNG300_snapshot99"]
     logger.info("Input directory (npy): %s", npy_folder)
-    logger.info("Output directory: %s", RESULTS_DIR)
+    logger.info("Output directory: %s", IMG_RESULTS_DIR)
 
     # Verify the presence of .npy files within the input directory.
     if os.path.exists(npy_folder) and os.path.isdir(npy_folder):
@@ -94,7 +94,7 @@ def main():
             hist=hist,
             edges1=edges1,
             edges2=edges2,
-            results_folder=RESULTS_DIR,
+            results_folder=IMG_RESULTS_DIR,
             title=title,
             xlabel=xlabel,
             ylabel=ylabel,
@@ -105,7 +105,7 @@ def main():
             x_min=x_min,
             x_max=x_max,
             input_folder=npy_folder,
-            results_dir=RESULTS_DIR,
+            results_dir=IMG_RESULTS_DIR,
             bins=bins,
             box_size=box_size,
             scale=scale,

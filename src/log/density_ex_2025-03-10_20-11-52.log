@@ -1,0 +1,42 @@
+2025-03-10 20:11:53,965 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 20:11:53,966 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results/density_maps
+2025-03-10 20:11:53,967 - INFO - Loading subcube data (origin: (100, 100, 100), size: 50, full_length: 205.0)...
+2025-03-10 20:12:00,872 - INFO - Using Dask distributed client with 48 workers.
+2025-03-10 20:17:11,264 - INFO - Time elapsed for loading cube data chunks: 317.29 seconds
+2025-03-10 20:17:12,774 - INFO - Combined cube data shape: (147169025, 3)
+2025-03-10 20:17:12,842 - INFO - Loaded subcube data shape: (147169025, 3)
+2025-03-10 20:17:12,842 - INFO - Density map 계산을 위한 grid_bounds: {'x': (100, 150.0), 'y': (100, 150.0), 'z': (100, 150.0)}, grid_spacing: (1, 1, 1)
+2025-03-10 20:17:12,843 - INFO - DensityCalculator 객체 생성: grid_bounds={'x': (100, 150.0), 'y': (100, 150.0), 'z': (100, 150.0)}, grid_spacing=(1, 1, 1), use_gpu=False
+2025-03-10 20:17:12,843 - INFO - DensityCalculator 객체가 생성되었습니다.
+2025-03-10 20:17:12,843 - INFO - 격자 크기: nx=50, ny=50, nz=50
+2025-03-10 20:17:12,845 - INFO - 커널 밀도 지도 계산 시작.
+2025-03-10 20:17:12,845 - INFO - CPU를 사용하여 계산을 진행합니다. (벡터화 및 병렬 처리 적용)
+2025-03-10 20:17:13,904 - ERROR - Unhandled exception occurred:
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/queues.py", line 244, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+AttributeError: Can't pickle local object 'DensityCalculator.calculate_density_map.<locals>.process_batch'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_ex.py", line 144, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_ex.py", line 93, in main
+    x_centers, y_centers, z_centers, density_map = density_calc.calculate_density_map(
+  File "/caefs/user/mmingyeong/structura/Structura/src/density.py", line 155, in calculate_density_map
+    batch_density = future.result()
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/queues.py", line 244, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+AttributeError: Can't pickle local object 'DensityCalculator.calculate_density_map.<locals>.process_batch'

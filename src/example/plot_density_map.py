@@ -3,12 +3,15 @@
 #
 # @Author: Mingyeong Yang (mmingyeong@kasi.re.kr)
 # @Date: 2025-03-07
-# @Filename: plot_density_map_xprojection_from_json.py
-# structura/plot_density_map_xprojection_from_json.py
+# @Filename: plot_density_map.py
+# structura/plot_density_map.py
 
 import os
 import sys
 import time  # 실행 시간 측정을 위해 사용
+import cProfile
+import pstats
+import io
 
 # 현재 스크립트의 상위 디렉토리 (src)를 Python 모듈 경로에 추가합니다.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -17,7 +20,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import json
 from logger import logger
-from config import RESULTS_DIR
+from config import MAP_RESULTS_DIR
 
 def load_parameters_info(folder, filename="parameters_info.json"):
     """
@@ -48,7 +51,7 @@ def main():
 
     try:
         # 불러올 density map npy 파일 경로 (실제 파일 이름에 맞게 수정)
-        density_map_file = os.path.join(RESULTS_DIR, "density_map_TNG300_snapshot99_gaussian_h1.0000_20250307_154530.npy")
+        density_map_file = os.path.join(MAP_RESULTS_DIR, "density_map_TNG300_snapshot99_subcube_FFT_None_gaussian_h1.0000_20250310_193731.npy")
         if not os.path.exists(density_map_file):
             logger.error("밀도 맵 파일이 존재하지 않습니다: %s", density_map_file)
             return
@@ -58,10 +61,15 @@ def main():
         logger.info("밀도 맵 파일 로드 완료, shape: %s", density_map.shape)
 
         # parameters_info JSON 파일 불러오기
-        params = load_parameters_info(RESULTS_DIR, filename="parameters_info.json")
+        params = load_parameters_info(MAP_RESULTS_DIR, filename="parameters_info_20250310_193731.json")
         if params is None:
-            logger.warning("파라미터 정보 JSON 파일이 없으므로 기본 grid parameters를 사용합니다.")
-            grid_bounds = {'x': (0, 205), 'y': (0, 205), 'z': (0, 205)}
+            # JSON 파일이 없으면 밀도 맵의 shape에 기반하여 grid parameters 설정
+            logger.warning("파라미터 정보 JSON 파일이 없으므로 density_map shape에 따른 grid parameters를 사용합니다.")
+            grid_bounds = {
+                'x': (0, density_map.shape[0]),
+                'y': (0, density_map.shape[1]),
+                'z': (0, density_map.shape[2])
+            }
             grid_spacing = (1, 1, 1)
         else:
             grid_bounds = params.get("Calculation Info", {}).get("grid_bounds", {'x': (0,205), 'y': (0,205), 'z': (0,205)})
@@ -78,7 +86,7 @@ def main():
         z_centers = np.arange(grid_bounds['z'][0] + grid_spacing[2]/2, grid_bounds['z'][1], grid_spacing[2])
         
         # x축에서 100~110 cMpc/h 범위에 해당하는 셀 선택
-        x_mask = (x_centers >= 100) & (x_centers <= 110)
+        x_mask = (x_centers >= 0) & (x_centers <= 10)
         if np.sum(x_mask) == 0:
             logger.error("x축 100~110 범위에 해당하는 셀이 없습니다.")
             return
@@ -87,9 +95,10 @@ def main():
         # 선택된 x 범위에 대해 x축 합산하여 YZ 평면 프로젝션 계산
         projection_yz = np.sum(density_map[x_mask, :, :], axis=0)
         
-        # YZ 평면 프로젝션 플롯 생성
+        # YZ 평면 프로젝션 플롯 생성 (pcolormesh 사용)
         plt.figure(figsize=(8, 6))
-        plt.pcolormesh(y_centers, z_centers, projection_yz.T, shading='auto')
+        # x축은 y_centers, y축은 z_centers, density는 전치(transpose)하여 올바른 방향으로 매핑
+        plt.pcolormesh(y_centers, z_centers, projection_yz.T, shading='auto', cmap='viridis')
         plt.xlabel("Y (cMpc/h)")
         plt.ylabel("Z (cMpc/h)")
         plt.title("Density Map YZ Projection (x=100-110 cMpc/h)")
@@ -97,7 +106,7 @@ def main():
         plt.tight_layout()
         
         # 플롯 저장
-        output_plot = os.path.join(RESULTS_DIR, "density_map_yz_projection_x100_110.png")
+        output_plot = os.path.join(MAP_RESULTS_DIR, "density_map_yz_projection_x100_110.png")
         plt.savefig(output_plot)
         plt.close()
         logger.info("x축 100~110 범위의 밀도 맵 YZ 프로젝션 플롯이 저장되었습니다: %s", output_plot)
@@ -109,4 +118,14 @@ def main():
     logger.info("전체 실행 시간: %.2f초", elapsed_time)
 
 if __name__ == '__main__':
+    profiler = cProfile.Profile()
+    profiler.enable()
     main()
+    profiler.disable()
+
+    s = io.StringIO()
+    ps = pstats.Stats(profiler, stream=s).sort_stats('cumulative')
+    ps.print_stats()
+    with open("plot_profile_results.txt", "w") as f:
+        f.write(s.getvalue())
+    print("Profiling results have been saved to plot_profile_results.txt.")

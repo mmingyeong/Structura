@@ -32,7 +32,7 @@ def save_density_map(density_map, filename=None, data_name="data", grid_spacing=
         사용한 커널 함수의 이름.
     h : float
         사용된 커널 밴드위스.
-    folder : str
+    folder : str or pathlib.Path
         저장할 디렉토리 경로 (없으면 현재 디렉토리).
     file_format : str
         저장 포맷. ("npy", "npz", "hdf5", "csv")
@@ -47,8 +47,8 @@ def save_density_map(density_map, filename=None, data_name="data", grid_spacing=
     def ensure_ext(fname, ext):
         return fname if fname.lower().endswith(ext) else fname + ext
 
-    # 저장 폴더 처리
-    base_path = folder.rstrip(os.sep) if folder else ""
+    # 저장 폴더 처리 (folder가 문자열이 아닐 경우를 대비하여 str()로 변환)
+    base_path = str(folder).rstrip(os.sep) if folder else ""
     if base_path and not os.path.exists(base_path):
         try:
             os.makedirs(base_path)
@@ -99,7 +99,7 @@ def save_parameters_info(info_dict, filename=None, folder=""):
         저장할 파라미터 정보를 담은 딕셔너리.
     filename : str or None
         저장할 파일 이름 (기본값: 자동 생성).
-    folder : str
+    folder : str or pathlib.Path
         저장할 디렉토리 경로 (없으면 현재 디렉토리).
     """
     if filename is None:
@@ -107,8 +107,8 @@ def save_parameters_info(info_dict, filename=None, folder=""):
     else:
         base_filename = filename
 
-    # 저장 폴더 처리
-    base_path = folder.rstrip(os.sep) if folder else ""
+    # 저장 폴더 처리 (folder가 문자열이 아닐 경우를 대비하여 str()로 변환)
+    base_path = str(folder).rstrip(os.sep) if folder else ""
     if base_path and not os.path.exists(base_path):
         try:
             os.makedirs(base_path)

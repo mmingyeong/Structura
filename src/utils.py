@@ -177,3 +177,33 @@ def cMpc_h_to_cMpc(distance_cMpc_h, h=None):
     if h is None:
         h = get_hubble_parameter()
     return distance_cMpc_h / h
+
+def compute_overlap(grid_spacing, h, kernel_factor=3):
+    """
+    grid_spacing과 커널 밴드위스 h를 고려하여 subcube 간에 필요한 overlapping 영역의 길이를 계산합니다.
+    
+    Parameters
+    ----------
+    grid_spacing : float or tuple of float
+        밀도 계산에 사용되는 격자 간격 (예: 1 cMpc/h).
+        단일 값 또는 각 축에 대한 튜플로 입력할 수 있습니다.
+    h : float
+        커널 밴드위스 (예: 1.0 cMpc/h).
+    kernel_factor : float, optional
+        Gaussian 커널의 경우 주 효과 범위를 결정하기 위한 계수 (기본값 3).
+        즉, 효과적 smoothing radius = kernel_factor * h.
+    
+    Returns
+    -------
+    overlap : float or tuple of float
+        각 축에 대해 subcube 간에 필요한 overlapping 영역의 길이.
+        만약 grid_spacing이 튜플이면 동일한 kernel_factor * h를 각 축에 적용한 튜플을 반환합니다.
+    """
+    effective_overlap = kernel_factor * h
+    try:
+        # grid_spacing이 iterable인 경우, 각 축에 대해 동일한 overlap을 적용
+        return tuple(effective_overlap for _ in grid_spacing)
+    except TypeError:
+        # grid_spacing이 단일 scalar인 경우
+        return effective_overlap
+

@@ -1,0 +1,3 @@
+2025-03-10 15:46:26,435 - INFO - Input directory (npy): /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 15:46:26,438 - INFO - Loading cube data (origin: (100, 100, 100), size: 10)...
+2025-03-10 15:46:28,471 - INFO - Using Dask distributed client with 4 workers.

@@ -1,0 +1,703 @@
+         187445 function calls (185816 primitive calls) in 281.814 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  281.814  281.814 /caefs/user/mmingyeong/structura/Structura/src/example/fft_kde_ex.py:28(main)
+        1    0.012    0.012  281.707  281.707 /caefs/user/mmingyeong/structura/Structura/src/data_loader.py:388(load_cube_data)
+     2813    0.049    0.000  281.364    0.100 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:288(wait)
+     5819  281.292    0.048  281.292    0.048 {method 'acquire' of '_thread.lock' objects}
+       61    0.056    0.001  272.227    4.463 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5923(__next__)
+       63    0.002    0.000    9.286    0.147 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:380(sync)
+       66    0.001    0.000    9.273    0.141 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:589(wait)
+       63    0.000    0.000    9.268    0.147 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:423(wait)
+        1    0.000    0.000    7.976    7.976 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1055(__init__)
+        1    0.000    0.000    7.976    7.976 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1420(start)
+       61    0.002    0.000    0.671    0.011 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:351(sync)
+       60    0.001    0.000    0.671    0.011 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:379(result)
+        1    0.000    0.000    0.650    0.650 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1723(__exit__)
+        1    0.000    0.000    0.650    0.650 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1959(close)
+        1    0.065    0.065    0.065    0.065 {built-in method gc.collect}
+        2    0.059    0.029    0.059    0.029 {built-in method io.open}
+       60    0.002    0.000    0.040    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1198(update)
+       54    0.001    0.000    0.038    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1325(refresh)
+        1    0.000    0.000    0.037    0.037 /caefs/user/mmingyeong/structura/Structura/src/fft_kde.py:99(compute_density)
+       55    0.001    0.000    0.037    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1464(display)
+        1    0.000    0.000    0.036    0.036 /caefs/user/mmingyeong/structura/Structura/src/fft_kde.py:74(_compute_histogram)
+        1    0.008    0.008    0.035    0.035 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/histograms.py:901(histogramdd)
+        1    0.000    0.000    0.033    0.033 /caefs/user/mmingyeong/structura/Structura/src/save_density_map.py:17(save_density_map)
+        1    0.000    0.000    0.033    0.033 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/npyio.py:475(save)
+        1    0.002    0.002    0.032    0.032 /caefs/user/mmingyeong/structura/Structura/src/save_density_map.py:92(save_parameters_info)
+        4    0.000    0.000    0.027    0.007 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/histograms.py:1027(<genexpr>)
+       15    0.000    0.000    0.027    0.002 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:53(_wrapfunc)
+        3    0.000    0.000    0.027    0.009 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:1332(searchsorted)
+        3    0.027    0.009    0.027    0.009 {method 'searchsorted' of 'numpy.ndarray' objects}
+       55    0.001    0.000    0.026    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1150(__str__)
+        1    0.000    0.000    0.026    0.026 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3566(compute)
+     2808    0.016    0.000    0.025    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/queue.py:97(empty)
+       55    0.006    0.000    0.024    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:464(format_meter)
+     2748    0.005    0.000    0.021    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5885(is_empty)
+        1    0.000    0.000    0.021    0.021 /caefs/user/mmingyeong/structura/Structura/src/data_loader.py:426(<listcomp>)
+      165    0.001    0.000    0.020    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:378(disp_len)
+      180    0.000    0.000    0.020    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:723(__call__)
+      180    0.001    0.000    0.019    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:679(call_function)
+      165    0.001    0.000    0.018    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:374(_text_width)
+      166    0.004    0.000    0.018    0.000 {built-in method builtins.sum}
+     2873    0.013    0.000    0.015    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:267(__exit__)
+     2748    0.012    0.000    0.015    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5893(count)
+      185    0.001    0.000    0.014    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tornado/platform/asyncio.py:225(add_callback)
+    19012    0.010    0.000    0.014    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:375(<genexpr>)
+      185    0.001    0.000    0.013    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:796(call_soon_threadsafe)
+        1    0.000    0.000    0.012    0.012 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:4928(collections_to_dsk)
+        1    0.000    0.000    0.012    0.012 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:410(collections_to_dsk)
+     2748    0.008    0.000    0.012    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:1866(expired)
+      125    0.000    0.000    0.011    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/selector_events.py:124(_write_to_self)
+      125    0.011    0.000    0.011    0.000 {method 'send' of '_socket.socket' objects}
+        1    0.000    0.000    0.011    0.011 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3311(_graph_to_futures)
+        1    0.000    0.000    0.011    0.011 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:533(optimize)
+        1    0.001    0.001    0.010    0.010 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:707(cull)
+     2747    0.010    0.000    0.010    0.000 {method '_acquire_restore' of '_thread.RLock' objects}
+       55    0.000    0.000    0.010    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:457(print_status)
+        1    0.000    0.000    0.010    0.010 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/serialize.py:228(serialize)
+        1    0.000    0.000    0.010    0.010 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/serialize.py:69(pickle_dumps)
+        1    0.000    0.000    0.010    0.010 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/pickle.py:47(dumps)
+        2    0.002    0.001    0.010    0.005 {method 'dump' of '_pickle.Pickler' objects}
+        1    0.000    0.000    0.010    0.010 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1522(dumps)
+        1    0.000    0.000    0.010    0.010 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1301(dump)
+ 1078/360    0.004    0.000    0.009    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:54(unpack_collections)
+  360/180    0.001    0.000    0.008    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:2296(unzip)
+     2868    0.006    0.000    0.008    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/queue.py:209(_qsize)
+       55    0.000    0.000    0.007    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:386(disp_trim)
+      861    0.001    0.000    0.007    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1348(reducer_override)
+      180    0.000    0.000    0.007    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/functoolz.py:302(__call__)
+      180    0.001    0.000    0.007    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:279(delayed)
+        1    0.000    0.000    0.006    0.006 /caefs/user/mmingyeong/structura/Structura/src/data_loader.py:222(group_tasks)
+     2873    0.004    0.000    0.006    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:264(__enter__)
+       16    0.000    0.000    0.006    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1600(_log)
+      186    0.000    0.000    0.006    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1254(_function_reduce)
+       16    0.000    0.000    0.006    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1467(info)
+      360    0.001    0.000    0.006    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:258(tokenize)
+        1    0.000    0.000    0.006    0.006 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:518(start)
+        1    0.000    0.000    0.006    0.006 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:528(_start_unlocked)
+      180    0.001    0.000    0.006    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:447(from_collections)
+      898    0.000    0.000    0.005    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:111(<genexpr>)
+      184    0.000    0.000    0.005    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:414(__init__)
+       16    0.000    0.000    0.005    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1626(handle)
+     2884    0.005    0.000    0.005    0.000 {built-in method _thread.allocate_lock}
+       16    0.000    0.000    0.005    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1680(callHandlers)
+10224/10044    0.004    0.000    0.005    0.000 {built-in method builtins.len}
+       31    0.000    0.000    0.004    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:955(handle)
+      184    0.001    0.000    0.004    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:423(<dictcomp>)
+    10833    0.002    0.000    0.004    0.000 {built-in method builtins.isinstance}
+      180    0.000    0.000    0.004    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1248(_dynamic_function_reduce)
+       31    0.000    0.000    0.004    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1088(emit)
+     2748    0.004    0.000    0.004    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:1856(remaining)
+    18847    0.004    0.000    0.004    0.000 {built-in method unicodedata.east_asian_width}
+      180    0.000    0.000    0.004    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:116(cull)
+        1    0.001    0.001    0.003    0.003 /caefs/user/mmingyeong/structura/Structura/src/data_loader.py:412(<listcomp>)
+      360    0.001    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:718(uuid4)
+      163    0.003    0.000    0.003    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+     2747    0.003    0.000    0.003    0.000 {method '_release_save' of '_thread.RLock' objects}
+      180    0.001    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:707(_function_getstate)
+       55    0.000    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:451(fp_write)
+      180    0.000    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:145(<dictcomp>)
+      181    0.000    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:317(__init__)
+      112    0.000    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:194(inner)
+     1378    0.002    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:206(is_dask_collection)
+      600    0.002    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/posixpath.py:71(join)
+       15    0.000    0.000    0.003    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1204(emit)
+      181    0.001    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:68(__init__)
+     5689    0.002    0.000    0.002    0.000 {method '__exit__' of '_thread.lock' objects}
+        1    0.000    0.000    0.002    0.002 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:666(write_array)
+       63    0.001    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tornado/gen.py:176(coroutine)
+     2689    0.002    0.000    0.002    0.000 {method 'remove' of 'collections.deque' objects}
+      180    0.000    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:164(get_dependencies)
+       31    0.000    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1077(flush)
+        1    0.000    0.000    0.002    0.002 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:2805(cancel)
+       88    0.002    0.000    0.002    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        1    0.002    0.002    0.002    0.002 {method 'tofile' of 'numpy.ndarray' objects}
+     1632    0.001    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/abc.py:117(__instancecheck__)
+      472    0.001    0.000    0.002    0.000 {method 'format' of 'str' objects}
+      180    0.002    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/core.py:108(keys_in_tasks)
+        1    0.000    0.000    0.002    0.002 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:952(__init__)
+     2747    0.002    0.000    0.002    0.000 {method '__enter__' of '_thread.RLock' objects}
+      563    0.001    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/config.py:566(get)
+     2933    0.002    0.000    0.002    0.000 {method '__exit__' of '_thread.RLock' objects}
+       60    0.000    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5914(_get_and_raise)
+      189    0.000    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:237(_should_pickle_by_reference)
+      362    0.001    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:138(__init__)
+     2747    0.002    0.000    0.002    0.000 {method '_is_owned' of '_thread.RLock' objects}
+      189    0.000    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:273(_lookup_module_and_qualname)
+       60    0.001    0.000    0.002    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/queue.py:154(get)
+        1    0.002    0.002    0.002    0.002 {built-in method posix.listdir}
+       61    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/tokenize.py:47(tokenize)
+       16    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1585(makeRecord)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:333(_screen_shape_linux)
+       67    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:545(__init__)
+      360    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:554(__init__)
+       63    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:341(asynchronous)
+       16    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:283(__init__)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1022(_find_and_load)
+     1632    0.001    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3669(<listcomp>)
+      180    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:711(__init__)
+     2938    0.001    0.000    0.001    0.000 {method 'append' of 'collections.deque' objects}
+       61    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/tokenize.py:33(_tokenize)
+       63    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/functools.py:35(update_wrapper)
+      360    0.001    0.000    0.001    0.000 {built-in method posix.urandom}
+      313    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:231(__call__)
+      778    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dataclasses.py:1210(is_dataclass)
+       55    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1446(format_dict)
+      180    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:665(__rsub__)
+      180    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1268(_function_getnewargs)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:664(_load_unlocked)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:558(get_all_external_keys)
+     1080    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:885(__iter__)
+      540    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:338(get_output_keys)
+      189    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:199(_getattribute)
+      110    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:273(_is_ascii)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:676(_toposort_layers)
+      109    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:400(format_interval)
+      125    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:772(_call_soon)
+       31    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:932(format)
+       71    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:236(__init__)
+      189    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/pickle.py:322(_getattribute)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:564(module_from_spec)
+  182/180    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:313(_extract_code_globals)
+       31    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:665(format)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1174(create_module)
+       63    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:368(in_async_call)
+      720    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:836(keys)
+      361    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:279(__str__)
+        1    0.001    0.001    0.001    0.001 {built-in method _imp.create_dynamic}
+    144/9    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/abc.py:121(__subclasscheck__)
+     1949    0.001    0.000    0.001    0.000 {built-in method builtins.getattr}
+    144/9    0.001    0.000    0.001    0.000 {built-in method _abc._abc_subclasscheck}
+       56    0.001    0.000    0.001    0.000 {built-in method now}
+     2381    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1138(__exit__)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:442(_extract_graph_and_keys)
+       58    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:102(acquire)
+    62/61    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/tokenize.py:142(_normalize_seq_func)
+        2    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1265(close)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5810(__init__)
+     1980    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:630(__setattr__)
+        2    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:916(start)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/__init__.py:120(dump)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5865(update)
+        2    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:617(merge)
+      626    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/config.py:60(canonical_name)
+        8    0.001    0.000    0.001    0.000 {built-in method posix.stat}
+       55    0.001    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:186(__format__)
+     3417    0.001    0.000    0.001    0.000 {built-in method builtins.iter}
+      180    0.000    0.000    0.001    0.000 {method 'intersection' of 'set' objects}
+      180    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:1012(funcname)
+      352    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:39(_remove)
+    77/76    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:413(_iterencode)
+        2    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/genericpath.py:16(exists)
+      120    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:339(_verify_initialized)
+      125    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/events.py:31(__init__)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:445(__init__)
+      180    0.000    0.000    0.001    0.000 {method 'update' of 'set' objects}
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:663(__new__)
+   121/61    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/tokenize.py:143(_inner_normalize_token)
+        1    0.000    0.000    0.001    0.001 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1496(error)
+      600    0.000    0.000    0.001    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/itertoolz.py:248(unique)
+      165    0.001    0.000    0.001    0.000 {method 'sub' of 're.Pattern' objects}
+      616    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/posixpath.py:41(_get_sep)
+      360    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:312(client)
+      540    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:329(__iter__)
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:878(_from_iterable)
+      778    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:2201(is_namedtuple_instance)
+      389    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      420    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:321(_bind_late)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3663(<listcomp>)
+   169/76    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:333(_iterencode_dict)
+      673    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/collections/__init__.py:980(__getitem__)
+       58    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:106(release)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:320(<dictcomp>)
+       30    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:597(formatTime)
+        5    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:411(_walk_global_ops)
+      667    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+      600    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1297(<genexpr>)
+       61    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:767(__call__)
+       55    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:153(__init__)
+     1204    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:589(__del__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:576(stop)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:584(_stop_unlocked)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3359(<dictcomp>)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:568(release)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:603(_real_stop)
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:338(_find_imported_submodules)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:921(_find_spec)
+      995    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:459(join)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:303(__init__)
+       50    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:311(_get_instructions_bytes)
+      360    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/itertoolz.py:477(concat)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1064(join)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/_monitor.py:30(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1102(_wait_for_tstate_lock)
+      300    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:670(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1399(_get_spec)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:690(<dictcomp>)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:359(notify)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+      182    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:452(get)
+      841    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+      181    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/copy.py:66(copy)
+      484    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:932(_cell_reduce)
+       63    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/functools.py:65(wraps)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1536(find_spec)
+      420    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:574(__dask_graph__)
+      126    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:279(_is_owned)
+      420    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       66    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:276(_acquire_restore)
+      635    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+     1155    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       61    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3654(<genexpr>)
+  242/122    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/core.py:270(flatten)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:701(_raw_fftnd)
+       55    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:108(__init__)
+      128    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:1829(parse_timedelta)
+      248    0.000    0.000    0.000    0.000 {built-in method _asyncio.get_running_loop}
+      720    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:862(__init__)
+       61    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_md5}
+       70    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:742(dispatch)
+        9    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:49(_raw_fft)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1549(findCaller)
+      556    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      917    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:760(get_lock)
+      480    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:519(_make_empty_cell)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/itertoolz.py:71(groupby)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:715(fftn)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:90(__init__)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/queue.py:217(_get)
+      182    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:79(get_annotations)
+       30    0.000    0.000    0.000    0.000 {built-in method time.localtime}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:116(create_mp_lock)
+       48    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:586(__call__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1454(_send_to_scheduler)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/context.py:70(RLock)
+        1    0.000    0.000    0.000    0.000 {built-in method _pickle.dumps}
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/tokenize.py:194(normalize_object)
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:332(__len__)
+        6    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:122(fft)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1182(exec_module)
+        9    0.000    0.000    0.000    0.000 {built-in method numpy.fft._pocketfft_internal.execute}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+      188    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1251(loop)
+      325    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/synchronize.py:186(__init__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+      112    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       31    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:649(formatMessage)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/synchronize.py:50(__init__)
+      650    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+      273    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+      120    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:882(__contains__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:5011(meshgrid)
+       48    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:836(_removeHandlerRef)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:414(_write_array_header)
+       64    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:692(is_running)
+       66    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:273(_release_save)
+       58    0.000    0.000    0.000    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
+      864    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+      220    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+      189    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:203(_whichmodule)
+      120    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:577(__dask_keys__)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/posixpath.py:140(basename)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/posixpath.py:117(splitext)
+       48    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1647(removeHandler)
+       31    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:438(format)
+      352    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:689(<dictcomp>)
+      361    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+      619    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+      189    0.000    0.000    0.000    0.000 {built-in method time.time}
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/config.py:413(__init__)
+       30    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:406(optimization_function)
+       17    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1724(isEnabledFor)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:2253(__enter__)
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:728(<dictcomp>)
+      420    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:570(dask)
+       31    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:643(usesTime)
+        1    0.000    0.000    0.000    0.000 /caefs/user/mmingyeong/structura/Structura/src/fft_kde.py:65(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:769(<dictcomp>)
+      362    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+       55    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:167(colour)
+       62    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:912(acquire)
+        8    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/pickle.py:18(reducer_override)
+      128    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:553(is_set)
+       31    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:359(getMessage)
+        5    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:480(broadcast_arrays)
+      480    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:480(_get_cell_contents)
+       55    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:112(__format__)
+      126    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+       21    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:277(_iterencode_list)
+      125    0.000    0.000    0.000    0.000 {built-in method _contextvars.copy_context}
+      185    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:513(_check_closed)
+       31    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:431(_format)
+      360    0.000    0.000    0.000    0.000 {built-in method from_iterable}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:2322(any)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:686(_decr_instances)
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:621(__hash__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:671(uuid1)
+      380    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      362    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:326(__getitem__)
+      421    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:71(_wrapreduction)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1744(_inc_ref)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3665(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:818(ifftn)
+       99    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:219(_acquireLock)
+      411    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/security.py:113(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:219(ifft)
+       31    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:423(usesTime)
+      244    0.000    0.000    0.000    0.000 {method 'get' of '_contextvars.ContextVar' objects}
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:434(findlabels)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:647(getnode)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:2256(__exit__)
+      100    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:422(_unpack_opargs)
+      7/3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/config.py:456(_assign)
+       62    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:919(release)
+      185    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/collections/__init__.py:977(__missing__)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1063(_class_reduce)
+       62    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+      220    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 /caefs/user/mmingyeong/structura/Structura/src/kernel.py:19(gaussian)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:592(_unix_getnode)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:827(__init__)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/genericpath.py:121(_splitext)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:546(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/synchronize.py:114(_make_name)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:390(_wrap_header_guess_version)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/core.py:167(validate_key)
+       99    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:340(_broadcast_to)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:366(_wrap_header)
+       58    0.000    0.000    0.000    0.000 {method 'release' of '_multiprocessing.SemLock' objects}
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:566(key)
+      137    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:409(__subclasshook__)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:821(_code_reduce)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:583(__dask_tokenize__)
+       99    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:228(_releaseLock)
+      180    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:746(<dictcomp>)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:261(get_instructions)
+       61    0.000    0.000    0.000    0.000 {method 'hexdigest' of '_hashlib.HASH' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/tokenize.py:159(normalize_seq)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:63(__iter__)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:6414(get_collections_metadata)
+        1    0.000    0.000    0.000    0.000 {built-in method _uuid.generate_time_safe}
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+      181    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       63    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:682(is_closed)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/tempfile.py:153(__next__)
+      127    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:1927(get_debug)
+      120    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/highlevelgraph.py:323(__contains__)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:1324(diff)
+       47    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:806(filter)
+       55    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:163(colour)
+      247    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:679(_get_free_pos)
+      180    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:160(<lambda>)
+      181    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/copy.py:107(_copy_immutable)
+        9    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        1    0.000    0.000    0.000    0.000 {method 'prod' of 'numpy.ndarray' objects}
+       57    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 /caefs/user/mmingyeong/structura/Structura/src/data_loader.py:424(<listcomp>)
+       17    0.000    0.000    0.000    0.000 {built-in method _json.encode_basestring_ascii}
+       46    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+      182    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/helper.py:123(fftfreq)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1286(fp_write)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:119(getLevelName)
+      111    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/core.py:149(iskey)
+       18    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1430(current_thread)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:165(__setitem__)
+       96    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:338(header_data_from_array_1_0)
+       60    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1691(__enter__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/copyreg.py:109(_slotnames)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/context.py:63(__get__)
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:636(__init__)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:113(__exit__)
+        9    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:181(_is_registered_pickle_by_value)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:204(iterencode)
+       62    0.000    0.000    0.000    0.000 {method 'set' of '_contextvars.ContextVar' objects}
+        8    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/security.py:214(_set_field)
+       62    0.000    0.000    0.000    0.000 {method 'reset' of '_contextvars.ContextVar' objects}
+       48    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+      120    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:580(__dask_layers__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tornado/ioloop.py:919(stop)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/posixpath.py:52(normcase)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/recreate_tasks.py:56(__init__)
+       67    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:236(_set_global_client)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:110(__enter__)
+       12    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:537(swapaxes)
+        2    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:492(_init_module_attrs)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:495(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/core.py:1327(__init__)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/queue.py:34(__init__)
+      180    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:128(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/_methods.py:51(_prod)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1129(name)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/serialize.py:42(dask_dumps)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:682(<setcomp>)
+       31    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/random.py:506(choices)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tornado/platform/asyncio.py:222(remove_timeout)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:243(dtype_to_descr)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1531(_get_spec)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:213(__init__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:27(__exit__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:111(remove)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:5164(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:1576(parse_bytes)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:283(_get_const_info)
+        4    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/events.py:148(cancel)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:128(_get_code_object)
+        1    0.000    0.000    0.000    0.000 {built-in method fcntl.ioctl}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+       63    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:78(_check_methods)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:348(__new__)
+        5    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:86(add)
+        3    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/util.py:171(register_after_fork)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/compat/py3k.py:49(isfileobj)
+        3    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/__init__.py:290(__getattr__)
+       12    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:453(findlinestarts)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1710(getEffectiveLevel)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        8    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/pickle.py:31(_always_use_pickle_for)
+       49    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x743500}
+       60    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/delayed.py:589(__dask_postcompute__)
+        5    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:283(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/preloading.py:252(process_preloads)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:721(spec_from_file_location)
+       16    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:416(_broadcast_shape)
+        5    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:223(floatstr)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/security.py:336(get_connection_args)
+        1    0.000    0.000    0.000    0.000 /caefs/user/mmingyeong/structura/Structura/src/save_density_map.py:47(ensure_ext)
+        1    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/os.py:1080(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/security.py:221(_set_tls_version_field)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/_distutils_hack/__init__.py:101(find_spec)
+       17    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/process.py:37(current_process)
+        1    0.000    0.000    0.000    0.000 {built-in method fromtimestamp}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/random.py:519(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/locks.py:167(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/dicttoolz.py:19(merge)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/config.py:747(check_deprecations)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:5151(<listcomp>)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+       12    0.000    0.000    0.000    0.000 {method 'swapaxes' of 'numpy.ndarray' objects}
+        6    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/histograms.py:890(_histogramdd_dispatcher)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:259(_make_iterencode)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/_methods.py:55(_any)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cupy/__init__.py:823(get_array_module)
+       18    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:1222(<dictcomp>)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:53(_commit_removals)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:682(_cook_nd_args)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:104(__init__)
+       16    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/process.py:189(name)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/events.py:64(cancel)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1237(stream)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:1161(nbytes)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:391(cached)
+        5    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:428(__setitem__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/functools.py:393(__get__)
+       12    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:438(status_printer)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:125(__eq__)
+       19    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:295(_get_name_info)
+       18    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:1311(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1028(_stop)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:201(magic)
+        1    0.000    0.000    0.000    0.000 {built-in method _struct.calcsize}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_collections_abc.py:362(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/utils.py:1151(drop_metadata)
+       44    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/tempfile.py:142(rng)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1356(_path_importer_cache)
+        8    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/gc.py:198(_gc_callback)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:1816(after)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tornado/ioloop.py:892(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:266(_supports_unicode)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:21(__enter__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/codecs.py:186(__init__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:404(parent)
+        4    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:538(<listcomp>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:187(disable_on_exception)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/json/encoder.py:160(default)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/pathlib.py:621(__str__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1301(_make_invoke_excepthook)
+       15    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/dis.py:362(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:1808(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:746(find_spec)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1153(_comparable)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:156(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/security.py:276(get_tls_config_for_role)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/logging/__init__.py:1307(disable)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:226(__init__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:353(__init__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:90(RLock)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:510(_get_cached)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:631(loop)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/pubsub.py:176(__init__)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:152(wrapper_setattr)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:139(__getattr__)
+        2    0.000    0.000    0.000    0.000 {method 'difference' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:6018(default_client)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/_weakrefset.py:37(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/format.py:196(_check_version)
+        7    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:826(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:893(__enter__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:1044(typename)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1157(__hash__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+       12    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:838(<genexpr>)
+       11    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:837(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:411(__delitem__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1163(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:897(__exit__)
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/protocol/serialize.py:593(__init__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:452(<genexpr>)
+        6    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/weakref.py:415(__getitem__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/utils.py:1608(<genexpr>)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:72(<dictcomp>)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:348(iterable)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1198(daemon)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/base_events.py:1827(_timer_handle_cancelled)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:782(_newname)
+        8    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/contextlib.py:420(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1147(__del__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/synchronize.py:90(_make_methods)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:222(__eq__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+       12    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:345(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of 'numpy.nditer' objects}
+        6    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3176(ndim)
+        4    0.000    0.000    0.000    0.000 {method 'co_lines' of 'code' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/dicttoolz.py:11(_get_factory)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/security.py:289(_get_tls_context)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:282(_screen_shape_wrapper)
+        1    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/utils.py:252(_is_utf)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.BufferedWriter' objects}
+        5    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:836(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__import__}
+       10    0.000    0.000    0.000    0.000 {method 'isalpha' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1183(daemon)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:222(_get_global_client)
+       12    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:533(_swapaxes_dispatcher)
+        5    0.000    0.000    0.000    0.000 {method 'isdigit' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/utils.py:611(is_started)
+        3    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/dask/base.py:432(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/queue.py:206(_init)
+        6    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:78(_get_forward_norm)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:25(_maybe_view_as_subclass)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:542(<genexpr>)
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_io.BufferedWriter' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/publish.py:79(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        9    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:118(_fft_dispatcher)
+        1    0.000    0.000    0.000    0.000 /caefs/user/mmingyeong/structura/Structura/src/data_loader.py:258(__init__)
+        8    0.000    0.000    0.000    0.000 {built-in method math.floor}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/toolz/itertoolz.py:98(<lambda>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/preloading.py:228(__init__)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/contextlib.py:426(__exit__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        8    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        6    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3172(_ndim_dispatcher)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:1328(_searchsorted_dispatcher)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/asyncio/mixins.py:15(__init__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/multiarray.py:153(concatenate)
+        2    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/cloudpickle/cloudpickle.py:839(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {built-in method _weakref.proxy}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/context.py:237(get_context)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/preloading.py:272(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/context.py:197(get_start_method)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/multiprocessing/util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:3203(_get_computation_code)
+        2    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/contextlib.py:423(__enter__)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        3    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:1320(_diff_dispatcher)
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py:2317(_any_dispatcher)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/uuid.py:329(node)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/threading.py:1169(is_alive)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:92(_get_backward_norm)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(has_location)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:98(<listcomp>)
+        3    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/fft/_pocketfft.py:711(_fftn_dispatcher)
+        1    0.000    0.000    0.000    0.000 {built-in method time.time_ns}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/multiarray.py:969(ravel_multi_index)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 {method 'getvalue' of '_io.BytesIO' objects}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1301(<lambda>)
+        1    0.000    0.000    0.000    0.000 {built-in method sys.is_finalizing}
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/npyio.py:471(_save_dispatcher)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/core/multiarray.py:892(bincount)
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/tqdm/std.py:1135(__enter__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/_distutils_hack/__init__.py:108(<lambda>)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/distributed/client.py:5908(__iter__)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/function_base.py:5006(_meshgrid_dispatcher)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/typing.py:1737(cast)
+        1    0.000    0.000    0.000    0.000 /home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:476(_broadcast_arrays_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+
+

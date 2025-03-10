@@ -83,8 +83,10 @@ for key, path in OUTPUT_DATA_PATHS.items():
             logger.error(f"Permission denied: Cannot write to output directory '{key}'")
 
 # Define the results directory relative to the module's parent directory.
-RESULTS_DIR = Path(__file__).resolve().parent.parent / "src/results"
-RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+IMG_RESULTS_DIR = Path(__file__).resolve().parent.parent / "src/results/img"
+IMG_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+MAP_RESULTS_DIR = Path(__file__).resolve().parent.parent / "src/results/density_maps"
+MAP_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def clear_gpu_memory():

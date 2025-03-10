@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from visualization import Visualizer
 from data_loader import DataLoader
-from config import RESULTS_DIR, OUTPUT_DATA_PATHS
+from config import IMG_RESULTS_DIR, OUTPUT_DATA_PATHS
 from logger import logger
 
 start_time = time.time()  # Record the start time
@@ -27,7 +27,7 @@ start_time = time.time()  # Record the start time
 # ------------------------------------------------------------------
 npy_folder = OUTPUT_DATA_PATHS["TNG300_ICS"]
 logger.info(f"Input directory (npy): {npy_folder}")
-logger.info(f"Output directory: {RESULTS_DIR}")
+logger.info(f"Output directory: {IMG_RESULTS_DIR}")
 
 # Verify the existence of .npy files in the input directory.
 if os.path.exists(npy_folder) and os.path.isdir(npy_folder):
@@ -88,7 +88,7 @@ try:
         hist=hist,
         edges1=edges1,
         edges2=edges2,
-        results_folder=RESULTS_DIR,
+        results_folder=IMG_RESULTS_DIR,
         title=title,
         xlabel=xlabel,
         ylabel=ylabel,
@@ -99,7 +99,7 @@ try:
         x_min=x_min,
         x_max=x_max,
         input_folder=npy_folder,
-        results_dir=RESULTS_DIR,
+        results_dir=IMG_RESULTS_DIR,
         bins=bins,
         box_size=box_size,
         scale=scale,

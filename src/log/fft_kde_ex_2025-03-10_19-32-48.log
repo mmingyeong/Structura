@@ -1,0 +1,15 @@
+2025-03-10 19:32:49,504 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-03-10 19:32:49,506 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results/density_maps
+2025-03-10 19:32:49,506 - INFO - Loading subcube data (origin: (100, 100, 100), size: 10, full_length: 205.0)...
+2025-03-10 19:32:57,515 - INFO - Using Dask distributed client with 48 workers.
+2025-03-10 19:37:31,138 - INFO - Time elapsed for loading cube data chunks: 281.63 seconds
+2025-03-10 19:37:31,148 - INFO - Combined cube data shape: (596482, 3)
+2025-03-10 19:37:31,214 - INFO - Loaded subcube data shape: (596482, 3)
+2025-03-10 19:37:31,215 - INFO - FFT 기반 밀도 계산을 위한 grid_bounds: {'x': (100, 110.0), 'y': (100, 110.0), 'z': (100, 110.0)}, grid_spacing: (1, 1, 1)
+2025-03-10 19:37:31,215 - INFO - FFTKDE 객체 생성: grid_bounds={'x': (100, 110.0), 'y': (100, 110.0), 'z': (100, 110.0)}, grid_spacing=(1, 1, 1), h=1.000
+2025-03-10 19:37:31,215 - INFO - FFT 기반 커널 밀도 추정 계산 시작...
+2025-03-10 19:37:31,251 - INFO - FFT 기반 커널 밀도 추정 완료. (히스토그램 shape: (10, 10, 10))
+2025-03-10 19:37:31,252 - INFO - FFT 기반 커널 밀도 추정 완료.
+2025-03-10 19:37:31,285 - INFO - 계산된 subcube 3D 밀도 맵이 저장되었습니다.
+2025-03-10 19:37:31,317 - INFO - 계산에 사용된 파라미터 정보가 저장되었습니다.
+2025-03-10 19:37:31,317 - INFO - 전체 실행 시간: 281.81초
