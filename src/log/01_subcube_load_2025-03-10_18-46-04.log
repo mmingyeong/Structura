@@ -1,7 +1,0 @@
-2025-03-10 18:46:05,533 - INFO - 전체 도메인: 205.00 Mpc/h, Nominal subcube 크기: 90.00 Mpc/h, Overlap: 3.00 Mpc/h
-2025-03-10 18:46:05,535 - INFO - 한 축 subcube 중심: [45.0, 135.0, 225.0]
-2025-03-10 18:46:05,535 - INFO - 한 축 subcube load window: [(202.0, 93.0), (87.0, 183.0), (177.0, 68.0)]
-2025-03-10 18:46:05,535 - INFO - 각 축에서 불러올 cube_origin: [202.0, 87.0, 177.0]
-2025-03-10 18:46:05,535 - INFO - 전체 subcube 개수: 27
-2025-03-10 18:46:05,535 - INFO - Subcube 0: 로드할 cube_origin = (202.0, 202.0, 202.0), 로드 크기 = 96.00 Mpc/h
-2025-03-10 18:46:08,370 - INFO - Using Dask distributed client with 4 workers.

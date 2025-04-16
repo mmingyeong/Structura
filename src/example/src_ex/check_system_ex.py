@@ -10,7 +10,7 @@ import sys
 import time  # Used for measuring execution time
 
 # Add the parent directory (src) of the current script to the Python module search path.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from logger import logger
 from system_checker import SystemChecker, LAST_UPDATE_DATE

@@ -1,0 +1,341 @@
+2025-04-01 14:03:01,811 - INFO - Full domain: 205.00 Mpc/h, Nominal subcube size: 50.00 Mpc/h, Overlap: 3.00 Mpc/h
+2025-04-01 14:03:01,813 - INFO - Total number of subcubes: 125
+2025-04-01 14:03:01,814 - INFO - Subcube 0 already exists at subcube_npy/subcube_0000.npy. Skipping.
+2025-04-01 14:03:01,814 - INFO - Subcube 1 already exists at subcube_npy/subcube_0001.npy. Skipping.
+2025-04-01 14:03:01,815 - INFO - Subcube 2 already exists at subcube_npy/subcube_0002.npy. Skipping.
+2025-04-01 14:03:01,815 - INFO - Subcube 3 already exists at subcube_npy/subcube_0003.npy. Skipping.
+2025-04-01 14:03:01,816 - INFO - Subcube 4 already exists at subcube_npy/subcube_0004.npy. Skipping.
+2025-04-01 14:03:01,816 - INFO - Subcube 5 already exists at subcube_npy/subcube_0005.npy. Skipping.
+2025-04-01 14:03:01,817 - INFO - Subcube 6 already exists at subcube_npy/subcube_0006.npy. Skipping.
+2025-04-01 14:03:01,818 - INFO - Subcube 7 already exists at subcube_npy/subcube_0007.npy. Skipping.
+2025-04-01 14:03:01,819 - INFO - Subcube 8 already exists at subcube_npy/subcube_0008.npy. Skipping.
+2025-04-01 14:03:01,819 - INFO - Subcube 9 already exists at subcube_npy/subcube_0009.npy. Skipping.
+2025-04-01 14:03:01,819 - INFO - Completed batch from subcube 0 to 9.
+2025-04-01 14:03:01,820 - INFO - Subcube 10 already exists at subcube_npy/subcube_0010.npy. Skipping.
+2025-04-01 14:03:01,820 - INFO - Subcube 11 already exists at subcube_npy/subcube_0011.npy. Skipping.
+2025-04-01 14:03:01,821 - INFO - Subcube 12 already exists at subcube_npy/subcube_0012.npy. Skipping.
+2025-04-01 14:03:01,821 - INFO - Subcube 13 already exists at subcube_npy/subcube_0013.npy. Skipping.
+2025-04-01 14:03:01,822 - INFO - Subcube 14 already exists at subcube_npy/subcube_0014.npy. Skipping.
+2025-04-01 14:03:01,822 - INFO - Subcube 15 already exists at subcube_npy/subcube_0015.npy. Skipping.
+2025-04-01 14:03:01,823 - INFO - Subcube 16 already exists at subcube_npy/subcube_0016.npy. Skipping.
+2025-04-01 14:03:01,823 - INFO - Subcube 17 already exists at subcube_npy/subcube_0017.npy. Skipping.
+2025-04-01 14:03:01,823 - INFO - Subcube 18 already exists at subcube_npy/subcube_0018.npy. Skipping.
+2025-04-01 14:03:01,824 - INFO - Subcube 19 already exists at subcube_npy/subcube_0019.npy. Skipping.
+2025-04-01 14:03:01,824 - INFO - Completed batch from subcube 10 to 19.
+2025-04-01 14:03:01,824 - INFO - Subcube 20 already exists at subcube_npy/subcube_0020.npy. Skipping.
+2025-04-01 14:03:01,824 - INFO - Subcube 21 already exists at subcube_npy/subcube_0021.npy. Skipping.
+2025-04-01 14:03:01,825 - INFO - Subcube 22 already exists at subcube_npy/subcube_0022.npy. Skipping.
+2025-04-01 14:03:01,825 - INFO - Subcube 23 already exists at subcube_npy/subcube_0023.npy. Skipping.
+2025-04-01 14:03:01,825 - INFO - Subcube 24 already exists at subcube_npy/subcube_0024.npy. Skipping.
+2025-04-01 14:03:01,825 - INFO - Subcube 25 already exists at subcube_npy/subcube_0025.npy. Skipping.
+2025-04-01 14:03:01,826 - INFO - Subcube 26 already exists at subcube_npy/subcube_0026.npy. Skipping.
+2025-04-01 14:03:01,826 - INFO - Subcube 27 already exists at subcube_npy/subcube_0027.npy. Skipping.
+2025-04-01 14:03:01,826 - INFO - Subcube 28 already exists at subcube_npy/subcube_0028.npy. Skipping.
+2025-04-01 14:03:01,827 - INFO - Subcube 29 already exists at subcube_npy/subcube_0029.npy. Skipping.
+2025-04-01 14:03:01,827 - INFO - Completed batch from subcube 20 to 29.
+2025-04-01 14:03:01,827 - INFO - Subcube 30 already exists at subcube_npy/subcube_0030.npy. Skipping.
+2025-04-01 14:03:01,828 - INFO - Subcube 31 already exists at subcube_npy/subcube_0031.npy. Skipping.
+2025-04-01 14:03:01,828 - INFO - Subcube 32 already exists at subcube_npy/subcube_0032.npy. Skipping.
+2025-04-01 14:03:01,828 - INFO - Subcube 33 already exists at subcube_npy/subcube_0033.npy. Skipping.
+2025-04-01 14:03:01,828 - INFO - Subcube 34 already exists at subcube_npy/subcube_0034.npy. Skipping.
+2025-04-01 14:03:01,829 - INFO - Subcube 35 already exists at subcube_npy/subcube_0035.npy. Skipping.
+2025-04-01 14:03:01,829 - INFO - Subcube 36 already exists at subcube_npy/subcube_0036.npy. Skipping.
+2025-04-01 14:03:01,829 - INFO - Subcube 37 already exists at subcube_npy/subcube_0037.npy. Skipping.
+2025-04-01 14:03:01,830 - INFO - Subcube 38 already exists at subcube_npy/subcube_0038.npy. Skipping.
+2025-04-01 14:03:01,830 - INFO - Subcube 39 already exists at subcube_npy/subcube_0039.npy. Skipping.
+2025-04-01 14:03:01,830 - INFO - Completed batch from subcube 30 to 39.
+2025-04-01 14:03:01,830 - INFO - Subcube 40 already exists at subcube_npy/subcube_0040.npy. Skipping.
+2025-04-01 14:03:01,830 - INFO - Subcube 41 already exists at subcube_npy/subcube_0041.npy. Skipping.
+2025-04-01 14:03:01,831 - INFO - Subcube 42 already exists at subcube_npy/subcube_0042.npy. Skipping.
+2025-04-01 14:03:01,831 - INFO - Subcube 43 already exists at subcube_npy/subcube_0043.npy. Skipping.
+2025-04-01 14:03:01,831 - INFO - Subcube 44 already exists at subcube_npy/subcube_0044.npy. Skipping.
+2025-04-01 14:03:01,832 - INFO - Subcube 45 already exists at subcube_npy/subcube_0045.npy. Skipping.
+2025-04-01 14:03:01,832 - INFO - Subcube 46 already exists at subcube_npy/subcube_0046.npy. Skipping.
+2025-04-01 14:03:01,832 - INFO - Subcube 47 already exists at subcube_npy/subcube_0047.npy. Skipping.
+2025-04-01 14:03:01,833 - INFO - Subcube 48 already exists at subcube_npy/subcube_0048.npy. Skipping.
+2025-04-01 14:03:01,833 - INFO - Subcube 49 already exists at subcube_npy/subcube_0049.npy. Skipping.
+2025-04-01 14:03:01,833 - INFO - Completed batch from subcube 40 to 49.
+2025-04-01 14:03:01,833 - INFO - Subcube 50 already exists at subcube_npy/subcube_0050.npy. Skipping.
+2025-04-01 14:03:01,834 - INFO - Subcube 51 already exists at subcube_npy/subcube_0051.npy. Skipping.
+2025-04-01 14:03:01,834 - INFO - Subcube 52 already exists at subcube_npy/subcube_0052.npy. Skipping.
+2025-04-01 14:03:01,834 - INFO - Subcube 53 already exists at subcube_npy/subcube_0053.npy. Skipping.
+2025-04-01 14:03:01,835 - INFO - Subcube 54: Loading cube_origin = [97.0, 202.0, 197.0], load size = 56.00 Mpc/h
+2025-04-01 14:05:35,198 - INFO - Full domain: 205.00 Mpc/h, Nominal subcube size: 50.00 Mpc/h, Overlap: 3.00 Mpc/h
+2025-04-01 14:05:35,198 - INFO - Total number of subcubes: 125
+2025-04-01 14:05:35,198 - INFO - Subcube 0 already exists at subcube_npy/subcube_0000.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 1 already exists at subcube_npy/subcube_0001.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 2 already exists at subcube_npy/subcube_0002.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 3 already exists at subcube_npy/subcube_0003.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 4 already exists at subcube_npy/subcube_0004.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 5 already exists at subcube_npy/subcube_0005.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 6 already exists at subcube_npy/subcube_0006.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 7 already exists at subcube_npy/subcube_0007.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 8 already exists at subcube_npy/subcube_0008.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 9 already exists at subcube_npy/subcube_0009.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Completed batch from subcube 0 to 9.
+2025-04-01 14:05:35,198 - INFO - Subcube 10 already exists at subcube_npy/subcube_0010.npy. Skipping.
+2025-04-01 14:05:35,198 - INFO - Subcube 11 already exists at subcube_npy/subcube_0011.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 12 already exists at subcube_npy/subcube_0012.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 13 already exists at subcube_npy/subcube_0013.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 14 already exists at subcube_npy/subcube_0014.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 15 already exists at subcube_npy/subcube_0015.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 16 already exists at subcube_npy/subcube_0016.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 17 already exists at subcube_npy/subcube_0017.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 18 already exists at subcube_npy/subcube_0018.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 19 already exists at subcube_npy/subcube_0019.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Completed batch from subcube 10 to 19.
+2025-04-01 14:05:35,199 - INFO - Subcube 20 already exists at subcube_npy/subcube_0020.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 21 already exists at subcube_npy/subcube_0021.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 22 already exists at subcube_npy/subcube_0022.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 23 already exists at subcube_npy/subcube_0023.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 24 already exists at subcube_npy/subcube_0024.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 25 already exists at subcube_npy/subcube_0025.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 26 already exists at subcube_npy/subcube_0026.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 27 already exists at subcube_npy/subcube_0027.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 28 already exists at subcube_npy/subcube_0028.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Subcube 29 already exists at subcube_npy/subcube_0029.npy. Skipping.
+2025-04-01 14:05:35,199 - INFO - Completed batch from subcube 20 to 29.
+2025-04-01 14:05:35,200 - INFO - Subcube 30 already exists at subcube_npy/subcube_0030.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 31 already exists at subcube_npy/subcube_0031.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 32 already exists at subcube_npy/subcube_0032.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 33 already exists at subcube_npy/subcube_0033.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 34 already exists at subcube_npy/subcube_0034.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 35 already exists at subcube_npy/subcube_0035.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 36 already exists at subcube_npy/subcube_0036.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 37 already exists at subcube_npy/subcube_0037.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 38 already exists at subcube_npy/subcube_0038.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 39 already exists at subcube_npy/subcube_0039.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Completed batch from subcube 30 to 39.
+2025-04-01 14:05:35,200 - INFO - Subcube 40 already exists at subcube_npy/subcube_0040.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 41 already exists at subcube_npy/subcube_0041.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 42 already exists at subcube_npy/subcube_0042.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 43 already exists at subcube_npy/subcube_0043.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 44 already exists at subcube_npy/subcube_0044.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 45 already exists at subcube_npy/subcube_0045.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 46 already exists at subcube_npy/subcube_0046.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 47 already exists at subcube_npy/subcube_0047.npy. Skipping.
+2025-04-01 14:05:35,200 - INFO - Subcube 48 already exists at subcube_npy/subcube_0048.npy. Skipping.
+2025-04-01 14:05:35,201 - INFO - Subcube 49 already exists at subcube_npy/subcube_0049.npy. Skipping.
+2025-04-01 14:05:35,201 - INFO - Completed batch from subcube 40 to 49.
+2025-04-01 14:05:35,201 - INFO - Subcube 50 already exists at subcube_npy/subcube_0050.npy. Skipping.
+2025-04-01 14:05:35,201 - INFO - Subcube 51 already exists at subcube_npy/subcube_0051.npy. Skipping.
+2025-04-01 14:05:35,201 - INFO - Subcube 52 already exists at subcube_npy/subcube_0052.npy. Skipping.
+2025-04-01 14:05:35,201 - INFO - Subcube 53 already exists at subcube_npy/subcube_0053.npy. Skipping.
+2025-04-01 14:05:35,201 - INFO - Subcube 54: Loading cube_origin = [97.0, 202.0, 197.0], load size = 56.00 Mpc/h
+2025-04-01 14:21:30,602 - INFO - Subcube 54 loaded, data shape: (347762098, 3)
+2025-04-01 14:21:31,321 - INFO - Subcube 54 central region data shape: (244211022, 3)
+2025-04-01 14:21:37,519 - INFO - Subcube 54 saved to subcube_npy/subcube_0054.npy
+2025-04-01 14:21:46,415 - INFO - Subcube 54 file MD5 checksum: c00a3badd012342dfb491ecfd1ecdaeb
+2025-04-01 14:21:47,908 - INFO - Subcube 54 central region statistics: Mean: [122.75981939  26.41973694  37.26598663], Min: [1.00000000e+02 1.62251526e-07 4.76088608e-08], Max: [149.99999965  49.99999994 204.99999958]
+2025-04-01 14:21:47,909 - INFO - Subcube 55: Loading cube_origin = [97.0, 47.0, 202.0], load size = 56.00 Mpc/h
+2025-04-01 14:34:25,040 - INFO - Subcube 55 loaded, data shape: (417487751, 3)
+2025-04-01 14:34:25,105 - INFO - Subcube 55 central region data shape: (320949126, 3)
+2025-04-01 14:34:33,049 - INFO - Subcube 55 saved to subcube_npy/subcube_0055.npy
+2025-04-01 14:34:45,135 - INFO - Subcube 55 file MD5 checksum: 82eee54ead1cf61a492d457e80b36894
+2025-04-01 14:34:47,054 - INFO - Subcube 55 central region statistics: Mean: [125.67055359  72.6619324   23.41476217], Min: [1.00000001e+02 5.00000003e+01 1.16547308e-07], Max: [149.99999983  99.99999993  49.99999999]
+2025-04-01 14:34:47,056 - INFO - Subcube 56: Loading cube_origin = [97.0, 47.0, 47.0], load size = 56.00 Mpc/h
+2025-04-01 14:46:53,524 - INFO - Subcube 56 loaded, data shape: (366231901, 3)
+2025-04-01 14:46:53,608 - INFO - Subcube 56 central region data shape: (262972086, 3)
+2025-04-01 14:47:00,617 - INFO - Subcube 56 saved to subcube_npy/subcube_0056.npy
+2025-04-01 14:47:11,027 - INFO - Subcube 56 file MD5 checksum: d52068519f3f2a2933522015f504203e
+2025-04-01 14:47:13,730 - INFO - Subcube 56 central region statistics: Mean: [126.65991429  75.91341811  74.50811499], Min: [100.00000016  50.00000023  50.00000006], Max: [149.99999999  99.99999969  99.99999982]
+2025-04-01 14:47:13,763 - INFO - Subcube 57: Loading cube_origin = [97.0, 47.0, 97.0], load size = 56.00 Mpc/h
+2025-04-01 15:00:15,883 - INFO - Subcube 57 loaded, data shape: (309955156, 3)
+2025-04-01 15:00:15,959 - INFO - Subcube 57 central region data shape: (223026556, 3)
+2025-04-01 15:00:21,261 - INFO - Subcube 57 saved to subcube_npy/subcube_0057.npy
+2025-04-01 15:00:29,598 - INFO - Subcube 57 file MD5 checksum: 7a42a109fac0199f855b37593c93ae5d
+2025-04-01 15:00:31,023 - INFO - Subcube 57 central region statistics: Mean: [125.25321572  74.6335859  124.34894554], Min: [100.00000015  50.00000033 100.00000008], Max: [149.99999996  99.99999995 149.99999935]
+2025-04-01 15:00:31,024 - INFO - Subcube 58: Loading cube_origin = [97.0, 47.0, 147.0], load size = 56.00 Mpc/h
+2025-04-01 15:12:45,619 - INFO - Subcube 58 loaded, data shape: (342854150, 3)
+2025-04-01 15:12:45,699 - INFO - Subcube 58 central region data shape: (248374561, 3)
+2025-04-01 15:12:57,065 - INFO - Subcube 58 saved to subcube_npy/subcube_0058.npy
+2025-04-01 15:13:06,982 - INFO - Subcube 58 file MD5 checksum: 562d95a1a52e439bcd8fe112293dc30d
+2025-04-01 15:13:08,537 - INFO - Subcube 58 central region statistics: Mean: [124.8873559   70.93132927 178.55709453], Min: [100.00000014  50.00000007 150.00000015], Max: [149.99999996  99.99999982 199.99999985]
+2025-04-01 15:13:08,537 - INFO - Subcube 59: Loading cube_origin = [97.0, 47.0, 197.0], load size = 56.00 Mpc/h
+2025-04-01 15:27:41,803 - INFO - Subcube 59 loaded, data shape: (415631838, 3)
+2025-04-01 15:27:41,895 - INFO - Subcube 59 central region data shape: (312883613, 3)
+2025-04-01 15:27:49,636 - INFO - Subcube 59 saved to subcube_npy/subcube_0059.npy
+2025-04-01 15:28:01,447 - INFO - Subcube 59 file MD5 checksum: eccbfaadc9dc606a36c26c0ab8ad1990
+2025-04-01 15:28:03,386 - INFO - Subcube 59 central region statistics: Mean: [126.37944238  72.52680354  34.54976776], Min: [1.00000001e+02 5.00000003e+01 1.16547308e-07], Max: [149.99999983  99.99999993 204.99999993]
+2025-04-01 15:28:03,387 - INFO - Completed batch from subcube 50 to 59.
+2025-04-01 15:28:03,387 - INFO - Subcube 60: Loading cube_origin = [97.0, 97.0, 202.0], load size = 56.00 Mpc/h
+2025-04-01 15:40:59,937 - INFO - Subcube 60 loaded, data shape: (265720302, 3)
+2025-04-01 15:40:59,999 - INFO - Subcube 60 central region data shape: (192600534, 3)
+2025-04-01 15:41:05,087 - INFO - Subcube 60 saved to subcube_npy/subcube_0060.npy
+2025-04-01 15:41:12,435 - INFO - Subcube 60 file MD5 checksum: 9f815db806549501e73956997a81aa9c
+2025-04-01 15:41:14,422 - INFO - Subcube 60 central region statistics: Mean: [122.75854144 123.76279089  22.34015433], Min: [1.00000000e+02 1.00000000e+02 9.23643676e-07], Max: [149.99999994 149.99999976  49.99999995]
+2025-04-01 15:41:14,427 - INFO - Subcube 61: Loading cube_origin = [97.0, 97.0, 47.0], load size = 56.00 Mpc/h
+2025-04-01 15:53:13,188 - INFO - Subcube 61 loaded, data shape: (291556171, 3)
+2025-04-01 15:53:13,495 - INFO - Subcube 61 central region data shape: (213096276, 3)
+2025-04-01 15:53:18,869 - INFO - Subcube 61 saved to subcube_npy/subcube_0061.npy
+2025-04-01 15:53:26,615 - INFO - Subcube 61 file MD5 checksum: 8a56bf38b8de51a4f147da39e9d0be27
+2025-04-01 15:53:27,970 - INFO - Subcube 61 central region statistics: Mean: [126.97326553 126.24543855  75.38782915], Min: [100.00000017 100.00000004  50.0000001 ], Max: [149.99999993 149.9999997   99.99999983]
+2025-04-01 15:53:27,971 - INFO - Subcube 62: Loading cube_origin = [97.0, 97.0, 97.0], load size = 56.00 Mpc/h
+2025-04-01 16:05:54,347 - INFO - Subcube 62 loaded, data shape: (228262914, 3)
+2025-04-01 16:05:54,377 - INFO - Subcube 62 central region data shape: (147169025, 3)
+2025-04-01 16:05:57,954 - INFO - Subcube 62 saved to subcube_npy/subcube_0062.npy
+2025-04-01 16:06:03,375 - INFO - Subcube 62 file MD5 checksum: 67487009a0cbee16df1c6a11f12f7126
+2025-04-01 16:06:04,252 - INFO - Subcube 62 central region statistics: Mean: [125.04253194 129.31609987 127.72522754], Min: [100.00000009 100.00000005 100.00000085], Max: [149.99999944 149.9999998  149.99999993]
+2025-04-01 16:06:04,253 - INFO - Subcube 63: Loading cube_origin = [97.0, 97.0, 147.0], load size = 56.00 Mpc/h
+2025-04-01 16:19:47,755 - INFO - Subcube 63 loaded, data shape: (253668958, 3)
+2025-04-01 16:19:47,789 - INFO - Subcube 63 central region data shape: (174245699, 3)
+2025-04-01 16:19:52,044 - INFO - Subcube 63 saved to subcube_npy/subcube_0063.npy
+2025-04-01 16:19:58,365 - INFO - Subcube 63 file MD5 checksum: ed63a21667713d13a1c33195073ea85c
+2025-04-01 16:19:59,403 - INFO - Subcube 63 central region statistics: Mean: [124.03713572 127.76412337 177.79104427], Min: [100.00000002 100.00000017 150.00000029], Max: [149.99999999 149.99999913 199.99999988]
+2025-04-01 16:19:59,403 - INFO - Subcube 64: Loading cube_origin = [97.0, 97.0, 197.0], load size = 56.00 Mpc/h
+2025-04-01 16:49:27,310 - INFO - Subcube 64 loaded, data shape: (286217981, 3)
+2025-04-01 16:49:27,348 - INFO - Subcube 64 central region data shape: (202823955, 3)
+2025-04-01 16:49:32,363 - INFO - Subcube 64 saved to subcube_npy/subcube_0064.npy
+2025-04-01 16:49:40,505 - INFO - Subcube 64 file MD5 checksum: 9f1a674f5e04c384f143f3ced08acb68
+2025-04-01 16:49:43,125 - INFO - Subcube 64 central region statistics: Mean: [121.94299685 124.47470828  41.48270267], Min: [1.00000000e+02 1.00000000e+02 9.23643676e-07], Max: [149.99999994 149.99999976 204.99999986]
+2025-04-01 16:49:43,140 - INFO - Subcube 65: Loading cube_origin = [97.0, 147.0, 202.0], load size = 56.00 Mpc/h
+2025-04-01 17:03:04,556 - INFO - Subcube 65 loaded, data shape: (277950712, 3)
+2025-04-01 17:03:04,603 - INFO - Subcube 65 central region data shape: (208596604, 3)
+2025-04-01 17:03:10,062 - INFO - Subcube 65 saved to subcube_npy/subcube_0065.npy
+2025-04-01 17:03:17,815 - INFO - Subcube 65 file MD5 checksum: 7efd2abe1b7fa08dfd7378718fa9ebde
+2025-04-01 17:03:19,134 - INFO - Subcube 65 central region statistics: Mean: [126.91662561 177.70465753  27.09334752], Min: [1.00000000e+02 1.50000000e+02 2.18017056e-07], Max: [149.9999996  199.99999995  49.99999962]
+2025-04-01 17:03:19,135 - INFO - Subcube 66: Loading cube_origin = [97.0, 147.0, 47.0], load size = 56.00 Mpc/h
+2025-04-01 17:15:48,857 - INFO - Subcube 66 loaded, data shape: (277370162, 3)
+2025-04-01 17:15:48,899 - INFO - Subcube 66 central region data shape: (200121031, 3)
+2025-04-01 17:15:53,867 - INFO - Subcube 66 saved to subcube_npy/subcube_0066.npy
+2025-04-01 17:16:01,267 - INFO - Subcube 66 file MD5 checksum: 63cffcbfa08f7e9a6b89e401182631ee
+2025-04-01 17:16:02,535 - INFO - Subcube 66 central region statistics: Mean: [126.12437769 176.38493117  72.90849523], Min: [100.0000004  150.00000009  50.0000006 ], Max: [149.9999998  199.99999965  99.99999978]
+2025-04-01 17:16:02,536 - INFO - Subcube 67: Loading cube_origin = [97.0, 147.0, 97.0], load size = 56.00 Mpc/h
+2025-04-01 17:28:30,569 - INFO - Subcube 67 loaded, data shape: (286165078, 3)
+2025-04-01 17:28:30,612 - INFO - Subcube 67 central region data shape: (205086966, 3)
+2025-04-01 17:28:37,012 - INFO - Subcube 67 saved to subcube_npy/subcube_0067.npy
+2025-04-01 17:28:44,561 - INFO - Subcube 67 file MD5 checksum: 53f963ed603b899c8a2b87c5855a18c8
+2025-04-01 17:28:45,840 - INFO - Subcube 67 central region statistics: Mean: [125.17305787 175.33975331 127.66078399], Min: [100.00000042 150.0000005  100.0000001 ], Max: [149.99999984 199.99999998 149.99999916]
+2025-04-01 17:28:45,841 - INFO - Subcube 68: Loading cube_origin = [97.0, 147.0, 147.0], load size = 56.00 Mpc/h
+2025-04-01 18:36:43,232 - INFO - Subcube 68 loaded, data shape: (237349761, 3)
+2025-04-01 18:36:43,352 - INFO - Subcube 68 central region data shape: (169726981, 3)
+2025-04-01 18:36:50,102 - INFO - Subcube 68 saved to subcube_npy/subcube_0068.npy
+2025-04-01 18:36:56,910 - INFO - Subcube 68 file MD5 checksum: 94d3d916441e6c3c998854a0e4b19b86
+2025-04-01 18:36:57,940 - INFO - Subcube 68 central region statistics: Mean: [125.21099435 174.68278171 175.16685331], Min: [100.00000009 150.00000025 150.00000008], Max: [149.99999991 199.99999919 199.99999925]
+2025-04-01 18:36:57,941 - INFO - Subcube 69: Loading cube_origin = [97.0, 147.0, 197.0], load size = 56.00 Mpc/h
+2025-04-01 18:50:45,442 - INFO - Subcube 69 loaded, data shape: (275653256, 3)
+2025-04-01 18:50:45,485 - INFO - Subcube 69 central region data shape: (203701111, 3)
+2025-04-01 18:50:50,426 - INFO - Subcube 69 saved to subcube_npy/subcube_0069.npy
+2025-04-01 18:50:58,160 - INFO - Subcube 69 file MD5 checksum: a25095fa189fe99c5afbc03b94fb6582
+2025-04-01 18:50:59,437 - INFO - Subcube 69 central region statistics: Mean: [126.67648159 177.97530183  38.57467207], Min: [1.00000000e+02 1.50000000e+02 2.18017056e-07], Max: [149.9999996  199.99999995 204.99999912]
+2025-04-01 18:50:59,437 - INFO - Completed batch from subcube 60 to 69.
+2025-04-01 18:50:59,437 - INFO - Subcube 70: Loading cube_origin = [97.0, 197.0, 202.0], load size = 56.00 Mpc/h
+2025-04-01 19:03:59,496 - INFO - Subcube 70 loaded, data shape: (342304834, 3)
+2025-04-01 19:03:59,548 - INFO - Subcube 70 central region data shape: (259627902, 3)
+2025-04-01 19:04:06,359 - INFO - Subcube 70 saved to subcube_npy/subcube_0070.npy
+2025-04-01 19:04:16,147 - INFO - Subcube 70 file MD5 checksum: 569bee0ba55571cf9c70ff5876ecc5a8
+2025-04-01 19:04:17,781 - INFO - Subcube 70 central region statistics: Mean: [122.10606001  37.67908068  29.19395483], Min: [1.00000000e+02 1.62251526e-07 4.76088608e-08], Max: [149.9999994  204.99999993  49.99999993]
+2025-04-01 19:04:17,782 - INFO - Subcube 71: Loading cube_origin = [97.0, 197.0, 47.0], load size = 56.00 Mpc/h
+2025-04-01 19:16:29,160 - INFO - Subcube 71 loaded, data shape: (245516798, 3)
+2025-04-01 19:16:55,057 - INFO - Subcube 71 central region data shape: (161109691, 3)
+2025-04-01 19:16:59,254 - INFO - Subcube 71 saved to subcube_npy/subcube_0071.npy
+2025-04-01 19:17:05,340 - INFO - Subcube 71 file MD5 checksum: 2df04a6382cdfe13fc0fe98d1979df07
+2025-04-01 19:17:06,371 - INFO - Subcube 71 central region statistics: Mean: [126.46061086  36.44095625  72.39760738], Min: [1.00000000e+02 9.23647225e-07 5.00000005e+01], Max: [149.9999999  204.99999991  99.99999928]
+2025-04-01 19:17:06,372 - INFO - Subcube 72: Loading cube_origin = [97.0, 197.0, 97.0], load size = 56.00 Mpc/h
+2025-04-01 19:28:05,701 - INFO - Subcube 72 loaded, data shape: (416916402, 3)
+2025-04-01 19:28:06,234 - INFO - Subcube 72 central region data shape: (301025276, 3)
+2025-04-01 19:28:13,667 - INFO - Subcube 72 saved to subcube_npy/subcube_0072.npy
+2025-04-01 19:28:24,771 - INFO - Subcube 72 file MD5 checksum: 8cfeed0102e942bef3a426a30db80635
+2025-04-01 19:28:27,308 - INFO - Subcube 72 central region statistics: Mean: [125.9181989   36.99577965 128.06652825], Min: [1.00000000e+02 3.14075471e-07 1.00000000e+02], Max: [149.99999983 204.99999998 149.99999949]
+2025-04-01 19:28:27,309 - INFO - Subcube 73: Loading cube_origin = [97.0, 197.0, 147.0], load size = 56.00 Mpc/h
+2025-04-02 14:08:09,187 - INFO - Full domain: 205.00 Mpc/h, Nominal subcube size: 50.00 Mpc/h, Overlap: 3.00 Mpc/h
+2025-04-02 14:08:09,189 - INFO - Total number of subcubes: 125
+2025-04-02 14:08:09,190 - INFO - Subcube 0 already exists at subcube_npy/subcube_0000.npy. Skipping.
+2025-04-02 14:08:09,190 - INFO - Subcube 1 already exists at subcube_npy/subcube_0001.npy. Skipping.
+2025-04-02 14:08:09,191 - INFO - Subcube 2 already exists at subcube_npy/subcube_0002.npy. Skipping.
+2025-04-02 14:08:09,192 - INFO - Subcube 3 already exists at subcube_npy/subcube_0003.npy. Skipping.
+2025-04-02 14:08:09,193 - INFO - Subcube 4 already exists at subcube_npy/subcube_0004.npy. Skipping.
+2025-04-02 14:08:09,193 - INFO - Subcube 5 already exists at subcube_npy/subcube_0005.npy. Skipping.
+2025-04-02 14:08:09,198 - INFO - Subcube 6 already exists at subcube_npy/subcube_0006.npy. Skipping.
+2025-04-02 14:08:09,199 - INFO - Subcube 7 already exists at subcube_npy/subcube_0007.npy. Skipping.
+2025-04-02 14:08:09,210 - INFO - Subcube 8 already exists at subcube_npy/subcube_0008.npy. Skipping.
+2025-04-02 14:08:09,213 - INFO - Subcube 9 already exists at subcube_npy/subcube_0009.npy. Skipping.
+2025-04-02 14:08:09,214 - INFO - Completed batch from subcube 0 to 9.
+2025-04-02 14:08:09,215 - INFO - Subcube 10 already exists at subcube_npy/subcube_0010.npy. Skipping.
+2025-04-02 14:08:09,217 - INFO - Subcube 11 already exists at subcube_npy/subcube_0011.npy. Skipping.
+2025-04-02 14:08:09,218 - INFO - Subcube 12 already exists at subcube_npy/subcube_0012.npy. Skipping.
+2025-04-02 14:08:09,229 - INFO - Subcube 13 already exists at subcube_npy/subcube_0013.npy. Skipping.
+2025-04-02 14:08:09,231 - INFO - Subcube 14 already exists at subcube_npy/subcube_0014.npy. Skipping.
+2025-04-02 14:08:09,233 - INFO - Subcube 15 already exists at subcube_npy/subcube_0015.npy. Skipping.
+2025-04-02 14:08:09,238 - INFO - Subcube 16 already exists at subcube_npy/subcube_0016.npy. Skipping.
+2025-04-02 14:08:09,239 - INFO - Subcube 17 already exists at subcube_npy/subcube_0017.npy. Skipping.
+2025-04-02 14:08:09,248 - INFO - Subcube 18 already exists at subcube_npy/subcube_0018.npy. Skipping.
+2025-04-02 14:08:09,251 - INFO - Subcube 19 already exists at subcube_npy/subcube_0019.npy. Skipping.
+2025-04-02 14:08:09,251 - INFO - Completed batch from subcube 10 to 19.
+2025-04-02 14:08:09,266 - INFO - Subcube 20 already exists at subcube_npy/subcube_0020.npy. Skipping.
+2025-04-02 14:08:09,267 - INFO - Subcube 21 already exists at subcube_npy/subcube_0021.npy. Skipping.
+2025-04-02 14:08:09,268 - INFO - Subcube 22 already exists at subcube_npy/subcube_0022.npy. Skipping.
+2025-04-02 14:08:09,284 - INFO - Subcube 23 already exists at subcube_npy/subcube_0023.npy. Skipping.
+2025-04-02 14:08:09,285 - INFO - Subcube 24 already exists at subcube_npy/subcube_0024.npy. Skipping.
+2025-04-02 14:08:09,287 - INFO - Subcube 25 already exists at subcube_npy/subcube_0025.npy. Skipping.
+2025-04-02 14:08:09,289 - INFO - Subcube 26 already exists at subcube_npy/subcube_0026.npy. Skipping.
+2025-04-02 14:08:09,291 - INFO - Subcube 27 already exists at subcube_npy/subcube_0027.npy. Skipping.
+2025-04-02 14:08:09,298 - INFO - Subcube 28 already exists at subcube_npy/subcube_0028.npy. Skipping.
+2025-04-02 14:08:09,299 - INFO - Subcube 29 already exists at subcube_npy/subcube_0029.npy. Skipping.
+2025-04-02 14:08:09,299 - INFO - Completed batch from subcube 20 to 29.
+2025-04-02 14:08:09,301 - INFO - Subcube 30 already exists at subcube_npy/subcube_0030.npy. Skipping.
+2025-04-02 14:08:09,302 - INFO - Subcube 31 already exists at subcube_npy/subcube_0031.npy. Skipping.
+2025-04-02 14:08:09,304 - INFO - Subcube 32 already exists at subcube_npy/subcube_0032.npy. Skipping.
+2025-04-02 14:08:09,304 - INFO - Subcube 33 already exists at subcube_npy/subcube_0033.npy. Skipping.
+2025-04-02 14:08:09,306 - INFO - Subcube 34 already exists at subcube_npy/subcube_0034.npy. Skipping.
+2025-04-02 14:08:09,312 - INFO - Subcube 35 already exists at subcube_npy/subcube_0035.npy. Skipping.
+2025-04-02 14:08:09,313 - INFO - Subcube 36 already exists at subcube_npy/subcube_0036.npy. Skipping.
+2025-04-02 14:08:09,320 - INFO - Subcube 37 already exists at subcube_npy/subcube_0037.npy. Skipping.
+2025-04-02 14:08:09,320 - INFO - Subcube 38 already exists at subcube_npy/subcube_0038.npy. Skipping.
+2025-04-02 14:08:09,326 - INFO - Subcube 39 already exists at subcube_npy/subcube_0039.npy. Skipping.
+2025-04-02 14:08:09,326 - INFO - Completed batch from subcube 30 to 39.
+2025-04-02 14:08:09,327 - INFO - Subcube 40 already exists at subcube_npy/subcube_0040.npy. Skipping.
+2025-04-02 14:08:09,328 - INFO - Subcube 41 already exists at subcube_npy/subcube_0041.npy. Skipping.
+2025-04-02 14:08:09,330 - INFO - Subcube 42 already exists at subcube_npy/subcube_0042.npy. Skipping.
+2025-04-02 14:08:09,330 - INFO - Subcube 43 already exists at subcube_npy/subcube_0043.npy. Skipping.
+2025-04-02 14:08:09,331 - INFO - Subcube 44 already exists at subcube_npy/subcube_0044.npy. Skipping.
+2025-04-02 14:08:09,349 - INFO - Subcube 45 already exists at subcube_npy/subcube_0045.npy. Skipping.
+2025-04-02 14:08:09,350 - INFO - Subcube 46 already exists at subcube_npy/subcube_0046.npy. Skipping.
+2025-04-02 14:08:09,352 - INFO - Subcube 47 already exists at subcube_npy/subcube_0047.npy. Skipping.
+2025-04-02 14:08:09,354 - INFO - Subcube 48 already exists at subcube_npy/subcube_0048.npy. Skipping.
+2025-04-02 14:08:09,354 - INFO - Subcube 49 already exists at subcube_npy/subcube_0049.npy. Skipping.
+2025-04-02 14:08:09,355 - INFO - Completed batch from subcube 40 to 49.
+2025-04-02 14:08:09,356 - INFO - Subcube 50 already exists at subcube_npy/subcube_0050.npy. Skipping.
+2025-04-02 14:08:09,370 - INFO - Subcube 51 already exists at subcube_npy/subcube_0051.npy. Skipping.
+2025-04-02 14:08:09,372 - INFO - Subcube 52 already exists at subcube_npy/subcube_0052.npy. Skipping.
+2025-04-02 14:08:09,373 - INFO - Subcube 53 already exists at subcube_npy/subcube_0053.npy. Skipping.
+2025-04-02 14:08:09,374 - INFO - Subcube 54 already exists at subcube_npy/subcube_0054.npy. Skipping.
+2025-04-02 14:08:09,374 - INFO - Subcube 55 already exists at subcube_npy/subcube_0055.npy. Skipping.
+2025-04-02 14:08:09,375 - INFO - Subcube 56 already exists at subcube_npy/subcube_0056.npy. Skipping.
+2025-04-02 14:08:09,376 - INFO - Subcube 57 already exists at subcube_npy/subcube_0057.npy. Skipping.
+2025-04-02 14:08:09,377 - INFO - Subcube 58 already exists at subcube_npy/subcube_0058.npy. Skipping.
+2025-04-02 14:08:09,377 - INFO - Subcube 59 already exists at subcube_npy/subcube_0059.npy. Skipping.
+2025-04-02 14:08:09,378 - INFO - Completed batch from subcube 50 to 59.
+2025-04-02 14:08:09,378 - INFO - Subcube 60 already exists at subcube_npy/subcube_0060.npy. Skipping.
+2025-04-02 14:08:09,379 - INFO - Subcube 61 already exists at subcube_npy/subcube_0061.npy. Skipping.
+2025-04-02 14:08:09,389 - INFO - Subcube 62 already exists at subcube_npy/subcube_0062.npy. Skipping.
+2025-04-02 14:08:09,404 - INFO - Subcube 63 already exists at subcube_npy/subcube_0063.npy. Skipping.
+2025-04-02 14:08:09,405 - INFO - Subcube 64 already exists at subcube_npy/subcube_0064.npy. Skipping.
+2025-04-02 14:08:09,405 - INFO - Subcube 65 already exists at subcube_npy/subcube_0065.npy. Skipping.
+2025-04-02 14:08:09,406 - INFO - Subcube 66 already exists at subcube_npy/subcube_0066.npy. Skipping.
+2025-04-02 14:08:09,406 - INFO - Subcube 67 already exists at subcube_npy/subcube_0067.npy. Skipping.
+2025-04-02 14:08:09,417 - INFO - Subcube 68 already exists at subcube_npy/subcube_0068.npy. Skipping.
+2025-04-02 14:08:09,418 - INFO - Subcube 69 already exists at subcube_npy/subcube_0069.npy. Skipping.
+2025-04-02 14:08:09,418 - INFO - Completed batch from subcube 60 to 69.
+2025-04-02 14:08:09,420 - INFO - Subcube 70 already exists at subcube_npy/subcube_0070.npy. Skipping.
+2025-04-02 14:08:09,421 - INFO - Subcube 71 already exists at subcube_npy/subcube_0071.npy. Skipping.
+2025-04-02 14:08:09,433 - INFO - Subcube 72 already exists at subcube_npy/subcube_0072.npy. Skipping.
+2025-04-02 14:08:09,433 - INFO - Subcube 73: Loading cube_origin = [97.0, 197.0, 147.0], load size = 56.00 Mpc/h
+2025-04-02 14:20:05,676 - INFO - Subcube 73 loaded, data shape: (260787264, 3)
+2025-04-02 14:20:06,183 - INFO - Subcube 73 central region data shape: (173456395, 3)
+2025-04-02 14:20:10,646 - INFO - Subcube 73 saved to subcube_npy/subcube_0073.npy
+2025-04-02 14:20:16,943 - INFO - Subcube 73 file MD5 checksum: c5debcf4074bfa35efb8842c40339834
+2025-04-02 14:20:18,016 - INFO - Subcube 73 central region statistics: Mean: [123.05376486  40.40952131 173.32683627], Min: [1.00000000e+02 3.40943312e-07 1.50000000e+02], Max: [149.99999994 204.9999999  199.99999982]
+2025-04-02 14:20:18,017 - INFO - Subcube 74: Loading cube_origin = [97.0, 197.0, 197.0], load size = 56.00 Mpc/h
+2025-04-02 14:33:24,575 - INFO - Subcube 74 loaded, data shape: (334454657, 3)
+2025-04-02 14:33:24,627 - INFO - Subcube 74 central region data shape: (243666415, 3)
+2025-04-02 14:33:30,831 - INFO - Subcube 74 saved to subcube_npy/subcube_0074.npy
+2025-04-02 14:33:40,076 - INFO - Subcube 74 file MD5 checksum: 02f6a2fd5cf6bf6e3405ff04e3c67c44
+2025-04-02 14:33:41,649 - INFO - Subcube 74 central region statistics: Mean: [122.42510916  38.4366244   37.58707914], Min: [1.00000000e+02 1.62251526e-07 4.76088608e-08], Max: [149.99999944 204.99999998 204.99999958]
+2025-04-02 14:33:41,654 - INFO - Subcube 75: Loading cube_origin = [147.0, 202.0, 202.0], load size = 56.00 Mpc/h
+2025-04-02 14:46:43,919 - INFO - Subcube 75 loaded, data shape: (248851983, 3)
+2025-04-02 14:46:43,956 - INFO - Subcube 75 central region data shape: (178823063, 3)
+2025-04-02 14:46:48,375 - INFO - Subcube 75 saved to subcube_npy/subcube_0075.npy
+2025-04-02 14:46:54,950 - INFO - Subcube 75 file MD5 checksum: a0e5846fd6779932b2057cebafda1d40
+2025-04-02 14:46:56,015 - INFO - Subcube 75 central region statistics: Mean: [175.12707266  24.0522197   26.28057464], Min: [1.50000000e+02 8.12943011e-08 7.36924678e-07], Max: [199.9999998   49.9999985   49.99999988]
+2025-04-02 14:46:56,016 - INFO - Subcube 76: Loading cube_origin = [147.0, 202.0, 47.0], load size = 56.00 Mpc/h

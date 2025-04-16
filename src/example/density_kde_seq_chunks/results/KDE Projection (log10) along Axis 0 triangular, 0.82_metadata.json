@@ -1,0 +1,39 @@
+{
+    "Plot Info": {
+        "title": "KDE Projection (log10) along Axis 0 triangular, 0.82",
+        "xlabel": "Y (cMpc/h)",
+        "ylabel": "Z (cMpc/h)",
+        "annotation": "Sampling: 100.000%\nProjection Axis: 0\nFilter Range: 0.00-205.00 ckpc/h\nScale: log10\n\nX Center: 102.50 cMpc/h | Thickness: 205.00 cMpc/h\nInput Folder: /home/users/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks\nResults Folder: /caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/results\n\nBin Resolution: 0.82 (x-axis) x 0.82 (y-axis) ckpc/h"
+    },
+    "Filtering Info": {
+        "projection_axis": 0,
+        "x_range": 205.0,
+        "x_center": 102.5,
+        "sampling_rate": 1,
+        "x_min": 0.0,
+        "x_max": 205.0,
+        "data_unit": "ckpc/h"
+    },
+    "Simulation Info": {
+        "box_size": 205.0,
+        "data_unit": "ckpc/h"
+    },
+    "Paths": {
+        "input_folder": "/home/users/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks",
+        "results_dir": "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/results"
+    },
+    "Rendering Info": {
+        "bins": 250,
+        "scale": "log10",
+        "cmap": "cividis",
+        "dpi": 200,
+        "output_formats": [
+            "PNG",
+            "PDF"
+        ],
+        "show_grid": false,
+        "bin_resolution_x": 0.82,
+        "bin_resolution_y": 0.82,
+        "data_unit": "ckpc/h"
+    }
+}

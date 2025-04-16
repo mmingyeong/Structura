@@ -8,7 +8,6 @@
 
 import numpy as np
 
-
 class KernelFunctions:
     """
     다양한 커널 함수들을 static method 형태로 제공하는 클래스입니다.
@@ -21,10 +20,12 @@ class KernelFunctions:
         """
         3차원 가우시안 커널 함수.
         K(d, h) = exp(-0.5*(d/h)^2) / ((2*pi)^(3/2) * h^3)
+        단, d > 3h인 경우 0으로 처리합니다.
         """
         xp = np.get_array_module(distance) if hasattr(np, "get_array_module") else __import__("cupy").get_array_module(distance)
         norm = (2 * xp.pi) ** (1.5) * h ** 3
-        return xp.exp(-0.5 * (distance / h) ** 2) / norm
+        return xp.where(distance > 3 * h, 0.0, xp.exp(-0.5 * (distance / h) ** 2) / norm)
+
 
     @staticmethod
     def uniform(distance, h):
@@ -89,10 +90,11 @@ class KernelFunctions:
         """
         로지스틱 커널.
         K(d,h) = exp(-d/h)/(1+exp(-d/h))^2 / (h^3)
+        단, d > 3h 인 경우 0으로 처리합니다.
         """
         xp = np.get_array_module(distance) if hasattr(np, "get_array_module") else __import__("cupy").get_array_module(distance)
         u = distance / h
-        return xp.exp(-u) / (1 + xp.exp(-u)) ** 2 / (h ** 3)
+        return xp.where(distance > 3 * h, 0.0, xp.exp(-u) / (1 + xp.exp(-u)) ** 2 / (h ** 3))
 
     @staticmethod
     def sigmoid(distance, h):
@@ -108,6 +110,7 @@ class KernelFunctions:
         """
         라플라시안 커널.
         K(d,h) = exp(-|d/h|) / (2*h^3)
+        단, |d| > 3h 인 경우 0으로 처리합니다.
         """
         xp = np.get_array_module(distance) if hasattr(np, "get_array_module") else __import__("cupy").get_array_module(distance)
-        return xp.exp(-xp.abs(distance / h)) / (2 * h ** 3)
+        return xp.where(xp.abs(distance) > 3 * h, 0.0, xp.exp(-xp.abs(distance / h)) / (2 * h ** 3))

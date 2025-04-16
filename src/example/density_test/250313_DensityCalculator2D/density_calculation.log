@@ -1,0 +1,6 @@
+2025-03-13 15:00:10,671 [INFO] Loaded particles from particles_nonuniform.npy, shape=(50000, 2)
+2025-03-13 15:02:07,895 [INFO] Profile results saved to density_profile.txt
+2025-03-13 15:02:07,898 [INFO] Density map saved to nonuniform_density_map.npy, shape=(200, 200)
+2025-03-13 15:02:08,183 [INFO] Density plot saved to nonuniform_density_map.png
+2025-03-13 15:02:08,183 [INFO] Density calculation test completed successfully.
+2025-03-13 15:02:08,184 [INFO] Total Execution Time: 117.52 seconds.

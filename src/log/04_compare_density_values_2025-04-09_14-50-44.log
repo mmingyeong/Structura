@@ -1,0 +1,20 @@
+2025-04-09 14:50:44,805 - INFO - Loading HDF5 file: /home/users/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/final_snapshot-99_kde_density_map.hdf5
+2025-04-09 14:50:45,409 - INFO - Dataset loaded with key: density_map, shape=(250, 250, 250)
+2025-04-09 14:50:45,410 - INFO - File attributes: box_size=205.00, grid_spacing=0.82
+2025-04-09 14:50:45,412 - INFO - Loading HDF5 file: /home/users/mmingyeong/structura/Structura/src/example/density_fft_seq_chunks/final_snapshot-99_fft_density_map.hdf5
+2025-04-09 14:50:46,005 - INFO - Dataset loaded with key: density_map, shape=(250, 250, 250)
+2025-04-09 14:50:46,005 - INFO - File attributes: box_size=205.00, grid_spacing=0.82
+2025-04-09 14:50:46,007 - INFO - Using grid_spacing=0.82
+2025-04-09 14:50:47,009 - INFO - Density comparison statistics:
+2025-04-09 14:50:47,010 - INFO - mean_kde: 1799.5530
+2025-04-09 14:50:47,010 - INFO - mean_fft: 1665.5897
+2025-04-09 14:50:47,010 - INFO - median_kde: 455.0240
+2025-04-09 14:50:47,010 - INFO - median_fft: 440.9388
+2025-04-09 14:50:47,010 - INFO - std_kde: 11343.0998
+2025-04-09 14:50:47,010 - INFO - std_fft: 9948.1398
+2025-04-09 14:50:47,010 - INFO - correlation_coefficient: 0.9581
+2025-04-09 14:50:47,010 - INFO - mean_absolute_difference: 471.6831
+2025-04-09 14:50:47,010 - INFO - std_absolute_difference: 3347.8457
+2025-04-09 14:50:49,407 - INFO - Histogram plot saved as PNG: /caefs/user/mmingyeong/structura/Structura/src/example/density_fft_seq_chunks/results/20250409_145047_density_histograms.png
+2025-04-09 14:50:49,407 - INFO - Histogram plot saved as PDF: /caefs/user/mmingyeong/structura/Structura/src/example/density_fft_seq_chunks/results/20250409_145047_density_histograms.pdf
+2025-04-09 14:50:49,408 - INFO - Total execution time: 4.60 seconds

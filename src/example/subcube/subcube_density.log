@@ -1,0 +1,59 @@
+2025-04-02 14:55:02,931 - INFO - Starting density computation for subcube.
+2025-04-02 14:55:02,933 - INFO - Loading cube data from file: structura/Structura/src/example/subcube/subcube_npy/subcube_0000.npy
+2025-04-02 14:55:02,934 - ERROR - Error loading cube data from structura/Structura/src/example/subcube/subcube_npy/subcube_0000.npy: [Errno 2] No such file or directory: 'structura/Structura/src/example/subcube/subcube_npy/subcube_0000.npy'
+2025-04-02 14:55:24,489 - INFO - Starting density computation for subcube.
+2025-04-02 14:55:24,489 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 14:55:34,594 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 14:55:41,768 - INFO - Grid bounds determined from data: {'x': (7.03317856466934e-07, 49.999999627638296), 'y': (2.273812444510692e-07, 49.999999525420286), 'z': (4.824334332409475e-08, 49.99999986430794)}
+2025-04-02 14:55:41,769 - INFO - Subcube grid spacing set to: (0.08199121522693997, 0.08199121522693997, 0.08199121522693997) (derived from desired resolution 0.082000 and subcube size 56.000000, n_grid_sub=683)
+2025-04-02 14:55:41,771 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (7.03317856466934e-07, 49.999999627638296), 'y': (2.273812444510692e-07, 49.999999525420286), 'z': (4.824334332409475e-08, 49.99999986430794)} and grid_spacing: (0.08199121522693997, 0.08199121522693997, 0.08199121522693997)
+2025-04-02 14:55:41,771 - INFO - Starting density map computation using Gaussian kernel.
+2025-04-02 15:15:19,049 - INFO - Starting density computation for subcube with periodic boundaries.
+2025-04-02 15:15:19,049 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 15:15:20,368 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 15:15:20,368 - INFO - Grid bounds set for periodic boundary conditions: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)}
+2025-04-02 15:15:20,368 - INFO - Subcube grid spacing set to: (1.0, 1.0, 1.0) (grid count = 56, subcube_size = 56.0)
+2025-04-02 15:15:20,370 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)} and grid_spacing: (1.0, 1.0, 1.0)
+2025-04-02 15:15:20,370 - INFO - Starting density map computation using Gaussian kernel with fixed bandwidth h=1.
+2025-04-02 15:21:47,489 - INFO - Starting density computation for subcube with periodic boundaries.
+2025-04-02 15:21:47,489 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 15:21:48,783 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 15:21:48,785 - INFO - Grid bounds set for periodic boundary conditions: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)}
+2025-04-02 15:21:48,785 - INFO - Subcube grid spacing set to: (1.0, 1.0, 1.0) (grid count = 56, subcube_size = 56.0)
+2025-04-02 15:21:48,787 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)} and grid_spacing: (1.0, 1.0, 1.0)
+2025-04-02 15:21:48,787 - INFO - Starting density map computation using Gaussian kernel with fixed bandwidth h=1.
+2025-04-02 15:23:37,755 - INFO - Starting density computation for subcube with periodic boundaries.
+2025-04-02 15:23:37,755 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 15:23:39,142 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 15:23:39,143 - INFO - Grid bounds set for periodic boundary conditions: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)}
+2025-04-02 15:23:39,143 - INFO - Subcube grid spacing set to: (1.0, 1.0, 1.0) (grid count = 56, subcube_size = 56.0)
+2025-04-02 15:23:39,145 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)} and grid_spacing: (1.0, 1.0, 1.0)
+2025-04-02 15:23:39,145 - INFO - Starting density map computation using Gaussian kernel with fixed bandwidth h=1.
+2025-04-02 15:30:59,837 - INFO - Starting density computation for subcube with periodic boundaries.
+2025-04-02 15:30:59,841 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 15:31:01,208 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 15:31:01,209 - INFO - Grid bounds set for periodic boundary conditions: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)}
+2025-04-02 15:31:01,209 - INFO - Subcube grid spacing set to: (1.0, 1.0, 1.0) (grid count = 56, subcube_size = 56.0)
+2025-04-02 15:31:01,211 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)} and grid_spacing: (1.0, 1.0, 1.0)
+2025-04-02 15:31:01,211 - INFO - Starting density map computation using Gaussian kernel with fixed bandwidth h=1.
+2025-04-02 15:37:48,598 - INFO - Start time: 2025-04-02 15:37:48
+2025-04-02 15:37:48,599 - INFO - Starting density computation for subcube with periodic boundaries.
+2025-04-02 15:37:48,599 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 15:37:50,014 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 15:37:50,015 - INFO - Grid bounds set for periodic boundary conditions: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)}
+2025-04-02 15:37:50,015 - INFO - Subcube grid spacing set to: (1.0, 1.0, 1.0) (grid count = 56, subcube_size = 56.0)
+2025-04-02 15:37:50,017 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)} and grid_spacing: (1.0, 1.0, 1.0)
+2025-04-02 15:37:50,017 - INFO - Starting density map computation using Gaussian kernel with fixed bandwidth h=1.
+2025-04-02 15:53:37,128 - INFO - Start time: 2025-04-02 15:53:37
+2025-04-02 15:53:37,129 - INFO - Starting density computation for subcube with periodic boundaries.
+2025-04-02 15:53:37,129 - INFO - Loading cube data from file: subcube_npy/subcube_0000.npy
+2025-04-02 15:53:38,324 - INFO - Cube data loaded successfully. Shape: (148103271, 3)
+2025-04-02 15:53:38,325 - INFO - Grid bounds set for periodic boundary conditions: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)}
+2025-04-02 15:53:38,325 - INFO - Subcube grid spacing set to: (1.0, 1.0, 1.0) (grid count = 56, subcube_size = 56.0)
+2025-04-02 15:53:38,327 - INFO - DensityCalculator instantiated with grid_bounds: {'x': (0.0, 56.0), 'y': (0.0, 56.0), 'z': (0.0, 56.0)} and grid_spacing: (1.0, 1.0, 1.0)
+2025-04-02 15:53:38,327 - INFO - Starting density map computation using Gaussian kernel with fixed bandwidth h=1.
+2025-04-02 22:24:32,857 - INFO - Density map computation completed. Density map shape: (56, 56, 56)
+2025-04-02 22:24:32,861 - INFO - Saving density map to output file: density_subcube_0000.npy
+2025-04-02 22:24:33,049 - INFO - Density map successfully saved to density_subcube_0000.npy
+2025-04-02 22:24:33,050 - INFO - End time: 2025-04-02 22:24:33
+2025-04-02 22:24:33,050 - INFO - Total execution time: 23455.92 seconds

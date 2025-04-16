@@ -1,0 +1,15 @@
+Density Comparison Statistics:
+mean_kde: 1801.9439
+mean_fft: 951.7656
+median_kde: 413.3131
+median_fft: 169.9775
+std_kde: 13643.5275
+std_fft: 10142.3772
+correlation_coefficient: 0.9165
+mean_absolute_difference: 906.8561
+std_absolute_difference: 5938.7646
+
+Reference density comparison:
+Reference absolute mean density: 1816
+KDE absolute mean density: 1801.94 (Difference: -14.06)
+FFT absolute mean density: 951.77 (Difference: -864.23)

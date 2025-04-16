@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ### **1️⃣ Check System Compatibility**
 Before running large-scale computations, verify your environment:  
 ```bash
-python src/example/check_system_ex.py
+python src/example/src_ex/check_system_ex.py
 ```
 📌 **Checks:**  
 - GPU availability & specs  
@@ -36,7 +36,7 @@ python src/example/check_system_ex.py
 ### **2️⃣ Convert HDF5 Simulation Data to NPY/NPZ**
 Run the conversion script for snapshot data:  
 ```bash
-python src/example/converter_ex.py
+python src/example/src_ex/converter_ex.py
 ```
 📌 **Features:**  
 - Automatically detects and skips files if already converted  
@@ -45,9 +45,9 @@ python src/example/converter_ex.py
 ---
 
 ### **3️⃣ Visualize Simulation Data**
-To generate 2D/3D visualizations:  
+To generate 2D visualizations:  
 ```bash
-python src/example/visualization_ex.py
+python src/example/src_ex/visualization_ex.py
 ```
 📌 **Features:**  
 - Supports **scatter plots, density maps, and histograms**  

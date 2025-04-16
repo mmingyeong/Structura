@@ -1,0 +1,9 @@
+2025-04-09 00:50:07,624 - INFO - Density map 합산 처리 시작: 입력 디렉토리: fft_densitymap_uniform_dx0.82
+2025-04-09 00:53:31,176 - INFO - Density map 합산 처리 시작: 입력 디렉토리: /home/users/mmingyeong/structura/Structura/src/example/density_fft_seq_chunks/fft_densitymap_uniform_dx0.82
+2025-04-09 00:53:31,180 - INFO - 디렉토리 [/home/users/mmingyeong/structura/Structura/src/example/density_fft_seq_chunks/fft_densitymap_uniform_dx0.82] 에서 598개의 npy 파일을 찾았습니다.
+2025-04-09 00:53:31,180 - INFO - 각 npy 파일을 memory-mapped 배열로 불러와 dask array로 변환합니다.
+2025-04-09 00:57:47,026 - INFO - 모든 파일의 배열을 stacking한 후, axis=0 방향으로 합산합니다.
+2025-04-09 00:57:47,043 - INFO - Dask를 이용한 합산 계산을 실행합니다.
+2025-04-09 00:58:10,465 - INFO - 합산 완료, 최종 density map의 shape: (250, 250, 250)
+2025-04-09 00:58:14,193 - INFO - 최종 density map을 HDF5 파일로 저장 완료: /home/users/mmingyeong/structura/Structura/src/example/density_fft_seq_chunks/final_snapshot-99_fft_density_map.hdf5
+2025-04-09 00:58:14,476 - INFO - 전체 실행 시간: 283.30초

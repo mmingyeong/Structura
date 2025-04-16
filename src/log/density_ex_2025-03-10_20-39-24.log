@@ -1,4 +1,0 @@
-2025-03-10 20:39:26,135 - INFO - Snapshot99 데이터 폴더: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
-2025-03-10 20:39:26,137 - INFO - Output directory: /caefs/user/mmingyeong/structura/Structura/src/results/density_maps
-2025-03-10 20:39:26,137 - INFO - Loading subcube data (origin: (100, 100, 100), size: 10, full_length: 205.0)...
-2025-03-10 20:39:34,624 - INFO - Using Dask distributed client with 48 workers.
