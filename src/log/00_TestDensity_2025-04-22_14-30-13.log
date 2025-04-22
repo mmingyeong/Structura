@@ -1,0 +1,15 @@
+2025-04-22 14:30:17,761 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_nufft_seq_chunks/00_TestDensity.py", line 123, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_nufft_seq_chunks/00_TestDensity.py", line 117, in main
+    save_density(output_path, group_key, density_mmap, meta)
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_nufft_seq_chunks/00_TestDensity.py", line 91, in save_density
+    grp.create_dataset("density_map", data=density_map[:], compression=compression)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/group.py", line 186, in create_dataset
+    dsid = dataset.make_new_dset(group, shape, dtype, data, name, **kwds)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/dataset.py", line 48, in make_new_dset
+    data = array_for_new_object(data, specified_dtype=dtype)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/base.py", line 118, in array_for_new_object
+    data = np.asarray(data, order="C", dtype=as_dtype)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 2 dimensions. The detected shape was (4, 250) + inhomogeneous part.

@@ -1,0 +1,11 @@
+2025-04-21 14:49:39,486 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 145, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 102, in main
+    particles = hf['PartType1'][...]
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/group.py", line 362, in __getitem__
+    raise TypeError("Accessing a group is done with bytes or str, "
+TypeError: Accessing a group is done with bytes or str, not <class 'ellipsis'>

@@ -1,0 +1,8 @@
+2025-04-21 15:12:57,383 - INFO - Post-normalization applied to match total particle count.
+2025-04-21 15:12:57,389 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 143, in <module>
+    main()
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 102, in main
+    coord_ds = f['PartType1/Coordinates']
+NameError: name 'f' is not defined

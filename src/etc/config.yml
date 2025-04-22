@@ -13,7 +13,7 @@ DEFAULT_BINS: 302  # Auto bins based on resolution
 # -------------------------------
 # 🔹 GPU settings
 # -------------------------------
-USE_GPU: true
+USE_GPU: False
 GPU_DEVICE: 1  # 0 or 1 (GPU 선택)
 
 # -------------------------------

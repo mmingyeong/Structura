@@ -7418,3 +7418,2026 @@ which has chunks (100, 100, 100, 100, 100). To change the array's chunks use das
 2025-04-16 14:51:51,191 - INFO - 🔹 Processing file: snapshot-99.274.npy
 2025-04-16 14:51:51,295 - INFO - 📊 Starting FFTKDE for [snapshot-99.274] (N=26142761)
 2025-04-16 14:51:51,296 - INFO - 💾 Memory usage before FFTKDE compute: 160.24 MB
+2025-04-16 14:56:40,476 - INFO - 💾 Memory usage after FFTKDE compute: 159.97 MB
+2025-04-16 14:57:46,082 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.274_uniform.npy
+2025-04-16 14:57:46,163 - INFO - 🔹 Processing file: snapshot-99.275.npy
+2025-04-16 14:57:46,325 - INFO - 📊 Starting FFTKDE for [snapshot-99.275] (N=26135651)
+2025-04-16 14:57:46,326 - INFO - 💾 Memory usage before FFTKDE compute: 160.04 MB
+2025-04-16 15:02:13,364 - INFO - 💾 Memory usage after FFTKDE compute: 380.01 MB
+2025-04-16 15:03:20,865 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.275_uniform.npy
+2025-04-16 15:03:20,953 - INFO - 🔹 Processing file: snapshot-99.276.npy
+2025-04-16 15:03:21,039 - INFO - 📊 Starting FFTKDE for [snapshot-99.276] (N=26058643)
+2025-04-16 15:03:21,040 - INFO - 💾 Memory usage before FFTKDE compute: 160.32 MB
+2025-04-16 15:07:35,718 - INFO - 💾 Memory usage after FFTKDE compute: 216.89 MB
+2025-04-16 15:08:36,100 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.276_uniform.npy
+2025-04-16 15:08:36,182 - INFO - 🔹 Processing file: snapshot-99.277.npy
+2025-04-16 15:08:36,300 - INFO - 📊 Starting FFTKDE for [snapshot-99.277] (N=26026788)
+2025-04-16 15:08:36,301 - INFO - 💾 Memory usage before FFTKDE compute: 160.05 MB
+2025-04-16 15:13:45,692 - INFO - 💾 Memory usage after FFTKDE compute: 677.97 MB
+2025-04-16 15:14:46,954 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.277_uniform.npy
+2025-04-16 15:14:47,039 - INFO - 🔹 Processing file: snapshot-99.278.npy
+2025-04-16 15:14:47,138 - INFO - 📊 Starting FFTKDE for [snapshot-99.278] (N=26135968)
+2025-04-16 15:14:47,139 - INFO - 💾 Memory usage before FFTKDE compute: 160.31 MB
+2025-04-16 15:20:02,062 - INFO - 💾 Memory usage after FFTKDE compute: 707.26 MB
+2025-04-16 15:21:00,962 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.278_uniform.npy
+2025-04-16 15:21:01,066 - INFO - 🔹 Processing file: snapshot-99.279.npy
+2025-04-16 15:21:01,156 - INFO - 📊 Starting FFTKDE for [snapshot-99.279] (N=26019370)
+2025-04-16 15:21:01,157 - INFO - 💾 Memory usage before FFTKDE compute: 159.93 MB
+2025-04-16 15:25:32,938 - INFO - 💾 Memory usage after FFTKDE compute: 424.33 MB
+2025-04-16 15:27:00,369 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.279_uniform.npy
+2025-04-16 15:27:00,447 - INFO - 🔹 Processing file: snapshot-99.28.npy
+2025-04-16 15:27:00,533 - INFO - 📊 Starting FFTKDE for [snapshot-99.28] (N=26102040)
+2025-04-16 15:27:00,535 - INFO - 💾 Memory usage before FFTKDE compute: 159.95 MB
+2025-04-16 15:32:36,535 - INFO - 💾 Memory usage after FFTKDE compute: 558.75 MB
+2025-04-16 15:33:52,631 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.28_uniform.npy
+2025-04-16 15:33:52,755 - INFO - 🔹 Processing file: snapshot-99.280.npy
+2025-04-16 15:33:52,905 - INFO - 📊 Starting FFTKDE for [snapshot-99.280] (N=26261099)
+2025-04-16 15:33:52,905 - INFO - 💾 Memory usage before FFTKDE compute: 159.81 MB
+2025-04-16 15:39:24,685 - INFO - 💾 Memory usage after FFTKDE compute: 460.87 MB
+2025-04-16 15:40:49,776 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.280_uniform.npy
+2025-04-16 15:40:49,884 - INFO - 🔹 Processing file: snapshot-99.281.npy
+2025-04-16 15:40:49,968 - INFO - 📊 Starting FFTKDE for [snapshot-99.281] (N=25916547)
+2025-04-16 15:40:49,969 - INFO - 💾 Memory usage before FFTKDE compute: 160.30 MB
+2025-04-16 15:46:40,956 - INFO - 💾 Memory usage after FFTKDE compute: 534.43 MB
+2025-04-16 15:47:45,839 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.281_uniform.npy
+2025-04-16 15:47:45,911 - INFO - 🔹 Processing file: snapshot-99.282.npy
+2025-04-16 15:47:45,973 - INFO - 📊 Starting FFTKDE for [snapshot-99.282] (N=26143163)
+2025-04-16 15:47:45,974 - INFO - 💾 Memory usage before FFTKDE compute: 160.20 MB
+2025-04-16 15:52:37,783 - INFO - 💾 Memory usage after FFTKDE compute: 159.41 MB
+2025-04-16 15:53:43,108 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.282_uniform.npy
+2025-04-16 15:53:43,187 - INFO - 🔹 Processing file: snapshot-99.283.npy
+2025-04-16 15:53:43,288 - INFO - 📊 Starting FFTKDE for [snapshot-99.283] (N=26051834)
+2025-04-16 15:53:43,289 - INFO - 💾 Memory usage before FFTKDE compute: 159.63 MB
+2025-04-16 15:59:09,115 - INFO - 💾 Memory usage after FFTKDE compute: 159.07 MB
+2025-04-16 16:00:15,315 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.283_uniform.npy
+2025-04-16 16:00:15,400 - INFO - 🔹 Processing file: snapshot-99.284.npy
+2025-04-16 16:00:15,476 - INFO - 📊 Starting FFTKDE for [snapshot-99.284] (N=26270419)
+2025-04-16 16:00:15,477 - INFO - 💾 Memory usage before FFTKDE compute: 159.30 MB
+2025-04-16 16:05:20,078 - INFO - 💾 Memory usage after FFTKDE compute: 675.72 MB
+2025-04-16 16:06:21,962 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.284_uniform.npy
+2025-04-16 16:06:22,047 - INFO - 🔹 Processing file: snapshot-99.285.npy
+2025-04-16 16:06:22,165 - INFO - 📊 Starting FFTKDE for [snapshot-99.285] (N=26180188)
+2025-04-16 16:06:22,166 - INFO - 💾 Memory usage before FFTKDE compute: 160.04 MB
+2025-04-16 16:12:18,939 - INFO - 💾 Memory usage after FFTKDE compute: 159.08 MB
+2025-04-16 16:13:18,030 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.285_uniform.npy
+2025-04-16 16:13:18,111 - INFO - 🔹 Processing file: snapshot-99.286.npy
+2025-04-16 16:13:18,248 - INFO - 📊 Starting FFTKDE for [snapshot-99.286] (N=26038341)
+2025-04-16 16:13:18,249 - INFO - 💾 Memory usage before FFTKDE compute: 159.29 MB
+2025-04-16 16:19:50,973 - INFO - 💾 Memory usage after FFTKDE compute: 159.02 MB
+2025-04-16 16:20:56,694 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.286_uniform.npy
+2025-04-16 16:20:56,799 - INFO - 🔹 Processing file: snapshot-99.287.npy
+2025-04-16 16:20:56,912 - INFO - 📊 Starting FFTKDE for [snapshot-99.287] (N=26038573)
+2025-04-16 16:20:56,913 - INFO - 💾 Memory usage before FFTKDE compute: 159.25 MB
+2025-04-16 16:22:24,673 - INFO - 💾 Memory usage after FFTKDE compute: 756.24 MB
+2025-04-16 16:23:30,098 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.287_uniform.npy
+2025-04-16 16:23:30,216 - INFO - 🔹 Processing file: snapshot-99.288.npy
+2025-04-16 16:23:30,308 - INFO - 📊 Starting FFTKDE for [snapshot-99.288] (N=25976319)
+2025-04-16 16:23:30,309 - INFO - 💾 Memory usage before FFTKDE compute: 160.27 MB
+2025-04-16 16:24:58,049 - INFO - 💾 Memory usage after FFTKDE compute: 754.88 MB
+2025-04-16 16:26:01,739 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.288_uniform.npy
+2025-04-16 16:26:01,841 - INFO - 🔹 Processing file: snapshot-99.289.npy
+2025-04-16 16:26:01,885 - INFO - 📊 Starting FFTKDE for [snapshot-99.289] (N=25813400)
+2025-04-16 16:26:01,886 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-16 16:27:28,324 - INFO - 💾 Memory usage after FFTKDE compute: 751.15 MB
+2025-04-16 16:28:49,903 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.289_uniform.npy
+2025-04-16 16:28:50,044 - INFO - 🔹 Processing file: snapshot-99.29.npy
+2025-04-16 16:28:50,117 - INFO - 📊 Starting FFTKDE for [snapshot-99.29] (N=26272741)
+2025-04-16 16:28:50,118 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-16 16:30:34,968 - INFO - 💾 Memory usage after FFTKDE compute: 761.67 MB
+2025-04-16 16:32:24,457 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.29_uniform.npy
+2025-04-16 16:32:24,618 - INFO - 🔹 Processing file: snapshot-99.290.npy
+2025-04-16 16:32:24,701 - INFO - 📊 Starting FFTKDE for [snapshot-99.290] (N=26146281)
+2025-04-16 16:32:24,701 - INFO - 💾 Memory usage before FFTKDE compute: 159.30 MB
+2025-04-16 16:35:18,414 - INFO - 💾 Memory usage after FFTKDE compute: 160.01 MB
+2025-04-16 16:37:04,251 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.290_uniform.npy
+2025-04-16 16:37:04,366 - INFO - 🔹 Processing file: snapshot-99.291.npy
+2025-04-16 16:37:04,503 - INFO - 📊 Starting FFTKDE for [snapshot-99.291] (N=25901402)
+2025-04-16 16:37:04,504 - INFO - 💾 Memory usage before FFTKDE compute: 160.02 MB
+2025-04-16 16:44:06,679 - INFO - 💾 Memory usage after FFTKDE compute: 753.17 MB
+2025-04-16 16:44:55,173 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.291_uniform.npy
+2025-04-16 16:44:55,310 - INFO - 🔹 Processing file: snapshot-99.292.npy
+2025-04-16 16:44:55,381 - INFO - 📊 Starting FFTKDE for [snapshot-99.292] (N=26134747)
+2025-04-16 16:44:55,381 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-16 16:57:59,531 - INFO - 💾 Memory usage after FFTKDE compute: 758.50 MB
+2025-04-16 16:59:30,060 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.292_uniform.npy
+2025-04-16 16:59:30,227 - INFO - 🔹 Processing file: snapshot-99.293.npy
+2025-04-16 16:59:30,298 - INFO - 📊 Starting FFTKDE for [snapshot-99.293] (N=26102453)
+2025-04-16 16:59:30,299 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-16 17:09:45,685 - INFO - 💾 Memory usage after FFTKDE compute: 159.49 MB
+2025-04-16 17:11:11,367 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.293_uniform.npy
+2025-04-16 17:11:11,471 - INFO - 🔹 Processing file: snapshot-99.294.npy
+2025-04-16 17:11:11,536 - INFO - 📊 Starting FFTKDE for [snapshot-99.294] (N=26173799)
+2025-04-16 17:11:11,537 - INFO - 💾 Memory usage before FFTKDE compute: 159.71 MB
+2025-04-16 17:17:05,613 - INFO - 💾 Memory usage after FFTKDE compute: 759.39 MB
+2025-04-16 17:18:21,364 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.294_uniform.npy
+2025-04-16 17:18:21,696 - INFO - 🔹 Processing file: snapshot-99.295.npy
+2025-04-16 17:18:21,757 - INFO - 📊 Starting FFTKDE for [snapshot-99.295] (N=26026926)
+2025-04-16 17:18:21,757 - INFO - 💾 Memory usage before FFTKDE compute: 160.31 MB
+2025-04-16 17:25:15,670 - INFO - 💾 Memory usage after FFTKDE compute: 160.34 MB
+2025-04-16 17:26:38,345 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.295_uniform.npy
+2025-04-16 17:26:38,654 - INFO - 🔹 Processing file: snapshot-99.296.npy
+2025-04-16 17:26:38,758 - INFO - 📊 Starting FFTKDE for [snapshot-99.296] (N=25857752)
+2025-04-16 17:26:38,759 - INFO - 💾 Memory usage before FFTKDE compute: 160.34 MB
+2025-04-16 17:33:48,069 - INFO - 💾 Memory usage after FFTKDE compute: 752.19 MB
+2025-04-16 17:34:44,895 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.296_uniform.npy
+2025-04-16 17:34:45,177 - INFO - 🔹 Processing file: snapshot-99.297.npy
+2025-04-16 17:34:45,229 - INFO - 📊 Starting FFTKDE for [snapshot-99.297] (N=25919041)
+2025-04-16 17:34:45,230 - INFO - 💾 Memory usage before FFTKDE compute: 160.35 MB
+2025-04-16 17:43:27,325 - INFO - 💾 Memory usage after FFTKDE compute: 408.99 MB
+2025-04-16 17:44:18,074 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.297_uniform.npy
+2025-04-16 17:44:18,260 - INFO - 🔹 Processing file: snapshot-99.298.npy
+2025-04-16 17:44:18,325 - INFO - 📊 Starting FFTKDE for [snapshot-99.298] (N=26018564)
+2025-04-16 17:44:18,328 - INFO - 💾 Memory usage before FFTKDE compute: 159.43 MB
+2025-04-16 17:51:33,165 - INFO - 💾 Memory usage after FFTKDE compute: 755.75 MB
+2025-04-16 17:52:51,810 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.298_uniform.npy
+2025-04-16 17:52:52,088 - INFO - 🔹 Processing file: snapshot-99.299.npy
+2025-04-16 17:52:52,193 - INFO - 📊 Starting FFTKDE for [snapshot-99.299] (N=26177112)
+2025-04-16 17:52:52,193 - INFO - 💾 Memory usage before FFTKDE compute: 160.23 MB
+2025-04-16 18:09:19,515 - INFO - 💾 Memory usage after FFTKDE compute: 759.50 MB
+2025-04-16 18:10:28,604 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.299_uniform.npy
+2025-04-16 18:10:28,873 - INFO - 🔹 Processing file: snapshot-99.3.npy
+2025-04-16 18:10:28,950 - INFO - 📊 Starting FFTKDE for [snapshot-99.3] (N=25794343)
+2025-04-16 18:10:28,951 - INFO - 💾 Memory usage before FFTKDE compute: 160.36 MB
+2025-04-16 18:34:39,263 - INFO - 💾 Memory usage after FFTKDE compute: 750.66 MB
+2025-04-16 18:35:30,888 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.3_uniform.npy
+2025-04-16 18:35:31,203 - INFO - 🔹 Processing file: snapshot-99.30.npy
+2025-04-16 18:35:31,256 - INFO - 📊 Starting FFTKDE for [snapshot-99.30] (N=26072759)
+2025-04-16 18:35:31,257 - INFO - 💾 Memory usage before FFTKDE compute: 160.27 MB
+2025-04-16 18:49:26,240 - INFO - 💾 Memory usage after FFTKDE compute: 756.00 MB
+2025-04-16 18:50:19,489 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.30_uniform.npy
+2025-04-16 18:50:19,852 - INFO - 🔹 Processing file: snapshot-99.300.npy
+2025-04-16 18:50:19,961 - INFO - 📊 Starting FFTKDE for [snapshot-99.300] (N=25873681)
+2025-04-16 18:50:19,961 - INFO - 💾 Memory usage before FFTKDE compute: 159.47 MB
+2025-04-16 18:57:01,795 - INFO - 💾 Memory usage after FFTKDE compute: 159.34 MB
+2025-04-16 18:58:44,841 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.300_uniform.npy
+2025-04-16 18:58:44,938 - INFO - 🔹 Processing file: snapshot-99.301.npy
+2025-04-16 18:58:45,032 - INFO - 📊 Starting FFTKDE for [snapshot-99.301] (N=25916361)
+2025-04-16 18:58:45,033 - INFO - 💾 Memory usage before FFTKDE compute: 159.59 MB
+2025-04-16 19:06:25,112 - INFO - 💾 Memory usage after FFTKDE compute: 673.52 MB
+2025-04-16 19:08:04,076 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.301_uniform.npy
+2025-04-16 19:08:04,218 - INFO - 🔹 Processing file: snapshot-99.302.npy
+2025-04-16 19:08:04,306 - INFO - 📊 Starting FFTKDE for [snapshot-99.302] (N=25941883)
+2025-04-16 19:08:04,307 - INFO - 💾 Memory usage before FFTKDE compute: 160.35 MB
+2025-04-16 19:18:01,205 - INFO - 💾 Memory usage after FFTKDE compute: 377.12 MB
+2025-04-16 19:18:57,819 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.302_uniform.npy
+2025-04-16 19:18:57,913 - INFO - 🔹 Processing file: snapshot-99.303.npy
+2025-04-16 19:18:58,099 - INFO - 📊 Starting FFTKDE for [snapshot-99.303] (N=26006343)
+2025-04-16 19:18:58,099 - INFO - 💾 Memory usage before FFTKDE compute: 160.36 MB
+2025-04-16 19:45:13,423 - INFO - 💾 Memory usage after FFTKDE compute: 159.14 MB
+2025-04-16 19:46:05,480 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.303_uniform.npy
+2025-04-16 19:46:05,782 - INFO - 🔹 Processing file: snapshot-99.304.npy
+2025-04-16 19:46:05,882 - INFO - 📊 Starting FFTKDE for [snapshot-99.304] (N=25976568)
+2025-04-16 19:46:05,886 - INFO - 💾 Memory usage before FFTKDE compute: 159.45 MB
+2025-04-16 20:02:32,904 - INFO - 💾 Memory usage after FFTKDE compute: 754.42 MB
+2025-04-16 20:03:27,859 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.304_uniform.npy
+2025-04-16 20:03:28,136 - INFO - 🔹 Processing file: snapshot-99.305.npy
+2025-04-16 20:03:28,249 - INFO - 📊 Starting FFTKDE for [snapshot-99.305] (N=26401307)
+2025-04-16 20:03:28,250 - INFO - 💾 Memory usage before FFTKDE compute: 159.94 MB
+2025-04-16 20:18:22,487 - INFO - 💾 Memory usage after FFTKDE compute: 160.29 MB
+2025-04-16 20:20:01,186 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.305_uniform.npy
+2025-04-16 20:20:01,294 - INFO - 🔹 Processing file: snapshot-99.306.npy
+2025-04-16 20:20:01,382 - INFO - 📊 Starting FFTKDE for [snapshot-99.306] (N=26144883)
+2025-04-16 20:20:01,383 - INFO - 💾 Memory usage before FFTKDE compute: 160.34 MB
+2025-04-16 20:28:38,055 - INFO - 💾 Memory usage after FFTKDE compute: 758.67 MB
+2025-04-16 20:29:30,472 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.306_uniform.npy
+2025-04-16 20:29:30,737 - INFO - 🔹 Processing file: snapshot-99.307.npy
+2025-04-16 20:29:30,910 - INFO - 📊 Starting FFTKDE for [snapshot-99.307] (N=26156684)
+2025-04-16 20:29:30,910 - INFO - 💾 Memory usage before FFTKDE compute: 160.26 MB
+2025-04-16 20:35:39,634 - INFO - 💾 Memory usage after FFTKDE compute: 759.08 MB
+2025-04-16 20:37:08,212 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.307_uniform.npy
+2025-04-16 20:37:08,436 - INFO - 🔹 Processing file: snapshot-99.308.npy
+2025-04-16 20:37:08,542 - INFO - 📊 Starting FFTKDE for [snapshot-99.308] (N=26124653)
+2025-04-16 20:37:08,542 - INFO - 💾 Memory usage before FFTKDE compute: 160.40 MB
+2025-04-16 20:58:05,172 - INFO - 💾 Memory usage after FFTKDE compute: 757.78 MB
+2025-04-16 20:58:57,210 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.308_uniform.npy
+2025-04-16 20:58:57,338 - INFO - 🔹 Processing file: snapshot-99.309.npy
+2025-04-16 20:58:57,404 - INFO - 📊 Starting FFTKDE for [snapshot-99.309] (N=25993650)
+2025-04-16 20:58:57,405 - INFO - 💾 Memory usage before FFTKDE compute: 159.98 MB
+2025-04-16 21:21:14,408 - INFO - 💾 Memory usage after FFTKDE compute: 754.97 MB
+2025-04-16 21:22:05,835 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.309_uniform.npy
+2025-04-16 21:22:06,252 - INFO - 🔹 Processing file: snapshot-99.31.npy
+2025-04-16 21:22:06,355 - INFO - 📊 Starting FFTKDE for [snapshot-99.31] (N=26127061)
+2025-04-16 21:22:06,356 - INFO - 💾 Memory usage before FFTKDE compute: 160.10 MB
+2025-04-16 21:43:58,049 - INFO - 💾 Memory usage after FFTKDE compute: 699.96 MB
+2025-04-16 21:45:15,384 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.31_uniform.npy
+2025-04-16 21:45:15,804 - INFO - 🔹 Processing file: snapshot-99.310.npy
+2025-04-16 21:45:15,900 - INFO - 📊 Starting FFTKDE for [snapshot-99.310] (N=26289042)
+2025-04-16 21:45:15,901 - INFO - 💾 Memory usage before FFTKDE compute: 159.68 MB
+2025-04-16 22:03:27,438 - INFO - 💾 Memory usage after FFTKDE compute: 762.08 MB
+2025-04-16 22:04:47,897 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.310_uniform.npy
+2025-04-16 22:04:48,021 - INFO - 🔹 Processing file: snapshot-99.311.npy
+2025-04-16 22:04:48,156 - INFO - 📊 Starting FFTKDE for [snapshot-99.311] (N=26040064)
+2025-04-16 22:04:48,160 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-16 22:23:25,698 - INFO - 💾 Memory usage after FFTKDE compute: 159.38 MB
+2025-04-16 22:24:40,052 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.311_uniform.npy
+2025-04-16 22:24:40,190 - INFO - 🔹 Processing file: snapshot-99.312.npy
+2025-04-16 22:24:40,290 - INFO - 📊 Starting FFTKDE for [snapshot-99.312] (N=26151362)
+2025-04-16 22:24:40,292 - INFO - 💾 Memory usage before FFTKDE compute: 159.60 MB
+2025-04-16 22:30:03,351 - INFO - 💾 Memory usage after FFTKDE compute: 758.95 MB
+2025-04-16 22:31:59,126 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.312_uniform.npy
+2025-04-16 22:31:59,278 - INFO - 🔹 Processing file: snapshot-99.313.npy
+2025-04-16 22:31:59,365 - INFO - 📊 Starting FFTKDE for [snapshot-99.313] (N=26349145)
+2025-04-16 22:31:59,365 - INFO - 💾 Memory usage before FFTKDE compute: 160.39 MB
+2025-04-16 22:42:18,088 - INFO - 💾 Memory usage after FFTKDE compute: 762.41 MB
+2025-04-16 22:43:09,246 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.313_uniform.npy
+2025-04-16 22:43:09,404 - INFO - 🔹 Processing file: snapshot-99.314.npy
+2025-04-16 22:43:09,552 - INFO - 📊 Starting FFTKDE for [snapshot-99.314] (N=25956865)
+2025-04-16 22:43:09,553 - INFO - 💾 Memory usage before FFTKDE compute: 159.55 MB
+2025-04-16 22:57:38,916 - INFO - 💾 Memory usage after FFTKDE compute: 633.43 MB
+2025-04-16 22:58:36,764 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.314_uniform.npy
+2025-04-16 22:58:37,033 - INFO - 🔹 Processing file: snapshot-99.315.npy
+2025-04-16 22:58:37,154 - INFO - 📊 Starting FFTKDE for [snapshot-99.315] (N=25935027)
+2025-04-16 22:58:37,155 - INFO - 💾 Memory usage before FFTKDE compute: 160.35 MB
+2025-04-16 23:10:41,712 - INFO - 💾 Memory usage after FFTKDE compute: 754.02 MB
+2025-04-16 23:11:34,579 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.315_uniform.npy
+2025-04-16 23:11:34,722 - INFO - 🔹 Processing file: snapshot-99.316.npy
+2025-04-16 23:11:34,837 - INFO - 📊 Starting FFTKDE for [snapshot-99.316] (N=26054303)
+2025-04-16 23:11:34,838 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-16 23:24:43,979 - INFO - 💾 Memory usage after FFTKDE compute: 756.18 MB
+2025-04-16 23:25:35,327 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.316_uniform.npy
+2025-04-16 23:25:35,445 - INFO - 🔹 Processing file: snapshot-99.317.npy
+2025-04-16 23:25:35,591 - INFO - 📊 Starting FFTKDE for [snapshot-99.317] (N=26008149)
+2025-04-16 23:25:35,591 - INFO - 💾 Memory usage before FFTKDE compute: 159.99 MB
+2025-04-16 23:34:58,129 - INFO - 💾 Memory usage after FFTKDE compute: 159.50 MB
+2025-04-16 23:35:55,557 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.317_uniform.npy
+2025-04-16 23:35:55,652 - INFO - 🔹 Processing file: snapshot-99.318.npy
+2025-04-16 23:35:55,788 - INFO - 📊 Starting FFTKDE for [snapshot-99.318] (N=25950603)
+2025-04-16 23:35:55,788 - INFO - 💾 Memory usage before FFTKDE compute: 159.71 MB
+2025-04-16 23:45:44,764 - INFO - 💾 Memory usage after FFTKDE compute: 665.34 MB
+2025-04-16 23:47:18,726 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.318_uniform.npy
+2025-04-16 23:47:18,834 - INFO - 🔹 Processing file: snapshot-99.319.npy
+2025-04-16 23:47:19,930 - INFO - 📊 Starting FFTKDE for [snapshot-99.319] (N=25880121)
+2025-04-16 23:47:19,930 - INFO - 💾 Memory usage before FFTKDE compute: 160.24 MB
+2025-04-16 23:51:54,485 - INFO - 💾 Memory usage after FFTKDE compute: 752.75 MB
+2025-04-16 23:53:33,384 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.319_uniform.npy
+2025-04-16 23:53:33,517 - INFO - 🔹 Processing file: snapshot-99.32.npy
+2025-04-16 23:53:33,598 - INFO - 📊 Starting FFTKDE for [snapshot-99.32] (N=26128151)
+2025-04-16 23:53:33,599 - INFO - 💾 Memory usage before FFTKDE compute: 160.34 MB
+2025-04-17 00:00:32,589 - INFO - 💾 Memory usage after FFTKDE compute: 160.39 MB
+2025-04-17 00:01:26,693 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.32_uniform.npy
+2025-04-17 00:01:27,029 - INFO - 🔹 Processing file: snapshot-99.320.npy
+2025-04-17 00:01:27,123 - INFO - 📊 Starting FFTKDE for [snapshot-99.320] (N=26149179)
+2025-04-17 00:01:27,124 - INFO - 💾 Memory usage before FFTKDE compute: 160.39 MB
+2025-04-17 00:03:06,417 - INFO - 💾 Memory usage after FFTKDE compute: 758.92 MB
+2025-04-17 00:04:25,128 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.320_uniform.npy
+2025-04-17 00:04:25,246 - INFO - 🔹 Processing file: snapshot-99.321.npy
+2025-04-17 00:04:25,354 - INFO - 📊 Starting FFTKDE for [snapshot-99.321] (N=26259389)
+2025-04-17 00:04:25,357 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-17 00:11:39,286 - INFO - 💾 Memory usage after FFTKDE compute: 761.47 MB
+2025-04-17 00:12:31,758 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.321_uniform.npy
+2025-04-17 00:12:31,883 - INFO - 🔹 Processing file: snapshot-99.322.npy
+2025-04-17 00:12:31,965 - INFO - 📊 Starting FFTKDE for [snapshot-99.322] (N=25818254)
+2025-04-17 00:12:31,966 - INFO - 💾 Memory usage before FFTKDE compute: 160.44 MB
+2025-04-17 00:18:36,396 - INFO - 💾 Memory usage after FFTKDE compute: 712.77 MB
+2025-04-17 00:19:25,328 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.322_uniform.npy
+2025-04-17 00:19:25,497 - INFO - 🔹 Processing file: snapshot-99.323.npy
+2025-04-17 00:19:25,579 - INFO - 📊 Starting FFTKDE for [snapshot-99.323] (N=26141507)
+2025-04-17 00:19:25,579 - INFO - 💾 Memory usage before FFTKDE compute: 159.56 MB
+2025-04-17 00:41:15,969 - INFO - 💾 Memory usage after FFTKDE compute: 602.14 MB
+2025-04-17 00:42:07,273 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.323_uniform.npy
+2025-04-17 00:42:07,392 - INFO - 🔹 Processing file: snapshot-99.324.npy
+2025-04-17 00:42:07,533 - INFO - 📊 Starting FFTKDE for [snapshot-99.324] (N=25929756)
+2025-04-17 00:42:07,538 - INFO - 💾 Memory usage before FFTKDE compute: 159.70 MB
+2025-04-17 00:54:11,789 - INFO - 💾 Memory usage after FFTKDE compute: 160.35 MB
+2025-04-17 00:55:04,320 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.324_uniform.npy
+2025-04-17 00:55:04,528 - INFO - 🔹 Processing file: snapshot-99.325.npy
+2025-04-17 00:55:04,587 - INFO - 📊 Starting FFTKDE for [snapshot-99.325] (N=26137887)
+2025-04-17 00:55:04,588 - INFO - 💾 Memory usage before FFTKDE compute: 160.35 MB
+2025-04-17 01:02:13,060 - INFO - 💾 Memory usage after FFTKDE compute: 758.67 MB
+2025-04-17 01:03:06,482 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.325_uniform.npy
+2025-04-17 01:03:06,626 - INFO - 🔹 Processing file: snapshot-99.326.npy
+2025-04-17 01:03:06,742 - INFO - 📊 Starting FFTKDE for [snapshot-99.326] (N=26011694)
+2025-04-17 01:03:06,743 - INFO - 💾 Memory usage before FFTKDE compute: 160.42 MB
+2025-04-17 01:21:21,735 - INFO - 💾 Memory usage after FFTKDE compute: 746.25 MB
+2025-04-17 01:22:12,781 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.326_uniform.npy
+2025-04-17 01:22:13,225 - INFO - 🔹 Processing file: snapshot-99.327.npy
+2025-04-17 01:22:13,342 - INFO - 📊 Starting FFTKDE for [snapshot-99.327] (N=25943498)
+2025-04-17 01:22:13,342 - INFO - 💾 Memory usage before FFTKDE compute: 159.57 MB
+2025-04-17 01:27:12,552 - INFO - 💾 Memory usage after FFTKDE compute: 754.20 MB
+2025-04-17 01:28:10,078 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.327_uniform.npy
+2025-04-17 01:28:10,391 - INFO - 🔹 Processing file: snapshot-99.328.npy
+2025-04-17 01:28:10,482 - INFO - 📊 Starting FFTKDE for [snapshot-99.328] (N=25778932)
+2025-04-17 01:28:10,489 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-17 01:33:20,389 - INFO - 💾 Memory usage after FFTKDE compute: 750.47 MB
+2025-04-17 01:34:10,799 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.328_uniform.npy
+2025-04-17 01:34:11,033 - INFO - 🔹 Processing file: snapshot-99.329.npy
+2025-04-17 01:34:11,109 - INFO - 📊 Starting FFTKDE for [snapshot-99.329] (N=26005272)
+2025-04-17 01:34:11,109 - INFO - 💾 Memory usage before FFTKDE compute: 160.44 MB
+2025-04-17 01:42:06,189 - INFO - 💾 Memory usage after FFTKDE compute: 159.33 MB
+2025-04-17 01:42:57,434 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.329_uniform.npy
+2025-04-17 01:42:57,625 - INFO - 🔹 Processing file: snapshot-99.33.npy
+2025-04-17 01:42:59,080 - INFO - 📊 Starting FFTKDE for [snapshot-99.33] (N=26052635)
+2025-04-17 01:42:59,081 - INFO - 💾 Memory usage before FFTKDE compute: 159.54 MB
+2025-04-17 01:44:46,457 - INFO - 💾 Memory usage after FFTKDE compute: 756.69 MB
+2025-04-17 01:45:54,899 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.33_uniform.npy
+2025-04-17 01:45:55,120 - INFO - 🔹 Processing file: snapshot-99.330.npy
+2025-04-17 01:45:55,202 - INFO - 📊 Starting FFTKDE for [snapshot-99.330] (N=26031851)
+2025-04-17 01:45:55,203 - INFO - 💾 Memory usage before FFTKDE compute: 160.39 MB
+2025-04-17 01:54:25,858 - INFO - 💾 Memory usage after FFTKDE compute: 755.66 MB
+2025-04-17 01:55:18,112 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.330_uniform.npy
+2025-04-17 01:55:18,239 - INFO - 🔹 Processing file: snapshot-99.331.npy
+2025-04-17 01:55:18,332 - INFO - 📊 Starting FFTKDE for [snapshot-99.331] (N=25972424)
+2025-04-17 01:55:18,335 - INFO - 💾 Memory usage before FFTKDE compute: 160.11 MB
+2025-04-17 02:18:33,867 - INFO - 💾 Memory usage after FFTKDE compute: 754.73 MB
+2025-04-17 02:19:24,259 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.331_uniform.npy
+2025-04-17 02:19:24,586 - INFO - 🔹 Processing file: snapshot-99.332.npy
+2025-04-17 02:19:24,705 - INFO - 📊 Starting FFTKDE for [snapshot-99.332] (N=26167374)
+2025-04-17 02:19:24,705 - INFO - 💾 Memory usage before FFTKDE compute: 160.28 MB
+2025-04-17 02:38:14,068 - INFO - 💾 Memory usage after FFTKDE compute: 726.08 MB
+2025-04-17 02:39:10,397 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.332_uniform.npy
+2025-04-17 02:39:10,531 - INFO - 🔹 Processing file: snapshot-99.333.npy
+2025-04-17 02:39:10,600 - INFO - 📊 Starting FFTKDE for [snapshot-99.333] (N=26194112)
+2025-04-17 02:39:10,601 - INFO - 💾 Memory usage before FFTKDE compute: 159.78 MB
+2025-04-17 02:48:35,355 - INFO - 💾 Memory usage after FFTKDE compute: 159.97 MB
+2025-04-17 02:49:32,680 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.333_uniform.npy
+2025-04-17 02:49:32,828 - INFO - 🔹 Processing file: snapshot-99.334.npy
+2025-04-17 02:49:32,947 - INFO - 📊 Starting FFTKDE for [snapshot-99.334] (N=26259131)
+2025-04-17 02:49:32,948 - INFO - 💾 Memory usage before FFTKDE compute: 159.98 MB
+2025-04-17 02:51:52,711 - INFO - 💾 Memory usage after FFTKDE compute: 761.46 MB
+2025-04-17 02:52:43,195 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.334_uniform.npy
+2025-04-17 02:52:43,613 - INFO - 🔹 Processing file: snapshot-99.335.npy
+2025-04-17 02:52:43,715 - INFO - 📊 Starting FFTKDE for [snapshot-99.335] (N=26124793)
+2025-04-17 02:52:43,716 - INFO - 💾 Memory usage before FFTKDE compute: 160.43 MB
+2025-04-17 03:04:38,516 - INFO - 💾 Memory usage after FFTKDE compute: 159.68 MB
+2025-04-17 03:05:30,658 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.335_uniform.npy
+2025-04-17 03:05:30,994 - INFO - 🔹 Processing file: snapshot-99.336.npy
+2025-04-17 03:05:31,068 - INFO - 📊 Starting FFTKDE for [snapshot-99.336] (N=26081911)
+2025-04-17 03:05:31,069 - INFO - 💾 Memory usage before FFTKDE compute: 159.88 MB
+2025-04-17 03:21:06,592 - INFO - 💾 Memory usage after FFTKDE compute: 533.38 MB
+2025-04-17 03:21:57,715 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.336_uniform.npy
+2025-04-17 03:21:58,018 - INFO - 🔹 Processing file: snapshot-99.337.npy
+2025-04-17 03:21:58,109 - INFO - 📊 Starting FFTKDE for [snapshot-99.337] (N=25944085)
+2025-04-17 03:21:58,110 - INFO - 💾 Memory usage before FFTKDE compute: 160.42 MB
+2025-04-17 03:29:23,745 - INFO - 💾 Memory usage after FFTKDE compute: 700.84 MB
+2025-04-17 03:30:25,183 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.337_uniform.npy
+2025-04-17 03:30:25,453 - INFO - 🔹 Processing file: snapshot-99.338.npy
+2025-04-17 03:30:25,522 - INFO - 📊 Starting FFTKDE for [snapshot-99.338] (N=26098700)
+2025-04-17 03:30:25,522 - INFO - 💾 Memory usage before FFTKDE compute: 160.43 MB
+2025-04-17 03:37:44,814 - INFO - 💾 Memory usage after FFTKDE compute: 751.13 MB
+2025-04-17 03:38:37,210 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.338_uniform.npy
+2025-04-17 03:38:37,492 - INFO - 🔹 Processing file: snapshot-99.339.npy
+2025-04-17 03:38:37,563 - INFO - 📊 Starting FFTKDE for [snapshot-99.339] (N=26182056)
+2025-04-17 03:38:37,564 - INFO - 💾 Memory usage before FFTKDE compute: 160.34 MB
+2025-04-17 03:43:14,857 - INFO - 💾 Memory usage after FFTKDE compute: 759.65 MB
+2025-04-17 03:44:04,821 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.339_uniform.npy
+2025-04-17 03:44:05,053 - INFO - 🔹 Processing file: snapshot-99.34.npy
+2025-04-17 03:44:05,130 - INFO - 📊 Starting FFTKDE for [snapshot-99.34] (N=26247125)
+2025-04-17 03:44:05,131 - INFO - 💾 Memory usage before FFTKDE compute: 160.39 MB
+2025-04-17 03:49:10,426 - INFO - 💾 Memory usage after FFTKDE compute: 752.48 MB
+2025-04-17 03:50:28,714 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.34_uniform.npy
+2025-04-17 03:50:28,942 - INFO - 🔹 Processing file: snapshot-99.340.npy
+2025-04-17 03:50:29,039 - INFO - 📊 Starting FFTKDE for [snapshot-99.340] (N=26230212)
+2025-04-17 03:50:29,039 - INFO - 💾 Memory usage before FFTKDE compute: 159.57 MB
+2025-04-17 03:57:46,979 - INFO - 💾 Memory usage after FFTKDE compute: 760.80 MB
+2025-04-17 03:58:38,067 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.340_uniform.npy
+2025-04-17 03:58:38,211 - INFO - 🔹 Processing file: snapshot-99.341.npy
+2025-04-17 03:58:38,338 - INFO - 📊 Starting FFTKDE for [snapshot-99.341] (N=25862798)
+2025-04-17 03:58:38,338 - INFO - 💾 Memory usage before FFTKDE compute: 160.44 MB
+2025-04-17 04:03:08,500 - INFO - 💾 Memory usage after FFTKDE compute: 752.41 MB
+2025-04-17 04:03:58,253 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.341_uniform.npy
+2025-04-17 04:03:58,396 - INFO - 🔹 Processing file: snapshot-99.342.npy
+2025-04-17 04:03:58,501 - INFO - 📊 Starting FFTKDE for [snapshot-99.342] (N=25818542)
+2025-04-17 04:03:58,502 - INFO - 💾 Memory usage before FFTKDE compute: 160.46 MB
+2025-04-17 04:18:48,249 - INFO - 💾 Memory usage after FFTKDE compute: 751.40 MB
+2025-04-17 04:19:36,433 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.342_uniform.npy
+2025-04-17 04:19:36,724 - INFO - 🔹 Processing file: snapshot-99.343.npy
+2025-04-17 04:19:36,770 - INFO - 📊 Starting FFTKDE for [snapshot-99.343] (N=25951336)
+2025-04-17 04:19:36,774 - INFO - 💾 Memory usage before FFTKDE compute: 160.46 MB
+2025-04-17 04:25:41,449 - INFO - 💾 Memory usage after FFTKDE compute: 279.27 MB
+2025-04-17 04:26:33,599 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.343_uniform.npy
+2025-04-17 04:26:33,727 - INFO - 🔹 Processing file: snapshot-99.344.npy
+2025-04-17 04:26:33,802 - INFO - 📊 Starting FFTKDE for [snapshot-99.344] (N=26475418)
+2025-04-17 04:26:33,803 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-17 04:34:54,668 - INFO - 💾 Memory usage after FFTKDE compute: 648.15 MB
+2025-04-17 04:35:44,830 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.344_uniform.npy
+2025-04-17 04:35:44,976 - INFO - 🔹 Processing file: snapshot-99.345.npy
+2025-04-17 04:35:45,177 - INFO - 📊 Starting FFTKDE for [snapshot-99.345] (N=26064549)
+2025-04-17 04:35:45,178 - INFO - 💾 Memory usage before FFTKDE compute: 117.43 MB
+2025-04-17 04:45:09,981 - INFO - 💾 Memory usage after FFTKDE compute: 755.86 MB
+2025-04-17 04:45:57,845 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.345_uniform.npy
+2025-04-17 04:45:57,945 - INFO - 🔹 Processing file: snapshot-99.346.npy
+2025-04-17 04:45:58,017 - INFO - 📊 Starting FFTKDE for [snapshot-99.346] (N=25961820)
+2025-04-17 04:45:58,018 - INFO - 💾 Memory usage before FFTKDE compute: 159.51 MB
+2025-04-17 04:52:26,525 - INFO - 💾 Memory usage after FFTKDE compute: 753.40 MB
+2025-04-17 04:53:15,627 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.346_uniform.npy
+2025-04-17 04:53:15,753 - INFO - 🔹 Processing file: snapshot-99.347.npy
+2025-04-17 04:53:15,818 - INFO - 📊 Starting FFTKDE for [snapshot-99.347] (N=26039776)
+2025-04-17 04:53:15,818 - INFO - 💾 Memory usage before FFTKDE compute: 159.25 MB
+2025-04-17 05:03:07,695 - INFO - 💾 Memory usage after FFTKDE compute: 745.24 MB
+2025-04-17 05:03:58,636 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.347_uniform.npy
+2025-04-17 05:03:58,754 - INFO - 🔹 Processing file: snapshot-99.348.npy
+2025-04-17 05:03:58,834 - INFO - 📊 Starting FFTKDE for [snapshot-99.348] (N=25942337)
+2025-04-17 05:03:58,834 - INFO - 💾 Memory usage before FFTKDE compute: 159.62 MB
+2025-04-17 05:22:24,831 - INFO - 💾 Memory usage after FFTKDE compute: 159.79 MB
+2025-04-17 05:23:12,870 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.348_uniform.npy
+2025-04-17 05:23:13,173 - INFO - 🔹 Processing file: snapshot-99.349.npy
+2025-04-17 05:23:13,298 - INFO - 📊 Starting FFTKDE for [snapshot-99.349] (N=26291984)
+2025-04-17 05:23:13,298 - INFO - 💾 Memory usage before FFTKDE compute: 159.79 MB
+2025-04-17 05:29:12,131 - INFO - 💾 Memory usage after FFTKDE compute: 761.91 MB
+2025-04-17 05:30:00,646 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.349_uniform.npy
+2025-04-17 05:30:00,752 - INFO - 🔹 Processing file: snapshot-99.35.npy
+2025-04-17 05:30:00,857 - INFO - 📊 Starting FFTKDE for [snapshot-99.35] (N=26129580)
+2025-04-17 05:30:00,858 - INFO - 💾 Memory usage before FFTKDE compute: 160.18 MB
+2025-04-17 05:47:05,876 - INFO - 💾 Memory usage after FFTKDE compute: 358.64 MB
+2025-04-17 05:47:56,773 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.35_uniform.npy
+2025-04-17 05:47:56,890 - INFO - 🔹 Processing file: snapshot-99.350.npy
+2025-04-17 05:47:56,950 - INFO - 📊 Starting FFTKDE for [snapshot-99.350] (N=26052171)
+2025-04-17 05:47:56,951 - INFO - 💾 Memory usage before FFTKDE compute: 160.11 MB
+2025-04-17 05:52:51,814 - INFO - 💾 Memory usage after FFTKDE compute: 722.50 MB
+2025-04-17 05:54:41,826 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.350_uniform.npy
+2025-04-17 05:54:41,952 - INFO - 🔹 Processing file: snapshot-99.351.npy
+2025-04-17 05:54:42,112 - INFO - 📊 Starting FFTKDE for [snapshot-99.351] (N=25993968)
+2025-04-17 05:54:42,113 - INFO - 💾 Memory usage before FFTKDE compute: 160.28 MB
+2025-04-17 05:56:41,456 - INFO - 💾 Memory usage after FFTKDE compute: 680.23 MB
+2025-04-17 05:58:13,101 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.351_uniform.npy
+2025-04-17 05:58:13,427 - INFO - 🔹 Processing file: snapshot-99.352.npy
+2025-04-17 05:58:13,609 - INFO - 📊 Starting FFTKDE for [snapshot-99.352] (N=26300436)
+2025-04-17 05:58:13,611 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-17 06:09:30,242 - INFO - 💾 Memory usage after FFTKDE compute: 760.76 MB
+2025-04-17 06:11:07,474 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.352_uniform.npy
+2025-04-17 06:11:07,719 - INFO - 🔹 Processing file: snapshot-99.353.npy
+2025-04-17 06:11:07,784 - INFO - 📊 Starting FFTKDE for [snapshot-99.353] (N=26148059)
+2025-04-17 06:11:07,785 - INFO - 💾 Memory usage before FFTKDE compute: 159.23 MB
+2025-04-17 06:15:57,117 - INFO - 💾 Memory usage after FFTKDE compute: 758.77 MB
+2025-04-17 06:16:53,516 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.353_uniform.npy
+2025-04-17 06:16:53,715 - INFO - 🔹 Processing file: snapshot-99.354.npy
+2025-04-17 06:16:53,934 - INFO - 📊 Starting FFTKDE for [snapshot-99.354] (N=26208883)
+2025-04-17 06:16:53,935 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-17 06:27:05,418 - INFO - 💾 Memory usage after FFTKDE compute: 757.94 MB
+2025-04-17 06:28:19,915 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.354_uniform.npy
+2025-04-17 06:28:20,217 - INFO - 🔹 Processing file: snapshot-99.355.npy
+2025-04-17 06:28:20,311 - INFO - 📊 Starting FFTKDE for [snapshot-99.355] (N=26060299)
+2025-04-17 06:28:20,312 - INFO - 💾 Memory usage before FFTKDE compute: 160.31 MB
+2025-04-17 06:43:14,724 - INFO - 💾 Memory usage after FFTKDE compute: 584.17 MB
+2025-04-17 06:44:08,005 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.355_uniform.npy
+2025-04-17 06:44:08,147 - INFO - 🔹 Processing file: snapshot-99.356.npy
+2025-04-17 06:44:08,384 - INFO - 📊 Starting FFTKDE for [snapshot-99.356] (N=25946123)
+2025-04-17 06:44:08,384 - INFO - 💾 Memory usage before FFTKDE compute: 160.30 MB
+2025-04-17 06:59:40,159 - INFO - 💾 Memory usage after FFTKDE compute: 159.28 MB
+2025-04-17 07:01:17,431 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.356_uniform.npy
+2025-04-17 07:01:17,610 - INFO - 🔹 Processing file: snapshot-99.357.npy
+2025-04-17 07:01:17,653 - INFO - 📊 Starting FFTKDE for [snapshot-99.357] (N=25834949)
+2025-04-17 07:01:17,653 - INFO - 💾 Memory usage before FFTKDE compute: 159.45 MB
+2025-04-17 07:05:06,090 - INFO - 💾 Memory usage after FFTKDE compute: 659.90 MB
+2025-04-17 07:05:57,417 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.357_uniform.npy
+2025-04-17 07:05:57,556 - INFO - 🔹 Processing file: snapshot-99.358.npy
+2025-04-17 07:05:57,657 - INFO - 📊 Starting FFTKDE for [snapshot-99.358] (N=25856872)
+2025-04-17 07:05:57,658 - INFO - 💾 Memory usage before FFTKDE compute: 159.38 MB
+2025-04-17 07:08:11,317 - INFO - 💾 Memory usage after FFTKDE compute: 752.11 MB
+2025-04-17 07:09:08,437 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.358_uniform.npy
+2025-04-17 07:09:08,731 - INFO - 🔹 Processing file: snapshot-99.359.npy
+2025-04-17 07:09:08,809 - INFO - 📊 Starting FFTKDE for [snapshot-99.359] (N=26417903)
+2025-04-17 07:09:08,810 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-17 07:14:49,506 - INFO - 💾 Memory usage after FFTKDE compute: 765.19 MB
+2025-04-17 07:16:13,290 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.359_uniform.npy
+2025-04-17 07:16:13,523 - INFO - 🔹 Processing file: snapshot-99.36.npy
+2025-04-17 07:16:13,638 - INFO - 📊 Starting FFTKDE for [snapshot-99.36] (N=26094301)
+2025-04-17 07:16:13,641 - INFO - 💾 Memory usage before FFTKDE compute: 160.53 MB
+2025-04-17 07:29:46,331 - INFO - 💾 Memory usage after FFTKDE compute: 756.83 MB
+2025-04-17 07:30:36,071 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.36_uniform.npy
+2025-04-17 07:30:36,319 - INFO - 🔹 Processing file: snapshot-99.360.npy
+2025-04-17 07:30:36,481 - INFO - 📊 Starting FFTKDE for [snapshot-99.360] (N=26104621)
+2025-04-17 07:30:36,482 - INFO - 💾 Memory usage before FFTKDE compute: 159.79 MB
+2025-04-17 07:44:27,052 - INFO - 💾 Memory usage after FFTKDE compute: 160.52 MB
+2025-04-17 07:45:53,179 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.360_uniform.npy
+2025-04-17 07:45:53,454 - INFO - 🔹 Processing file: snapshot-99.361.npy
+2025-04-17 07:45:53,529 - INFO - 📊 Starting FFTKDE for [snapshot-99.361] (N=26007084)
+2025-04-17 07:45:53,530 - INFO - 💾 Memory usage before FFTKDE compute: 160.52 MB
+2025-04-17 08:07:03,592 - INFO - 💾 Memory usage after FFTKDE compute: 754.79 MB
+2025-04-17 08:08:00,521 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.361_uniform.npy
+2025-04-17 08:08:00,643 - INFO - 🔹 Processing file: snapshot-99.362.npy
+2025-04-17 08:08:00,675 - INFO - 📊 Starting FFTKDE for [snapshot-99.362] (N=26024280)
+2025-04-17 08:08:00,678 - INFO - 💾 Memory usage before FFTKDE compute: 159.75 MB
+2025-04-17 08:30:11,547 - INFO - 💾 Memory usage after FFTKDE compute: 441.26 MB
+2025-04-17 08:31:02,615 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.362_uniform.npy
+2025-04-17 08:31:03,000 - INFO - 🔹 Processing file: snapshot-99.363.npy
+2025-04-17 08:31:03,119 - INFO - 📊 Starting FFTKDE for [snapshot-99.363] (N=26109545)
+2025-04-17 08:31:03,120 - INFO - 💾 Memory usage before FFTKDE compute: 160.46 MB
+2025-04-17 08:43:03,123 - INFO - 💾 Memory usage after FFTKDE compute: 159.28 MB
+2025-04-17 08:45:24,746 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.363_uniform.npy
+2025-04-17 08:45:24,850 - INFO - 🔹 Processing file: snapshot-99.364.npy
+2025-04-17 08:45:24,947 - INFO - 📊 Starting FFTKDE for [snapshot-99.364] (N=26113465)
+2025-04-17 08:45:24,947 - INFO - 💾 Memory usage before FFTKDE compute: 159.31 MB
+2025-04-17 08:51:24,085 - INFO - 💾 Memory usage after FFTKDE compute: 757.69 MB
+2025-04-17 08:52:15,802 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.364_uniform.npy
+2025-04-17 08:52:15,974 - INFO - 🔹 Processing file: snapshot-99.365.npy
+2025-04-17 08:52:16,124 - INFO - 📊 Starting FFTKDE for [snapshot-99.365] (N=25929609)
+2025-04-17 08:52:16,125 - INFO - 💾 Memory usage before FFTKDE compute: 160.14 MB
+2025-04-17 09:00:21,449 - INFO - 💾 Memory usage after FFTKDE compute: 159.71 MB
+2025-04-17 09:02:05,574 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.365_uniform.npy
+2025-04-17 09:02:05,706 - INFO - 🔹 Processing file: snapshot-99.366.npy
+2025-04-17 09:02:05,821 - INFO - 📊 Starting FFTKDE for [snapshot-99.366] (N=25955035)
+2025-04-17 09:02:05,822 - INFO - 💾 Memory usage before FFTKDE compute: 159.91 MB
+2025-04-17 09:06:39,403 - INFO - 💾 Memory usage after FFTKDE compute: 754.55 MB
+2025-04-17 09:07:31,669 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.366_uniform.npy
+2025-04-17 09:07:31,836 - INFO - 🔹 Processing file: snapshot-99.367.npy
+2025-04-17 09:07:31,918 - INFO - 📊 Starting FFTKDE for [snapshot-99.367] (N=26025063)
+2025-04-17 09:07:31,918 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-17 09:09:40,766 - INFO - 💾 Memory usage after FFTKDE compute: 755.73 MB
+2025-04-17 09:11:01,668 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.367_uniform.npy
+2025-04-17 09:11:01,774 - INFO - 🔹 Processing file: snapshot-99.368.npy
+2025-04-17 09:11:01,877 - INFO - 📊 Starting FFTKDE for [snapshot-99.368] (N=26143572)
+2025-04-17 09:11:01,878 - INFO - 💾 Memory usage before FFTKDE compute: 160.19 MB
+2025-04-17 09:20:34,429 - INFO - 💾 Memory usage after FFTKDE compute: 758.49 MB
+2025-04-17 09:21:48,428 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.368_uniform.npy
+2025-04-17 09:21:48,551 - INFO - 🔹 Processing file: snapshot-99.369.npy
+2025-04-17 09:21:48,631 - INFO - 📊 Starting FFTKDE for [snapshot-99.369] (N=25935723)
+2025-04-17 09:21:48,632 - INFO - 💾 Memory usage before FFTKDE compute: 160.11 MB
+2025-04-17 09:36:50,215 - INFO - 💾 Memory usage after FFTKDE compute: 752.94 MB
+2025-04-17 09:37:38,779 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.369_uniform.npy
+2025-04-17 09:37:39,109 - INFO - 🔹 Processing file: snapshot-99.37.npy
+2025-04-17 09:37:39,208 - INFO - 📊 Starting FFTKDE for [snapshot-99.37] (N=26062080)
+2025-04-17 09:37:39,212 - INFO - 💾 Memory usage before FFTKDE compute: 159.71 MB
+2025-04-17 09:51:19,611 - INFO - 💾 Memory usage after FFTKDE compute: 159.39 MB
+2025-04-17 09:52:10,048 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.37_uniform.npy
+2025-04-17 09:52:10,198 - INFO - 🔹 Processing file: snapshot-99.370.npy
+2025-04-17 09:52:10,391 - INFO - 📊 Starting FFTKDE for [snapshot-99.370] (N=26120041)
+2025-04-17 09:52:10,393 - INFO - 💾 Memory usage before FFTKDE compute: 159.69 MB
+2025-04-17 10:00:05,561 - INFO - 💾 Memory usage after FFTKDE compute: 688.35 MB
+2025-04-17 10:00:56,411 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.370_uniform.npy
+2025-04-17 10:00:56,698 - INFO - 🔹 Processing file: snapshot-99.371.npy
+2025-04-17 10:00:56,827 - INFO - 📊 Starting FFTKDE for [snapshot-99.371] (N=26349669)
+2025-04-17 10:00:56,828 - INFO - 💾 Memory usage before FFTKDE compute: 160.52 MB
+2025-04-17 10:08:22,944 - INFO - 💾 Memory usage after FFTKDE compute: 763.56 MB
+2025-04-17 10:09:43,185 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.371_uniform.npy
+2025-04-17 10:09:43,310 - INFO - 🔹 Processing file: snapshot-99.372.npy
+2025-04-17 10:09:43,481 - INFO - 📊 Starting FFTKDE for [snapshot-99.372] (N=26288370)
+2025-04-17 10:09:43,482 - INFO - 💾 Memory usage before FFTKDE compute: 160.53 MB
+2025-04-17 10:18:20,875 - INFO - 💾 Memory usage after FFTKDE compute: 159.54 MB
+2025-04-17 10:19:11,078 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.372_uniform.npy
+2025-04-17 10:19:11,442 - INFO - 🔹 Processing file: snapshot-99.373.npy
+2025-04-17 10:19:11,556 - INFO - 📊 Starting FFTKDE for [snapshot-99.373] (N=26060464)
+2025-04-17 10:19:11,557 - INFO - 💾 Memory usage before FFTKDE compute: 159.77 MB
+2025-04-17 10:26:47,540 - INFO - 💾 Memory usage after FFTKDE compute: 666.50 MB
+2025-04-17 10:28:22,703 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.373_uniform.npy
+2025-04-17 10:28:22,839 - INFO - 🔹 Processing file: snapshot-99.374.npy
+2025-04-17 10:28:22,925 - INFO - 📊 Starting FFTKDE for [snapshot-99.374] (N=25950751)
+2025-04-17 10:28:22,926 - INFO - 💾 Memory usage before FFTKDE compute: 159.89 MB
+2025-04-17 10:37:51,989 - INFO - 💾 Memory usage after FFTKDE compute: 754.52 MB
+2025-04-17 10:38:48,464 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.374_uniform.npy
+2025-04-17 10:38:48,718 - INFO - 🔹 Processing file: snapshot-99.375.npy
+2025-04-17 10:38:48,916 - INFO - 📊 Starting FFTKDE for [snapshot-99.375] (N=25901161)
+2025-04-17 10:38:48,916 - INFO - 💾 Memory usage before FFTKDE compute: 160.55 MB
+2025-04-17 10:58:48,971 - INFO - 💾 Memory usage after FFTKDE compute: 160.24 MB
+2025-04-17 10:59:41,584 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.375_uniform.npy
+2025-04-17 10:59:41,721 - INFO - 🔹 Processing file: snapshot-99.376.npy
+2025-04-17 10:59:41,920 - INFO - 📊 Starting FFTKDE for [snapshot-99.376] (N=26114656)
+2025-04-17 10:59:41,921 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-17 11:16:24,022 - INFO - 💾 Memory usage after FFTKDE compute: 160.57 MB
+2025-04-17 11:17:12,278 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.376_uniform.npy
+2025-04-17 11:17:12,405 - INFO - 🔹 Processing file: snapshot-99.377.npy
+2025-04-17 11:17:12,551 - INFO - 📊 Starting FFTKDE for [snapshot-99.377] (N=26018493)
+2025-04-17 11:17:12,556 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-17 11:26:12,705 - INFO - 💾 Memory usage after FFTKDE compute: 756.00 MB
+2025-04-17 11:27:02,287 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.377_uniform.npy
+2025-04-17 11:27:02,738 - INFO - 🔹 Processing file: snapshot-99.378.npy
+2025-04-17 11:27:02,837 - INFO - 📊 Starting FFTKDE for [snapshot-99.378] (N=25989499)
+2025-04-17 11:27:02,837 - INFO - 💾 Memory usage before FFTKDE compute: 160.55 MB
+2025-04-17 11:37:56,184 - INFO - 💾 Memory usage after FFTKDE compute: 754.02 MB
+2025-04-17 11:38:48,935 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.378_uniform.npy
+2025-04-17 11:38:49,246 - INFO - 🔹 Processing file: snapshot-99.379.npy
+2025-04-17 11:38:49,350 - INFO - 📊 Starting FFTKDE for [snapshot-99.379] (N=26119449)
+2025-04-17 11:38:49,351 - INFO - 💾 Memory usage before FFTKDE compute: 159.62 MB
+2025-04-17 11:51:17,107 - INFO - 💾 Memory usage after FFTKDE compute: 159.09 MB
+2025-04-17 11:52:08,944 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.379_uniform.npy
+2025-04-17 11:52:09,188 - INFO - 🔹 Processing file: snapshot-99.38.npy
+2025-04-17 11:52:09,271 - INFO - 📊 Starting FFTKDE for [snapshot-99.38] (N=26078268)
+2025-04-17 11:52:09,272 - INFO - 💾 Memory usage before FFTKDE compute: 159.55 MB
+2025-04-17 12:03:47,711 - INFO - 💾 Memory usage after FFTKDE compute: 757.38 MB
+2025-04-17 12:05:03,030 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.38_uniform.npy
+2025-04-17 12:05:03,176 - INFO - 🔹 Processing file: snapshot-99.380.npy
+2025-04-17 12:05:03,259 - INFO - 📊 Starting FFTKDE for [snapshot-99.380] (N=26292382)
+2025-04-17 12:05:03,260 - INFO - 💾 Memory usage before FFTKDE compute: 160.50 MB
+2025-04-17 12:20:34,837 - INFO - 💾 Memory usage after FFTKDE compute: 762.23 MB
+2025-04-17 12:21:24,378 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.380_uniform.npy
+2025-04-17 12:21:24,581 - INFO - 🔹 Processing file: snapshot-99.381.npy
+2025-04-17 12:21:24,691 - INFO - 📊 Starting FFTKDE for [snapshot-99.381] (N=25949476)
+2025-04-17 12:21:24,692 - INFO - 💾 Memory usage before FFTKDE compute: 160.45 MB
+2025-04-17 12:31:51,099 - INFO - 💾 Memory usage after FFTKDE compute: 754.39 MB
+2025-04-17 12:32:41,840 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.381_uniform.npy
+2025-04-17 12:32:42,259 - INFO - 🔹 Processing file: snapshot-99.382.npy
+2025-04-17 12:32:42,336 - INFO - 📊 Starting FFTKDE for [snapshot-99.382] (N=25993302)
+2025-04-17 12:32:42,338 - INFO - 💾 Memory usage before FFTKDE compute: 160.50 MB
+2025-04-17 12:43:02,704 - INFO - 💾 Memory usage after FFTKDE compute: 755.49 MB
+2025-04-17 12:44:02,963 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.382_uniform.npy
+2025-04-17 12:44:03,109 - INFO - 🔹 Processing file: snapshot-99.383.npy
+2025-04-17 12:44:03,224 - INFO - 📊 Starting FFTKDE for [snapshot-99.383] (N=25819448)
+2025-04-17 12:44:03,225 - INFO - 💾 Memory usage before FFTKDE compute: 160.56 MB
+2025-04-17 12:54:57,392 - INFO - 💾 Memory usage after FFTKDE compute: 159.87 MB
+2025-04-17 12:55:48,027 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.383_uniform.npy
+2025-04-17 12:55:48,165 - INFO - 🔹 Processing file: snapshot-99.384.npy
+2025-04-17 12:55:48,305 - INFO - 📊 Starting FFTKDE for [snapshot-99.384] (N=26037862)
+2025-04-17 12:55:48,309 - INFO - 💾 Memory usage before FFTKDE compute: 159.93 MB
+2025-04-17 13:07:55,138 - INFO - 💾 Memory usage after FFTKDE compute: 756.50 MB
+2025-04-17 13:08:45,280 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.384_uniform.npy
+2025-04-17 13:08:45,587 - INFO - 🔹 Processing file: snapshot-99.385.npy
+2025-04-17 13:08:45,691 - INFO - 📊 Starting FFTKDE for [snapshot-99.385] (N=25799077)
+2025-04-17 13:08:45,692 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-17 13:19:13,590 - INFO - 💾 Memory usage after FFTKDE compute: 750.09 MB
+2025-04-17 13:20:36,663 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.385_uniform.npy
+2025-04-17 13:20:36,795 - INFO - 🔹 Processing file: snapshot-99.386.npy
+2025-04-17 13:20:36,883 - INFO - 📊 Starting FFTKDE for [snapshot-99.386] (N=25962891)
+2025-04-17 13:20:36,884 - INFO - 💾 Memory usage before FFTKDE compute: 159.82 MB
+2025-04-17 13:39:25,629 - INFO - 💾 Memory usage after FFTKDE compute: 753.81 MB
+2025-04-17 13:40:47,382 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.386_uniform.npy
+2025-04-17 13:40:47,681 - INFO - 🔹 Processing file: snapshot-99.387.npy
+2025-04-17 13:40:47,829 - INFO - 📊 Starting FFTKDE for [snapshot-99.387] (N=25989152)
+2025-04-17 13:40:47,835 - INFO - 💾 Memory usage before FFTKDE compute: 159.80 MB
+2025-04-17 13:51:22,990 - INFO - 💾 Memory usage after FFTKDE compute: 160.55 MB
+2025-04-17 13:52:17,351 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.387_uniform.npy
+2025-04-17 13:52:17,550 - INFO - 🔹 Processing file: snapshot-99.388.npy
+2025-04-17 13:52:17,643 - INFO - 📊 Starting FFTKDE for [snapshot-99.388] (N=26032535)
+2025-04-17 13:52:17,643 - INFO - 💾 Memory usage before FFTKDE compute: 160.55 MB
+2025-04-17 14:05:31,867 - INFO - 💾 Memory usage after FFTKDE compute: 755.39 MB
+2025-04-17 14:06:48,399 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.388_uniform.npy
+2025-04-17 14:06:48,659 - INFO - 🔹 Processing file: snapshot-99.389.npy
+2025-04-17 14:06:48,831 - INFO - 📊 Starting FFTKDE for [snapshot-99.389] (N=25863504)
+2025-04-17 14:06:48,832 - INFO - 💾 Memory usage before FFTKDE compute: 159.77 MB
+2025-04-17 14:21:15,556 - INFO - 💾 Memory usage after FFTKDE compute: 687.77 MB
+2025-04-17 14:22:07,635 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.389_uniform.npy
+2025-04-17 14:22:07,939 - INFO - 🔹 Processing file: snapshot-99.39.npy
+2025-04-17 14:22:07,944 - INFO - 📊 Starting FFTKDE for [snapshot-99.39] (N=25851439)
+2025-04-17 14:22:07,945 - INFO - 💾 Memory usage before FFTKDE compute: 160.25 MB
+2025-04-17 14:39:33,801 - INFO - 💾 Memory usage after FFTKDE compute: 747.88 MB
+2025-04-17 14:40:31,455 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.39_uniform.npy
+2025-04-17 14:40:31,753 - INFO - 🔹 Processing file: snapshot-99.390.npy
+2025-04-17 14:40:31,759 - INFO - 📊 Starting FFTKDE for [snapshot-99.390] (N=25802160)
+2025-04-17 14:40:31,759 - INFO - 💾 Memory usage before FFTKDE compute: 159.66 MB
+2025-04-17 14:56:41,702 - INFO - 💾 Memory usage after FFTKDE compute: 751.04 MB
+2025-04-17 14:57:39,438 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.390_uniform.npy
+2025-04-17 14:57:39,684 - INFO - 🔹 Processing file: snapshot-99.391.npy
+2025-04-17 14:57:39,690 - INFO - 📊 Starting FFTKDE for [snapshot-99.391] (N=25960366)
+2025-04-17 14:57:39,690 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-17 15:20:33,495 - INFO - 💾 Memory usage after FFTKDE compute: 159.08 MB
+2025-04-17 15:21:29,114 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.391_uniform.npy
+2025-04-17 15:21:29,339 - INFO - 🔹 Processing file: snapshot-99.392.npy
+2025-04-17 15:21:29,356 - INFO - 📊 Starting FFTKDE for [snapshot-99.392] (N=25877365)
+2025-04-17 15:21:29,357 - INFO - 💾 Memory usage before FFTKDE compute: 159.53 MB
+2025-04-17 15:38:45,973 - INFO - 💾 Memory usage after FFTKDE compute: 752.84 MB
+2025-04-17 15:40:08,917 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.392_uniform.npy
+2025-04-17 15:40:09,034 - INFO - 🔹 Processing file: snapshot-99.393.npy
+2025-04-17 15:40:09,112 - INFO - 📊 Starting FFTKDE for [snapshot-99.393] (N=26085653)
+2025-04-17 15:40:09,113 - INFO - 💾 Memory usage before FFTKDE compute: 160.55 MB
+2025-04-17 15:58:14,104 - INFO - 💾 Memory usage after FFTKDE compute: 757.50 MB
+2025-04-17 15:59:06,223 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.393_uniform.npy
+2025-04-17 15:59:06,512 - INFO - 🔹 Processing file: snapshot-99.394.npy
+2025-04-17 15:59:06,578 - INFO - 📊 Starting FFTKDE for [snapshot-99.394] (N=26038736)
+2025-04-17 15:59:06,579 - INFO - 💾 Memory usage before FFTKDE compute: 160.45 MB
+2025-04-17 16:14:54,788 - INFO - 💾 Memory usage after FFTKDE compute: 755.66 MB
+2025-04-17 16:16:11,662 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.394_uniform.npy
+2025-04-17 16:16:11,838 - INFO - 🔹 Processing file: snapshot-99.395.npy
+2025-04-17 16:16:11,963 - INFO - 📊 Starting FFTKDE for [snapshot-99.395] (N=26083841)
+2025-04-17 16:16:11,963 - INFO - 💾 Memory usage before FFTKDE compute: 159.89 MB
+2025-04-17 16:30:47,771 - INFO - 💾 Memory usage after FFTKDE compute: 756.45 MB
+2025-04-17 16:31:38,415 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.395_uniform.npy
+2025-04-17 16:31:38,568 - INFO - 🔹 Processing file: snapshot-99.396.npy
+2025-04-17 16:31:38,695 - INFO - 📊 Starting FFTKDE for [snapshot-99.396] (N=25937894)
+2025-04-17 16:31:38,695 - INFO - 💾 Memory usage before FFTKDE compute: 159.61 MB
+2025-04-17 16:44:11,199 - INFO - 💾 Memory usage after FFTKDE compute: 592.19 MB
+2025-04-17 16:45:35,643 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.396_uniform.npy
+2025-04-17 16:45:35,888 - INFO - 🔹 Processing file: snapshot-99.397.npy
+2025-04-17 16:45:35,906 - INFO - 📊 Starting FFTKDE for [snapshot-99.397] (N=26150477)
+2025-04-17 16:45:35,906 - INFO - 💾 Memory usage before FFTKDE compute: 160.54 MB
+2025-04-17 17:02:44,786 - INFO - 💾 Memory usage after FFTKDE compute: 733.38 MB
+2025-04-17 17:03:34,552 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.397_uniform.npy
+2025-04-17 17:03:34,852 - INFO - 🔹 Processing file: snapshot-99.398.npy
+2025-04-17 17:03:34,969 - INFO - 📊 Starting FFTKDE for [snapshot-99.398] (N=26355924)
+2025-04-17 17:03:34,972 - INFO - 💾 Memory usage before FFTKDE compute: 159.81 MB
+2025-04-17 17:18:48,382 - INFO - 💾 Memory usage after FFTKDE compute: 763.80 MB
+2025-04-17 17:20:11,306 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.398_uniform.npy
+2025-04-17 17:20:11,450 - INFO - 🔹 Processing file: snapshot-99.399.npy
+2025-04-17 17:20:11,549 - INFO - 📊 Starting FFTKDE for [snapshot-99.399] (N=25681329)
+2025-04-17 17:20:11,550 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-17 17:38:30,142 - INFO - 💾 Memory usage after FFTKDE compute: 748.39 MB
+2025-04-17 17:39:19,335 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.399_uniform.npy
+2025-04-17 17:39:19,446 - INFO - 🔹 Processing file: snapshot-99.4.npy
+2025-04-17 17:39:19,538 - INFO - 📊 Starting FFTKDE for [snapshot-99.4] (N=25925935)
+2025-04-17 17:39:19,539 - INFO - 💾 Memory usage before FFTKDE compute: 160.18 MB
+2025-04-17 17:48:53,759 - INFO - 💾 Memory usage after FFTKDE compute: 467.76 MB
+2025-04-17 17:49:50,087 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.4_uniform.npy
+2025-04-17 17:49:50,231 - INFO - 🔹 Processing file: snapshot-99.40.npy
+2025-04-17 17:49:50,319 - INFO - 📊 Starting FFTKDE for [snapshot-99.40] (N=25775466)
+2025-04-17 17:49:50,320 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-17 18:00:09,978 - INFO - 💾 Memory usage after FFTKDE compute: 750.43 MB
+2025-04-17 18:01:30,821 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.40_uniform.npy
+2025-04-17 18:01:30,954 - INFO - 🔹 Processing file: snapshot-99.400.npy
+2025-04-17 18:01:31,115 - INFO - 📊 Starting FFTKDE for [snapshot-99.400] (N=25847077)
+2025-04-17 18:01:31,120 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-17 18:15:20,966 - INFO - 💾 Memory usage after FFTKDE compute: 749.93 MB
+2025-04-17 18:16:10,398 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.400_uniform.npy
+2025-04-17 18:16:10,763 - INFO - 🔹 Processing file: snapshot-99.401.npy
+2025-04-17 18:16:10,851 - INFO - 📊 Starting FFTKDE for [snapshot-99.401] (N=25787237)
+2025-04-17 18:16:10,852 - INFO - 💾 Memory usage before FFTKDE compute: 160.56 MB
+2025-04-17 18:26:42,325 - INFO - 💾 Memory usage after FFTKDE compute: 693.27 MB
+2025-04-17 18:27:33,762 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.401_uniform.npy
+2025-04-17 18:27:33,999 - INFO - 🔹 Processing file: snapshot-99.402.npy
+2025-04-17 18:27:34,078 - INFO - 📊 Starting FFTKDE for [snapshot-99.402] (N=25930782)
+2025-04-17 18:27:34,078 - INFO - 💾 Memory usage before FFTKDE compute: 159.77 MB
+2025-04-17 18:38:05,433 - INFO - 💾 Memory usage after FFTKDE compute: 751.63 MB
+2025-04-17 18:39:00,403 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.402_uniform.npy
+2025-04-17 18:39:00,569 - INFO - 🔹 Processing file: snapshot-99.403.npy
+2025-04-17 18:39:00,647 - INFO - 📊 Starting FFTKDE for [snapshot-99.403] (N=25827734)
+2025-04-17 18:39:00,647 - INFO - 💾 Memory usage before FFTKDE compute: 160.54 MB
+2025-04-17 18:49:40,692 - INFO - 💾 Memory usage after FFTKDE compute: 159.48 MB
+2025-04-17 18:51:02,543 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.403_uniform.npy
+2025-04-17 18:51:02,843 - INFO - 🔹 Processing file: snapshot-99.404.npy
+2025-04-17 18:51:02,941 - INFO - 📊 Starting FFTKDE for [snapshot-99.404] (N=25768998)
+2025-04-17 18:51:02,944 - INFO - 💾 Memory usage before FFTKDE compute: 159.70 MB
+2025-04-17 19:08:44,265 - INFO - 💾 Memory usage after FFTKDE compute: 643.34 MB
+2025-04-17 19:09:37,926 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.404_uniform.npy
+2025-04-17 19:09:38,059 - INFO - 🔹 Processing file: snapshot-99.405.npy
+2025-04-17 19:09:38,123 - INFO - 📊 Starting FFTKDE for [snapshot-99.405] (N=25678788)
+2025-04-17 19:09:38,123 - INFO - 💾 Memory usage before FFTKDE compute: 160.54 MB
+2025-04-17 19:28:11,695 - INFO - 💾 Memory usage after FFTKDE compute: 748.31 MB
+2025-04-17 19:29:00,409 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.405_uniform.npy
+2025-04-17 19:29:00,516 - INFO - 🔹 Processing file: snapshot-99.406.npy
+2025-04-17 19:29:00,597 - INFO - 📊 Starting FFTKDE for [snapshot-99.406] (N=26012451)
+2025-04-17 19:29:00,598 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-17 19:46:06,597 - INFO - 💾 Memory usage after FFTKDE compute: 730.63 MB
+2025-04-17 19:46:58,308 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.406_uniform.npy
+2025-04-17 19:46:58,429 - INFO - 🔹 Processing file: snapshot-99.407.npy
+2025-04-17 19:46:58,685 - INFO - 📊 Starting FFTKDE for [snapshot-99.407] (N=25889543)
+2025-04-17 19:46:58,686 - INFO - 💾 Memory usage before FFTKDE compute: 159.96 MB
+2025-04-17 20:05:48,032 - INFO - 💾 Memory usage after FFTKDE compute: 732.99 MB
+2025-04-17 20:06:38,865 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.407_uniform.npy
+2025-04-17 20:06:39,024 - INFO - 🔹 Processing file: snapshot-99.408.npy
+2025-04-17 20:06:39,117 - INFO - 📊 Starting FFTKDE for [snapshot-99.408] (N=25864519)
+2025-04-17 20:06:39,117 - INFO - 💾 Memory usage before FFTKDE compute: 160.55 MB
+2025-04-17 20:26:40,945 - INFO - 💾 Memory usage after FFTKDE compute: 159.50 MB
+2025-04-17 20:27:30,199 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.408_uniform.npy
+2025-04-17 20:27:30,309 - INFO - 🔹 Processing file: snapshot-99.409.npy
+2025-04-17 20:27:30,415 - INFO - 📊 Starting FFTKDE for [snapshot-99.409] (N=26152671)
+2025-04-17 20:27:30,416 - INFO - 💾 Memory usage before FFTKDE compute: 159.72 MB
+2025-04-17 20:45:39,422 - INFO - 💾 Memory usage after FFTKDE compute: 160.40 MB
+2025-04-17 20:47:30,816 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.409_uniform.npy
+2025-04-17 20:47:30,934 - INFO - 🔹 Processing file: snapshot-99.41.npy
+2025-04-17 20:47:31,043 - INFO - 📊 Starting FFTKDE for [snapshot-99.41] (N=25960879)
+2025-04-17 20:47:31,044 - INFO - 💾 Memory usage before FFTKDE compute: 160.47 MB
+2025-04-17 20:53:25,301 - INFO - 💾 Memory usage after FFTKDE compute: 534.32 MB
+2025-04-17 20:54:17,147 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.41_uniform.npy
+2025-04-17 20:54:17,495 - INFO - 🔹 Processing file: snapshot-99.410.npy
+2025-04-17 20:54:17,630 - INFO - 📊 Starting FFTKDE for [snapshot-99.410] (N=26454534)
+2025-04-17 20:54:17,633 - INFO - 💾 Memory usage before FFTKDE compute: 159.86 MB
+2025-04-17 20:58:44,131 - INFO - 💾 Memory usage after FFTKDE compute: 766.10 MB
+2025-04-17 20:59:39,726 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.410_uniform.npy
+2025-04-17 20:59:40,042 - INFO - 🔹 Processing file: snapshot-99.411.npy
+2025-04-17 20:59:40,141 - INFO - 📊 Starting FFTKDE for [snapshot-99.411] (N=26061228)
+2025-04-17 20:59:40,141 - INFO - 💾 Memory usage before FFTKDE compute: 160.60 MB
+2025-04-17 21:11:18,883 - INFO - 💾 Memory usage after FFTKDE compute: 757.18 MB
+2025-04-17 21:12:10,747 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.411_uniform.npy
+2025-04-17 21:12:11,093 - INFO - 🔹 Processing file: snapshot-99.412.npy
+2025-04-17 21:12:11,288 - INFO - 📊 Starting FFTKDE for [snapshot-99.412] (N=25919281)
+2025-04-17 21:12:11,289 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-17 21:23:58,168 - INFO - 💾 Memory usage after FFTKDE compute: 753.03 MB
+2025-04-17 21:24:53,564 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.412_uniform.npy
+2025-04-17 21:24:53,854 - INFO - 🔹 Processing file: snapshot-99.413.npy
+2025-04-17 21:24:53,966 - INFO - 📊 Starting FFTKDE for [snapshot-99.413] (N=25951029)
+2025-04-17 21:24:53,971 - INFO - 💾 Memory usage before FFTKDE compute: 160.00 MB
+2025-04-17 21:40:07,332 - INFO - 💾 Memory usage after FFTKDE compute: 160.21 MB
+2025-04-17 21:41:06,258 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.413_uniform.npy
+2025-04-17 21:41:06,458 - INFO - 🔹 Processing file: snapshot-99.414.npy
+2025-04-17 21:41:06,523 - INFO - 📊 Starting FFTKDE for [snapshot-99.414] (N=26005247)
+2025-04-17 21:41:06,524 - INFO - 💾 Memory usage before FFTKDE compute: 160.21 MB
+2025-04-17 21:49:02,272 - INFO - 💾 Memory usage after FFTKDE compute: 755.87 MB
+2025-04-17 21:50:21,425 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.414_uniform.npy
+2025-04-17 21:50:21,525 - INFO - 🔹 Processing file: snapshot-99.415.npy
+2025-04-17 21:50:21,631 - INFO - 📊 Starting FFTKDE for [snapshot-99.415] (N=26173983)
+2025-04-17 21:50:21,632 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-17 21:57:41,565 - INFO - 💾 Memory usage after FFTKDE compute: 759.55 MB
+2025-04-17 21:58:42,997 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.415_uniform.npy
+2025-04-17 21:58:43,073 - INFO - 🔹 Processing file: snapshot-99.416.npy
+2025-04-17 21:58:43,182 - INFO - 📊 Starting FFTKDE for [snapshot-99.416] (N=26170617)
+2025-04-17 21:58:43,183 - INFO - 💾 Memory usage before FFTKDE compute: 160.54 MB
+2025-04-17 22:06:00,735 - INFO - 💾 Memory usage after FFTKDE compute: 759.70 MB
+2025-04-17 22:07:23,487 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.416_uniform.npy
+2025-04-17 22:07:23,598 - INFO - 🔹 Processing file: snapshot-99.417.npy
+2025-04-17 22:07:23,753 - INFO - 📊 Starting FFTKDE for [snapshot-99.417] (N=26086994)
+2025-04-17 22:07:23,754 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-17 22:15:17,052 - INFO - 💾 Memory usage after FFTKDE compute: 757.77 MB
+2025-04-17 22:16:37,711 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.417_uniform.npy
+2025-04-17 22:16:37,820 - INFO - 🔹 Processing file: snapshot-99.418.npy
+2025-04-17 22:16:37,895 - INFO - 📊 Starting FFTKDE for [snapshot-99.418] (N=25926407)
+2025-04-17 22:16:37,896 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-17 22:23:36,054 - INFO - 💾 Memory usage after FFTKDE compute: 753.41 MB
+2025-04-17 22:24:33,612 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.418_uniform.npy
+2025-04-17 22:24:33,687 - INFO - 🔹 Processing file: snapshot-99.419.npy
+2025-04-17 22:24:33,787 - INFO - 📊 Starting FFTKDE for [snapshot-99.419] (N=26017497)
+2025-04-17 22:24:33,787 - INFO - 💾 Memory usage before FFTKDE compute: 160.22 MB
+2025-04-17 22:30:43,876 - INFO - 💾 Memory usage after FFTKDE compute: 708.58 MB
+2025-04-17 22:31:57,992 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.419_uniform.npy
+2025-04-17 22:31:58,087 - INFO - 🔹 Processing file: snapshot-99.42.npy
+2025-04-17 22:31:58,206 - INFO - 📊 Starting FFTKDE for [snapshot-99.42] (N=26158937)
+2025-04-17 22:31:58,207 - INFO - 💾 Memory usage before FFTKDE compute: 160.25 MB
+2025-04-17 22:38:35,879 - INFO - 💾 Memory usage after FFTKDE compute: 759.41 MB
+2025-04-17 22:39:59,992 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.42_uniform.npy
+2025-04-17 22:40:00,114 - INFO - 🔹 Processing file: snapshot-99.420.npy
+2025-04-17 22:40:00,212 - INFO - 📊 Starting FFTKDE for [snapshot-99.420] (N=26010272)
+2025-04-17 22:40:00,213 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-17 22:47:49,779 - INFO - 💾 Memory usage after FFTKDE compute: 755.44 MB
+2025-04-17 22:49:15,031 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.420_uniform.npy
+2025-04-17 22:49:15,152 - INFO - 🔹 Processing file: snapshot-99.421.npy
+2025-04-17 22:49:15,306 - INFO - 📊 Starting FFTKDE for [snapshot-99.421] (N=26047238)
+2025-04-17 22:49:15,306 - INFO - 💾 Memory usage before FFTKDE compute: 160.12 MB
+2025-04-17 22:57:18,608 - INFO - 💾 Memory usage after FFTKDE compute: 756.86 MB
+2025-04-17 22:58:40,876 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.421_uniform.npy
+2025-04-17 22:58:41,017 - INFO - 🔹 Processing file: snapshot-99.422.npy
+2025-04-17 22:58:41,101 - INFO - 📊 Starting FFTKDE for [snapshot-99.422] (N=26056397)
+2025-04-17 22:58:41,101 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-17 23:07:07,613 - INFO - 💾 Memory usage after FFTKDE compute: 757.05 MB
+2025-04-17 23:08:32,176 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.422_uniform.npy
+2025-04-17 23:08:32,299 - INFO - 🔹 Processing file: snapshot-99.423.npy
+2025-04-17 23:08:32,402 - INFO - 📊 Starting FFTKDE for [snapshot-99.423] (N=26255497)
+2025-04-17 23:08:32,403 - INFO - 💾 Memory usage before FFTKDE compute: 160.67 MB
+2025-04-17 23:16:09,387 - INFO - 💾 Memory usage after FFTKDE compute: 760.96 MB
+2025-04-17 23:17:30,835 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.423_uniform.npy
+2025-04-17 23:17:30,967 - INFO - 🔹 Processing file: snapshot-99.424.npy
+2025-04-17 23:17:31,100 - INFO - 📊 Starting FFTKDE for [snapshot-99.424] (N=26165829)
+2025-04-17 23:17:31,101 - INFO - 💾 Memory usage before FFTKDE compute: 160.21 MB
+2025-04-17 23:24:29,173 - INFO - 💾 Memory usage after FFTKDE compute: 759.57 MB
+2025-04-17 23:25:52,538 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.424_uniform.npy
+2025-04-17 23:25:52,647 - INFO - 🔹 Processing file: snapshot-99.425.npy
+2025-04-17 23:25:52,729 - INFO - 📊 Starting FFTKDE for [snapshot-99.425] (N=26041481)
+2025-04-17 23:25:52,730 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-17 23:32:22,894 - INFO - 💾 Memory usage after FFTKDE compute: 756.25 MB
+2025-04-17 23:33:21,134 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.425_uniform.npy
+2025-04-17 23:33:21,278 - INFO - 🔹 Processing file: snapshot-99.426.npy
+2025-04-17 23:33:21,483 - INFO - 📊 Starting FFTKDE for [snapshot-99.426] (N=26063920)
+2025-04-17 23:33:21,485 - INFO - 💾 Memory usage before FFTKDE compute: 159.96 MB
+2025-04-17 23:40:29,175 - INFO - 💾 Memory usage after FFTKDE compute: 744.06 MB
+2025-04-17 23:41:50,880 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.426_uniform.npy
+2025-04-17 23:41:50,995 - INFO - 🔹 Processing file: snapshot-99.427.npy
+2025-04-17 23:41:51,091 - INFO - 📊 Starting FFTKDE for [snapshot-99.427] (N=26056453)
+2025-04-17 23:41:51,092 - INFO - 💾 Memory usage before FFTKDE compute: 160.52 MB
+2025-04-17 23:48:14,469 - INFO - 💾 Memory usage after FFTKDE compute: 757.09 MB
+2025-04-17 23:49:39,779 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.427_uniform.npy
+2025-04-17 23:49:39,902 - INFO - 🔹 Processing file: snapshot-99.428.npy
+2025-04-17 23:49:40,006 - INFO - 📊 Starting FFTKDE for [snapshot-99.428] (N=25826707)
+2025-04-17 23:49:40,006 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-17 23:55:59,540 - INFO - 💾 Memory usage after FFTKDE compute: 751.27 MB
+2025-04-17 23:57:19,434 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.428_uniform.npy
+2025-04-17 23:57:19,562 - INFO - 🔹 Processing file: snapshot-99.429.npy
+2025-04-17 23:57:19,677 - INFO - 📊 Starting FFTKDE for [snapshot-99.429] (N=25821806)
+2025-04-17 23:57:19,678 - INFO - 💾 Memory usage before FFTKDE compute: 160.15 MB
+2025-04-18 00:04:51,795 - INFO - 💾 Memory usage after FFTKDE compute: 751.70 MB
+2025-04-18 00:05:48,621 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.429_uniform.npy
+2025-04-18 00:05:48,754 - INFO - 🔹 Processing file: snapshot-99.43.npy
+2025-04-18 00:05:48,869 - INFO - 📊 Starting FFTKDE for [snapshot-99.43] (N=26018444)
+2025-04-18 00:05:48,871 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-18 00:12:08,321 - INFO - 💾 Memory usage after FFTKDE compute: 755.78 MB
+2025-04-18 00:13:28,330 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.43_uniform.npy
+2025-04-18 00:13:28,445 - INFO - 🔹 Processing file: snapshot-99.430.npy
+2025-04-18 00:13:28,531 - INFO - 📊 Starting FFTKDE for [snapshot-99.430] (N=26149749)
+2025-04-18 00:13:28,532 - INFO - 💾 Memory usage before FFTKDE compute: 160.43 MB
+2025-04-18 00:21:23,081 - INFO - 💾 Memory usage after FFTKDE compute: 759.15 MB
+2025-04-18 00:22:41,509 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.430_uniform.npy
+2025-04-18 00:22:41,632 - INFO - 🔹 Processing file: snapshot-99.431.npy
+2025-04-18 00:22:41,698 - INFO - 📊 Starting FFTKDE for [snapshot-99.431] (N=25959161)
+2025-04-18 00:22:41,699 - INFO - 💾 Memory usage before FFTKDE compute: 160.67 MB
+2025-04-18 00:29:21,656 - INFO - 💾 Memory usage after FFTKDE compute: 754.87 MB
+2025-04-18 00:30:36,108 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.431_uniform.npy
+2025-04-18 00:30:36,255 - INFO - 🔹 Processing file: snapshot-99.432.npy
+2025-04-18 00:30:36,368 - INFO - 📊 Starting FFTKDE for [snapshot-99.432] (N=25938029)
+2025-04-18 00:30:36,369 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 00:38:07,605 - INFO - 💾 Memory usage after FFTKDE compute: 754.37 MB
+2025-04-18 00:39:29,580 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.432_uniform.npy
+2025-04-18 00:39:29,694 - INFO - 🔹 Processing file: snapshot-99.433.npy
+2025-04-18 00:39:29,791 - INFO - 📊 Starting FFTKDE for [snapshot-99.433] (N=26311691)
+2025-04-18 00:39:29,791 - INFO - 💾 Memory usage before FFTKDE compute: 160.31 MB
+2025-04-18 00:45:48,603 - INFO - 💾 Memory usage after FFTKDE compute: 762.73 MB
+2025-04-18 00:47:12,313 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.433_uniform.npy
+2025-04-18 00:47:12,439 - INFO - 🔹 Processing file: snapshot-99.434.npy
+2025-04-18 00:47:12,542 - INFO - 📊 Starting FFTKDE for [snapshot-99.434] (N=25683389)
+2025-04-18 00:47:12,542 - INFO - 💾 Memory usage before FFTKDE compute: 160.52 MB
+2025-04-18 00:54:26,507 - INFO - 💾 Memory usage after FFTKDE compute: 748.55 MB
+2025-04-18 00:55:51,333 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.434_uniform.npy
+2025-04-18 00:55:51,470 - INFO - 🔹 Processing file: snapshot-99.435.npy
+2025-04-18 00:55:51,586 - INFO - 📊 Starting FFTKDE for [snapshot-99.435] (N=25998058)
+2025-04-18 00:55:51,586 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 01:02:12,529 - INFO - 💾 Memory usage after FFTKDE compute: 755.76 MB
+2025-04-18 01:03:36,298 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.435_uniform.npy
+2025-04-18 01:03:36,439 - INFO - 🔹 Processing file: snapshot-99.436.npy
+2025-04-18 01:03:36,553 - INFO - 📊 Starting FFTKDE for [snapshot-99.436] (N=25993771)
+2025-04-18 01:03:36,554 - INFO - 💾 Memory usage before FFTKDE compute: 160.05 MB
+2025-04-18 01:10:20,822 - INFO - 💾 Memory usage after FFTKDE compute: 755.63 MB
+2025-04-18 01:11:40,548 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.436_uniform.npy
+2025-04-18 01:11:40,674 - INFO - 🔹 Processing file: snapshot-99.437.npy
+2025-04-18 01:11:40,778 - INFO - 📊 Starting FFTKDE for [snapshot-99.437] (N=26038095)
+2025-04-18 01:11:40,779 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-18 01:18:07,745 - INFO - 💾 Memory usage after FFTKDE compute: 756.66 MB
+2025-04-18 01:19:30,381 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.437_uniform.npy
+2025-04-18 01:19:30,512 - INFO - 🔹 Processing file: snapshot-99.438.npy
+2025-04-18 01:19:30,648 - INFO - 📊 Starting FFTKDE for [snapshot-99.438] (N=25826734)
+2025-04-18 01:19:30,649 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 01:26:04,414 - INFO - 💾 Memory usage after FFTKDE compute: 751.71 MB
+2025-04-18 01:27:29,253 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.438_uniform.npy
+2025-04-18 01:27:29,365 - INFO - 🔹 Processing file: snapshot-99.439.npy
+2025-04-18 01:27:29,443 - INFO - 📊 Starting FFTKDE for [snapshot-99.439] (N=25959382)
+2025-04-18 01:27:29,444 - INFO - 💾 Memory usage before FFTKDE compute: 160.63 MB
+2025-04-18 01:33:44,249 - INFO - 💾 Memory usage after FFTKDE compute: 739.86 MB
+2025-04-18 01:35:08,912 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.439_uniform.npy
+2025-04-18 01:35:09,031 - INFO - 🔹 Processing file: snapshot-99.44.npy
+2025-04-18 01:35:09,185 - INFO - 📊 Starting FFTKDE for [snapshot-99.44] (N=26022800)
+2025-04-18 01:35:09,186 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 01:41:03,963 - INFO - 💾 Memory usage after FFTKDE compute: 743.79 MB
+2025-04-18 01:42:23,463 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.44_uniform.npy
+2025-04-18 01:42:23,576 - INFO - 🔹 Processing file: snapshot-99.440.npy
+2025-04-18 01:42:23,595 - INFO - 📊 Starting FFTKDE for [snapshot-99.440] (N=25973200)
+2025-04-18 01:42:23,596 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-18 01:48:50,654 - INFO - 💾 Memory usage after FFTKDE compute: 743.46 MB
+2025-04-18 01:50:06,064 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.440_uniform.npy
+2025-04-18 01:50:06,190 - INFO - 🔹 Processing file: snapshot-99.441.npy
+2025-04-18 01:50:06,308 - INFO - 📊 Starting FFTKDE for [snapshot-99.441] (N=26034338)
+2025-04-18 01:50:06,309 - INFO - 💾 Memory usage before FFTKDE compute: 160.21 MB
+2025-04-18 01:56:00,435 - INFO - 💾 Memory usage after FFTKDE compute: 751.28 MB
+2025-04-18 01:57:24,100 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.441_uniform.npy
+2025-04-18 01:57:24,235 - INFO - 🔹 Processing file: snapshot-99.442.npy
+2025-04-18 01:57:24,312 - INFO - 📊 Starting FFTKDE for [snapshot-99.442] (N=25886543)
+2025-04-18 01:57:24,312 - INFO - 💾 Memory usage before FFTKDE compute: 160.42 MB
+2025-04-18 02:03:22,336 - INFO - 💾 Memory usage after FFTKDE compute: 753.18 MB
+2025-04-18 02:04:43,562 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.442_uniform.npy
+2025-04-18 02:04:43,679 - INFO - 🔹 Processing file: snapshot-99.443.npy
+2025-04-18 02:04:43,797 - INFO - 📊 Starting FFTKDE for [snapshot-99.443] (N=26087882)
+2025-04-18 02:04:43,798 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-18 02:11:12,773 - INFO - 💾 Memory usage after FFTKDE compute: 757.28 MB
+2025-04-18 02:12:35,695 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.443_uniform.npy
+2025-04-18 02:12:35,823 - INFO - 🔹 Processing file: snapshot-99.444.npy
+2025-04-18 02:12:35,991 - INFO - 📊 Starting FFTKDE for [snapshot-99.444] (N=26058473)
+2025-04-18 02:12:35,992 - INFO - 💾 Memory usage before FFTKDE compute: 160.18 MB
+2025-04-18 02:18:30,875 - INFO - 💾 Memory usage after FFTKDE compute: 757.01 MB
+2025-04-18 02:19:57,432 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.444_uniform.npy
+2025-04-18 02:19:57,550 - INFO - 🔹 Processing file: snapshot-99.445.npy
+2025-04-18 02:19:57,627 - INFO - 📊 Starting FFTKDE for [snapshot-99.445] (N=26168726)
+2025-04-18 02:19:57,628 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 02:25:58,190 - INFO - 💾 Memory usage after FFTKDE compute: 759.39 MB
+2025-04-18 02:26:59,300 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.445_uniform.npy
+2025-04-18 02:26:59,415 - INFO - 🔹 Processing file: snapshot-99.446.npy
+2025-04-18 02:26:59,521 - INFO - 📊 Starting FFTKDE for [snapshot-99.446] (N=25971746)
+2025-04-18 02:26:59,522 - INFO - 💾 Memory usage before FFTKDE compute: 160.53 MB
+2025-04-18 02:34:20,545 - INFO - 💾 Memory usage after FFTKDE compute: 755.03 MB
+2025-04-18 02:35:20,240 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.446_uniform.npy
+2025-04-18 02:35:20,324 - INFO - 🔹 Processing file: snapshot-99.447.npy
+2025-04-18 02:35:20,455 - INFO - 📊 Starting FFTKDE for [snapshot-99.447] (N=26170415)
+2025-04-18 02:35:20,456 - INFO - 💾 Memory usage before FFTKDE compute: 160.59 MB
+2025-04-18 02:43:58,198 - INFO - 💾 Memory usage after FFTKDE compute: 759.67 MB
+2025-04-18 02:45:18,243 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.447_uniform.npy
+2025-04-18 02:45:18,357 - INFO - 🔹 Processing file: snapshot-99.448.npy
+2025-04-18 02:45:18,461 - INFO - 📊 Starting FFTKDE for [snapshot-99.448] (N=26033671)
+2025-04-18 02:45:18,462 - INFO - 💾 Memory usage before FFTKDE compute: 160.67 MB
+2025-04-18 02:53:16,099 - INFO - 💾 Memory usage after FFTKDE compute: 742.76 MB
+2025-04-18 02:54:41,039 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.448_uniform.npy
+2025-04-18 02:54:41,164 - INFO - 🔹 Processing file: snapshot-99.449.npy
+2025-04-18 02:54:41,275 - INFO - 📊 Starting FFTKDE for [snapshot-99.449] (N=26243087)
+2025-04-18 02:54:41,276 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-18 03:02:50,882 - INFO - 💾 Memory usage after FFTKDE compute: 760.88 MB
+2025-04-18 03:03:57,914 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.449_uniform.npy
+2025-04-18 03:03:58,071 - INFO - 🔹 Processing file: snapshot-99.45.npy
+2025-04-18 03:03:58,183 - INFO - 📊 Starting FFTKDE for [snapshot-99.45] (N=26040120)
+2025-04-18 03:03:58,184 - INFO - 💾 Memory usage before FFTKDE compute: 160.37 MB
+2025-04-18 03:11:24,529 - INFO - 💾 Memory usage after FFTKDE compute: 756.41 MB
+2025-04-18 03:12:46,949 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.45_uniform.npy
+2025-04-18 03:12:47,062 - INFO - 🔹 Processing file: snapshot-99.450.npy
+2025-04-18 03:12:47,151 - INFO - 📊 Starting FFTKDE for [snapshot-99.450] (N=26044078)
+2025-04-18 03:12:47,152 - INFO - 💾 Memory usage before FFTKDE compute: 160.50 MB
+2025-04-18 03:20:22,379 - INFO - 💾 Memory usage after FFTKDE compute: 756.30 MB
+2025-04-18 03:21:46,526 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.450_uniform.npy
+2025-04-18 03:21:46,641 - INFO - 🔹 Processing file: snapshot-99.451.npy
+2025-04-18 03:21:46,758 - INFO - 📊 Starting FFTKDE for [snapshot-99.451] (N=25993188)
+2025-04-18 03:21:46,758 - INFO - 💾 Memory usage before FFTKDE compute: 160.20 MB
+2025-04-18 03:29:23,948 - INFO - 💾 Memory usage after FFTKDE compute: 755.29 MB
+2025-04-18 03:30:25,892 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.451_uniform.npy
+2025-04-18 03:30:26,027 - INFO - 🔹 Processing file: snapshot-99.452.npy
+2025-04-18 03:30:26,134 - INFO - 📊 Starting FFTKDE for [snapshot-99.452] (N=25922620)
+2025-04-18 03:30:26,135 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-18 03:38:03,515 - INFO - 💾 Memory usage after FFTKDE compute: 753.93 MB
+2025-04-18 03:39:00,475 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.452_uniform.npy
+2025-04-18 03:39:00,549 - INFO - 🔹 Processing file: snapshot-99.453.npy
+2025-04-18 03:39:00,660 - INFO - 📊 Starting FFTKDE for [snapshot-99.453] (N=26093503)
+2025-04-18 03:39:00,661 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 03:47:16,420 - INFO - 💾 Memory usage after FFTKDE compute: 757.94 MB
+2025-04-18 03:48:35,820 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.453_uniform.npy
+2025-04-18 03:48:35,918 - INFO - 🔹 Processing file: snapshot-99.454.npy
+2025-04-18 03:48:36,061 - INFO - 📊 Starting FFTKDE for [snapshot-99.454] (N=25962694)
+2025-04-18 03:48:36,062 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 03:56:47,177 - INFO - 💾 Memory usage after FFTKDE compute: 754.98 MB
+2025-04-18 03:58:12,287 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.454_uniform.npy
+2025-04-18 03:58:12,401 - INFO - 🔹 Processing file: snapshot-99.455.npy
+2025-04-18 03:58:12,554 - INFO - 📊 Starting FFTKDE for [snapshot-99.455] (N=25779726)
+2025-04-18 03:58:12,554 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 04:06:02,609 - INFO - 💾 Memory usage after FFTKDE compute: 750.88 MB
+2025-04-18 04:07:26,807 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.455_uniform.npy
+2025-04-18 04:07:27,032 - INFO - 🔹 Processing file: snapshot-99.456.npy
+2025-04-18 04:07:27,142 - INFO - 📊 Starting FFTKDE for [snapshot-99.456] (N=26035157)
+2025-04-18 04:07:27,143 - INFO - 💾 Memory usage before FFTKDE compute: 160.89 MB
+2025-04-18 04:13:57,871 - INFO - 💾 Memory usage after FFTKDE compute: 756.28 MB
+2025-04-18 04:15:23,070 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.456_uniform.npy
+2025-04-18 04:15:23,175 - INFO - 🔹 Processing file: snapshot-99.457.npy
+2025-04-18 04:15:23,304 - INFO - 📊 Starting FFTKDE for [snapshot-99.457] (N=26293952)
+2025-04-18 04:15:23,305 - INFO - 💾 Memory usage before FFTKDE compute: 160.59 MB
+2025-04-18 04:21:39,091 - INFO - 💾 Memory usage after FFTKDE compute: 762.70 MB
+2025-04-18 04:22:52,528 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.457_uniform.npy
+2025-04-18 04:22:52,659 - INFO - 🔹 Processing file: snapshot-99.458.npy
+2025-04-18 04:22:52,735 - INFO - 📊 Starting FFTKDE for [snapshot-99.458] (N=25974131)
+2025-04-18 04:22:52,736 - INFO - 💾 Memory usage before FFTKDE compute: 160.89 MB
+2025-04-18 04:30:25,350 - INFO - 💾 Memory usage after FFTKDE compute: 754.63 MB
+2025-04-18 04:31:51,545 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.458_uniform.npy
+2025-04-18 04:31:51,666 - INFO - 🔹 Processing file: snapshot-99.459.npy
+2025-04-18 04:31:51,736 - INFO - 📊 Starting FFTKDE for [snapshot-99.459] (N=25992103)
+2025-04-18 04:31:51,736 - INFO - 💾 Memory usage before FFTKDE compute: 160.30 MB
+2025-04-18 04:38:27,318 - INFO - 💾 Memory usage after FFTKDE compute: 755.86 MB
+2025-04-18 04:39:50,296 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.459_uniform.npy
+2025-04-18 04:39:50,401 - INFO - 🔹 Processing file: snapshot-99.46.npy
+2025-04-18 04:39:50,509 - INFO - 📊 Starting FFTKDE for [snapshot-99.46] (N=26056999)
+2025-04-18 04:39:50,509 - INFO - 💾 Memory usage before FFTKDE compute: 160.96 MB
+2025-04-18 04:46:50,445 - INFO - 💾 Memory usage after FFTKDE compute: 757.32 MB
+2025-04-18 04:48:12,555 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.46_uniform.npy
+2025-04-18 04:48:12,658 - INFO - 🔹 Processing file: snapshot-99.460.npy
+2025-04-18 04:48:12,736 - INFO - 📊 Starting FFTKDE for [snapshot-99.460] (N=25948117)
+2025-04-18 04:48:12,737 - INFO - 💾 Memory usage before FFTKDE compute: 160.93 MB
+2025-04-18 04:53:50,029 - INFO - 💾 Memory usage after FFTKDE compute: 754.95 MB
+2025-04-18 04:55:13,316 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.460_uniform.npy
+2025-04-18 04:55:13,427 - INFO - 🔹 Processing file: snapshot-99.461.npy
+2025-04-18 04:55:13,476 - INFO - 📊 Starting FFTKDE for [snapshot-99.461] (N=25935268)
+2025-04-18 04:55:13,477 - INFO - 💾 Memory usage before FFTKDE compute: 161.04 MB
+2025-04-18 05:00:44,323 - INFO - 💾 Memory usage after FFTKDE compute: 754.64 MB
+2025-04-18 05:01:58,721 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.461_uniform.npy
+2025-04-18 05:01:58,861 - INFO - 🔹 Processing file: snapshot-99.462.npy
+2025-04-18 05:01:58,957 - INFO - 📊 Starting FFTKDE for [snapshot-99.462] (N=25852756)
+2025-04-18 05:01:58,957 - INFO - 💾 Memory usage before FFTKDE compute: 161.04 MB
+2025-04-18 05:08:22,012 - INFO - 💾 Memory usage after FFTKDE compute: 752.43 MB
+2025-04-18 05:09:49,622 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.462_uniform.npy
+2025-04-18 05:09:49,737 - INFO - 🔹 Processing file: snapshot-99.463.npy
+2025-04-18 05:09:49,846 - INFO - 📊 Starting FFTKDE for [snapshot-99.463] (N=25890913)
+2025-04-18 05:09:49,847 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 05:15:49,300 - INFO - 💾 Memory usage after FFTKDE compute: 752.44 MB
+2025-04-18 05:17:14,508 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.463_uniform.npy
+2025-04-18 05:17:14,652 - INFO - 🔹 Processing file: snapshot-99.464.npy
+2025-04-18 05:17:14,751 - INFO - 📊 Starting FFTKDE for [snapshot-99.464] (N=26144544)
+2025-04-18 05:17:14,752 - INFO - 💾 Memory usage before FFTKDE compute: 160.20 MB
+2025-04-18 05:23:31,389 - INFO - 💾 Memory usage after FFTKDE compute: 758.75 MB
+2025-04-18 05:24:54,905 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.464_uniform.npy
+2025-04-18 05:24:55,029 - INFO - 🔹 Processing file: snapshot-99.465.npy
+2025-04-18 05:24:55,124 - INFO - 📊 Starting FFTKDE for [snapshot-99.465] (N=26246215)
+2025-04-18 05:24:55,125 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-18 05:30:53,288 - INFO - 💾 Memory usage after FFTKDE compute: 761.01 MB
+2025-04-18 05:32:01,447 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.465_uniform.npy
+2025-04-18 05:32:01,643 - INFO - 🔹 Processing file: snapshot-99.466.npy
+2025-04-18 05:32:01,722 - INFO - 📊 Starting FFTKDE for [snapshot-99.466] (N=26101296)
+2025-04-18 05:32:01,723 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-18 05:38:06,006 - INFO - 💾 Memory usage after FFTKDE compute: 758.16 MB
+2025-04-18 05:39:26,621 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.466_uniform.npy
+2025-04-18 05:39:26,738 - INFO - 🔹 Processing file: snapshot-99.467.npy
+2025-04-18 05:39:26,830 - INFO - 📊 Starting FFTKDE for [snapshot-99.467] (N=26137984)
+2025-04-18 05:39:26,831 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 05:46:16,112 - INFO - 💾 Memory usage after FFTKDE compute: 758.70 MB
+2025-04-18 05:47:39,473 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.467_uniform.npy
+2025-04-18 05:47:39,593 - INFO - 🔹 Processing file: snapshot-99.468.npy
+2025-04-18 05:47:39,691 - INFO - 📊 Starting FFTKDE for [snapshot-99.468] (N=25955443)
+2025-04-18 05:47:39,692 - INFO - 💾 Memory usage before FFTKDE compute: 160.46 MB
+2025-04-18 05:54:07,158 - INFO - 💾 Memory usage after FFTKDE compute: 754.80 MB
+2025-04-18 05:55:25,170 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.468_uniform.npy
+2025-04-18 05:55:25,319 - INFO - 🔹 Processing file: snapshot-99.469.npy
+2025-04-18 05:55:25,387 - INFO - 📊 Starting FFTKDE for [snapshot-99.469] (N=26240872)
+2025-04-18 05:55:25,388 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 06:00:59,928 - INFO - 💾 Memory usage after FFTKDE compute: 746.33 MB
+2025-04-18 06:01:56,123 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.469_uniform.npy
+2025-04-18 06:01:56,192 - INFO - 🔹 Processing file: snapshot-99.47.npy
+2025-04-18 06:01:56,306 - INFO - 📊 Starting FFTKDE for [snapshot-99.47] (N=26058067)
+2025-04-18 06:01:56,307 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 06:10:21,592 - INFO - 💾 Memory usage after FFTKDE compute: 756.95 MB
+2025-04-18 06:11:50,054 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.47_uniform.npy
+2025-04-18 06:11:50,172 - INFO - 🔹 Processing file: snapshot-99.470.npy
+2025-04-18 06:11:50,279 - INFO - 📊 Starting FFTKDE for [snapshot-99.470] (N=25893008)
+2025-04-18 06:11:50,280 - INFO - 💾 Memory usage before FFTKDE compute: 160.58 MB
+2025-04-18 06:20:31,550 - INFO - 💾 Memory usage after FFTKDE compute: 753.36 MB
+2025-04-18 06:21:45,715 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.470_uniform.npy
+2025-04-18 06:21:45,861 - INFO - 🔹 Processing file: snapshot-99.471.npy
+2025-04-18 06:21:45,937 - INFO - 📊 Starting FFTKDE for [snapshot-99.471] (N=25944563)
+2025-04-18 06:21:45,938 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-18 06:28:17,770 - INFO - 💾 Memory usage after FFTKDE compute: 754.40 MB
+2025-04-18 06:29:46,932 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.471_uniform.npy
+2025-04-18 06:29:47,117 - INFO - 🔹 Processing file: snapshot-99.472.npy
+2025-04-18 06:29:47,205 - INFO - 📊 Starting FFTKDE for [snapshot-99.472] (N=26070282)
+2025-04-18 06:29:47,206 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 06:38:03,907 - INFO - 💾 Memory usage after FFTKDE compute: 756.93 MB
+2025-04-18 06:39:29,136 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.472_uniform.npy
+2025-04-18 06:39:29,251 - INFO - 🔹 Processing file: snapshot-99.473.npy
+2025-04-18 06:39:29,361 - INFO - 📊 Starting FFTKDE for [snapshot-99.473] (N=25992012)
+2025-04-18 06:39:29,362 - INFO - 💾 Memory usage before FFTKDE compute: 160.43 MB
+2025-04-18 06:46:16,989 - INFO - 💾 Memory usage after FFTKDE compute: 755.49 MB
+2025-04-18 06:47:44,263 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.473_uniform.npy
+2025-04-18 06:47:44,404 - INFO - 🔹 Processing file: snapshot-99.474.npy
+2025-04-18 06:47:44,486 - INFO - 📊 Starting FFTKDE for [snapshot-99.474] (N=26172130)
+2025-04-18 06:47:44,487 - INFO - 💾 Memory usage before FFTKDE compute: 160.58 MB
+2025-04-18 06:55:30,440 - INFO - 💾 Memory usage after FFTKDE compute: 759.38 MB
+2025-04-18 06:56:54,314 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.474_uniform.npy
+2025-04-18 06:56:54,435 - INFO - 🔹 Processing file: snapshot-99.475.npy
+2025-04-18 06:56:54,546 - INFO - 📊 Starting FFTKDE for [snapshot-99.475] (N=26060654)
+2025-04-18 06:56:54,547 - INFO - 💾 Memory usage before FFTKDE compute: 160.34 MB
+2025-04-18 07:04:27,405 - INFO - 💾 Memory usage after FFTKDE compute: 757.16 MB
+2025-04-18 07:05:35,985 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.475_uniform.npy
+2025-04-18 07:05:36,142 - INFO - 🔹 Processing file: snapshot-99.476.npy
+2025-04-18 07:05:36,218 - INFO - 📊 Starting FFTKDE for [snapshot-99.476] (N=26210249)
+2025-04-18 07:05:36,219 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-18 07:12:49,599 - INFO - 💾 Memory usage after FFTKDE compute: 746.02 MB
+2025-04-18 07:14:18,686 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.476_uniform.npy
+2025-04-18 07:14:18,791 - INFO - 🔹 Processing file: snapshot-99.477.npy
+2025-04-18 07:14:18,904 - INFO - 📊 Starting FFTKDE for [snapshot-99.477] (N=26221117)
+2025-04-18 07:14:18,904 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-18 07:21:06,159 - INFO - 💾 Memory usage after FFTKDE compute: 760.85 MB
+2025-04-18 07:22:27,712 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.477_uniform.npy
+2025-04-18 07:22:27,841 - INFO - 🔹 Processing file: snapshot-99.478.npy
+2025-04-18 07:22:27,921 - INFO - 📊 Starting FFTKDE for [snapshot-99.478] (N=26135864)
+2025-04-18 07:22:27,921 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 07:28:40,423 - INFO - 💾 Memory usage after FFTKDE compute: 758.84 MB
+2025-04-18 07:30:06,226 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.478_uniform.npy
+2025-04-18 07:30:06,354 - INFO - 🔹 Processing file: snapshot-99.479.npy
+2025-04-18 07:30:06,472 - INFO - 📊 Starting FFTKDE for [snapshot-99.479] (N=25924221)
+2025-04-18 07:30:06,472 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 07:36:43,082 - INFO - 💾 Memory usage after FFTKDE compute: 753.19 MB
+2025-04-18 07:38:06,693 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.479_uniform.npy
+2025-04-18 07:38:06,878 - INFO - 🔹 Processing file: snapshot-99.48.npy
+2025-04-18 07:38:07,010 - INFO - 📊 Starting FFTKDE for [snapshot-99.48] (N=25878185)
+2025-04-18 07:38:07,010 - INFO - 💾 Memory usage before FFTKDE compute: 160.14 MB
+2025-04-18 07:44:46,708 - INFO - 💾 Memory usage after FFTKDE compute: 753.05 MB
+2025-04-18 07:46:16,546 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.48_uniform.npy
+2025-04-18 07:46:16,668 - INFO - 🔹 Processing file: snapshot-99.480.npy
+2025-04-18 07:46:16,759 - INFO - 📊 Starting FFTKDE for [snapshot-99.480] (N=25981877)
+2025-04-18 07:46:16,759 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 07:52:30,941 - INFO - 💾 Memory usage after FFTKDE compute: 755.28 MB
+2025-04-18 07:53:58,330 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.480_uniform.npy
+2025-04-18 07:53:58,451 - INFO - 🔹 Processing file: snapshot-99.481.npy
+2025-04-18 07:53:58,550 - INFO - 📊 Starting FFTKDE for [snapshot-99.481] (N=25692702)
+2025-04-18 07:53:58,551 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 08:00:30,936 - INFO - 💾 Memory usage after FFTKDE compute: 748.29 MB
+2025-04-18 08:01:56,055 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.481_uniform.npy
+2025-04-18 08:01:56,187 - INFO - 🔹 Processing file: snapshot-99.482.npy
+2025-04-18 08:01:56,444 - INFO - 📊 Starting FFTKDE for [snapshot-99.482] (N=25963567)
+2025-04-18 08:01:56,445 - INFO - 💾 Memory usage before FFTKDE compute: 160.24 MB
+2025-04-18 08:08:13,298 - INFO - 💾 Memory usage after FFTKDE compute: 755.02 MB
+2025-04-18 08:09:31,970 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.482_uniform.npy
+2025-04-18 08:09:32,094 - INFO - 🔹 Processing file: snapshot-99.483.npy
+2025-04-18 08:09:32,292 - INFO - 📊 Starting FFTKDE for [snapshot-99.483] (N=25579553)
+2025-04-18 08:09:32,293 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 08:15:53,115 - INFO - 💾 Memory usage after FFTKDE compute: 730.48 MB
+2025-04-18 08:17:20,967 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.483_uniform.npy
+2025-04-18 08:17:21,088 - INFO - 🔹 Processing file: snapshot-99.484.npy
+2025-04-18 08:17:21,190 - INFO - 📊 Starting FFTKDE for [snapshot-99.484] (N=26076639)
+2025-04-18 08:17:21,191 - INFO - 💾 Memory usage before FFTKDE compute: 160.56 MB
+2025-04-18 08:23:56,108 - INFO - 💾 Memory usage after FFTKDE compute: 757.54 MB
+2025-04-18 08:25:16,067 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.484_uniform.npy
+2025-04-18 08:25:16,194 - INFO - 🔹 Processing file: snapshot-99.485.npy
+2025-04-18 08:25:16,329 - INFO - 📊 Starting FFTKDE for [snapshot-99.485] (N=25914333)
+2025-04-18 08:25:16,330 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 08:31:44,790 - INFO - 💾 Memory usage after FFTKDE compute: 741.82 MB
+2025-04-18 08:33:08,923 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.485_uniform.npy
+2025-04-18 08:33:09,092 - INFO - 🔹 Processing file: snapshot-99.486.npy
+2025-04-18 08:33:09,271 - INFO - 📊 Starting FFTKDE for [snapshot-99.486] (N=26069074)
+2025-04-18 08:33:09,271 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 08:40:01,419 - INFO - 💾 Memory usage after FFTKDE compute: 757.05 MB
+2025-04-18 08:41:23,862 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.486_uniform.npy
+2025-04-18 08:41:23,995 - INFO - 🔹 Processing file: snapshot-99.487.npy
+2025-04-18 08:41:24,081 - INFO - 📊 Starting FFTKDE for [snapshot-99.487] (N=26142975)
+2025-04-18 08:41:24,081 - INFO - 💾 Memory usage before FFTKDE compute: 160.19 MB
+2025-04-18 08:48:25,007 - INFO - 💾 Memory usage after FFTKDE compute: 758.67 MB
+2025-04-18 08:49:55,382 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.487_uniform.npy
+2025-04-18 08:49:55,557 - INFO - 🔹 Processing file: snapshot-99.488.npy
+2025-04-18 08:49:55,696 - INFO - 📊 Starting FFTKDE for [snapshot-99.488] (N=26170309)
+2025-04-18 08:49:55,696 - INFO - 💾 Memory usage before FFTKDE compute: 160.38 MB
+2025-04-18 08:57:17,552 - INFO - 💾 Memory usage after FFTKDE compute: 759.54 MB
+2025-04-18 08:58:44,061 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.488_uniform.npy
+2025-04-18 08:58:44,185 - INFO - 🔹 Processing file: snapshot-99.489.npy
+2025-04-18 08:58:44,287 - INFO - 📊 Starting FFTKDE for [snapshot-99.489] (N=25861902)
+2025-04-18 08:58:44,288 - INFO - 💾 Memory usage before FFTKDE compute: 160.61 MB
+2025-04-18 09:06:20,318 - INFO - 💾 Memory usage after FFTKDE compute: 752.68 MB
+2025-04-18 09:07:50,456 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.489_uniform.npy
+2025-04-18 09:07:50,577 - INFO - 🔹 Processing file: snapshot-99.49.npy
+2025-04-18 09:07:50,651 - INFO - 📊 Starting FFTKDE for [snapshot-99.49] (N=26014603)
+2025-04-18 09:07:50,651 - INFO - 💾 Memory usage before FFTKDE compute: 160.09 MB
+2025-04-18 09:15:04,051 - INFO - 💾 Memory usage after FFTKDE compute: 756.16 MB
+2025-04-18 09:16:30,326 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.49_uniform.npy
+2025-04-18 09:16:30,443 - INFO - 🔹 Processing file: snapshot-99.490.npy
+2025-04-18 09:16:30,551 - INFO - 📊 Starting FFTKDE for [snapshot-99.490] (N=26025014)
+2025-04-18 09:16:30,551 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 09:24:35,105 - INFO - 💾 Memory usage after FFTKDE compute: 756.26 MB
+2025-04-18 09:26:02,886 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.490_uniform.npy
+2025-04-18 09:26:03,008 - INFO - 🔹 Processing file: snapshot-99.491.npy
+2025-04-18 09:26:03,113 - INFO - 📊 Starting FFTKDE for [snapshot-99.491] (N=26179676)
+2025-04-18 09:26:03,113 - INFO - 💾 Memory usage before FFTKDE compute: 160.60 MB
+2025-04-18 09:34:12,263 - INFO - 💾 Memory usage after FFTKDE compute: 759.96 MB
+2025-04-18 09:35:15,913 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.491_uniform.npy
+2025-04-18 09:35:16,029 - INFO - 🔹 Processing file: snapshot-99.492.npy
+2025-04-18 09:35:16,130 - INFO - 📊 Starting FFTKDE for [snapshot-99.492] (N=25996423)
+2025-04-18 09:35:16,131 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 09:43:41,731 - INFO - 💾 Memory usage after FFTKDE compute: 740.46 MB
+2025-04-18 09:45:11,751 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.492_uniform.npy
+2025-04-18 09:45:11,869 - INFO - 🔹 Processing file: snapshot-99.493.npy
+2025-04-18 09:45:11,955 - INFO - 📊 Starting FFTKDE for [snapshot-99.493] (N=25833617)
+2025-04-18 09:45:11,957 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-18 09:53:11,020 - INFO - 💾 Memory usage after FFTKDE compute: 751.50 MB
+2025-04-18 09:54:40,278 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.493_uniform.npy
+2025-04-18 09:54:40,401 - INFO - 🔹 Processing file: snapshot-99.494.npy
+2025-04-18 09:54:40,507 - INFO - 📊 Starting FFTKDE for [snapshot-99.494] (N=26205984)
+2025-04-18 09:54:40,507 - INFO - 💾 Memory usage before FFTKDE compute: 160.36 MB
+2025-04-18 10:02:35,248 - INFO - 💾 Memory usage after FFTKDE compute: 760.35 MB
+2025-04-18 10:04:03,318 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.494_uniform.npy
+2025-04-18 10:04:03,430 - INFO - 🔹 Processing file: snapshot-99.495.npy
+2025-04-18 10:04:03,531 - INFO - 📊 Starting FFTKDE for [snapshot-99.495] (N=26097010)
+2025-04-18 10:04:03,532 - INFO - 💾 Memory usage before FFTKDE compute: 160.61 MB
+2025-04-18 10:10:59,693 - INFO - 💾 Memory usage after FFTKDE compute: 758.06 MB
+2025-04-18 10:12:24,184 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.495_uniform.npy
+2025-04-18 10:12:24,324 - INFO - 🔹 Processing file: snapshot-99.496.npy
+2025-04-18 10:12:24,462 - INFO - 📊 Starting FFTKDE for [snapshot-99.496] (N=26035391)
+2025-04-18 10:12:24,463 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 10:20:36,305 - INFO - 💾 Memory usage after FFTKDE compute: 745.04 MB
+2025-04-18 10:22:03,179 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.496_uniform.npy
+2025-04-18 10:22:03,289 - INFO - 🔹 Processing file: snapshot-99.497.npy
+2025-04-18 10:22:03,371 - INFO - 📊 Starting FFTKDE for [snapshot-99.497] (N=26039487)
+2025-04-18 10:22:03,372 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 10:29:17,254 - INFO - 💾 Memory usage after FFTKDE compute: 756.73 MB
+2025-04-18 10:30:46,316 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.497_uniform.npy
+2025-04-18 10:30:46,434 - INFO - 🔹 Processing file: snapshot-99.498.npy
+2025-04-18 10:30:46,538 - INFO - 📊 Starting FFTKDE for [snapshot-99.498] (N=26010231)
+2025-04-18 10:30:46,539 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 10:38:09,960 - INFO - 💾 Memory usage after FFTKDE compute: 755.98 MB
+2025-04-18 10:39:36,041 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.498_uniform.npy
+2025-04-18 10:39:36,159 - INFO - 🔹 Processing file: snapshot-99.499.npy
+2025-04-18 10:39:36,268 - INFO - 📊 Starting FFTKDE for [snapshot-99.499] (N=26128305)
+2025-04-18 10:39:36,268 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 10:46:21,080 - INFO - 💾 Memory usage after FFTKDE compute: 758.77 MB
+2025-04-18 10:47:43,779 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.499_uniform.npy
+2025-04-18 10:47:43,934 - INFO - 🔹 Processing file: snapshot-99.5.npy
+2025-04-18 10:47:44,044 - INFO - 📊 Starting FFTKDE for [snapshot-99.5] (N=25755737)
+2025-04-18 10:47:44,045 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 10:54:38,195 - INFO - 💾 Memory usage after FFTKDE compute: 750.08 MB
+2025-04-18 10:56:03,214 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.5_uniform.npy
+2025-04-18 10:56:03,323 - INFO - 🔹 Processing file: snapshot-99.50.npy
+2025-04-18 10:56:03,539 - INFO - 📊 Starting FFTKDE for [snapshot-99.50] (N=26072180)
+2025-04-18 10:56:03,540 - INFO - 💾 Memory usage before FFTKDE compute: 160.59 MB
+2025-04-18 11:03:03,769 - INFO - 💾 Memory usage after FFTKDE compute: 744.64 MB
+2025-04-18 11:04:29,156 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.50_uniform.npy
+2025-04-18 11:04:29,307 - INFO - 🔹 Processing file: snapshot-99.500.npy
+2025-04-18 11:04:29,427 - INFO - 📊 Starting FFTKDE for [snapshot-99.500] (N=26155486)
+2025-04-18 11:04:29,428 - INFO - 💾 Memory usage before FFTKDE compute: 160.11 MB
+2025-04-18 11:10:52,899 - INFO - 💾 Memory usage after FFTKDE compute: 759.14 MB
+2025-04-18 11:12:21,528 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.500_uniform.npy
+2025-04-18 11:12:21,651 - INFO - 🔹 Processing file: snapshot-99.501.npy
+2025-04-18 11:12:21,730 - INFO - 📊 Starting FFTKDE for [snapshot-99.501] (N=26073807)
+2025-04-18 11:12:21,731 - INFO - 💾 Memory usage before FFTKDE compute: 160.54 MB
+2025-04-18 11:18:56,800 - INFO - 💾 Memory usage after FFTKDE compute: 756.90 MB
+2025-04-18 11:20:20,765 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.501_uniform.npy
+2025-04-18 11:20:20,893 - INFO - 🔹 Processing file: snapshot-99.502.npy
+2025-04-18 11:20:21,098 - INFO - 📊 Starting FFTKDE for [snapshot-99.502] (N=26009055)
+2025-04-18 11:20:21,099 - INFO - 💾 Memory usage before FFTKDE compute: 160.19 MB
+2025-04-18 11:26:55,302 - INFO - 💾 Memory usage after FFTKDE compute: 744.02 MB
+2025-04-18 11:28:18,892 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.502_uniform.npy
+2025-04-18 11:28:19,022 - INFO - 🔹 Processing file: snapshot-99.503.npy
+2025-04-18 11:28:19,124 - INFO - 📊 Starting FFTKDE for [snapshot-99.503] (N=26209865)
+2025-04-18 11:28:19,125 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 11:35:10,506 - INFO - 💾 Memory usage after FFTKDE compute: 760.64 MB
+2025-04-18 11:36:38,663 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.503_uniform.npy
+2025-04-18 11:36:38,791 - INFO - 🔹 Processing file: snapshot-99.504.npy
+2025-04-18 11:36:38,887 - INFO - 📊 Starting FFTKDE for [snapshot-99.504] (N=26068590)
+2025-04-18 11:36:38,888 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 11:43:09,874 - INFO - 💾 Memory usage after FFTKDE compute: 757.41 MB
+2025-04-18 11:44:38,377 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.504_uniform.npy
+2025-04-18 11:44:38,488 - INFO - 🔹 Processing file: snapshot-99.505.npy
+2025-04-18 11:44:38,569 - INFO - 📊 Starting FFTKDE for [snapshot-99.505] (N=25808837)
+2025-04-18 11:44:38,570 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 11:52:06,394 - INFO - 💾 Memory usage after FFTKDE compute: 751.37 MB
+2025-04-18 11:53:32,693 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.505_uniform.npy
+2025-04-18 11:53:32,806 - INFO - 🔹 Processing file: snapshot-99.506.npy
+2025-04-18 11:53:32,906 - INFO - 📊 Starting FFTKDE for [snapshot-99.506] (N=25815141)
+2025-04-18 11:53:32,907 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-18 11:59:45,053 - INFO - 💾 Memory usage after FFTKDE compute: 751.54 MB
+2025-04-18 12:01:11,116 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.506_uniform.npy
+2025-04-18 12:01:11,230 - INFO - 🔹 Processing file: snapshot-99.507.npy
+2025-04-18 12:01:11,326 - INFO - 📊 Starting FFTKDE for [snapshot-99.507] (N=26281096)
+2025-04-18 12:01:11,327 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-18 12:07:55,008 - INFO - 💾 Memory usage after FFTKDE compute: 762.25 MB
+2025-04-18 12:09:22,615 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.507_uniform.npy
+2025-04-18 12:09:22,802 - INFO - 🔹 Processing file: snapshot-99.508.npy
+2025-04-18 12:09:22,895 - INFO - 📊 Starting FFTKDE for [snapshot-99.508] (N=26126766)
+2025-04-18 12:09:22,896 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 12:15:29,582 - INFO - 💾 Memory usage after FFTKDE compute: 758.28 MB
+2025-04-18 12:16:55,971 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.508_uniform.npy
+2025-04-18 12:16:56,076 - INFO - 🔹 Processing file: snapshot-99.509.npy
+2025-04-18 12:16:56,183 - INFO - 📊 Starting FFTKDE for [snapshot-99.509] (N=26217543)
+2025-04-18 12:16:56,184 - INFO - 💾 Memory usage before FFTKDE compute: 160.36 MB
+2025-04-18 12:22:52,127 - INFO - 💾 Memory usage after FFTKDE compute: 760.74 MB
+2025-04-18 12:24:21,022 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.509_uniform.npy
+2025-04-18 12:24:21,149 - INFO - 🔹 Processing file: snapshot-99.51.npy
+2025-04-18 12:24:21,261 - INFO - 📊 Starting FFTKDE for [snapshot-99.51] (N=26012929)
+2025-04-18 12:24:21,262 - INFO - 💾 Memory usage before FFTKDE compute: 160.67 MB
+2025-04-18 12:30:20,649 - INFO - 💾 Memory usage after FFTKDE compute: 755.73 MB
+2025-04-18 12:31:45,223 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.51_uniform.npy
+2025-04-18 12:31:45,338 - INFO - 🔹 Processing file: snapshot-99.510.npy
+2025-04-18 12:31:45,439 - INFO - 📊 Starting FFTKDE for [snapshot-99.510] (N=25886049)
+2025-04-18 12:31:45,440 - INFO - 💾 Memory usage before FFTKDE compute: 160.35 MB
+2025-04-18 12:38:05,284 - INFO - 💾 Memory usage after FFTKDE compute: 753.11 MB
+2025-04-18 12:39:27,891 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.510_uniform.npy
+2025-04-18 12:39:28,023 - INFO - 🔹 Processing file: snapshot-99.511.npy
+2025-04-18 12:39:28,203 - INFO - 📊 Starting FFTKDE for [snapshot-99.511] (N=25973431)
+2025-04-18 12:39:28,204 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 12:45:10,922 - INFO - 💾 Memory usage after FFTKDE compute: 740.19 MB
+2025-04-18 12:46:34,877 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.511_uniform.npy
+2025-04-18 12:46:35,012 - INFO - 🔹 Processing file: snapshot-99.512.npy
+2025-04-18 12:46:35,120 - INFO - 📊 Starting FFTKDE for [snapshot-99.512] (N=26111853)
+2025-04-18 12:46:35,121 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 12:52:36,900 - INFO - 💾 Memory usage after FFTKDE compute: 758.07 MB
+2025-04-18 12:53:57,144 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.512_uniform.npy
+2025-04-18 12:53:57,271 - INFO - 🔹 Processing file: snapshot-99.513.npy
+2025-04-18 12:53:57,425 - INFO - 📊 Starting FFTKDE for [snapshot-99.513] (N=26037502)
+2025-04-18 12:53:57,426 - INFO - 💾 Memory usage before FFTKDE compute: 160.59 MB
+2025-04-18 13:00:19,721 - INFO - 💾 Memory usage after FFTKDE compute: 725.10 MB
+2025-04-18 13:01:48,800 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.513_uniform.npy
+2025-04-18 13:01:48,923 - INFO - 🔹 Processing file: snapshot-99.514.npy
+2025-04-18 13:01:49,016 - INFO - 📊 Starting FFTKDE for [snapshot-99.514] (N=25888680)
+2025-04-18 13:01:49,017 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 13:08:04,789 - INFO - 💾 Memory usage after FFTKDE compute: 753.18 MB
+2025-04-18 13:09:29,010 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.514_uniform.npy
+2025-04-18 13:09:29,138 - INFO - 🔹 Processing file: snapshot-99.515.npy
+2025-04-18 13:09:29,283 - INFO - 📊 Starting FFTKDE for [snapshot-99.515] (N=26029096)
+2025-04-18 13:09:29,284 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 13:15:27,223 - INFO - 💾 Memory usage after FFTKDE compute: 756.51 MB
+2025-04-18 13:16:56,156 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.515_uniform.npy
+2025-04-18 13:16:56,279 - INFO - 🔹 Processing file: snapshot-99.516.npy
+2025-04-18 13:16:56,345 - INFO - 📊 Starting FFTKDE for [snapshot-99.516] (N=26113886)
+2025-04-18 13:16:56,345 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 13:23:01,898 - INFO - 💾 Memory usage after FFTKDE compute: 758.13 MB
+2025-04-18 13:24:28,867 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.516_uniform.npy
+2025-04-18 13:24:28,991 - INFO - 🔹 Processing file: snapshot-99.517.npy
+2025-04-18 13:24:29,110 - INFO - 📊 Starting FFTKDE for [snapshot-99.517] (N=25947421)
+2025-04-18 13:24:29,111 - INFO - 💾 Memory usage before FFTKDE compute: 160.52 MB
+2025-04-18 13:30:24,686 - INFO - 💾 Memory usage after FFTKDE compute: 754.61 MB
+2025-04-18 13:31:53,966 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.517_uniform.npy
+2025-04-18 13:31:54,092 - INFO - 🔹 Processing file: snapshot-99.518.npy
+2025-04-18 13:31:54,295 - INFO - 📊 Starting FFTKDE for [snapshot-99.518] (N=26181131)
+2025-04-18 13:31:54,296 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 13:38:05,200 - INFO - 💾 Memory usage after FFTKDE compute: 743.94 MB
+2025-04-18 13:39:31,267 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.518_uniform.npy
+2025-04-18 13:39:31,392 - INFO - 🔹 Processing file: snapshot-99.519.npy
+2025-04-18 13:39:31,505 - INFO - 📊 Starting FFTKDE for [snapshot-99.519] (N=25906847)
+2025-04-18 13:39:31,506 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 13:45:10,077 - INFO - 💾 Memory usage after FFTKDE compute: 753.70 MB
+2025-04-18 13:46:36,468 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.519_uniform.npy
+2025-04-18 13:46:36,587 - INFO - 🔹 Processing file: snapshot-99.52.npy
+2025-04-18 13:46:36,684 - INFO - 📊 Starting FFTKDE for [snapshot-99.52] (N=25876345)
+2025-04-18 13:46:36,684 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 13:53:26,501 - INFO - 💾 Memory usage after FFTKDE compute: 752.82 MB
+2025-04-18 13:54:54,914 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.52_uniform.npy
+2025-04-18 13:54:55,052 - INFO - 🔹 Processing file: snapshot-99.520.npy
+2025-04-18 13:54:55,140 - INFO - 📊 Starting FFTKDE for [snapshot-99.520] (N=25835585)
+2025-04-18 13:54:55,141 - INFO - 💾 Memory usage before FFTKDE compute: 160.65 MB
+2025-04-18 14:01:46,762 - INFO - 💾 Memory usage after FFTKDE compute: 751.93 MB
+2025-04-18 14:03:15,436 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.520_uniform.npy
+2025-04-18 14:03:15,562 - INFO - 🔹 Processing file: snapshot-99.521.npy
+2025-04-18 14:03:15,666 - INFO - 📊 Starting FFTKDE for [snapshot-99.521] (N=25786153)
+2025-04-18 14:03:15,667 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-18 14:09:37,208 - INFO - 💾 Memory usage after FFTKDE compute: 750.92 MB
+2025-04-18 14:11:02,877 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.521_uniform.npy
+2025-04-18 14:11:02,999 - INFO - 🔹 Processing file: snapshot-99.522.npy
+2025-04-18 14:11:03,088 - INFO - 📊 Starting FFTKDE for [snapshot-99.522] (N=26136318)
+2025-04-18 14:11:03,089 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-18 14:16:24,655 - INFO - 💾 Memory usage after FFTKDE compute: 758.90 MB
+2025-04-18 14:17:50,526 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.522_uniform.npy
+2025-04-18 14:17:50,656 - INFO - 🔹 Processing file: snapshot-99.523.npy
+2025-04-18 14:17:50,784 - INFO - 📊 Starting FFTKDE for [snapshot-99.523] (N=25921079)
+2025-04-18 14:17:50,785 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-18 14:24:00,271 - INFO - 💾 Memory usage after FFTKDE compute: 753.22 MB
+2025-04-18 14:25:30,135 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.523_uniform.npy
+2025-04-18 14:25:30,269 - INFO - 🔹 Processing file: snapshot-99.524.npy
+2025-04-18 14:25:30,354 - INFO - 📊 Starting FFTKDE for [snapshot-99.524] (N=26004772)
+2025-04-18 14:25:30,355 - INFO - 💾 Memory usage before FFTKDE compute: 160.27 MB
+2025-04-18 14:31:54,506 - INFO - 💾 Memory usage after FFTKDE compute: 755.81 MB
+2025-04-18 14:33:22,616 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.524_uniform.npy
+2025-04-18 14:33:22,732 - INFO - 🔹 Processing file: snapshot-99.525.npy
+2025-04-18 14:33:22,934 - INFO - 📊 Starting FFTKDE for [snapshot-99.525] (N=25775239)
+2025-04-18 14:33:22,935 - INFO - 💾 Memory usage before FFTKDE compute: 160.62 MB
+2025-04-18 14:39:15,831 - INFO - 💾 Memory usage after FFTKDE compute: 737.47 MB
+2025-04-18 14:40:37,062 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.525_uniform.npy
+2025-04-18 14:40:37,227 - INFO - 🔹 Processing file: snapshot-99.526.npy
+2025-04-18 14:40:37,382 - INFO - 📊 Starting FFTKDE for [snapshot-99.526] (N=25738305)
+2025-04-18 14:40:37,382 - INFO - 💾 Memory usage before FFTKDE compute: 160.05 MB
+2025-04-18 14:47:15,458 - INFO - 💾 Memory usage after FFTKDE compute: 749.64 MB
+2025-04-18 14:48:15,757 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.526_uniform.npy
+2025-04-18 14:48:15,841 - INFO - 🔹 Processing file: snapshot-99.527.npy
+2025-04-18 14:48:15,941 - INFO - 📊 Starting FFTKDE for [snapshot-99.527] (N=25690545)
+2025-04-18 14:48:15,942 - INFO - 💾 Memory usage before FFTKDE compute: 160.58 MB
+2025-04-18 14:56:48,793 - INFO - 💾 Memory usage after FFTKDE compute: 748.55 MB
+2025-04-18 14:57:49,821 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.527_uniform.npy
+2025-04-18 14:57:49,913 - INFO - 🔹 Processing file: snapshot-99.528.npy
+2025-04-18 14:57:50,039 - INFO - 📊 Starting FFTKDE for [snapshot-99.528] (N=25959731)
+2025-04-18 14:57:50,040 - INFO - 💾 Memory usage before FFTKDE compute: 160.63 MB
+2025-04-18 15:07:10,268 - INFO - 💾 Memory usage after FFTKDE compute: 754.75 MB
+2025-04-18 15:08:15,520 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.528_uniform.npy
+2025-04-18 15:08:15,611 - INFO - 🔹 Processing file: snapshot-99.529.npy
+2025-04-18 15:08:15,728 - INFO - 📊 Starting FFTKDE for [snapshot-99.529] (N=25924721)
+2025-04-18 15:08:15,729 - INFO - 💾 Memory usage before FFTKDE compute: 160.54 MB
+2025-04-18 15:18:24,901 - INFO - 💾 Memory usage after FFTKDE compute: 160.70 MB
+2025-04-18 15:19:23,149 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.529_uniform.npy
+2025-04-18 15:19:23,235 - INFO - 🔹 Processing file: snapshot-99.53.npy
+2025-04-18 15:19:23,337 - INFO - 📊 Starting FFTKDE for [snapshot-99.53] (N=25855663)
+2025-04-18 15:19:23,337 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-18 15:27:28,738 - INFO - 💾 Memory usage after FFTKDE compute: 160.00 MB
+2025-04-18 15:28:33,868 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.53_uniform.npy
+2025-04-18 15:28:33,959 - INFO - 🔹 Processing file: snapshot-99.530.npy
+2025-04-18 15:28:34,034 - INFO - 📊 Starting FFTKDE for [snapshot-99.530] (N=26047969)
+2025-04-18 15:28:34,035 - INFO - 💾 Memory usage before FFTKDE compute: 160.20 MB
+2025-04-18 15:33:54,562 - INFO - 💾 Memory usage after FFTKDE compute: 680.79 MB
+2025-04-18 15:34:52,529 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.530_uniform.npy
+2025-04-18 15:34:52,632 - INFO - 🔹 Processing file: snapshot-99.531.npy
+2025-04-18 15:34:52,724 - INFO - 📊 Starting FFTKDE for [snapshot-99.531] (N=26037257)
+2025-04-18 15:34:52,725 - INFO - 💾 Memory usage before FFTKDE compute: 160.24 MB
+2025-04-18 15:40:24,546 - INFO - 💾 Memory usage after FFTKDE compute: 738.18 MB
+2025-04-18 15:41:53,214 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.531_uniform.npy
+2025-04-18 15:41:53,321 - INFO - 🔹 Processing file: snapshot-99.532.npy
+2025-04-18 15:41:54,446 - INFO - 📊 Starting FFTKDE for [snapshot-99.532] (N=26084950)
+2025-04-18 15:41:54,447 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 15:47:23,851 - INFO - 💾 Memory usage after FFTKDE compute: 757.16 MB
+2025-04-18 15:48:35,620 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.532_uniform.npy
+2025-04-18 15:48:35,760 - INFO - 🔹 Processing file: snapshot-99.533.npy
+2025-04-18 15:48:35,838 - INFO - 📊 Starting FFTKDE for [snapshot-99.533] (N=25608334)
+2025-04-18 15:48:35,838 - INFO - 💾 Memory usage before FFTKDE compute: 160.13 MB
+2025-04-18 15:53:21,677 - INFO - 💾 Memory usage after FFTKDE compute: 746.86 MB
+2025-04-18 15:54:42,900 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.533_uniform.npy
+2025-04-18 15:54:43,030 - INFO - 🔹 Processing file: snapshot-99.534.npy
+2025-04-18 15:54:43,112 - INFO - 📊 Starting FFTKDE for [snapshot-99.534] (N=26380731)
+2025-04-18 15:54:43,113 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 16:00:17,503 - INFO - 💾 Memory usage after FFTKDE compute: 764.54 MB
+2025-04-18 16:01:45,385 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.534_uniform.npy
+2025-04-18 16:01:45,485 - INFO - 🔹 Processing file: snapshot-99.535.npy
+2025-04-18 16:01:45,582 - INFO - 📊 Starting FFTKDE for [snapshot-99.535] (N=26309163)
+2025-04-18 16:01:45,583 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 16:07:37,979 - INFO - 💾 Memory usage after FFTKDE compute: 762.77 MB
+2025-04-18 16:09:06,286 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.535_uniform.npy
+2025-04-18 16:09:06,381 - INFO - 🔹 Processing file: snapshot-99.536.npy
+2025-04-18 16:09:06,447 - INFO - 📊 Starting FFTKDE for [snapshot-99.536] (N=25794793)
+2025-04-18 16:09:06,448 - INFO - 💾 Memory usage before FFTKDE compute: 160.63 MB
+2025-04-18 16:15:15,061 - INFO - 💾 Memory usage after FFTKDE compute: 751.05 MB
+2025-04-18 16:16:43,456 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.536_uniform.npy
+2025-04-18 16:16:43,552 - INFO - 🔹 Processing file: snapshot-99.537.npy
+2025-04-18 16:16:43,649 - INFO - 📊 Starting FFTKDE for [snapshot-99.537] (N=26102964)
+2025-04-18 16:16:43,650 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 16:23:53,499 - INFO - 💾 Memory usage after FFTKDE compute: 758.20 MB
+2025-04-18 16:25:18,806 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.537_uniform.npy
+2025-04-18 16:25:18,900 - INFO - 🔹 Processing file: snapshot-99.538.npy
+2025-04-18 16:25:18,967 - INFO - 📊 Starting FFTKDE for [snapshot-99.538] (N=26311795)
+2025-04-18 16:25:18,968 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 16:31:57,745 - INFO - 💾 Memory usage after FFTKDE compute: 762.52 MB
+2025-04-18 16:33:23,447 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.538_uniform.npy
+2025-04-18 16:33:23,597 - INFO - 🔹 Processing file: snapshot-99.539.npy
+2025-04-18 16:33:23,692 - INFO - 📊 Starting FFTKDE for [snapshot-99.539] (N=25889118)
+2025-04-18 16:33:23,693 - INFO - 💾 Memory usage before FFTKDE compute: 160.47 MB
+2025-04-18 16:40:06,665 - INFO - 💾 Memory usage after FFTKDE compute: 752.60 MB
+2025-04-18 16:41:08,189 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.539_uniform.npy
+2025-04-18 16:41:08,294 - INFO - 🔹 Processing file: snapshot-99.54.npy
+2025-04-18 16:41:08,392 - INFO - 📊 Starting FFTKDE for [snapshot-99.54] (N=26262285)
+2025-04-18 16:41:08,393 - INFO - 💾 Memory usage before FFTKDE compute: 160.27 MB
+2025-04-18 16:47:40,754 - INFO - 💾 Memory usage after FFTKDE compute: 761.50 MB
+2025-04-18 16:48:49,482 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.54_uniform.npy
+2025-04-18 16:48:49,594 - INFO - 🔹 Processing file: snapshot-99.540.npy
+2025-04-18 16:48:49,687 - INFO - 📊 Starting FFTKDE for [snapshot-99.540] (N=26265334)
+2025-04-18 16:48:49,688 - INFO - 💾 Memory usage before FFTKDE compute: 160.42 MB
+2025-04-18 16:53:32,686 - INFO - 💾 Memory usage after FFTKDE compute: 761.89 MB
+2025-04-18 16:54:35,866 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.540_uniform.npy
+2025-04-18 16:54:35,974 - INFO - 🔹 Processing file: snapshot-99.541.npy
+2025-04-18 16:54:36,069 - INFO - 📊 Starting FFTKDE for [snapshot-99.541] (N=25957931)
+2025-04-18 16:54:36,070 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-18 16:59:43,626 - INFO - 💾 Memory usage after FFTKDE compute: 754.88 MB
+2025-04-18 17:00:49,074 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.541_uniform.npy
+2025-04-18 17:00:49,181 - INFO - 🔹 Processing file: snapshot-99.542.npy
+2025-04-18 17:00:49,303 - INFO - 📊 Starting FFTKDE for [snapshot-99.542] (N=26012795)
+2025-04-18 17:00:49,304 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 17:08:08,556 - INFO - 💾 Memory usage after FFTKDE compute: 756.14 MB
+2025-04-18 17:09:18,769 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.542_uniform.npy
+2025-04-18 17:09:18,909 - INFO - 🔹 Processing file: snapshot-99.543.npy
+2025-04-18 17:09:18,981 - INFO - 📊 Starting FFTKDE for [snapshot-99.543] (N=26103329)
+2025-04-18 17:09:18,981 - INFO - 💾 Memory usage before FFTKDE compute: 160.10 MB
+2025-04-18 17:15:53,448 - INFO - 💾 Memory usage after FFTKDE compute: 758.03 MB
+2025-04-18 17:17:15,109 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.543_uniform.npy
+2025-04-18 17:17:15,228 - INFO - 🔹 Processing file: snapshot-99.544.npy
+2025-04-18 17:17:15,329 - INFO - 📊 Starting FFTKDE for [snapshot-99.544] (N=25906108)
+2025-04-18 17:17:15,330 - INFO - 💾 Memory usage before FFTKDE compute: 160.61 MB
+2025-04-18 17:24:53,060 - INFO - 💾 Memory usage after FFTKDE compute: 753.57 MB
+2025-04-18 17:26:17,387 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.544_uniform.npy
+2025-04-18 17:26:17,501 - INFO - 🔹 Processing file: snapshot-99.545.npy
+2025-04-18 17:26:17,587 - INFO - 📊 Starting FFTKDE for [snapshot-99.545] (N=26191662)
+2025-04-18 17:26:17,587 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 17:32:36,074 - INFO - 💾 Memory usage after FFTKDE compute: 760.23 MB
+2025-04-18 17:33:47,466 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.545_uniform.npy
+2025-04-18 17:33:47,592 - INFO - 🔹 Processing file: snapshot-99.546.npy
+2025-04-18 17:33:47,687 - INFO - 📊 Starting FFTKDE for [snapshot-99.546] (N=26081437)
+2025-04-18 17:33:47,688 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 17:39:42,900 - INFO - 💾 Memory usage after FFTKDE compute: 756.96 MB
+2025-04-18 17:41:05,894 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.546_uniform.npy
+2025-04-18 17:41:06,019 - INFO - 🔹 Processing file: snapshot-99.547.npy
+2025-04-18 17:41:06,127 - INFO - 📊 Starting FFTKDE for [snapshot-99.547] (N=25916464)
+2025-04-18 17:41:06,127 - INFO - 💾 Memory usage before FFTKDE compute: 160.37 MB
+2025-04-18 17:47:06,560 - INFO - 💾 Memory usage after FFTKDE compute: 753.54 MB
+2025-04-18 17:48:13,130 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.547_uniform.npy
+2025-04-18 17:48:13,261 - INFO - 🔹 Processing file: snapshot-99.548.npy
+2025-04-18 17:48:13,352 - INFO - 📊 Starting FFTKDE for [snapshot-99.548] (N=26091224)
+2025-04-18 17:48:13,352 - INFO - 💾 Memory usage before FFTKDE compute: 160.50 MB
+2025-04-18 17:53:44,080 - INFO - 💾 Memory usage after FFTKDE compute: 757.77 MB
+2025-04-18 17:54:45,719 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.548_uniform.npy
+2025-04-18 17:54:45,817 - INFO - 🔹 Processing file: snapshot-99.549.npy
+2025-04-18 17:54:45,901 - INFO - 📊 Starting FFTKDE for [snapshot-99.549] (N=25828728)
+2025-04-18 17:54:45,901 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 18:00:31,242 - INFO - 💾 Memory usage after FFTKDE compute: 751.59 MB
+2025-04-18 18:01:30,978 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.549_uniform.npy
+2025-04-18 18:01:31,081 - INFO - 🔹 Processing file: snapshot-99.55.npy
+2025-04-18 18:01:31,175 - INFO - 📊 Starting FFTKDE for [snapshot-99.55] (N=26129307)
+2025-04-18 18:01:31,176 - INFO - 💾 Memory usage before FFTKDE compute: 160.43 MB
+2025-04-18 18:07:39,527 - INFO - 💾 Memory usage after FFTKDE compute: 758.80 MB
+2025-04-18 18:08:44,449 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.55_uniform.npy
+2025-04-18 18:08:44,565 - INFO - 🔹 Processing file: snapshot-99.550.npy
+2025-04-18 18:08:44,633 - INFO - 📊 Starting FFTKDE for [snapshot-99.550] (N=26215906)
+2025-04-18 18:08:44,634 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 18:14:42,711 - INFO - 💾 Memory usage after FFTKDE compute: 759.96 MB
+2025-04-18 18:15:48,067 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.550_uniform.npy
+2025-04-18 18:15:48,176 - INFO - 🔹 Processing file: snapshot-99.551.npy
+2025-04-18 18:15:48,300 - INFO - 📊 Starting FFTKDE for [snapshot-99.551] (N=26015367)
+2025-04-18 18:15:48,301 - INFO - 💾 Memory usage before FFTKDE compute: 160.06 MB
+2025-04-18 18:21:26,163 - INFO - 💾 Memory usage after FFTKDE compute: 538.17 MB
+2025-04-18 18:22:54,316 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.551_uniform.npy
+2025-04-18 18:22:54,419 - INFO - 🔹 Processing file: snapshot-99.552.npy
+2025-04-18 18:22:54,677 - INFO - 📊 Starting FFTKDE for [snapshot-99.552] (N=25853054)
+2025-04-18 18:22:54,678 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 18:29:07,782 - INFO - 💾 Memory usage after FFTKDE compute: 752.42 MB
+2025-04-18 18:30:28,844 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.552_uniform.npy
+2025-04-18 18:30:28,996 - INFO - 🔹 Processing file: snapshot-99.553.npy
+2025-04-18 18:30:29,098 - INFO - 📊 Starting FFTKDE for [snapshot-99.553] (N=25816700)
+2025-04-18 18:30:29,099 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 18:37:44,385 - INFO - 💾 Memory usage after FFTKDE compute: 751.56 MB
+2025-04-18 18:38:49,305 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.553_uniform.npy
+2025-04-18 18:38:49,421 - INFO - 🔹 Processing file: snapshot-99.554.npy
+2025-04-18 18:38:49,678 - INFO - 📊 Starting FFTKDE for [snapshot-99.554] (N=26278970)
+2025-04-18 18:38:49,679 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-18 18:44:13,638 - INFO - 💾 Memory usage after FFTKDE compute: 762.23 MB
+2025-04-18 18:45:43,224 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.554_uniform.npy
+2025-04-18 18:45:43,334 - INFO - 🔹 Processing file: snapshot-99.555.npy
+2025-04-18 18:45:43,419 - INFO - 📊 Starting FFTKDE for [snapshot-99.555] (N=25953681)
+2025-04-18 18:45:43,420 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 18:52:20,785 - INFO - 💾 Memory usage after FFTKDE compute: 754.32 MB
+2025-04-18 18:53:47,796 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.555_uniform.npy
+2025-04-18 18:53:47,899 - INFO - 🔹 Processing file: snapshot-99.556.npy
+2025-04-18 18:53:48,006 - INFO - 📊 Starting FFTKDE for [snapshot-99.556] (N=26022002)
+2025-04-18 18:53:48,007 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-18 19:01:02,894 - INFO - 💾 Memory usage after FFTKDE compute: 756.26 MB
+2025-04-18 19:02:29,030 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.556_uniform.npy
+2025-04-18 19:02:29,176 - INFO - 🔹 Processing file: snapshot-99.557.npy
+2025-04-18 19:02:29,262 - INFO - 📊 Starting FFTKDE for [snapshot-99.557] (N=25934162)
+2025-04-18 19:02:29,262 - INFO - 💾 Memory usage before FFTKDE compute: 160.67 MB
+2025-04-18 19:10:43,265 - INFO - 💾 Memory usage after FFTKDE compute: 753.88 MB
+2025-04-18 19:11:43,352 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.557_uniform.npy
+2025-04-18 19:11:43,485 - INFO - 🔹 Processing file: snapshot-99.558.npy
+2025-04-18 19:11:43,623 - INFO - 📊 Starting FFTKDE for [snapshot-99.558] (N=26078075)
+2025-04-18 19:11:43,625 - INFO - 💾 Memory usage before FFTKDE compute: 160.37 MB
+2025-04-18 19:19:53,818 - INFO - 💾 Memory usage after FFTKDE compute: 757.45 MB
+2025-04-18 19:20:58,493 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.558_uniform.npy
+2025-04-18 19:20:58,616 - INFO - 🔹 Processing file: snapshot-99.559.npy
+2025-04-18 19:20:58,702 - INFO - 📊 Starting FFTKDE for [snapshot-99.559] (N=26182285)
+2025-04-18 19:20:58,703 - INFO - 💾 Memory usage before FFTKDE compute: 160.61 MB
+2025-04-18 19:28:50,271 - INFO - 💾 Memory usage after FFTKDE compute: 744.50 MB
+2025-04-18 19:29:51,819 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.559_uniform.npy
+2025-04-18 19:29:51,935 - INFO - 🔹 Processing file: snapshot-99.56.npy
+2025-04-18 19:29:52,046 - INFO - 📊 Starting FFTKDE for [snapshot-99.56] (N=26183949)
+2025-04-18 19:29:52,047 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 19:37:50,628 - INFO - 💾 Memory usage after FFTKDE compute: 759.52 MB
+2025-04-18 19:38:50,639 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.56_uniform.npy
+2025-04-18 19:38:50,750 - INFO - 🔹 Processing file: snapshot-99.560.npy
+2025-04-18 19:38:50,864 - INFO - 📊 Starting FFTKDE for [snapshot-99.560] (N=26258041)
+2025-04-18 19:38:50,865 - INFO - 💾 Memory usage before FFTKDE compute: 160.23 MB
+2025-04-18 19:45:34,354 - INFO - 💾 Memory usage after FFTKDE compute: 761.00 MB
+2025-04-18 19:46:39,475 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.560_uniform.npy
+2025-04-18 19:46:39,582 - INFO - 🔹 Processing file: snapshot-99.561.npy
+2025-04-18 19:46:39,700 - INFO - 📊 Starting FFTKDE for [snapshot-99.561] (N=26073828)
+2025-04-18 19:46:39,701 - INFO - 💾 Memory usage before FFTKDE compute: 160.21 MB
+2025-04-18 19:53:53,100 - INFO - 💾 Memory usage after FFTKDE compute: 682.57 MB
+2025-04-18 19:54:56,962 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.561_uniform.npy
+2025-04-18 19:54:57,062 - INFO - 🔹 Processing file: snapshot-99.562.npy
+2025-04-18 19:54:57,179 - INFO - 📊 Starting FFTKDE for [snapshot-99.562] (N=25896598)
+2025-04-18 19:54:57,180 - INFO - 💾 Memory usage before FFTKDE compute: 160.44 MB
+2025-04-18 20:01:01,061 - INFO - 💾 Memory usage after FFTKDE compute: 753.24 MB
+2025-04-18 20:02:06,954 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.562_uniform.npy
+2025-04-18 20:02:07,064 - INFO - 🔹 Processing file: snapshot-99.563.npy
+2025-04-18 20:02:07,163 - INFO - 📊 Starting FFTKDE for [snapshot-99.563] (N=25780683)
+2025-04-18 20:02:07,163 - INFO - 💾 Memory usage before FFTKDE compute: 160.52 MB
+2025-04-18 20:08:02,827 - INFO - 💾 Memory usage after FFTKDE compute: 750.75 MB
+2025-04-18 20:09:08,218 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.563_uniform.npy
+2025-04-18 20:09:08,357 - INFO - 🔹 Processing file: snapshot-99.564.npy
+2025-04-18 20:09:08,478 - INFO - 📊 Starting FFTKDE for [snapshot-99.564] (N=26235294)
+2025-04-18 20:09:08,478 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 20:13:11,078 - INFO - 💾 Memory usage after FFTKDE compute: 761.16 MB
+2025-04-18 20:14:13,592 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.564_uniform.npy
+2025-04-18 20:14:13,750 - INFO - 🔹 Processing file: snapshot-99.565.npy
+2025-04-18 20:14:13,849 - INFO - 📊 Starting FFTKDE for [snapshot-99.565] (N=26015848)
+2025-04-18 20:14:13,849 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-18 20:18:31,803 - INFO - 💾 Memory usage after FFTKDE compute: 756.02 MB
+2025-04-18 20:19:33,353 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.565_uniform.npy
+2025-04-18 20:19:33,468 - INFO - 🔹 Processing file: snapshot-99.566.npy
+2025-04-18 20:19:33,528 - INFO - 📊 Starting FFTKDE for [snapshot-99.566] (N=25988538)
+2025-04-18 20:19:33,529 - INFO - 💾 Memory usage before FFTKDE compute: 160.63 MB
+2025-04-18 20:23:44,731 - INFO - 💾 Memory usage after FFTKDE compute: 755.11 MB
+2025-04-18 20:25:11,546 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.566_uniform.npy
+2025-04-18 20:25:11,663 - INFO - 🔹 Processing file: snapshot-99.567.npy
+2025-04-18 20:25:11,771 - INFO - 📊 Starting FFTKDE for [snapshot-99.567] (N=26004347)
+2025-04-18 20:25:11,772 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-18 20:30:27,658 - INFO - 💾 Memory usage after FFTKDE compute: 755.93 MB
+2025-04-18 20:31:54,980 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.567_uniform.npy
+2025-04-18 20:31:55,074 - INFO - 🔹 Processing file: snapshot-99.568.npy
+2025-04-18 20:31:55,191 - INFO - 📊 Starting FFTKDE for [snapshot-99.568] (N=26170449)
+2025-04-18 20:31:55,192 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 20:37:22,676 - INFO - 💾 Memory usage after FFTKDE compute: 759.73 MB
+2025-04-18 20:38:47,945 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.568_uniform.npy
+2025-04-18 20:38:48,047 - INFO - 🔹 Processing file: snapshot-99.569.npy
+2025-04-18 20:38:48,148 - INFO - 📊 Starting FFTKDE for [snapshot-99.569] (N=26211011)
+2025-04-18 20:38:48,148 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 20:44:58,968 - INFO - 💾 Memory usage after FFTKDE compute: 759.68 MB
+2025-04-18 20:46:24,920 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.569_uniform.npy
+2025-04-18 20:46:25,004 - INFO - 🔹 Processing file: snapshot-99.57.npy
+2025-04-18 20:46:25,133 - INFO - 📊 Starting FFTKDE for [snapshot-99.57] (N=26025357)
+2025-04-18 20:46:25,133 - INFO - 💾 Memory usage before FFTKDE compute: 159.96 MB
+2025-04-18 20:54:07,313 - INFO - 💾 Memory usage after FFTKDE compute: 754.32 MB
+2025-04-18 20:55:30,479 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.57_uniform.npy
+2025-04-18 20:55:30,581 - INFO - 🔹 Processing file: snapshot-99.570.npy
+2025-04-18 20:55:30,724 - INFO - 📊 Starting FFTKDE for [snapshot-99.570] (N=26049236)
+2025-04-18 20:55:30,725 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-18 21:03:03,669 - INFO - 💾 Memory usage after FFTKDE compute: 756.97 MB
+2025-04-18 21:04:33,646 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.570_uniform.npy
+2025-04-18 21:04:33,739 - INFO - 🔹 Processing file: snapshot-99.571.npy
+2025-04-18 21:04:33,914 - INFO - 📊 Starting FFTKDE for [snapshot-99.571] (N=26020695)
+2025-04-18 21:04:33,915 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 21:11:46,397 - INFO - 💾 Memory usage after FFTKDE compute: 746.63 MB
+2025-04-18 21:12:51,064 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.571_uniform.npy
+2025-04-18 21:12:51,199 - INFO - 🔹 Processing file: snapshot-99.572.npy
+2025-04-18 21:12:51,266 - INFO - 📊 Starting FFTKDE for [snapshot-99.572] (N=26230451)
+2025-04-18 21:12:51,267 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-18 21:20:36,971 - INFO - 💾 Memory usage after FFTKDE compute: 760.43 MB
+2025-04-18 21:21:37,853 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.572_uniform.npy
+2025-04-18 21:21:37,991 - INFO - 🔹 Processing file: snapshot-99.573.npy
+2025-04-18 21:21:38,061 - INFO - 📊 Starting FFTKDE for [snapshot-99.573] (N=25924664)
+2025-04-18 21:21:38,061 - INFO - 💾 Memory usage before FFTKDE compute: 160.42 MB
+2025-04-18 21:28:09,666 - INFO - 💾 Memory usage after FFTKDE compute: 753.73 MB
+2025-04-18 21:29:10,404 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.573_uniform.npy
+2025-04-18 21:29:10,508 - INFO - 🔹 Processing file: snapshot-99.574.npy
+2025-04-18 21:29:10,603 - INFO - 📊 Starting FFTKDE for [snapshot-99.574] (N=25870616)
+2025-04-18 21:29:10,603 - INFO - 💾 Memory usage before FFTKDE compute: 160.46 MB
+2025-04-18 21:36:48,521 - INFO - 💾 Memory usage after FFTKDE compute: 752.63 MB
+2025-04-18 21:37:49,983 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.574_uniform.npy
+2025-04-18 21:37:50,083 - INFO - 🔹 Processing file: snapshot-99.575.npy
+2025-04-18 21:37:50,182 - INFO - 📊 Starting FFTKDE for [snapshot-99.575] (N=25841146)
+2025-04-18 21:37:50,182 - INFO - 💾 Memory usage before FFTKDE compute: 160.51 MB
+2025-04-18 21:44:21,321 - INFO - 💾 Memory usage after FFTKDE compute: 752.21 MB
+2025-04-18 21:45:25,484 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.575_uniform.npy
+2025-04-18 21:45:25,592 - INFO - 🔹 Processing file: snapshot-99.576.npy
+2025-04-18 21:45:25,678 - INFO - 📊 Starting FFTKDE for [snapshot-99.576] (N=25782388)
+2025-04-18 21:45:25,678 - INFO - 💾 Memory usage before FFTKDE compute: 160.76 MB
+2025-04-18 21:52:06,794 - INFO - 💾 Memory usage after FFTKDE compute: 750.02 MB
+2025-04-18 21:53:07,076 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.576_uniform.npy
+2025-04-18 21:53:07,173 - INFO - 🔹 Processing file: snapshot-99.577.npy
+2025-04-18 21:53:07,292 - INFO - 📊 Starting FFTKDE for [snapshot-99.577] (N=26022090)
+2025-04-18 21:53:07,293 - INFO - 💾 Memory usage before FFTKDE compute: 160.05 MB
+2025-04-18 21:59:14,902 - INFO - 💾 Memory usage after FFTKDE compute: 756.28 MB
+2025-04-18 22:00:16,005 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.577_uniform.npy
+2025-04-18 22:00:16,109 - INFO - 🔹 Processing file: snapshot-99.578.npy
+2025-04-18 22:00:16,220 - INFO - 📊 Starting FFTKDE for [snapshot-99.578] (N=25909523)
+2025-04-18 22:00:16,221 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-18 22:04:00,242 - INFO - 💾 Memory usage after FFTKDE compute: 753.77 MB
+2025-04-18 22:05:13,276 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.578_uniform.npy
+2025-04-18 22:05:13,405 - INFO - 🔹 Processing file: snapshot-99.579.npy
+2025-04-18 22:05:13,514 - INFO - 📊 Starting FFTKDE for [snapshot-99.579] (N=25844830)
+2025-04-18 22:05:13,515 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 22:10:41,628 - INFO - 💾 Memory usage after FFTKDE compute: 752.30 MB
+2025-04-18 22:11:44,912 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.579_uniform.npy
+2025-04-18 22:11:45,046 - INFO - 🔹 Processing file: snapshot-99.58.npy
+2025-04-18 22:11:45,156 - INFO - 📊 Starting FFTKDE for [snapshot-99.58] (N=26001911)
+2025-04-18 22:11:45,156 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 22:16:38,693 - INFO - 💾 Memory usage after FFTKDE compute: 755.89 MB
+2025-04-18 22:17:54,150 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.58_uniform.npy
+2025-04-18 22:17:54,291 - INFO - 🔹 Processing file: snapshot-99.580.npy
+2025-04-18 22:17:54,384 - INFO - 📊 Starting FFTKDE for [snapshot-99.580] (N=26114626)
+2025-04-18 22:17:54,385 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-18 22:22:47,581 - INFO - 💾 Memory usage after FFTKDE compute: 758.42 MB
+2025-04-18 22:23:48,005 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.580_uniform.npy
+2025-04-18 22:23:48,131 - INFO - 🔹 Processing file: snapshot-99.581.npy
+2025-04-18 22:23:48,204 - INFO - 📊 Starting FFTKDE for [snapshot-99.581] (N=25712028)
+2025-04-18 22:23:48,205 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 22:28:43,348 - INFO - 💾 Memory usage after FFTKDE compute: 749.05 MB
+2025-04-18 22:30:09,362 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.581_uniform.npy
+2025-04-18 22:30:09,469 - INFO - 🔹 Processing file: snapshot-99.582.npy
+2025-04-18 22:30:09,570 - INFO - 📊 Starting FFTKDE for [snapshot-99.582] (N=26131519)
+2025-04-18 22:30:09,571 - INFO - 💾 Memory usage before FFTKDE compute: 160.27 MB
+2025-04-18 22:35:59,745 - INFO - 💾 Memory usage after FFTKDE compute: 758.59 MB
+2025-04-18 22:37:21,869 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.582_uniform.npy
+2025-04-18 22:37:21,971 - INFO - 🔹 Processing file: snapshot-99.583.npy
+2025-04-18 22:37:22,058 - INFO - 📊 Starting FFTKDE for [snapshot-99.583] (N=25886493)
+2025-04-18 22:37:22,059 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-18 22:44:59,761 - INFO - 💾 Memory usage after FFTKDE compute: 752.97 MB
+2025-04-18 22:45:59,943 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.583_uniform.npy
+2025-04-18 22:46:00,072 - INFO - 🔹 Processing file: snapshot-99.584.npy
+2025-04-18 22:46:00,211 - INFO - 📊 Starting FFTKDE for [snapshot-99.584] (N=26208787)
+2025-04-18 22:46:00,212 - INFO - 💾 Memory usage before FFTKDE compute: 160.48 MB
+2025-04-18 22:52:15,051 - INFO - 💾 Memory usage after FFTKDE compute: 716.12 MB
+2025-04-18 22:53:39,418 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.584_uniform.npy
+2025-04-18 22:53:39,527 - INFO - 🔹 Processing file: snapshot-99.585.npy
+2025-04-18 22:53:39,645 - INFO - 📊 Starting FFTKDE for [snapshot-99.585] (N=26001008)
+2025-04-18 22:53:39,646 - INFO - 💾 Memory usage before FFTKDE compute: 160.76 MB
+2025-04-18 23:00:35,830 - INFO - 💾 Memory usage after FFTKDE compute: 755.01 MB
+2025-04-18 23:02:01,985 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.585_uniform.npy
+2025-04-18 23:02:02,083 - INFO - 🔹 Processing file: snapshot-99.586.npy
+2025-04-18 23:02:02,178 - INFO - 📊 Starting FFTKDE for [snapshot-99.586] (N=26011180)
+2025-04-18 23:02:02,178 - INFO - 💾 Memory usage before FFTKDE compute: 160.05 MB
+2025-04-18 23:09:37,278 - INFO - 💾 Memory usage after FFTKDE compute: 756.05 MB
+2025-04-18 23:10:52,248 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.586_uniform.npy
+2025-04-18 23:10:52,379 - INFO - 🔹 Processing file: snapshot-99.587.npy
+2025-04-18 23:10:52,468 - INFO - 📊 Starting FFTKDE for [snapshot-99.587] (N=26035317)
+2025-04-18 23:10:52,470 - INFO - 💾 Memory usage before FFTKDE compute: 160.70 MB
+2025-04-18 23:18:28,208 - INFO - 💾 Memory usage after FFTKDE compute: 756.23 MB
+2025-04-18 23:19:38,482 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.587_uniform.npy
+2025-04-18 23:19:38,644 - INFO - 🔹 Processing file: snapshot-99.588.npy
+2025-04-18 23:19:38,760 - INFO - 📊 Starting FFTKDE for [snapshot-99.588] (N=26045556)
+2025-04-18 23:19:38,760 - INFO - 💾 Memory usage before FFTKDE compute: 160.36 MB
+2025-04-18 23:27:12,840 - INFO - 💾 Memory usage after FFTKDE compute: 756.88 MB
+2025-04-18 23:28:37,077 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.588_uniform.npy
+2025-04-18 23:28:37,208 - INFO - 🔹 Processing file: snapshot-99.589.npy
+2025-04-18 23:28:37,313 - INFO - 📊 Starting FFTKDE for [snapshot-99.589] (N=26176315)
+2025-04-18 23:28:37,314 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-18 23:35:53,664 - INFO - 💾 Memory usage after FFTKDE compute: 759.86 MB
+2025-04-18 23:36:59,668 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.589_uniform.npy
+2025-04-18 23:36:59,787 - INFO - 🔹 Processing file: snapshot-99.59.npy
+2025-04-18 23:36:59,900 - INFO - 📊 Starting FFTKDE for [snapshot-99.59] (N=26264100)
+2025-04-18 23:36:59,901 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-18 23:44:14,005 - INFO - 💾 Memory usage after FFTKDE compute: 761.21 MB
+2025-04-18 23:45:39,661 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.59_uniform.npy
+2025-04-18 23:45:39,775 - INFO - 🔹 Processing file: snapshot-99.590.npy
+2025-04-18 23:45:39,878 - INFO - 📊 Starting FFTKDE for [snapshot-99.590] (N=26073004)
+2025-04-18 23:45:39,878 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-18 23:53:20,802 - INFO - 💾 Memory usage after FFTKDE compute: 757.21 MB
+2025-04-18 23:54:46,829 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.590_uniform.npy
+2025-04-18 23:54:46,921 - INFO - 🔹 Processing file: snapshot-99.591.npy
+2025-04-18 23:54:47,009 - INFO - 📊 Starting FFTKDE for [snapshot-99.591] (N=26000462)
+2025-04-18 23:54:47,010 - INFO - 💾 Memory usage before FFTKDE compute: 160.45 MB
+2025-04-19 00:02:54,686 - INFO - 💾 Memory usage after FFTKDE compute: 755.44 MB
+2025-04-19 00:04:19,489 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.591_uniform.npy
+2025-04-19 00:04:19,593 - INFO - 🔹 Processing file: snapshot-99.592.npy
+2025-04-19 00:04:19,681 - INFO - 📊 Starting FFTKDE for [snapshot-99.592] (N=26068314)
+2025-04-19 00:04:19,681 - INFO - 💾 Memory usage before FFTKDE compute: 159.87 MB
+2025-04-19 00:11:47,853 - INFO - 💾 Memory usage after FFTKDE compute: 757.35 MB
+2025-04-19 00:13:16,786 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.592_uniform.npy
+2025-04-19 00:13:16,905 - INFO - 🔹 Processing file: snapshot-99.593.npy
+2025-04-19 00:13:17,007 - INFO - 📊 Starting FFTKDE for [snapshot-99.593] (N=25865786)
+2025-04-19 00:13:17,008 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-19 00:20:08,841 - INFO - 💾 Memory usage after FFTKDE compute: 752.45 MB
+2025-04-19 00:21:19,177 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.593_uniform.npy
+2025-04-19 00:21:19,324 - INFO - 🔹 Processing file: snapshot-99.594.npy
+2025-04-19 00:21:19,423 - INFO - 📊 Starting FFTKDE for [snapshot-99.594] (N=26080088)
+2025-04-19 00:21:19,423 - INFO - 💾 Memory usage before FFTKDE compute: 160.46 MB
+2025-04-19 00:27:53,481 - INFO - 💾 Memory usage after FFTKDE compute: 757.57 MB
+2025-04-19 00:28:52,341 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.594_uniform.npy
+2025-04-19 00:28:52,459 - INFO - 🔹 Processing file: snapshot-99.595.npy
+2025-04-19 00:28:52,563 - INFO - 📊 Starting FFTKDE for [snapshot-99.595] (N=26242608)
+2025-04-19 00:28:52,564 - INFO - 💾 Memory usage before FFTKDE compute: 160.64 MB
+2025-04-19 00:36:39,658 - INFO - 💾 Memory usage after FFTKDE compute: 761.40 MB
+2025-04-19 00:38:07,517 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.595_uniform.npy
+2025-04-19 00:38:07,640 - INFO - 🔹 Processing file: snapshot-99.596.npy
+2025-04-19 00:38:07,799 - INFO - 📊 Starting FFTKDE for [snapshot-99.596] (N=25985841)
+2025-04-19 00:38:07,800 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 00:45:20,305 - INFO - 💾 Memory usage after FFTKDE compute: 742.01 MB
+2025-04-19 00:46:32,258 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.596_uniform.npy
+2025-04-19 00:46:32,408 - INFO - 🔹 Processing file: snapshot-99.597.npy
+2025-04-19 00:46:32,499 - INFO - 📊 Starting FFTKDE for [snapshot-99.597] (N=26532978)
+2025-04-19 00:46:32,500 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 00:54:09,955 - INFO - 💾 Memory usage after FFTKDE compute: 767.41 MB
+2025-04-19 00:55:36,323 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.597_uniform.npy
+2025-04-19 00:55:36,466 - INFO - 🔹 Processing file: snapshot-99.598.npy
+2025-04-19 00:55:36,551 - INFO - 📊 Starting FFTKDE for [snapshot-99.598] (N=26186958)
+2025-04-19 00:55:36,552 - INFO - 💾 Memory usage before FFTKDE compute: 160.34 MB
+2025-04-19 01:03:18,436 - INFO - 💾 Memory usage after FFTKDE compute: 759.49 MB
+2025-04-19 01:04:46,637 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.598_uniform.npy
+2025-04-19 01:04:46,745 - INFO - 🔹 Processing file: snapshot-99.599.npy
+2025-04-19 01:04:46,882 - INFO - 📊 Starting FFTKDE for [snapshot-99.599] (N=26171801)
+2025-04-19 01:04:46,883 - INFO - 💾 Memory usage before FFTKDE compute: 160.27 MB
+2025-04-19 01:11:59,232 - INFO - 💾 Memory usage after FFTKDE compute: 747.59 MB
+2025-04-19 01:13:27,208 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.599_uniform.npy
+2025-04-19 01:13:27,323 - INFO - 🔹 Processing file: snapshot-99.6.npy
+2025-04-19 01:13:27,423 - INFO - 📊 Starting FFTKDE for [snapshot-99.6] (N=26113564)
+2025-04-19 01:13:27,424 - INFO - 💾 Memory usage before FFTKDE compute: 160.07 MB
+2025-04-19 01:20:57,995 - INFO - 💾 Memory usage after FFTKDE compute: 758.23 MB
+2025-04-19 01:22:28,377 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.6_uniform.npy
+2025-04-19 01:22:28,492 - INFO - 🔹 Processing file: snapshot-99.60.npy
+2025-04-19 01:22:28,637 - INFO - 📊 Starting FFTKDE for [snapshot-99.60] (N=25936682)
+2025-04-19 01:22:28,637 - INFO - 💾 Memory usage before FFTKDE compute: 160.57 MB
+2025-04-19 01:29:35,984 - INFO - 💾 Memory usage after FFTKDE compute: 754.25 MB
+2025-04-19 01:31:02,046 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.60_uniform.npy
+2025-04-19 01:31:02,153 - INFO - 🔹 Processing file: snapshot-99.61.npy
+2025-04-19 01:31:02,268 - INFO - 📊 Starting FFTKDE for [snapshot-99.61] (N=26214576)
+2025-04-19 01:31:02,269 - INFO - 💾 Memory usage before FFTKDE compute: 160.60 MB
+2025-04-19 01:37:12,700 - INFO - 💾 Memory usage after FFTKDE compute: 760.67 MB
+2025-04-19 01:38:37,193 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.61_uniform.npy
+2025-04-19 01:38:37,298 - INFO - 🔹 Processing file: snapshot-99.62.npy
+2025-04-19 01:38:37,402 - INFO - 📊 Starting FFTKDE for [snapshot-99.62] (N=25694899)
+2025-04-19 01:38:37,403 - INFO - 💾 Memory usage before FFTKDE compute: 160.66 MB
+2025-04-19 01:44:31,472 - INFO - 💾 Memory usage after FFTKDE compute: 748.87 MB
+2025-04-19 01:45:32,244 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.62_uniform.npy
+2025-04-19 01:45:32,372 - INFO - 🔹 Processing file: snapshot-99.63.npy
+2025-04-19 01:45:32,484 - INFO - 📊 Starting FFTKDE for [snapshot-99.63] (N=26337341)
+2025-04-19 01:45:32,485 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 01:52:01,466 - INFO - 💾 Memory usage after FFTKDE compute: 763.57 MB
+2025-04-19 01:53:25,207 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.63_uniform.npy
+2025-04-19 01:53:25,332 - INFO - 🔹 Processing file: snapshot-99.64.npy
+2025-04-19 01:53:25,462 - INFO - 📊 Starting FFTKDE for [snapshot-99.64] (N=26051746)
+2025-04-19 01:53:25,463 - INFO - 💾 Memory usage before FFTKDE compute: 160.76 MB
+2025-04-19 02:00:26,837 - INFO - 💾 Memory usage after FFTKDE compute: 756.63 MB
+2025-04-19 02:01:41,887 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.64_uniform.npy
+2025-04-19 02:01:42,046 - INFO - 🔹 Processing file: snapshot-99.65.npy
+2025-04-19 02:01:42,147 - INFO - 📊 Starting FFTKDE for [snapshot-99.65] (N=25997309)
+2025-04-19 02:01:42,148 - INFO - 💾 Memory usage before FFTKDE compute: 160.50 MB
+2025-04-19 02:08:43,217 - INFO - 💾 Memory usage after FFTKDE compute: 740.86 MB
+2025-04-19 02:10:11,365 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.65_uniform.npy
+2025-04-19 02:10:11,490 - INFO - 🔹 Processing file: snapshot-99.66.npy
+2025-04-19 02:10:11,608 - INFO - 📊 Starting FFTKDE for [snapshot-99.66] (N=26127241)
+2025-04-19 02:10:11,608 - INFO - 💾 Memory usage before FFTKDE compute: 160.39 MB
+2025-04-19 02:16:44,335 - INFO - 💾 Memory usage after FFTKDE compute: 758.73 MB
+2025-04-19 02:18:12,174 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.66_uniform.npy
+2025-04-19 02:18:12,288 - INFO - 🔹 Processing file: snapshot-99.67.npy
+2025-04-19 02:18:12,396 - INFO - 📊 Starting FFTKDE for [snapshot-99.67] (N=26032946)
+2025-04-19 02:18:12,397 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-19 02:24:56,496 - INFO - 💾 Memory usage after FFTKDE compute: 744.21 MB
+2025-04-19 02:26:09,980 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.67_uniform.npy
+2025-04-19 02:26:10,123 - INFO - 🔹 Processing file: snapshot-99.68.npy
+2025-04-19 02:26:10,236 - INFO - 📊 Starting FFTKDE for [snapshot-99.68] (N=25791115)
+2025-04-19 02:26:10,236 - INFO - 💾 Memory usage before FFTKDE compute: 160.41 MB
+2025-04-19 02:33:36,488 - INFO - 💾 Memory usage after FFTKDE compute: 751.04 MB
+2025-04-19 02:35:06,615 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.68_uniform.npy
+2025-04-19 02:35:06,735 - INFO - 🔹 Processing file: snapshot-99.69.npy
+2025-04-19 02:35:06,828 - INFO - 📊 Starting FFTKDE for [snapshot-99.69] (N=25824127)
+2025-04-19 02:35:06,829 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-19 02:43:20,951 - INFO - 💾 Memory usage after FFTKDE compute: 751.71 MB
+2025-04-19 02:44:51,676 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.69_uniform.npy
+2025-04-19 02:44:51,786 - INFO - 🔹 Processing file: snapshot-99.7.npy
+2025-04-19 02:44:51,912 - INFO - 📊 Starting FFTKDE for [snapshot-99.7] (N=25896404)
+2025-04-19 02:44:51,912 - INFO - 💾 Memory usage before FFTKDE compute: 160.62 MB
+2025-04-19 02:52:27,143 - INFO - 💾 Memory usage after FFTKDE compute: 753.48 MB
+2025-04-19 02:53:54,674 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.7_uniform.npy
+2025-04-19 02:53:54,814 - INFO - 🔹 Processing file: snapshot-99.70.npy
+2025-04-19 02:53:54,923 - INFO - 📊 Starting FFTKDE for [snapshot-99.70] (N=26281215)
+2025-04-19 02:53:54,923 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 03:00:42,368 - INFO - 💾 Memory usage after FFTKDE compute: 762.29 MB
+2025-04-19 03:02:09,663 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.70_uniform.npy
+2025-04-19 03:02:09,789 - INFO - 🔹 Processing file: snapshot-99.71.npy
+2025-04-19 03:02:09,931 - INFO - 📊 Starting FFTKDE for [snapshot-99.71] (N=26081808)
+2025-04-19 03:02:09,932 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 03:08:56,852 - INFO - 💾 Memory usage after FFTKDE compute: 757.02 MB
+2025-04-19 03:10:21,986 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.71_uniform.npy
+2025-04-19 03:10:22,121 - INFO - 🔹 Processing file: snapshot-99.72.npy
+2025-04-19 03:10:22,202 - INFO - 📊 Starting FFTKDE for [snapshot-99.72] (N=26441539)
+2025-04-19 03:10:22,203 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-19 03:17:18,557 - INFO - 💾 Memory usage after FFTKDE compute: 765.65 MB
+2025-04-19 03:18:50,156 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.72_uniform.npy
+2025-04-19 03:18:50,270 - INFO - 🔹 Processing file: snapshot-99.73.npy
+2025-04-19 03:18:50,417 - INFO - 📊 Starting FFTKDE for [snapshot-99.73] (N=25892751)
+2025-04-19 03:18:50,418 - INFO - 💾 Memory usage before FFTKDE compute: 160.45 MB
+2025-04-19 03:25:49,724 - INFO - 💾 Memory usage after FFTKDE compute: 752.73 MB
+2025-04-19 03:27:12,188 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.73_uniform.npy
+2025-04-19 03:27:12,314 - INFO - 🔹 Processing file: snapshot-99.74.npy
+2025-04-19 03:27:12,375 - INFO - 📊 Starting FFTKDE for [snapshot-99.74] (N=26064662)
+2025-04-19 03:27:12,376 - INFO - 💾 Memory usage before FFTKDE compute: 160.13 MB
+2025-04-19 03:34:34,000 - INFO - 💾 Memory usage after FFTKDE compute: 743.32 MB
+2025-04-19 03:36:03,096 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.74_uniform.npy
+2025-04-19 03:36:03,221 - INFO - 🔹 Processing file: snapshot-99.75.npy
+2025-04-19 03:36:03,301 - INFO - 📊 Starting FFTKDE for [snapshot-99.75] (N=26195473)
+2025-04-19 03:36:03,301 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 03:41:45,727 - INFO - 💾 Memory usage after FFTKDE compute: 760.32 MB
+2025-04-19 03:43:12,435 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.75_uniform.npy
+2025-04-19 03:43:12,547 - INFO - 🔹 Processing file: snapshot-99.76.npy
+2025-04-19 03:43:12,647 - INFO - 📊 Starting FFTKDE for [snapshot-99.76] (N=25849741)
+2025-04-19 03:43:12,647 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-19 03:49:26,431 - INFO - 💾 Memory usage after FFTKDE compute: 752.41 MB
+2025-04-19 03:50:53,514 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.76_uniform.npy
+2025-04-19 03:50:53,638 - INFO - 🔹 Processing file: snapshot-99.77.npy
+2025-04-19 03:50:53,806 - INFO - 📊 Starting FFTKDE for [snapshot-99.77] (N=25865267)
+2025-04-19 03:50:53,807 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-19 03:57:00,891 - INFO - 💾 Memory usage after FFTKDE compute: 752.73 MB
+2025-04-19 03:58:29,725 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.77_uniform.npy
+2025-04-19 03:58:29,840 - INFO - 🔹 Processing file: snapshot-99.78.npy
+2025-04-19 03:58:29,936 - INFO - 📊 Starting FFTKDE for [snapshot-99.78] (N=26042419)
+2025-04-19 03:58:29,937 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-19 04:04:49,557 - INFO - 💾 Memory usage after FFTKDE compute: 756.82 MB
+2025-04-19 04:06:17,649 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.78_uniform.npy
+2025-04-19 04:06:17,758 - INFO - 🔹 Processing file: snapshot-99.79.npy
+2025-04-19 04:06:17,885 - INFO - 📊 Starting FFTKDE for [snapshot-99.79] (N=26139011)
+2025-04-19 04:06:17,885 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 04:11:22,759 - INFO - 💾 Memory usage after FFTKDE compute: 758.64 MB
+2025-04-19 04:12:47,771 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.79_uniform.npy
+2025-04-19 04:12:47,890 - INFO - 🔹 Processing file: snapshot-99.8.npy
+2025-04-19 04:12:47,994 - INFO - 📊 Starting FFTKDE for [snapshot-99.8] (N=26123423)
+2025-04-19 04:12:47,994 - INFO - 💾 Memory usage before FFTKDE compute: 160.29 MB
+2025-04-19 04:18:02,636 - INFO - 💾 Memory usage after FFTKDE compute: 758.46 MB
+2025-04-19 04:19:29,344 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.8_uniform.npy
+2025-04-19 04:19:29,467 - INFO - 🔹 Processing file: snapshot-99.80.npy
+2025-04-19 04:19:29,541 - INFO - 📊 Starting FFTKDE for [snapshot-99.80] (N=25888102)
+2025-04-19 04:19:29,541 - INFO - 💾 Memory usage before FFTKDE compute: 160.61 MB
+2025-04-19 04:25:36,275 - INFO - 💾 Memory usage after FFTKDE compute: 752.68 MB
+2025-04-19 04:27:01,919 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.80_uniform.npy
+2025-04-19 04:27:02,035 - INFO - 🔹 Processing file: snapshot-99.81.npy
+2025-04-19 04:27:02,130 - INFO - 📊 Starting FFTKDE for [snapshot-99.81] (N=26080476)
+2025-04-19 04:27:02,130 - INFO - 💾 Memory usage before FFTKDE compute: 160.19 MB
+2025-04-19 04:32:27,406 - INFO - 💾 Memory usage after FFTKDE compute: 757.29 MB
+2025-04-19 04:33:54,129 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.81_uniform.npy
+2025-04-19 04:33:54,247 - INFO - 🔹 Processing file: snapshot-99.82.npy
+2025-04-19 04:33:54,382 - INFO - 📊 Starting FFTKDE for [snapshot-99.82] (N=26048173)
+2025-04-19 04:33:54,383 - INFO - 💾 Memory usage before FFTKDE compute: 160.35 MB
+2025-04-19 04:39:33,186 - INFO - 💾 Memory usage after FFTKDE compute: 646.42 MB
+2025-04-19 04:41:01,631 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.82_uniform.npy
+2025-04-19 04:41:01,740 - INFO - 🔹 Processing file: snapshot-99.83.npy
+2025-04-19 04:41:01,851 - INFO - 📊 Starting FFTKDE for [snapshot-99.83] (N=25821559)
+2025-04-19 04:41:01,851 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-19 04:46:38,454 - INFO - 💾 Memory usage after FFTKDE compute: 751.77 MB
+2025-04-19 04:48:04,895 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.83_uniform.npy
+2025-04-19 04:48:05,002 - INFO - 🔹 Processing file: snapshot-99.84.npy
+2025-04-19 04:48:05,092 - INFO - 📊 Starting FFTKDE for [snapshot-99.84] (N=26130185)
+2025-04-19 04:48:05,092 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 04:54:47,418 - INFO - 💾 Memory usage after FFTKDE compute: 758.83 MB
+2025-04-19 04:56:13,330 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.84_uniform.npy
+2025-04-19 04:56:13,446 - INFO - 🔹 Processing file: snapshot-99.85.npy
+2025-04-19 04:56:13,606 - INFO - 📊 Starting FFTKDE for [snapshot-99.85] (N=25903078)
+2025-04-19 04:56:13,607 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 05:02:12,753 - INFO - 💾 Memory usage after FFTKDE compute: 753.59 MB
+2025-04-19 05:03:43,296 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.85_uniform.npy
+2025-04-19 05:03:43,421 - INFO - 🔹 Processing file: snapshot-99.86.npy
+2025-04-19 05:03:43,576 - INFO - 📊 Starting FFTKDE for [snapshot-99.86] (N=26142975)
+2025-04-19 05:03:43,577 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-19 05:10:15,619 - INFO - 💾 Memory usage after FFTKDE compute: 759.11 MB
+2025-04-19 05:11:43,668 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.86_uniform.npy
+2025-04-19 05:11:43,792 - INFO - 🔹 Processing file: snapshot-99.87.npy
+2025-04-19 05:11:43,894 - INFO - 📊 Starting FFTKDE for [snapshot-99.87] (N=26024053)
+2025-04-19 05:11:43,894 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-19 05:18:55,042 - INFO - 💾 Memory usage after FFTKDE compute: 756.24 MB
+2025-04-19 05:20:11,940 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.87_uniform.npy
+2025-04-19 05:20:12,091 - INFO - 🔹 Processing file: snapshot-99.88.npy
+2025-04-19 05:20:12,159 - INFO - 📊 Starting FFTKDE for [snapshot-99.88] (N=25870384)
+2025-04-19 05:20:12,159 - INFO - 💾 Memory usage before FFTKDE compute: 160.68 MB
+2025-04-19 05:27:32,105 - INFO - 💾 Memory usage after FFTKDE compute: 752.23 MB
+2025-04-19 05:28:43,437 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.88_uniform.npy
+2025-04-19 05:28:43,547 - INFO - 🔹 Processing file: snapshot-99.89.npy
+2025-04-19 05:28:43,661 - INFO - 📊 Starting FFTKDE for [snapshot-99.89] (N=26125874)
+2025-04-19 05:28:43,661 - INFO - 💾 Memory usage before FFTKDE compute: 160.32 MB
+2025-04-19 05:37:14,991 - INFO - 💾 Memory usage after FFTKDE compute: 746.39 MB
+2025-04-19 05:38:44,959 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.89_uniform.npy
+2025-04-19 05:38:45,073 - INFO - 🔹 Processing file: snapshot-99.9.npy
+2025-04-19 05:38:45,177 - INFO - 📊 Starting FFTKDE for [snapshot-99.9] (N=26350445)
+2025-04-19 05:38:45,178 - INFO - 💾 Memory usage before FFTKDE compute: 160.43 MB
+2025-04-19 05:47:26,480 - INFO - 💾 Memory usage after FFTKDE compute: 763.84 MB
+2025-04-19 05:48:54,748 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.9_uniform.npy
+2025-04-19 05:48:54,850 - INFO - 🔹 Processing file: snapshot-99.90.npy
+2025-04-19 05:48:54,949 - INFO - 📊 Starting FFTKDE for [snapshot-99.90] (N=25907147)
+2025-04-19 05:48:54,949 - INFO - 💾 Memory usage before FFTKDE compute: 160.72 MB
+2025-04-19 05:57:59,714 - INFO - 💾 Memory usage after FFTKDE compute: 753.67 MB
+2025-04-19 05:59:08,946 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.90_uniform.npy
+2025-04-19 05:59:09,082 - INFO - 🔹 Processing file: snapshot-99.91.npy
+2025-04-19 05:59:09,184 - INFO - 📊 Starting FFTKDE for [snapshot-99.91] (N=26128886)
+2025-04-19 05:59:09,185 - INFO - 💾 Memory usage before FFTKDE compute: 160.71 MB
+2025-04-19 06:07:38,466 - INFO - 💾 Memory usage after FFTKDE compute: 758.73 MB
+2025-04-19 06:08:48,790 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.91_uniform.npy
+2025-04-19 06:08:48,918 - INFO - 🔹 Processing file: snapshot-99.92.npy
+2025-04-19 06:08:49,249 - INFO - 📊 Starting FFTKDE for [snapshot-99.92] (N=26084747)
+2025-04-19 06:08:49,249 - INFO - 💾 Memory usage before FFTKDE compute: 160.69 MB
+2025-04-19 06:17:35,970 - INFO - 💾 Memory usage after FFTKDE compute: 745.77 MB
+2025-04-19 06:19:03,081 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.92_uniform.npy
+2025-04-19 06:19:03,181 - INFO - 🔹 Processing file: snapshot-99.93.npy
+2025-04-19 06:19:03,287 - INFO - 📊 Starting FFTKDE for [snapshot-99.93] (N=26319817)
+2025-04-19 06:19:03,288 - INFO - 💾 Memory usage before FFTKDE compute: 160.74 MB
+2025-04-19 06:27:26,537 - INFO - 💾 Memory usage after FFTKDE compute: 762.95 MB
+2025-04-19 06:28:53,401 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.93_uniform.npy
+2025-04-19 06:28:53,530 - INFO - 🔹 Processing file: snapshot-99.94.npy
+2025-04-19 06:28:53,659 - INFO - 📊 Starting FFTKDE for [snapshot-99.94] (N=26107136)
+2025-04-19 06:28:53,659 - INFO - 💾 Memory usage before FFTKDE compute: 160.60 MB
+2025-04-19 06:37:23,578 - INFO - 💾 Memory usage after FFTKDE compute: 757.66 MB
+2025-04-19 06:38:38,040 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.94_uniform.npy
+2025-04-19 06:38:38,194 - INFO - 🔹 Processing file: snapshot-99.95.npy
+2025-04-19 06:38:38,259 - INFO - 📊 Starting FFTKDE for [snapshot-99.95] (N=25931156)
+2025-04-19 06:38:38,260 - INFO - 💾 Memory usage before FFTKDE compute: 160.33 MB
+2025-04-19 06:47:04,114 - INFO - 💾 Memory usage after FFTKDE compute: 750.09 MB
+2025-04-19 06:48:09,448 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.95_uniform.npy
+2025-04-19 06:48:09,577 - INFO - 🔹 Processing file: snapshot-99.96.npy
+2025-04-19 06:48:09,643 - INFO - 📊 Starting FFTKDE for [snapshot-99.96] (N=26123891)
+2025-04-19 06:48:09,644 - INFO - 💾 Memory usage before FFTKDE compute: 160.08 MB
+2025-04-19 06:55:59,980 - INFO - 💾 Memory usage after FFTKDE compute: 758.66 MB
+2025-04-19 06:57:27,889 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.96_uniform.npy
+2025-04-19 06:57:28,011 - INFO - 🔹 Processing file: snapshot-99.97.npy
+2025-04-19 06:57:28,095 - INFO - 📊 Starting FFTKDE for [snapshot-99.97] (N=26037451)
+2025-04-19 06:57:28,095 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-19 07:05:29,962 - INFO - 💾 Memory usage after FFTKDE compute: 756.70 MB
+2025-04-19 07:06:56,360 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.97_uniform.npy
+2025-04-19 07:06:56,522 - INFO - 🔹 Processing file: snapshot-99.98.npy
+2025-04-19 07:06:56,618 - INFO - 📊 Starting FFTKDE for [snapshot-99.98] (N=25745216)
+2025-04-19 07:06:56,619 - INFO - 💾 Memory usage before FFTKDE compute: 160.75 MB
+2025-04-19 07:15:25,268 - INFO - 💾 Memory usage after FFTKDE compute: 749.99 MB
+2025-04-19 07:16:23,224 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.98_uniform.npy
+2025-04-19 07:16:23,304 - INFO - 🔹 Processing file: snapshot-99.99.npy
+2025-04-19 07:16:23,408 - INFO - 📊 Starting FFTKDE for [snapshot-99.99] (N=25972656)
+2025-04-19 07:16:23,409 - INFO - 💾 Memory usage before FFTKDE compute: 160.73 MB
+2025-04-19 07:24:45,496 - INFO - 💾 Memory usage after FFTKDE compute: 755.22 MB
+2025-04-19 07:26:13,355 - INFO - ✅ Density map saved: fft_densitymap_uniform_dx0.41/density_fft_snapshot-99.99_uniform.npy
+2025-04-19 07:26:13,494 - INFO - 🏁 All files processed. Elapsed time: 294736.31 seconds

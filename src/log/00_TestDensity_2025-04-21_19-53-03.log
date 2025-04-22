@@ -1,0 +1,4 @@
+2025-04-21 19:53:03,747 - INFO - h = 1.0, dx = 0.82, r_idx = 2
+2025-04-21 19:53:05,339 - INFO - Post-normalization applied to match total particle count.
+2025-04-21 19:53:05,616 - INFO - h = 1.0, dx = 820.0, r_idx = 1
+2025-04-21 19:53:05,756 - WARNING - Density map sum is zero; normalization skipped.
