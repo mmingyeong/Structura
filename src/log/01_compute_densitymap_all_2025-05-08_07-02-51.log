@@ -1,0 +1,17 @@
+2025-05-08 07:02:51,420 - WARNING - Output directory 'TNG300_ICS' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-05-08 07:02:51,432 - WARNING - Output directory 'TNG300_snapshot99' does not exist: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-05-08 07:02:51,432 - WARNING - Output directory 'NPY' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-05-08 07:02:58,271 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/home/users/mmingyeong/structura/Structura/src/example/dm2ics_dataprep/input_z=0/01_compute_densitymap_all.py", line 120, in <module>
+    particles = load_particles(in_path, dataset_path)
+  File "/home/users/mmingyeong/structura/Structura/src/example/dm2ics_dataprep/input_z=0/01_compute_densitymap_all.py", line 53, in load_particles
+    with h5py.File(file_path, 'r') as f:
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+BrokenPipeError: [Errno 108] Unable to synchronously open file (unable to fstat file, errno = 108, error message = 'Cannot send after transport endpoint shutdown')

@@ -17,7 +17,6 @@
 
 import numpy as np
 from logger import logger
-from tqdm import tqdm
 
 # GPU support
 try:

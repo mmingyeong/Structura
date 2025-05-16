@@ -20,9 +20,9 @@ GPU_DEVICE: 1  # 0 or 1 (GPU 선택)
 # 🔹 File Paths (User Configurable)
 # -------------------------------
 INPUT_DATA_PATHS:
-  TNG300_ICS: "/home/users/mmingyeong/tng_init/ics.hdf5"
+  TNG300_ICS: "/caefs/data/IllustrisTNG/ics.hdf5"
   TNG300_snapshot99: "/caefs/data/IllustrisTNG/snapshot-99-dm"
-  HDF5: "/home/users/mmingyeong/tng_init/ics.hdf5"   # ICS
+  HDF5: "/caefs/data/IllustrisTNGls/ics.hdf5"   # ICS
   #HDF5: "/caefs/data/IllustrisTNG/snapshot-99-dm"   # z=0
   GADGET: "/path/to/your/gadget/files"   # GADGET binary 파일 경로
   ASCII: "/path/to/your/ascii/files"   # CSV, TXT 등 ASCII 파일이 저장된 폴더

@@ -1,0 +1,8 @@
+2025-04-25 18:07:05,729 - WARNING - Output directory 'TNG300_ICS' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-25 18:07:05,742 - WARNING - Output directory 'TNG300_snapshot99' does not exist: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-04-25 18:07:05,742 - WARNING - Output directory 'NPY' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-25 18:11:42,655 - INFO - Density map normalized: ∑ρ = 0.089830 → 50000000 (factor = 556608727.161558)
+2025-04-25 18:14:31,803 - INFO - Density map normalized: ∑ρ = 0.090188 → 50000000 (factor = 554398227.440737)
+2025-04-25 18:37:40,077 - INFO - Density map normalized: ∑ρ = 0.720511 → 50000000 (factor = 69395234.256994)
+2025-04-25 19:53:48,804 - INFO - Density map normalized: ∑ρ = 0.721228 → 50000000 (factor = 69326195.723477)
+2025-04-25 22:03:53,494 - INFO - Density map normalized: ∑ρ = 11.252567 → 50000000 (factor = 4443430.668518)

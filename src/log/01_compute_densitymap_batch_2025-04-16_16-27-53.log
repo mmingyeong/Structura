@@ -1,7 +1,0 @@
-2025-04-16 16:27:54,815 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/01_compute_densitymap_batch.py", line 194, in <module>
-    main()
-  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/01_compute_densitymap_batch.py", line 161, in main
-    all_files = sorted([f for f in os.listdir(npy_folder) if f.endswith(".npy")])
-FileNotFoundError: [Errno 2] No such file or directory: '/path/to/your/npy_folder'

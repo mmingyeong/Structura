@@ -311,3 +311,99 @@ class SimulationDataConverter:
         else:
             np.savez_compressed(output_file, data=data)
         logger.info(f"Converted ASCII data to {npyornpz.upper()} format.")
+
+    def split_hdf5_to_chunks(self, dataset_name=None):
+        """
+        Splits a large HDF5 dataset into multiple smaller HDF5 files in parallel,
+        preserving the original group structure and saving in uncompressed HDF5 format.
+
+        Parameters
+        ----------
+        dataset_name : str, optional
+            Full path to the dataset inside the HDF5 file. If None, user is prompted.
+        """
+        if self.data_format != "HDF5":
+            raise ValueError("Input file is not in HDF5 format.")
+
+        if dataset_name is None:
+            available_datasets = self._find_hdf5_datasets()
+            if not available_datasets:
+                raise ValueError("No valid datasets found in the HDF5 file.")
+            logger.info("Available datasets:")
+            for idx, ds in enumerate(available_datasets):
+                logger.info(f"  [{idx}] {ds}")
+            try:
+                selected_idx = int(input("Enter the index number of the dataset to split: "))
+                dataset_name = available_datasets[selected_idx]
+            except (ValueError, IndexError):
+                raise ValueError("Invalid input. Please enter a valid dataset index.")
+
+        logger.info(f"Selected dataset for HDF5 chunking: {dataset_name}")
+
+        with h5py.File(self.input_path, "r") as hdf5_file:
+            dataset = hdf5_file[dataset_name]
+            dataset_size = dataset.shape[0]
+
+        # Prepare index ranges for each chunk
+        chunk_tasks = [
+            (
+                self.input_path,
+                dataset_name,
+                i,
+                min(i + self.chunk_size, dataset_size),
+                idx,
+                self.output_folder,
+            )
+            for idx, i in enumerate(range(0, dataset_size, self.chunk_size))
+        ]
+
+        with Pool(self.num_processes) as pool:
+            list(
+                tqdm(
+                    pool.starmap(self._process_hdf5_chunk_to_hdf5, chunk_tasks),
+                    total=len(chunk_tasks),
+                    desc="Writing HDF5 chunks",
+                )
+            )
+
+
+    def _process_hdf5_chunk_to_hdf5(
+        self, hdf5_path, dataset_name, start_idx, end_idx, chunk_id, output_folder
+    ):
+        """
+        Saves a chunk of an HDF5 dataset into a separate HDF5 file, preserving the group structure.
+
+        Parameters
+        ----------
+        hdf5_path : str
+            Path to the original HDF5 file.
+        dataset_name : str
+            Full path to the dataset inside the HDF5 file (e.g., 'PartType1/Coordinates').
+        start_idx : int
+            Start index of the chunk.
+        end_idx : int
+            End index of the chunk.
+        chunk_id : int
+            Chunk index for file naming.
+        output_folder : str
+            Destination folder for output HDF5 files.
+        """
+        with h5py.File(hdf5_path, "r") as infile:
+            data = infile[dataset_name][start_idx:end_idx]
+            dtype = infile[dataset_name].dtype
+
+        # Determine group path and dataset name
+        group_path, dataset_leaf = os.path.split(dataset_name)
+        out_file_path = os.path.join(
+            output_folder,
+            f"{os.path.splitext(os.path.basename(hdf5_path))[0]}_chunk_{chunk_id:04d}.hdf5"
+        )
+
+
+        with h5py.File(out_file_path, "w") as out_file:
+            grp = out_file
+            if group_path:
+                grp = out_file.create_group(group_path)
+            grp.create_dataset(dataset_leaf, data=data, dtype=dtype)
+
+        logger.info(f"Saved HDF5 chunk: {out_file_path}")

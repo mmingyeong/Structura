@@ -1,5 +1,0 @@
-2025-04-22 09:52:39,045 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 159, in <module>
-    multiprocessing.set_start_method('spawn')  # Linux에서도 안정적인 실행 보장
-NameError: name 'multiprocessing' is not defined

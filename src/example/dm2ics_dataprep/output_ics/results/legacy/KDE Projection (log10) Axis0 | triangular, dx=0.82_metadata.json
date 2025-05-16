@@ -1,0 +1,39 @@
+{
+    "Plot Info": {
+        "title": "KDE Projection (log10) Axis0 | triangular, dx=0.82",
+        "xlabel": "Y (cMpc/h)",
+        "ylabel": "Z (cMpc/h)",
+        "annotation": "Sampling: 100.000%\nProjection Axis: 0\nFilter Range: 100.00-120.00 ckpc/h\nScale: log10\n\nX Center: 110.00 cMpc/h | Thickness: 20.00 cMpc/h\nInput Folder: /caefs/data/IllustrisTNG/densitymap-ics-hdf5\nResults Folder: /caefs/user/mmingyeong/structura/Structura/src/example/dataprep/output_ics/results\n\nBin Resolution: 0.82 (x-axis) x 0.82 (y-axis) ckpc/h"
+    },
+    "Filtering Info": {
+        "projection_axis": 0,
+        "x_range": 20,
+        "x_center": 110.0,
+        "sampling_rate": 1,
+        "x_min": 100,
+        "x_max": 120,
+        "data_unit": "ckpc/h"
+    },
+    "Simulation Info": {
+        "box_size": 205.0,
+        "data_unit": "ckpc/h"
+    },
+    "Paths": {
+        "input_folder": "/caefs/data/IllustrisTNG/densitymap-ics-hdf5",
+        "results_dir": "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/output_ics/results"
+    },
+    "Rendering Info": {
+        "bins": 250,
+        "scale": "log10",
+        "cmap": "cividis",
+        "dpi": 200,
+        "output_formats": [
+            "PNG",
+            "PDF"
+        ],
+        "show_grid": false,
+        "bin_resolution_x": 0.82,
+        "bin_resolution_y": 0.82,
+        "data_unit": "ckpc/h"
+    }
+}

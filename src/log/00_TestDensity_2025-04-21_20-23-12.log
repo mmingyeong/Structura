@@ -1,7 +1,0 @@
-2025-04-21 20:23:14,751 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 198, in <module>
-    main()
-  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 182, in main
-    logger.info(f"Density map saved to {output_file}")
-NameError: name 'output_file' is not defined

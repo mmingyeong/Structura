@@ -1,0 +1,10 @@
+2025-04-24 21:09:22,382 - WARNING - Output directory 'TNG300_ICS' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-24 21:09:22,384 - WARNING - Output directory 'TNG300_snapshot99' does not exist: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-04-24 21:09:22,384 - WARNING - Output directory 'NPY' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-24 21:09:22,701 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/input_z=0/01-2_compute_densitymap_missing.py", line 111, in <module>
+    particles = load_particles(in_path, dataset_path)
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/input_z=0/01-2_compute_densitymap_missing.py", line 47, in load_particles
+    raise ValueError(f"Invalid HDF5 signature: {file_path}")
+ValueError: Invalid HDF5 signature: /caefs/data/IllustrisTNG/snapshot-99-dm/snapshot-99.104.hdf5

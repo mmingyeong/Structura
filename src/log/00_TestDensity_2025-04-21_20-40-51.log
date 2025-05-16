@@ -1,3 +1,0 @@
-2025-04-21 20:40:52,248 - INFO - Estimated optimal bandwidth h = 0.0000 using Silverman's rule
-2025-04-21 20:40:52,250 - WARNING - Kernel support radius is zero (r_idx == 0) — skipping density computation.
-2025-04-21 20:40:53,241 - INFO - Estimated optimal bandwidth h = 2065.4417 using Silverman's rule

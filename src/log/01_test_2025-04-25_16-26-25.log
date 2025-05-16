@@ -1,0 +1,14 @@
+2025-04-25 16:26:28,978 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/output_ics/01_test.py", line 60, in <module>
+    particles = load_particles(input_path, dataset_path)
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/output_ics/01_test.py", line 32, in load_particles
+    with h5py.File(file_path, 'r') as f:
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/users/mmingyeong/.conda/envs/new_env/lib/python3.10/site-packages/h5py/_hl/files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '/caefs/data/IllustrisTNG/snapshot-0-ics/snapshot_0.8.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

@@ -1,0 +1,10 @@
+2025-04-24 16:35:29,509 - WARNING - Output directory 'TNG300_ICS' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-24 16:35:29,510 - WARNING - Output directory 'TNG300_snapshot99' does not exist: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-04-24 16:35:29,510 - WARNING - Output directory 'NPY' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-24 16:35:29,541 - ERROR - Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/hdf5_check.py", line 51, in <module>
+    log_proj_99 = load_density_projection(file_99)
+  File "/caefs/user/mmingyeong/structura/Structura/src/example/dataprep/hdf5_check.py", line 29, in load_density_projection
+    raise ValueError(f"No density dataset found in {file_path}")
+ValueError: No density dataset found in /caefs/data/IllustrisTNG/snapshot-99-dm/snapshot-99.0.hdf5

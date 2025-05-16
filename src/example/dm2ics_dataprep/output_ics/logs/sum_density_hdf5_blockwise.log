@@ -1,0 +1,152 @@
+2025-04-23 18:55:13,760 - INFO - 총 4개 폴더 처리 시작
+2025-04-23 18:55:13,762 - INFO - 
+📂 처리 시작: triangular_dx0.41
+2025-04-23 19:00:43,205 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0000.npy
+2025-04-23 19:03:19,093 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0010.npy
+2025-04-23 19:04:44,649 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0020.npy
+2025-04-23 19:07:22,827 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0030.npy
+2025-04-23 19:09:57,554 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0040.npy
+2025-04-23 19:13:51,130 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0050.npy
+2025-04-23 19:17:46,798 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0060.npy
+2025-04-23 19:20:35,959 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0070.npy
+2025-04-23 19:26:27,183 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0080.npy
+2025-04-23 19:29:25,845 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0090.npy
+2025-04-23 19:33:57,060 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0100.npy
+2025-04-23 19:37:19,801 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0110.npy
+2025-04-23 19:42:54,594 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0120.npy
+2025-04-23 19:46:37,494 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0130.npy
+2025-04-23 19:53:07,228 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0140.npy
+2025-04-23 19:57:33,192 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0150.npy
+2025-04-23 20:04:18,703 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0160.npy
+2025-04-23 20:09:12,202 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0170.npy
+2025-04-23 20:13:24,459 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0180.npy
+2025-04-23 20:19:07,504 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0190.npy
+2025-04-23 20:24:28,549 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0200.npy
+2025-04-23 20:27:23,582 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0210.npy
+2025-04-23 20:29:44,437 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0220.npy
+2025-04-23 20:32:01,567 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0230.npy
+2025-04-23 20:35:11,173 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0240.npy
+2025-04-23 20:38:45,974 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0250.npy
+2025-04-23 20:42:56,577 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0260.npy
+2025-04-23 20:47:10,311 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0270.npy
+2025-04-23 20:51:58,424 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0280.npy
+2025-04-23 20:56:30,966 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0290.npy
+2025-04-23 21:01:47,957 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0300.npy
+2025-04-23 21:05:14,116 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.41/_blocks/block_sum_0310.npy
+2025-04-23 21:12:13,984 - INFO - 최종 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/final_triangular_dx0.41.hdf5
+2025-04-23 21:12:14,134 - INFO - 완료: triangular_dx0.41 (8220.37초 소요)
+
+2025-04-23 21:12:14,134 - INFO - 
+📂 처리 시작: triangular_dx0.82
+2025-04-23 21:12:58,766 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0000.npy
+2025-04-23 21:13:34,069 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0010.npy
+2025-04-23 21:14:19,400 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0020.npy
+2025-04-23 21:15:05,437 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0030.npy
+2025-04-23 21:15:13,742 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0040.npy
+2025-04-23 21:16:01,480 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0050.npy
+2025-04-23 21:16:15,671 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0060.npy
+2025-04-23 21:16:25,334 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0070.npy
+2025-04-23 21:16:47,499 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0080.npy
+2025-04-23 21:17:27,857 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0090.npy
+2025-04-23 21:18:05,046 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0100.npy
+2025-04-23 21:18:11,752 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0110.npy
+2025-04-23 21:18:27,351 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0120.npy
+2025-04-23 21:19:00,035 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0130.npy
+2025-04-23 21:19:27,856 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0140.npy
+2025-04-23 21:20:01,779 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0150.npy
+2025-04-23 21:20:20,091 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0160.npy
+2025-04-23 21:20:28,127 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0170.npy
+2025-04-23 21:20:42,791 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0180.npy
+2025-04-23 21:21:13,685 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0190.npy
+2025-04-23 21:21:58,740 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0200.npy
+2025-04-23 21:22:48,176 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0210.npy
+2025-04-23 21:23:00,029 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0220.npy
+2025-04-23 21:23:21,466 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0230.npy
+2025-04-23 21:23:38,806 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0240.npy
+2025-04-23 21:24:09,346 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0250.npy
+2025-04-23 21:24:51,506 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0260.npy
+2025-04-23 21:25:24,452 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0270.npy
+2025-04-23 21:25:49,629 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0280.npy
+2025-04-23 21:26:03,872 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0290.npy
+2025-04-23 21:26:43,188 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0300.npy
+2025-04-23 21:26:55,702 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/triangular_dx0.82/_blocks/block_sum_0310.npy
+2025-04-23 21:27:17,353 - INFO - 최종 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/final_triangular_dx0.82.hdf5
+2025-04-23 21:27:17,386 - INFO - 완료: triangular_dx0.82 (903.25초 소요)
+
+2025-04-23 21:27:17,387 - INFO - 
+📂 처리 시작: uniform_dx0.41
+2025-04-23 21:32:26,879 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0000.npy
+2025-04-23 21:37:43,369 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0010.npy
+2025-04-23 21:43:36,311 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0020.npy
+2025-04-23 21:50:53,666 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0030.npy
+2025-04-23 21:58:42,956 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0040.npy
+2025-04-23 22:07:44,938 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0050.npy
+2025-04-23 22:19:10,017 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0060.npy
+2025-04-23 22:29:30,524 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0070.npy
+2025-04-23 22:37:32,885 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0080.npy
+2025-04-23 22:43:41,671 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0090.npy
+2025-04-23 22:50:59,072 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0100.npy
+2025-04-23 22:58:55,148 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0110.npy
+2025-04-23 23:08:44,406 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0120.npy
+2025-04-23 23:17:55,915 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0130.npy
+2025-04-23 23:27:48,869 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0140.npy
+2025-04-23 23:36:42,644 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0150.npy
+2025-04-23 23:45:04,405 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0160.npy
+2025-04-23 23:53:33,338 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0170.npy
+2025-04-24 00:05:12,554 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0180.npy
+2025-04-24 00:16:19,724 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0190.npy
+2025-04-24 00:26:25,678 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0200.npy
+2025-04-24 00:30:07,074 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0210.npy
+2025-04-24 00:35:02,046 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0220.npy
+2025-04-24 00:39:26,552 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0230.npy
+2025-04-24 00:44:55,528 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0240.npy
+2025-04-24 00:50:51,077 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0250.npy
+2025-04-24 00:56:47,543 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0260.npy
+2025-04-24 01:03:29,239 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0270.npy
+2025-04-24 01:11:00,445 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0280.npy
+2025-04-24 01:17:28,838 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0290.npy
+2025-04-24 01:24:32,818 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0300.npy
+2025-04-24 01:27:59,862 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.41/_blocks/block_sum_0310.npy
+2025-04-24 01:36:28,937 - INFO - 최종 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/final_uniform_dx0.41.hdf5
+2025-04-24 01:36:29,166 - INFO - 완료: uniform_dx0.41 (14951.78초 소요)
+
+2025-04-24 01:36:29,166 - INFO - 
+📂 처리 시작: uniform_dx0.82
+2025-04-24 01:37:07,081 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0000.npy
+2025-04-24 01:38:07,626 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0010.npy
+2025-04-24 01:38:53,353 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0020.npy
+2025-04-24 01:40:15,022 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0030.npy
+2025-04-24 01:40:39,222 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0040.npy
+2025-04-24 01:41:22,290 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0050.npy
+2025-04-24 01:42:26,348 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0060.npy
+2025-04-24 01:43:19,086 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0070.npy
+2025-04-24 01:44:03,227 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0080.npy
+2025-04-24 01:44:27,538 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0090.npy
+2025-04-24 01:44:50,006 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0100.npy
+2025-04-24 01:45:21,140 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0110.npy
+2025-04-24 01:45:48,377 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0120.npy
+2025-04-24 01:46:18,914 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0130.npy
+2025-04-24 01:47:07,298 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0140.npy
+2025-04-24 01:48:08,471 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0150.npy
+2025-04-24 01:48:33,936 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0160.npy
+2025-04-24 01:49:03,551 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0170.npy
+2025-04-24 01:49:41,390 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0180.npy
+2025-04-24 01:50:03,005 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0190.npy
+2025-04-24 01:50:35,837 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0200.npy
+2025-04-24 01:51:05,462 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0210.npy
+2025-04-24 01:51:37,920 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0220.npy
+2025-04-24 01:52:34,034 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0230.npy
+2025-04-24 01:52:56,865 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0240.npy
+2025-04-24 01:53:29,943 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0250.npy
+2025-04-24 01:54:06,377 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0260.npy
+2025-04-24 01:54:46,087 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0270.npy
+2025-04-24 01:55:36,886 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0280.npy
+2025-04-24 01:56:12,907 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0290.npy
+2025-04-24 01:57:22,691 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0300.npy
+2025-04-24 01:57:37,278 - INFO - 중간 결과 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/uniform_dx0.82/_blocks/block_sum_0310.npy
+2025-04-24 01:57:48,580 - INFO - 최종 저장 완료: /caefs/data/IllustrisTNG/densitymap-ics-hdf5/final_uniform_dx0.82.hdf5
+2025-04-24 01:57:48,580 - INFO - 완료: uniform_dx0.82 (1279.41초 소요)
+
+2025-04-25 12:43:05,863 - INFO - 총 6개 폴더 처리 시작
+2025-04-25 12:43:05,896 - INFO - 
+📂 처리 시작: triangular_dx0.16

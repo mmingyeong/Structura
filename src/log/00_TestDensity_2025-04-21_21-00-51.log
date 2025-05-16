@@ -1,8 +1,0 @@
-2025-04-21 21:00:52,235 - INFO - Numba not available; running without JIT acceleration.
-2025-04-21 21:00:52,281 - ERROR - Unhandled exception occurred:
-Traceback (most recent call last):
-  File "/caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/00_TestDensity.py", line 199, in <module>
-    warm_calc.calculate_density_map(kernel_func=kernel_func, h=bandwidth, use_lut=use_lut)
-  File "/caefs/user/mmingyeong/structura/Structura/src/density.py", line 301, in calculate_density_map
-    particle_centered_density_triangular(self.particles, density_map,
-TypeError: particle_centered_density_triangular() takes 12 positional arguments but 15 were given

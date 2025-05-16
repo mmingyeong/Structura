@@ -1,0 +1,9 @@
+2025-04-24 23:15:54,168 - WARNING - Output directory 'TNG300_ICS' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-24 23:15:54,178 - WARNING - Output directory 'TNG300_snapshot99' does not exist: /caefs/data/IllustrisTNG/snapshot-99-dm-npy/cache
+2025-04-24 23:15:54,179 - WARNING - Output directory 'NPY' does not exist: /caefs/data/IllustrisTNG/300/ICS
+2025-04-24 23:16:03,423 - WARNING - Density map has zero sum. Normalization skipped.
+2025-04-24 23:16:04,769 - WARNING - Density map has zero sum. Normalization skipped.
+2025-04-24 23:16:07,947 - WARNING - Density map has zero sum. Normalization skipped.
+2025-04-24 23:16:10,237 - WARNING - Density map has zero sum. Normalization skipped.
+2025-04-24 23:16:10,536 - WARNING - Density map has zero sum. Normalization skipped.
+2025-04-24 23:16:23,701 - WARNING - Density map has zero sum. Normalization skipped.

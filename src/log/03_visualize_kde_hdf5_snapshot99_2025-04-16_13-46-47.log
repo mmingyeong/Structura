@@ -1,9 +1,0 @@
-2025-04-16 13:47:07,118 - INFO - Opening HDF5 file: /home/users/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/final_snapshot-99_kde_density_map_uniform_dx0.41.hdf5
-2025-04-16 13:47:14,242 - INFO - Dataset found with key: density_map
-2025-04-16 13:47:14,244 - INFO - Data shape: (500, 500, 500), box_size: 205.00, grid_spacing: 0.82
-2025-04-16 13:47:14,375 - INFO - Computed 2D projection (summed over axis 0); resulting shape: (500, 500)
-2025-04-16 13:47:20,705 - INFO - PNG file saved: /caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/results/KDE Projection (log10) along Axis 0 uniform, 0.41.png
-2025-04-16 13:47:20,705 - INFO - PDF file saved: /caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/results/KDE Projection (log10) along Axis 0 uniform, 0.41.pdf
-2025-04-16 13:47:20,705 - INFO - JSON file saved: /caefs/user/mmingyeong/structura/Structura/src/example/density_kde_seq_chunks/results/KDE Projection (log10) along Axis 0 uniform, 0.41_metadata.json
-2025-04-16 13:47:20,705 - INFO - Visualization processing completed successfully.
-2025-04-16 13:47:20,706 - INFO - Total execution time: 13.59 seconds
